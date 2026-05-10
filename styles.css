@@ -337,6 +337,14 @@ h3 {
   line-height: 1.62;
 }
 
+.compact-cards {
+  padding-top: 0;
+}
+
+.compact-cards article {
+  min-height: 230px;
+}
+
 .card-index {
   color: var(--gold);
   font-family: "Courier New", monospace;
