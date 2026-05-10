@@ -1,6 +1,6 @@
 ---
 title: Mian Zhang | Ouroboros Project
-emoji: 🜁
+emoji: 🧭
 colorFrom: yellow
 colorTo: gray
 sdk: static
