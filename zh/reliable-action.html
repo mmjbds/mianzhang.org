@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>参数变大不是终点 | Mian Zhang</title>
+  <meta name="description" content="一篇面向中文读者的 Wisdom Science 与 SOVEREIGN 研究路线说明：AI 真正缺的是可靠行动。">
+  <meta property="og:title" content="参数变大不是终点，AI 真正缺的是可靠行动">
+  <meta property="og:description" content="Wisdom Science 与 SOVEREIGN 中文公开说明。">
+  <meta property="og:image" content="https://mianzhang.org/assets/closed-loop-soul.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="./">中文入口</a>
+      <a href="../">English</a>
+      <a href="#article">正文</a>
+      <a href="#cite">引用</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">中文长文 · 公开宣发版</p>
+        <h1>参数变大不是终点，AI 真正缺的是可靠行动。</h1>
+        <p class="lead">
+          一个系统真正进入企业、投研、机器人、公共服务和科研之后，关键问题不是第一秒，而是后面的一万秒。
+          它犯错之后怎么办？
+        </p>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/closed-loop-soul.webp" alt="黑金风格的闭环反馈系统视觉图。">
+      </figure>
+    </section>
+
+    <article id="article" class="article">
+      <p>
+        今天开始，我把 SOVEREIGN 和 Wisdom Science 这条线正式公开整理。不是因为又多了几篇论文，
+        而是因为过去这段时间做下来，我越来越确定一件事：
+      </p>
+      <p class="pull">
+        AI 真正缺的，不只是更大的模型，而是更可靠的行动。
+      </p>
+      <p>
+        现在大多数 AI 展示，都喜欢截取一个漂亮瞬间：第一次回答对了，第一次跑通了，第一次生成了一个惊艳 demo。
+        这些当然重要。但系统真正进入现实世界之后，关键问题不是第一秒，而是后面的一万秒。
+      </p>
+      <p>
+        它会不会保留证据？会不会复盘？能不能识别自己不该越界？能不能把失败变成下一次更稳的行动？
+        这才是我现在要解决的问题。
+      </p>
+
+      <h2>一、智能和智慧不是同一个时间切片</h2>
+      <p>
+        我把这件事压成一句话：
+      </p>
+      <pre><code>Intelligence = first-round competence
+Wisdom = improvement after experience</code></pre>
+      <p>
+        智能，是第一次有多强。智慧，是经历之后有没有变好。一个模型第一次答对很多题，说明它聪明。
+        但如果它犯过的错下次还犯，经历过的失败不能沉淀，遇到扰动就崩，它就还没有形成我们说的“智慧”。
+      </p>
+      <p>
+        这个区别在聊天模型里重要，在机器人里更重要。机器人不能只看第一次抓杯子成功率。它还要面对遮挡、
+        误差、反光、下雨、烟雾、传感器漂移、地图没更新、人的行为变化，甚至对抗性干扰。
+      </p>
+
+      <h2>二、SOVEREIGN 不是聊天机器人</h2>
+      <p>
+        SOVEREIGN 的定位不是陪聊，也不是 API 聚合站。它更像一套可靠决策智能系统。
+      </p>
+      <p>
+        第一，给结论加证据门。一个判断从哪里来，基于什么假设，证据是否完整，哪些地方不能强说，都要留下来。
+      </p>
+      <p>
+        第二，把失败变成资产。失败不是丢掉的日志，而是下一次恢复、规避和迁移的训练材料。
+      </p>
+      <p>
+        第三，把工作流器官化。一个系统不能只有“大脑”。它还需要记忆、免疫、感知、风险、分寸感、执行、复盘和边界控制。
+      </p>
+      <p>
+        第四，本地优先。老板、家办、投研、企业资料、科研材料，不应该默认全部丢进云端黑箱。
+      </p>
+
+      <h2>三、为什么 Evidence Gate 是核心</h2>
+      <p>
+        AI 领域最容易出问题的，不是没有数字，而是数字太多，但边界不清。一个结果里可能混着 public checkpoint、
+        self-trained baseline、API panel、simulation rollout、缺 metadata 的实验。
+      </p>
+      <p>
+        图很好看，但你不知道它到底证明了什么。所以我把 Evidence Gate 放在核心位置。强主张至少要过五道门：
+      </p>
+      <ol>
+        <li>Metric：到底测的是什么？</li>
+        <li>Stability：换 seed、任务、扰动之后稳不稳？</li>
+        <li>Provenance：raw logs、metadata、checkpoint、trajectory 是否完整？</li>
+        <li>Cost：提升花了多少算力、时间、API 和人工？</li>
+        <li>Duplicate-cell：有没有把同一个证据重复算进结论？</li>
+      </ol>
+      <p>
+        这套东西听起来没有“我们吊打 SOTA”刺激。但它更接近科学，也更接近企业真正敢用的 AI。
+      </p>
+
+      <h2>四、当前公开证据</h2>
+      <p>
+        目前公开研究包里，几个可以写清楚的数字包括：P00-P20 研究矩阵、Zenodo DOI 档案、NeurIPS / CoRL 投稿资产、
+        WB-E 具身评估包、世界模型与鲁棒感知支持材料，以及 P20 的 adverse-environment evidence integrity panel。
+      </p>
+      <p>
+        这些数字不是为了制造夸张标题。它们是为了让别人能复查、质疑、复现和扩展。
+      </p>
+
+      <h2>五、它最后能变成什么</h2>
+      <p>
+        对研究者，它是一套评估坐标系：不要只测第一次成功率，也要测失败之后的改进。
+      </p>
+      <p>
+        对工程师，它是一套 agent 可靠性方法：证据门、失败日志、恢复策略、边界控制、成本记录。
+      </p>
+      <p>
+        对企业和团队，它是一套决策工作台：把材料、判断、风险、复盘和行动路线组织起来，而不是让 AI 随口回答。
+      </p>
+      <p>
+        对投研和交易团队，它不是荐股软件。它应该是研究、回测、复盘、风险和证据链系统。
+      </p>
+      <p>
+        这不是一套单点产品。它更像一条路线：从“模型会回答”，走向“系统会学习、会复盘、会守边界、会可靠行动”。
+      </p>
+    </article>
+
+    <section id="cite" class="section contact">
+      <div>
+        <p class="kicker">公开引用</p>
+        <h2>Research portfolio</h2>
+        <p>公开材料以 Zenodo DOI 为准。会议双盲版本另行匿名，不和公开主页混用。</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://zenodo.org/records/20027295">10.5281/zenodo.20027295</a>
+        <a href="../">Back to English homepage</a>
+        <a href="./">中文入口</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Mian Zhang · Ouroboros Project</span>
+  </footer>
+</body>
+</html>
