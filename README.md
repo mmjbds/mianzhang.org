@@ -19,6 +19,7 @@ This is the public static website package for `mianzhang.org`.
 - Evidence map: `evidence/index.html`
 - Public press kit: `press/index.html`
 - Daily note, 2026-05-13: `press/public-launch-2026-05-13.html`
+- Daily note, 2026-05-14: `press/public-launch-2026-05-14.html`
 - Chinese entry: `zh/index.html`
 - Chinese long-form article: `zh/reliable-action.html`
 

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Representation Is Not Reality, 2026-05-14 | Mian Zhang</title>
+  <meta name="description" content="A daily public note on representation search, evidence gates, observer depth, and bounded action for reliable AI.">
+  <meta property="og:title" content="Representation Is Not Reality | Wisdom Science">
+  <meta property="og:description" content="Seeing is not understanding. Reliable AI needs representation search before action.">
+  <meta property="og:image" content="https://mianzhang.org/assets/representation-not-reality.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../zh/">??</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Daily Research Note ? 2026-05-14</p>
+        <h1>Representation is not reality.</h1>
+        <p class="lead">
+          A robot can see a signal and still misunderstand the world. Reliable AI needs representation search,
+          evidence gates, observer depth, and bounded action before it treats perception as truth.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="../evidence/">Evidence Map</a>
+          <a class="button" href="https://zenodo.org/records/20027295">Zenodo Archive</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/representation-not-reality.webp" alt="Representation is not reality visual.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Core Pattern</p>
+        <h2>Seeing is only the first layer.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          A detector returns a box. A language model returns a label. A world model returns a future frame. None of
+          these are reality. They are representations: compressed coordinate systems through which a system interprets
+          and acts on the world.
+        </p>
+        <p>
+          The missing layer is not another bigger classifier. It is a representation loop: observe, select a frame,
+          test the frame against evidence, adjust observer depth, and only then choose a bounded action.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">01</span>
+        <h3>Observation</h3>
+        <p>Perception records a slice of the world. It should not be mistaken for the world itself.</p>
+      </article>
+      <article>
+        <span class="card-index">02</span>
+        <h3>Representation</h3>
+        <p>The system asks which coordinate system, ontology, map, or task frame is currently being used.</p>
+      </article>
+      <article>
+        <span class="card-index">03</span>
+        <h3>Evidence Gate</h3>
+        <p>Claims must be checked against logs, constraints, counterfactuals, and independent signals.</p>
+      </article>
+      <article>
+        <span class="card-index">04</span>
+        <h3>Bounded Action</h3>
+        <p>When uncertainty rises, autonomy should narrow rather than escalate.</p>
+      </article>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="../assets/representation-protocol.webp" alt="Representation search protocol visual.">
+      </figure>
+      <div>
+        <p class="kicker">Why It Matters</p>
+        <h2>Misrepresentation is a real failure mode.</h2>
+        <p>
+          A road map may be stale. A camera may be occluded by smoke or rain. A fast target may only occupy a few
+          pixels. A symbol may flip meaning under rotation, context, language, or adversarial interference. In all of
+          these cases, the agent does not merely need better confidence. It needs to notice that its representation may
+          be wrong.
+        </p>
+        <ul class="check-list">
+          <li>Do not collapse perception into truth.</li>
+          <li>Do not treat confidence as evidence.</li>
+          <li>Do not act before the frame has been tested.</li>
+          <li>Do not call the system reliable until it can revise its own representation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Research Links</p>
+        <h2>Where this fits in the paper map.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Representation note links">
+        <div class="paper-row head" role="row">
+          <span>Layer</span><span>Related Work</span><span>Purpose</span><span>Boundary</span>
+        </div>
+        <a class="paper-row" href="../papers/" role="row">
+          <span>P8</span><span>Observer depth</span><span>How systems model their own role in the world</span><span>Benchmark/protocol layer</span>
+        </a>
+        <a class="paper-row" href="../papers/" role="row">
+          <span>P13</span><span>World-model safety</span><span>Counterfactual and recovery panels</span><span>Research evidence, not deployment</span>
+        </a>
+        <a class="paper-row" href="../papers/" role="row">
+          <span>P20</span><span>Anti-interference reliability</span><span>Adverse sensing, stale maps, and representation drift</span><span>No weapons or enforcement claim</span>
+        </a>
+        <a class="paper-row" href="../evidence/" role="row">
+          <span>Evidence</span><span>Artifact map</span><span>Claim-scoped public record</span><span>Versioned and bounded</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="../assets/observer-depth-lenses.webp" alt="Observer depth layered visual.">
+      </figure>
+      <div>
+        <p class="kicker">Claim Discipline</p>
+        <h2>This is a research protocol, not a deployment claim.</h2>
+        <p>
+          This note does not claim a new object detector, a universal world model, or a production safety system. The
+          contribution is a sharper research frame: reliable agents should evaluate the representation through which
+          they perceive and act, especially under ambiguity, interference, and changing physical conditions.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Daily public note for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>
