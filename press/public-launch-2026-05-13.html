@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reliability After Failure, 2026-05-13 | Mian Zhang</title>
+  <meta name="description" content="A daily public note on reliable AI as residual detection, evidence gates, bounded recovery, and reusable failure memory.">
+  <meta property="og:title" content="Reliability After Failure | Wisdom Science">
+  <meta property="og:description" content="First-attempt capability is not enough. Reliable AI must know how to recover after failure.">
+  <meta property="og:image" content="https://mianzhang.org/assets/failure-residual-score.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../zh/">中文</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Daily Research Note · 2026-05-13</p>
+        <h1>Reliability begins after the first failure.</h1>
+        <p class="lead">
+          A system that only succeeds on the first attempt is capable. A system that detects residuals, enters an
+          evidence gate, recovers safely, and remembers the failure is beginning to become reliable.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="../evidence/">Evidence Map</a>
+          <a class="button" href="https://zenodo.org/records/20027295">Zenodo Archive</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/failure-residual-score.webp" alt="Residual scoring and recovery visual.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Core Pattern</p>
+        <h2>From wrong answer to recoverable action.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Today's note focuses on failure recovery as a measurable layer of reliable AI. The core pattern is not a
+          bigger first-shot prediction model; it is a closed loop that turns failure into structured evidence.
+        </p>
+        <p>
+          The loop has four parts: residual detection, evidence gates, bounded recovery, and reusable failure memory.
+          This is the bridge between benchmark scores and systems that can operate under disturbance, ambiguity, and
+          changing environments.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">01</span>
+        <h3>Residual Detection</h3>
+        <p>The system must notice when the world no longer matches its prediction, plan, map, or semantic frame.</p>
+      </article>
+      <article>
+        <span class="card-index">02</span>
+        <h3>Evidence Gate</h3>
+        <p>Recovery should pass through verifiable signals, not confidence alone: logs, constraints, feedback, and counterfactual checks.</p>
+      </article>
+      <article>
+        <span class="card-index">03</span>
+        <h3>Bounded Recovery</h3>
+        <p>A reliable agent should recover within a safe envelope, lowering autonomy when uncertainty or risk rises.</p>
+      </article>
+      <article>
+        <span class="card-index">04</span>
+        <h3>Failure Memory</h3>
+        <p>The failure must become reusable experience rather than a private accident hidden inside one trajectory.</p>
+      </article>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Public Release</p>
+        <h2>Canonical links for this note.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Reliability after failure links">
+        <div class="paper-row head" role="row">
+          <span>Resource</span><span>Link</span><span>Purpose</span><span>Boundary</span>
+        </div>
+        <a class="paper-row" href="https://mianzhang.org" role="row">
+          <span>Website</span><span>mianzhang.org</span><span>Main public entry</span><span>Stable</span>
+        </a>
+        <a class="paper-row" href="../evidence/" role="row">
+          <span>Evidence</span><span>mianzhang.org/evidence/</span><span>Artifact map</span><span>Claim-scoped</span>
+        </a>
+        <a class="paper-row" href="https://zenodo.org/records/20027295" role="row">
+          <span>Archive</span><span>Zenodo portfolio DOI</span><span>Public priority record</span><span>Versioned</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org" role="row">
+          <span>GitHub</span><span>Website source</span><span>Public website source</span><span>No private experiments</span>
+        </a>
+        <a class="paper-row" href="https://huggingface.co/spaces/MMJBDS/mianzhang-org" role="row">
+          <span>Hugging Face</span><span>Static mirror</span><span>AI community entry</span><span>Secondary mirror</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="../assets/evidence-eclipse.webp" alt="Evidence-gated learning visual.">
+      </figure>
+      <div>
+        <p class="kicker">Claim Discipline</p>
+        <h2>This is a research and engineering note.</h2>
+        <p>
+          It should not be read as a detector SOTA claim, a complete real-robot deployment claim, or a universal proof
+          of reliability. The point is narrower and more useful: reliability after failure can be specified, audited,
+          and improved as a first-class system layer.
+        </p>
+        <ul class="check-list">
+          <li>Do not collapse recovery into retry.</li>
+          <li>Do not treat confidence as evidence.</li>
+          <li>Do not hide failures outside the metric.</li>
+          <li>Do not call an agent reliable until it can recover under bounded uncertainty.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Daily public note for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>
