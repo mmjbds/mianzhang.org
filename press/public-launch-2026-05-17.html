@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anti-Interference Reliable Action, 2026-05-17 | Mian Zhang</title>
+  <meta name="description" content="A daily public note on anti-interference reliable action: evidence gates, recovery protocols, counterfactual replay, and robust perception for real-world AI systems.">
+  <meta property="og:title" content="Anti-Interference Reliable Action | Wisdom Science">
+  <meta property="og:description" content="Clean benchmarks are not the world. Reliable AI starts where smoke, glare, occlusion, drift, and stale maps break first-attempt systems.">
+  <meta property="og:image" content="https://mianzhang.org/assets/reliable-action-20260517.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Daily Research Note - 2026-05-17</p>
+        <h1>Reliable AI starts where clean benchmarks break.</h1>
+        <p class="lead">
+          The real world is not a clean validation split. Smoke, rain, glare, occlusion, signal interference, stale maps,
+          fast motion, and adversarial perturbations expose whether an AI system can recover after its representation
+          stops being trustworthy.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="../evidence/">Evidence Map</a>
+          <a class="button" href="../papers/">Paper Map</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/reliable-action-20260517.webp" alt="Reliable action under adverse sensing conditions.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Core Pattern</p>
+        <h2>Detection is not enough. Recovery is the missing unit.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Many applied vision systems pass training and fail in deployment because they treat perception as a one-shot
+          prediction problem. A detector may work in clean frames, then lose identity under smoke, glare, vibration,
+          partial occlusion, sensor dropout, malicious interference, or a road map that has simply become stale.
+        </p>
+        <p>
+          Anti-interference reliable action reframes the task: the system must know when its representation is dirty,
+          cross-check multiple evidence channels, preserve identity continuity, replay failed claims, and enter a
+          bounded recovery loop before acting with false confidence.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article><span class="card-index">01</span><h3>Dirty World</h3><p>Stressors are first-class inputs: weather, smoke, glare, vibration, occlusion, stale maps, and signal interference.</p></article>
+      <article><span class="card-index">02</span><h3>Evidence Gate</h3><p>A claim should not pass because one model said so. It passes through provenance, cross-checks, uncertainty, and replay.</p></article>
+      <article><span class="card-index">03</span><h3>Recovery Time</h3><p>Measure how quickly the system restores a reliable state after failure, not only its first-frame accuracy.</p></article>
+      <article><span class="card-index">04</span><h3>False Confidence</h3><p>The dangerous failure is not being wrong. It is being wrong without realizing the representation has degraded.</p></article>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="../assets/counterfactual-replay-20260517.webp" alt="Counterfactual world-model replay visual.">
+      </figure>
+      <div>
+        <p class="kicker">World-Model Role</p>
+        <h2>Use simulation to replay what the sensor missed.</h2>
+        <p>
+          A reflexive world-model layer can help evaluate alternative explanations: did the target disappear, did the
+          camera saturate, did the map become stale, did the track swap identity, or did an external perturbation break
+          the signal chain? The point is not cinematic generation. The point is disciplined counterfactual checking.
+        </p>
+        <ul class="check-list">
+          <li>Identity continuity under occlusion and reappearance.</li>
+          <li>Time-to-recovery after representation failure.</li>
+          <li>Evidence completeness before action escalation.</li>
+          <li>Stress-degradation curves across adverse conditions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Research Boundary</p>
+        <h2>Industrial reliability, not operational targeting.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Reliable action boundaries">
+        <div class="paper-row head" role="row">
+          <span>Use Case</span><span>Allowed Frame</span><span>Evidence</span><span>Boundary</span>
+        </div>
+        <a class="paper-row" href="../papers/" role="row"><span>Infrastructure</span><span>Inspection, maintenance, anomaly triage</span><span>Detector/tracker logs and recovery panels</span><span>No enforcement claim</span></a>
+        <a class="paper-row" href="../papers/" role="row"><span>Logistics</span><span>Edge reliability under adverse sensing</span><span>ID continuity and stress curves</span><span>No autonomous harm</span></a>
+        <a class="paper-row" href="../papers/" role="row"><span>Disaster response</span><span>Search, warning, and situational support</span><span>Sensor fusion and uncertainty gates</span><span>Human-governed deployment</span></a>
+        <a class="paper-row" href="../evidence/" role="row"><span>Research</span><span>Claim-to-replay artifact ledgers</span><span>Public manifests and reproducible panels</span><span>Evidence, not certification</span></a>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Claim Discipline</p>
+        <h2>This is a reliability thesis.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          This note does not claim detector SOTA, real-robot certification, military deployment, or autonomous
+          enforcement. The claim is narrower and stronger: real-world AI should be evaluated by whether it can detect
+          representation breakdown, preserve evidence, recover from failure, and act only within verified bounds.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer><span>(C) 2026 Mian Zhang. Daily public note for Wisdom Science and the Ouroboros Project.</span></footer>
+</body>
+</html>
