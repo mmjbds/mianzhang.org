@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claim-to-Replay Evidence Contracts, 2026-05-20 | Mian Zhang</title>
+  <meta name="description" content="A daily public note on claim-to-replay evidence contracts: every reliable AI claim should carry a replayable ledger of input, assumptions, evidence, failure samples, boundaries, and repair verification.">
+  <meta property="og:title" content="Claim-to-Replay Evidence Contracts | Wisdom Science">
+  <meta property="og:description" content="A claim that cannot be replayed should not become a reliable action.">
+  <meta property="og:image" content="https://mianzhang.org/assets/claim-to-replay-evidence-contracts-20260520.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Daily Research Note - 2026-05-20</p>
+        <h1>A claim that cannot be replayed should not become a reliable action.</h1>
+        <p class="lead">
+          Modern AI systems are good at producing answers. Reliable systems need a harder contract:
+          every claim should carry enough evidence to be replayed, audited, bounded, and repaired after failure.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="../evidence/">Evidence Map</a>
+          <a class="button" href="../papers/">Paper Map</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="https://mianzhang.org/assets/claim-to-replay-evidence-contracts-20260520.png" alt="Claim-to-replay evidence contract recorder in a stressed environment.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Core Thesis</p>
+        <h2>Confidence is not enough. The claim needs a ledger.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          In clean benchmarks, an output can look convincing because the evaluation surface is fixed. In deployment,
+          the world is dirty: sensors drift, maps expire, logs go missing, and failure cases appear outside the prompt.
+          A reliable system therefore needs a claim-to-replay contract before a claim is treated as action-worthy.
+        </p>
+        <p>
+          The contract is simple: record the input, assumptions, evidence path, failure samples, boundary conditions,
+          and repair verification. If another process cannot replay the claim, the system should lower autonomy rather
+          than pretend certainty.
+        </p>
+      </div>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="https://mianzhang.org/assets/evidence-contract-ledger-20260520.png" alt="Evidence contract ledger as a physical audit instrument.">
+      </figure>
+      <div>
+        <p class="kicker">Evidence Contract</p>
+        <h2>Every claim should be attached to a trace.</h2>
+        <p>
+          A claim-to-replay contract is not only a log file. It is a reliability interface between perception,
+          reasoning, world state, memory, and recovery. It lets a system ask: what did I see, what did I assume,
+          what contradicted me, what failed, and what repair changed the next decision?
+        </p>
+        <ul class="check-list">
+          <li>Input trace: what entered the system before the claim.</li>
+          <li>Assumption boundary: what must be true for the claim to hold.</li>
+          <li>Evidence path: which observations and checks supported it.</li>
+          <li>Failure sample: what would make the claim degrade or reverse.</li>
+          <li>Repair verification: what changed after recovery.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article><span class="card-index">01</span><h3>Claim</h3><p>The system emits a judgment, plan, route, detection, or recommendation.</p></article>
+      <article><span class="card-index">02</span><h3>Ledger</h3><p>The claim carries its input, assumptions, evidence, uncertainty, and provenance.</p></article>
+      <article><span class="card-index">03</span><h3>Replay</h3><p>Another process can reconstruct why the claim was made and where it may break.</p></article>
+      <article><span class="card-index">04</span><h3>Recovery</h3><p>When contradiction appears, the system repairs its state instead of hiding the failure.</p></article>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="https://mianzhang.org/assets/failure-as-material-20260520.png" alt="Failure samples treated as material for future recovery.">
+      </figure>
+      <div>
+        <p class="kicker">Failure As Material</p>
+        <h2>The evidence contract turns failure into a recoverable sample.</h2>
+        <p>
+          A failure that disappears into a metric cannot teach the next system anything. A failure with provenance
+          becomes material: it can be compressed, cross-examined, turned into an antigen, added to a replay set,
+          and used to test whether recovery actually improves.
+        </p>
+        <p>
+          This connects the Wisdom Science portfolio across longitudinal evaluation, cognitive immunity, embodied
+          recovery, anti-interference reliability, representation search, and reflexive world models. The public claim
+          is bounded: this is an evidence architecture note, not a product guarantee and not a detector/tracker SOTA claim.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Practical Contract</p>
+        <h2>What must be replayable?</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Claim-to-replay contract fields">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Question</span><span>Reliability Function</span><span>Boundary</span>
+        </div>
+        <a class="paper-row" href="../evidence/" role="row"><span>Input</span><span>What entered the system?</span><span>Prevents hidden context drift</span><span>Does not prove correctness alone</span></a>
+        <a class="paper-row" href="../evidence/" role="row"><span>Assumption</span><span>What must be true?</span><span>Makes failure surfaces visible</span><span>May be incomplete</span></a>
+        <a class="paper-row" href="../evidence/" role="row"><span>Evidence</span><span>What supported the claim?</span><span>Enables cross-checking</span><span>Evidence can still be noisy</span></a>
+        <a class="paper-row" href="../papers/" role="row"><span>Failure</span><span>What contradicted it?</span><span>Feeds immunity and recovery</span><span>Requires careful curation</span></a>
+        <a class="paper-row" href="../press/" role="row"><span>Repair</span><span>What changed after replay?</span><span>Measures learning after failure</span><span>Not a universal deployment proof</span></a>
+      </div>
+    </section>
+  </main>
+  <footer><span>(C) 2026 Mian Zhang. Daily public note for Wisdom Science and the Ouroboros Project.</span></footer>
+</body>
+</html>
