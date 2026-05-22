@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Locomotion and Manipulation, 2026-05-22 | Mian Zhang</title>
+  <meta name="description" content="A public note on Physical AI locomotion and manipulation: center of mass, ground reaction forces, contact modes, phase-space maps, and bounded evidence.">
+  <meta property="og:title" content="Locomotion and Manipulation | Wisdom Science">
+  <meta property="og:description" content="Moving from fault recovery to physical interaction: CoM, GRF, phase-space topology, and auditable contact modes.">
+  <meta property="og:image" content="https://mianzhang.org/assets/locomotion-hero-20260522.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Physical AI - 2026-05-22</p>
+        <h1>Reliable intelligence eventually has to touch the world.</h1>
+        <p class="lead">
+          Fault recovery is not the end of the story. A physical agent must also move,
+          balance, make contact, feel friction, and keep its claims tied to replayable
+          interaction evidence.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="../evidence/">Evidence Map</a>
+          <a class="button" href="../papers/">Paper Map</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="https://mianzhang.org/assets/locomotion-hero-20260522.png" alt="Physical AI locomotion visual with high precision mechanical structure and motion control.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Why This Matters</p>
+        <h2>Compute is cheap. Physics is not.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The bottleneck in embodied intelligence is not only model capacity. It is gravity,
+          friction, contact, inertia, and the discontinuities that appear when a system tries
+          to act in the physical world.
+        </p>
+        <p>
+          This daily note moves the public thread from fault recovery toward Physical AI:
+          locomotion as controlled falling, manipulation as contact-mode reasoning, and
+          phase-space topology as a way to make physical interaction auditable.
+        </p>
+      </div>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="https://mianzhang.org/assets/manipulation-hero-20260522.png" alt="Manipulation subsystem visual focused on contact mechanics and precise actuation.">
+      </figure>
+      <div>
+        <p class="kicker">Locomotion</p>
+        <h2>Walking is a precisely controlled fall.</h2>
+        <p>
+          A robot step is not a symbolic answer. It is a continuous negotiation between
+          center of mass, ground reaction force, contact timing, surface uncertainty, and
+          the cost of correcting a bad trajectory before the body loses recoverability.
+        </p>
+        <p>
+          The architecture therefore treats locomotion as an evidence-bearing control loop:
+          predict the center-of-mass shift, estimate the ground reaction force, check the
+          admissible phase-space region, and lower autonomy when recovery evidence is weak.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">01</span>
+        <h3>Center of Mass</h3>
+        <p>Estimate whether the next action keeps the body inside a recoverable support region.</p>
+      </article>
+      <article>
+        <span class="card-index">02</span>
+        <h3>Ground Reaction Force</h3>
+        <p>Connect planned motion to the forces the floor can actually return.</p>
+      </article>
+      <article>
+        <span class="card-index">03</span>
+        <h3>Contact Modes</h3>
+        <p>Separate slide, roll, pivot, and grasp instead of hiding all interaction inside one black box.</p>
+      </article>
+      <article>
+        <span class="card-index">04</span>
+        <h3>Phase Space</h3>
+        <p>Map physical interaction into bounded regions that can be checked, replayed, and audited.</p>
+      </article>
+      <article>
+        <span class="card-index">05</span>
+        <h3>Failure Residuals</h3>
+        <p>Keep unstable motion, slip, drift, and missed contact as recoverable samples.</p>
+      </article>
+      <article>
+        <span class="card-index">06</span>
+        <h3>Claim Boundary</h3>
+        <p>This is an architecture and evidence discipline, not a claim of real-robot deployment.</p>
+      </article>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="https://mianzhang.org/assets/phase-space-diagram-20260522.png" alt="Phase-space diagram visual for physical contact reasoning.">
+      </figure>
+      <div>
+        <p class="kicker">Manipulation</p>
+        <h2>Grasping is not just closing fingers.</h2>
+        <p>
+          Manipulation becomes reliable only when the system knows which physical relation it is in:
+          sliding along a surface, rolling through a contact patch, pivoting around a support point,
+          or forming a stable grasp.
+        </p>
+        <p>
+          The point is not to decorate robotics with another slogan. The point is to make every
+          contact decision traceable: which mode was assumed, which force boundary was used, which
+          failure would trigger recovery, and what evidence would support the next action.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Public Boundary</p>
+        <h2>What this note claims and does not claim.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Locomotion and manipulation claim boundaries">
+        <div class="paper-row head" role="row">
+          <span>Layer</span><span>Supported Claim</span><span>Evidence Need</span><span>Boundary</span>
+        </div>
+        <div class="paper-row" role="row"><span>Locomotion</span><span>CoM/GRF should be part of reliable action</span><span>Replayable control traces</span><span>No real-hardware claim here</span></div>
+        <div class="paper-row" role="row"><span>Manipulation</span><span>Contact modes should be explicit</span><span>Mode labels and failure residuals</span><span>Not a dexterous manipulation SOTA claim</span></div>
+        <div class="paper-row" role="row"><span>Phase Space</span><span>Physical interaction needs bounded regions</span><span>Assumption logs and counterfactual checks</span><span>Not universal physics proof</span></div>
+        <div class="paper-row" role="row"><span>Wisdom Science</span><span>Recovery and evidence remain central after action</span><span>Claim-to-replay contracts</span><span>Not autonomous deployment approval</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Daily public note for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>
