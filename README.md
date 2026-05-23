@@ -29,6 +29,7 @@ This is the public static website package for `mianzhang.org`.
 - Daily note, 2026-05-21: `press/public-launch-2026-05-21.html`
 - Daily note, 2026-05-22: `press/public-launch-2026-05-22.html`
 - Daily note, 2026-05-23: `press/public-launch-2026-05-23.html`
+- Daily note, 2026-05-24: `press/public-launch-2026-05-24.html`
 - Chinese entry: `zh/index.html`
 - Chinese long-form article: `zh/reliable-action.html`
 
