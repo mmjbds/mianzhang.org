@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mianzhang.org/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/press/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-23</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-12.html</loc>
@@ -63,6 +63,10 @@
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-22.html</loc>
     <lastmod>2026-05-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/press/public-launch-2026-05-23.html</loc>
+    <lastmod>2026-05-23</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/reliable-action.html</loc>

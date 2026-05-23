@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sim-to-Real and Embodied Perception, 2026-05-23 | Mian Zhang</title>
+  <meta name="description" content="A public note on sim-to-real transfer, synthetic data, multimodal embodied perception, sensor cascades, 3D semantic reconstruction, and bounded evidence for reliable embodied AI.">
+  <meta property="og:title" content="Sim-to-Real and Embodied Perception | Wisdom Science">
+  <meta property="og:description" content="Reality is expensive. Simulation makes failure cheap enough to study, replay, and turn into evidence.">
+  <meta property="og:image" content="https://mianzhang.org/assets/sim-to-real-hero-20260523.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Sim-to-Real - 2026-05-23</p>
+        <h1>A robot does not enter the real world as a blank model.</h1>
+        <p class="lead">
+          Simulation gives controlled failure, dense labels, and counterfactual replay.
+          Reality gives friction, drift, occlusion, weather, latency, and hardware limits.
+          Reliable embodied intelligence has to connect both without pretending that either is enough.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="../evidence/">Evidence Map</a>
+          <a class="button" href="../papers/">Paper Map</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="https://mianzhang.org/assets/sim-to-real-hero-20260523.png" alt="Sim-to-real embodied intelligence visual with layered sensing, physics, and evidence traces.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Why This Matters</p>
+        <h2>Reality is expensive. Failure should be cheap to study.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Real robots fail under rain, smoke, glare, occlusion, sensor drift, map staleness,
+          moving targets, unstable contact, and ordinary mechanical wear. A serious system
+          cannot wait for the physical world to supply every rare failure case at full cost.
+        </p>
+        <p>
+          The practical path is not to replace the real world with simulation. It is to use
+          simulation as a disciplined failure laboratory: generate adverse cases, attach dense
+          labels, replay interventions, record assumptions, and only then ask which claims
+          survive contact with real sensors and real constraints.
+        </p>
+      </div>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="https://mianzhang.org/assets/embodied-perception-hero-20260523.png" alt="Embodied perception visual showing cameras, sensors, and physical evidence channels.">
+      </figure>
+      <div>
+        <p class="kicker">Embodied Perception</p>
+        <h2>Seeing is not enough. The body has to cross-examine the world.</h2>
+        <p>
+          A detector can be confident and still be wrong. A map can be clean and still be stale.
+          A camera can see a target and still lose it under glare, fog, motion blur, or adversarial
+          disturbance.
+        </p>
+        <p>
+          Reliable perception therefore becomes a cascade: visual evidence, geometry, temporal
+          continuity, inertial motion, proprioception, contact, and recovery logs. The system should
+          ask what each channel can prove, what it cannot prove, and what must be replayed before action.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">01</span>
+        <h3>Synthetic Worlds</h3>
+        <p>Use simulation to create rare failures, dense labels, and counterfactual interventions at low cost.</p>
+      </article>
+      <article>
+        <span class="card-index">02</span>
+        <h3>Physics Variation</h3>
+        <p>Vary lighting, friction, weather, sensor noise, latency, and object dynamics instead of training on one clean world.</p>
+      </article>
+      <article>
+        <span class="card-index">03</span>
+        <h3>Multimodal Sensing</h3>
+        <p>Combine vision, geometry, motion, proprioception, and task context into one evidence discipline.</p>
+      </article>
+      <article>
+        <span class="card-index">04</span>
+        <h3>3D Semantics</h3>
+        <p>Move from flat detection boxes toward spatial relations, affordances, and scene-level state.</p>
+      </article>
+      <article>
+        <span class="card-index">05</span>
+        <h3>Replay Contracts</h3>
+        <p>Every strong claim should point to assumptions, inputs, labels, failures, and recovery traces.</p>
+      </article>
+      <article>
+        <span class="card-index">06</span>
+        <h3>Transfer Boundary</h3>
+        <p>Simulation can strengthen evidence, but it does not by itself prove real-robot deployment.</p>
+      </article>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="https://mianzhang.org/assets/neurosymbolic-sim-map-20260523.png" alt="Layered neuro-symbolic sim-to-real map for sensor fusion and replayable evidence.">
+      </figure>
+      <div>
+        <p class="kicker">Neuro-Symbolic Bridge</p>
+        <h2>The next benchmark is not only a score. It is a claim-to-replay chain.</h2>
+        <p>
+          The physical world punishes vague success. A claim such as "the robot understood the scene"
+          should be decomposed into what was sensed, what was inferred, what was assumed, what changed,
+          and what recovery path was available if the assumption failed.
+        </p>
+        <p>
+          That is where synthetic worlds, multimodal perception, symbolic constraints, and Wisdom Science
+          meet: not as decoration, but as a way to make embodied intelligence inspectable after failure.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Public Boundary</p>
+        <h2>What this note claims and does not claim.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Sim-to-real claim boundaries">
+        <div class="paper-row head" role="row">
+          <span>Layer</span><span>Supported Claim</span><span>Evidence Need</span><span>Boundary</span>
+        </div>
+        <div class="paper-row" role="row"><span>Simulation</span><span>Controlled stress and counterfactual replay are useful</span><span>Physics settings, seeds, labels, logs</span><span>Not proof of real deployment</span></div>
+        <div class="paper-row" role="row"><span>Synthetic Data</span><span>Rare adverse cases can be generated cheaply</span><span>Dataset provenance and transfer checks</span><span>Not a replacement for all real data</span></div>
+        <div class="paper-row" role="row"><span>Sensor Fusion</span><span>Robust perception needs cross-channel evidence</span><span>Calibration, synchronization, failure logs</span><span>Not detector/tracker SOTA</span></div>
+        <div class="paper-row" role="row"><span>Wisdom Science</span><span>Failure-to-recovery should be a first-class metric</span><span>Claim-to-replay manifests</span><span>Not autonomous deployment approval</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Daily public note for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

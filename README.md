@@ -1,6 +1,6 @@
 ---
 title: Mian Zhang | Ouroboros Project
-emoji: 🧠
+emoji: "O"
 colorFrom: yellow
 colorTo: gray
 sdk: static
@@ -25,6 +25,10 @@ This is the public static website package for `mianzhang.org`.
 - Daily note, 2026-05-17: `press/public-launch-2026-05-17.html`
 - Daily note, 2026-05-18: `press/public-launch-2026-05-18.html`
 - Daily note, 2026-05-19: `press/public-launch-2026-05-19.html`
+- Daily note, 2026-05-20: `press/public-launch-2026-05-20.html`
+- Daily note, 2026-05-21: `press/public-launch-2026-05-21.html`
+- Daily note, 2026-05-22: `press/public-launch-2026-05-22.html`
+- Daily note, 2026-05-23: `press/public-launch-2026-05-23.html`
 - Chinese entry: `zh/index.html`
 - Chinese long-form article: `zh/reliable-action.html`
 
