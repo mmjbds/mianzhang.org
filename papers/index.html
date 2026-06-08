@@ -57,7 +57,7 @@
       <div class="section-head">
         <p class="kicker">Confirmed Public Records</p>
         <h2>Current public DOI map.</h2>
-        <p>These entries are public DOI records or public dataset/support records. GitHub should link to them as a registry, not replace them with a bulk PDF mirror.</p>
+        <p>These entries are public DOI records or public dataset/support records. GitHub provides a registry view; Zenodo remains the citation archive.</p>
       </div>
       <div class="paper-table" role="table" aria-label="Confirmed public DOI records">
         <div class="paper-row head" role="row">
@@ -209,16 +209,16 @@
         <p class="kicker">GitHub Paper Policy</p>
         <h2>Index everything public. Mirror PDFs only when justified.</h2>
         <p class="body-text">
-          The public GitHub layer should store small, text-first metadata: DOI, record URL, version, publication date,
-          manifest, checksums, evidence level, and forbidden claims. It should not become the primary storage layer for
-          every PDF, zip, anonymous supplement, cloud return, or private release package.
+          The public GitHub layer stores small, text-first metadata: DOI, record URL, version, publication date,
+          manifest, checksums, evidence level, and forbidden claims. Large binaries, anonymous supplements, cloud returns,
+          and private release packages stay outside the public git tree.
         </p>
       </div>
       <div class="cards compact-cards">
         <article><span class="card-index">Canonical</span><h3>Zenodo first</h3><p>Cite DOI landing pages and version records. Use GitHub pages as navigation, not authority replacement.</p></article>
         <article><span class="card-index">Allowed</span><h3>Text index</h3><p>Keep JSONL, CSV, README cards, claim boundaries, hash receipts, and release notes in GitHub.</p></article>
         <article><span class="card-index">Optional</span><h3>Release assets</h3><p>Mirror a few public, non-anonymous, license-clear PDFs in GitHub Releases only when it helps readers.</p></article>
-        <article><span class="card-index">Forbidden</span><h3>Anonymous/private</h3><p>Do not publish double-blind packages, DO_NOT_UPLOAD folders, private logs, customer data, or execution hooks.</p></article>
+        <article><span class="card-index">Forbidden</span><h3>Anonymous/private</h3><p>Do not publish double-blind packages, DO_NOT_UPLOAD folders, private logs, customer data, or private execution integrations.</p></article>
       </div>
     </section>
 

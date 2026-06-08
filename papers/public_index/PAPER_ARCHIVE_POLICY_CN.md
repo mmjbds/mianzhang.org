@@ -2,7 +2,7 @@
 
 ## 结论
 
-GitHub 应作为“可信索引层 / 可复核导航层”，不作为全量 PDF 仓库。公开论文与证据包的权威长期归档继续以 Zenodo DOI 为准。
+GitHub 是可信索引层和可复核导航层。公开论文与证据包的权威长期归档以 Zenodo DOI 为准。
 
 ## 默认放入 GitHub 的内容
 
@@ -16,7 +16,7 @@ GitHub 应作为“可信索引层 / 可复核导航层”，不作为全量 PDF
 
 - 全量 PDF 批量镜像。
 - 匿名会议稿、审稿平台 supplement、review 截图。
-- `DO_NOT_UPLOAD`、private、internal、客户数据、执行日志、交易/机器人 hook。
+- `DO_NOT_UPLOAD`、private、internal、客户数据、执行日志、交易或机器人执行接口。
 - 大 zip、cloud return 原包、私有运行环境、token、API key。
 
 ## PDF 例外
@@ -35,7 +35,7 @@ GitHub 应作为“可信索引层 / 可复核导航层”，不作为全量 PDF
 
 - P22：当前版本为 `v0.2 / 10.5281/zenodo.20582195`；previous version 为 `10.5281/zenodo.20156365`；concept DOI 为 `10.5281/zenodo.20156364`。
 - P41：local constructed evidence only；不能写真实机器人部署或第三方复现。
-- P42：shadow-only runtime evidence；不能写 alpha、实盘、收益、broker execution。
+- P42：shadow-only runtime evidence；不能写 alpha、实盘、收益、交易执行接口。
 - P43：theory + constructed witnesses only；不能写 real-stack validation。
 - P44：R-shadow full-rollout candidate included, not completed；不能写完成 OpenVLA/V-JEPA2 R-shadow 或真实机器人。
 - P45：C-controlled success + public no-credit receipts；不能写 task-relevant public model validation、真实机器人、第三方复现、hard 0.05 margin 或无条件 GEE 最优。

@@ -36,10 +36,10 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="kicker">Ouroboros Project / 中文说明</p>
-        <h1>中文区先建在这里：低成本、可复核、不断链。</h1>
+        <h1>中文入口：用同一套证据边界解释可靠 AI 行动。</h1>
         <p class="lead">
-          这里是中文读者的主入口。论文和证据以 Zenodo 为准，开源协作在 GitHub，技术镜像在 Hugging Face，
-          中文长文、周报和现实问题解释沉淀在 mianzhang.org/zh。
+          这里面向中文读者整理 Ouroboros Project 的核心问题、论文脉络和公开证据边界。论文与版本记录以
+          Zenodo 为准，开源协作在 GitHub，技术镜像在 Hugging Face；中文说明在这里保持可引用、可追溯。
         </p>
         <div class="signature-line" aria-label="Research signature">
           <span>架构</span>
@@ -62,16 +62,16 @@
     <section id="overview" class="section split">
       <div>
         <p class="kicker">核心定位</p>
-        <h2>中文区不再另起炉灶，先做同域名下的可信入口。</h2>
+        <h2>中文说明与英文证据入口共享同一条公开链路。</h2>
       </div>
       <div class="body-text">
         <p>
-          现在最科学的做法不是单独建一个中文网站，也不是把 Hugging Face 扩成中文站。中文内容先放在
-          <code>mianzhang.org/zh</code>：同一个域名、同一套 sitemap、同一套证据边界，成本低，维护轻。
+          <code>mianzhang.org/zh</code> 是中文解释、周报和现实问题入口。它和英文站共享同一套 DOI、sitemap
+          与 claim boundary，方便读者从中文说明回到可复核的公开记录。
         </p>
         <p>
-          微信、知乎、B 站、微博只做分发，不做权威归档。需要引用论文时回到 Zenodo，需要挑战主张时回到
-          GitHub issue，需要看技术镜像时回到 HF，需要读中文路线时回到本页。
+          外部分发平台用于触达读者；权威引用仍回到 Zenodo，主张挑战回到 GitHub issue，技术材料回到
+          Hugging Face 镜像，中文路线和长期说明回到本页。
         </p>
       </div>
     </section>
@@ -79,24 +79,24 @@
     <section class="section portfolio">
       <div class="section-head">
         <p class="kicker">四个入口</p>
-        <h2>每个平台只做自己最擅长的事。</h2>
-        <p>这样成本最低，也最不容易把论文、开源、官网、中文传播和私有系统混成一团。</p>
+        <h2>每个平台承担一个清楚的公共角色。</h2>
+        <p>入口分工越清楚，读者越容易区分论文归档、开源协作、技术镜像、中文说明和私有系统边界。</p>
       </div>
       <div class="paper-table" role="table" aria-label="Public entry map">
         <div class="paper-row head" role="row">
-          <span>入口</span><span>职责</span><span>应该放什么</span><span>不应该放什么</span>
+          <span>入口</span><span>职责</span><span>主要内容</span><span>边界</span>
         </div>
         <a class="paper-row" href="../papers/" role="row">
-          <span>Zenodo</span><span>权威归档</span><span>DOI、版本、文件、manifest</span><span>不要用 GitHub PDF 取代 DOI</span>
+          <span>Zenodo</span><span>权威归档</span><span>DOI、版本、文件、manifest</span><span>引用以 DOI 记录为准</span>
         </a>
         <a class="paper-row" href="../community/" role="row">
-          <span>GitHub</span><span>社区协作</span><span>issue、schema、索引、反例挑战</span><span>不要公开内部母仓和私有闭环</span>
+          <span>GitHub</span><span>社区协作</span><span>issue、schema、索引、反例挑战</span><span>只处理公开可复核材料</span>
         </a>
         <a class="paper-row" href="../technology/" role="row">
-          <span>HF</span><span>技术镜像</span><span>demo、registry、边界、artifact delta</span><span>不要承载中文长文和投资人叙事</span>
+          <span>HF</span><span>技术镜像</span><span>demo、registry、边界、artifact delta</span><span>保持技术索引定位</span>
         </a>
         <a class="paper-row" href="./" role="row">
-          <span>中文区</span><span>解释与沉淀</span><span>中文首页、长文、周报、现实问题入口</span><span>不要拆散成多个低维护站点</span>
+          <span>中文区</span><span>解释与沉淀</span><span>中文首页、长文、周报、现实问题入口</span><span>所有主张回链到公开证据</span>
         </a>
       </div>
     </section>
@@ -107,16 +107,16 @@
       </figure>
       <div>
         <p class="kicker">开放边界</p>
-        <h2>最大诚意开放验证，严格保护核心闭环。</h2>
+        <h2>开放可验证接口，同时保护私有运行系统。</h2>
         <p>
-          可以公开：概念、论文、schema、玩具 demo、非敏感样例、反例提交模板、证据阶梯、公开 DOI。
-          不公开：真实客户记忆、金融执行阈值、私有工具路由、生产 prompt、未公开实验、现场运行日志和商业线索。
+          公开层包括概念、论文、schema、玩具 demo、非敏感样例、反例提交模板、证据阶梯和公开 DOI。
+          私有运行系统、客户材料、执行阈值、内部工具路由、生产 prompt、未公开实验和现场运行日志不进入公开发布。
         </p>
         <ul class="check-list">
-          <li>公开层让别人能验证方向，而不是复制系统。</li>
-          <li>反例通道让攻击变成资产，而不是口水战。</li>
+          <li>公开层用于验证研究主张、复现路径和证据边界，不用于发布完整私有系统。</li>
+          <li>反例通道把有效质疑转化为可追踪的修正任务。</li>
           <li>GitHub 负责社区协作，HF 负责技术镜像，中文区负责解释。</li>
-          <li>匿名投稿材料永远不和实名公开页混用。</li>
+          <li>匿名投稿材料与实名公开页面保持隔离。</li>
         </ul>
       </div>
     </section>
@@ -125,7 +125,7 @@
       <div>
         <p class="kicker">统一入口</p>
         <h2>公开材料从这里分发。</h2>
-        <p>如果是双盲会议，请使用单独匿名包，不要把真实 DOI、邮箱、网站或 GitHub 放进匿名稿。</p>
+        <p>双盲投稿材料应与实名公开页面隔离，避免交叉引用真实身份、DOI、邮箱、网站或 GitHub。</p>
       </div>
       <div class="contact-links">
         <a href="../community/">GitHub 社区入口</a>
