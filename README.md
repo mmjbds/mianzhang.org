@@ -27,4 +27,4 @@ Research portfolio index: https://zenodo.org/records/20027295
 
 ## Boundary
 
-This public site may include author identity and public DOI links. It must not be used as an anonymous conference supplement.
+This public site is a public research and evidence index. Use Zenodo DOI records for citation authority and GitHub pages for navigation, issue routing, and public review context.

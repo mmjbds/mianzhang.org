@@ -19,6 +19,6 @@
 
 1. 已有 DOI 的论文后续版本优先走 Zenodo `New version`。
 2. GitHub 默认存元数据和边界说明；PDF 以 Zenodo DOI 记录为权威来源。
-3. 匿名会议稿、`DO_NOT_UPLOAD`、私有日志、客户数据、交易或机器人执行接口不进入公开索引。
+3. 非公开版本、私有日志、客户数据、交易或机器人执行接口不进入公开索引。
 4. `NOT_DEMONSTRATED`、`NO_CREDIT_RECEIPT`、`CANDIDATE_NOT_COMPLETED` 不应在摘要、站点、README 或 issue 中写成成功。
 5. P22 当前公开版本为 `v0.2 / 10.5281/zenodo.20582195`；P41-P45 必须保留各自证据边界。
