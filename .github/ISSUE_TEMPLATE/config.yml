@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全漏洞或敏感材料
+    url: https://github.com/mmjbds
+    about: 不要在公开 issue 中提交密钥、客户数据、私有日志、漏洞利用链或可去匿名化材料；请优先使用私有安全报告或维护者私有渠道。

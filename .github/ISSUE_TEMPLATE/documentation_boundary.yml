@@ -1,0 +1,48 @@
+name: 文档边界 / 链接修正
+description: 修正公开链接、README、HF/GitHub/Zenodo 路由或边界口径。
+title: "[Docs] "
+labels: ["documentation", "boundary"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 文档位置
+      description: 填写文件路径、页面 URL 或段落标题。
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: 问题类型
+      options:
+        - 链接失效
+        - DOI / GitHub / Zenodo / HF 路由错误
+        - claim boundary 不清
+        - README 入口过长或层级不清
+        - 混入不该由 HF 镜像承载的内容
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: current_text
+    attributes:
+      label: 当前问题
+      description: 简述当前文本为什么不清楚、不准确或越界。
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_text
+    attributes:
+      label: 建议改法
+      description: 给出建议文本或目标链接。
+    validations:
+      required: false
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 范围确认
+      options:
+        - label: 这是公开文档、公开链接或公开边界问题。
+          required: true
+        - label: 不包含私有材料、投资人叙事、官网长文搬运或中文长文搬运。
+          required: true

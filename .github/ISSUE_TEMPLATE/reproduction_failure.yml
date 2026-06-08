@@ -1,0 +1,52 @@
+name: 复现失败 / 文档缺口
+description: 报告公开 artifact、脚本、schema、README 或链接无法复现。
+title: "[Reproduction] "
+labels: ["reproduction", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请报告公开材料的最小复现问题。不要上传私有数据、密钥、本地缓存、客户日志或会议匿名材料。
+  - type: input
+    id: artifact
+    attributes:
+      label: 公开 artifact
+      description: 填写公开 URL、文件路径、DOI、registry 行或 README 段落。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 最小复现步骤
+      description: 写出最短命令、输入或点击路径。
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: 期望结果与实际结果
+      placeholder: |
+        期望：
+        实际：
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: OS、Python/Node 版本、浏览器、公开数据版本等。
+    validations:
+      required: false
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: 边界确认
+      options:
+        - label: 复现材料只使用公开数据、合成数据或已清理样例。
+          required: true
+        - label: 没有提交密钥、客户数据、私有日志或本地临时产物。
+          required: true

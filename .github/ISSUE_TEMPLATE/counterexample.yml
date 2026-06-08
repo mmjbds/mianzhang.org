@@ -1,0 +1,72 @@
+name: 反例 / 主张边界
+description: 用最小公开证据挑战论文、claim、registry 或 demo 边界。
+title: "[Counterexample] "
+labels: ["counterexample", "claim-boundary"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请只提交公开、可复核、可安全分享的材料。不要提交客户数据、密钥、私有日志、真实交易记录、会议匿名材料或攻击真实系统的步骤。
+  - type: input
+    id: target
+    attributes:
+      label: 目标 claim / artifact
+      description: 填写页面、论文、claim ID、DOI、registry 行或 demo 链接。
+      placeholder: "例如：PCA-C1 / papers/index.html / 10.xxxx/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: 反例类型
+      options:
+        - claim 过宽
+        - 数据泄漏或 provenance 错误
+        - 更强基线
+        - 复现失败
+        - 证据到行动缺口
+        - false no-go / 过度保守 gate
+        - credit contamination
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: public_evidence
+    attributes:
+      label: 最小公开证据
+      description: 给出最小输入、公开数据或合成样例、复现命令、期望结果和观察结果。
+      placeholder: |
+        最小输入：
+        公开数据或合成样例：
+        复现命令：
+        期望结果：
+        观察结果：
+    validations:
+      required: true
+  - type: textarea
+    id: boundary_effect
+    attributes:
+      label: 边界影响
+      description: 说明这个反例会如何改变 claim、证据等级、适用范围或 repair queue。
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_repair
+    attributes:
+      label: 建议修复
+      description: 例如收窄 claim、补 baseline、补 receipt、补 stop rule、标负结果或更新 registry。
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 安全确认
+      options:
+        - label: 不包含 API key、token、密码或私有配置。
+          required: true
+        - label: 不包含客户数据、私有日志、真实交易记录或内部执行链。
+          required: true
+        - label: 不包含会议匿名材料、审稿私有页面、邮件截图或去匿名化信息。
+          required: true
+        - label: 不包含可直接用于攻击真实系统的步骤。
+          required: true
