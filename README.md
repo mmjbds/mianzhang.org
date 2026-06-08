@@ -1,13 +1,3 @@
----
-title: Ouroboros Project: Evidence-Gated AI Systems
-emoji: 🧭
-colorFrom: yellow
-colorTo: gray
-sdk: static
-pinned: false
-license: cc-by-4.0
----
-
 # Mian Zhang | Ouroboros Project: Evidence-Gated AI Systems
 
 This is the public static website package for `mianzhang.org`.
@@ -26,14 +16,14 @@ This is the public static website package for `mianzhang.org`.
 
 ## Public Archive
 
-Research portfolio DOI: https://zenodo.org/records/20027295
+Research portfolio index: https://zenodo.org/records/20027295
 
 ## Platform Roles
 
 - Zenodo is the canonical DOI archive for public papers and files.
 - GitHub is the community layer for code, schemas, registries, issue templates, and counterexample reports.
 - Hugging Face is a technical static mirror for demos, registries, boundaries, and artifact pages.
-- `mianzhang.org/zh/` is the canonical low-cost Chinese entry.
+- `mianzhang.org/zh/` is the canonical Chinese-language entry.
 
 ## Boundary
 
