@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Stop-Rule Evidence Check v0, 2026-06-08 | Mian Zhang</title>
+  <meta name="description" content="A public technical note defining when an AI agent must stop: missing route, missing reproduction path, hash or DOI/status drift, stale evidence, or absent claim boundary.">
+  <meta property="og:title" content="Agent Stop-Rule Evidence Check v0 | Ouroboros Project">
+  <meta property="og:description" content="Fast execution is not permission. The stop-rule check turns public route, reproduction route, hash, DOI/status, freshness, and boundary fields into an action gate.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-08.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/agent-stop-rule-hero-20260608.png">
+  <meta property="og:image:alt" content="Technical stop-rule visual showing an AI agent execution pathway blocked by a safety governance gate.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agent Stop-Rule Evidence Check v0">
+  <meta name="twitter:description" content="A public stop-rule shape for link, reproduction, hash, DOI/status, freshness, boundary, and action permission fields.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/agent-stop-rule-hero-20260608.png">
+  <meta name="twitter:image:alt" content="Technical stop-rule visual showing an AI agent execution pathway blocked by a safety governance gate.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-08.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-08</p>
+        <h1>An agent should stop when evidence cannot carry action.</h1>
+        <p class="lead">
+          Artifact: Agent Stop-Rule Evidence Check v0. The public question is simple: when public route,
+          reproduction route, hash, DOI/status, freshness, or boundary fields are missing or stale, an AI agent should
+          not receive action permission.
+        </p>
+        <div class="signature-line" aria-label="Agent stop-rule fields">
+          <span>public_route</span>
+          <span>repro</span>
+          <span>sha256</span>
+          <span>doi_status</span>
+          <span>stop_condition</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="../papers/">Papers</a>
+          <a class="button" href="../evidence/">Evidence Map</a>
+          <a class="button" href="../community/">GitHub Community</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/registries/index.html">HF Registries</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/agent-stop-rule-hero-20260608.png" alt="Technical stop-rule visual showing an AI agent execution pathway blocked by a safety governance gate.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Stop Rule</p>
+        <h2>Fast execution is not permission.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Many agent failures are not caused by a model failing to answer. They happen when a system treats a fluent,
+          plausible, or convenient answer as permission to act. A public stop-rule makes that permission conditional.
+        </p>
+        <p>
+          Today turns the upload-matrix context around P22 v0.2, W0, P23-P45, F1/P8, and D3 into an inspectable
+          acceptance layer: if the public record cannot carry the claim, the claim is downgraded and action remains
+          blocked or under review.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>Public route</h3>
+        <p>Every claim that asks for trust needs a public route: DOI, page, registry row, issue route, demo, manifest, or boundary note.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>Reproduction route</h3>
+        <p>If reproduction is unavailable, pending, or outside the public boundary, the row should say review instead of pass.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>Hash and DOI/status</h3>
+        <p>Hash mismatch, DOI ambiguity, stale status, or replaced artifacts are stop conditions until repaired in public.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>Claim boundary</h3>
+        <p>A strong claim needs a negative boundary: what it does not prove, what would downgrade it, and what would withdraw it.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>Freshness</h3>
+        <p>last_verified and stale_reason stop old evidence from silently supporting a stronger current claim.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>Action permission</h3>
+        <p>The output is not hype. It is pass, review, stop, or no_credit, with a public reason attached.</p>
+      </article>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/evidence-check-schema-20260608.png" alt="Ledger-style evidence check table with link, reproduction, hash, and status fields.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Evidence Check</p>
+        <h2>Link / Repro / Hash is a no-go surface.</h2>
+        <p>
+          The check table is deliberately small. It asks whether the reader can find the public object, whether there
+          is a reproduction or review route, whether the hash or DOI/status still matches, and whether the claim has a
+          stop condition.
+        </p>
+        <p>
+          Passing this check does not prove deployment, real-robot operation, trading validity, medical validity, or
+          general safety. It only says the public record is structured enough to inspect.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Matrix</p>
+        <h2>Minimum stop-rule fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Agent stop-rule matrix">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Required value</span><span>Stop condition</span><span>Repair route</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>public_route</span><span>DOI, registry row, static page, demo, or issue route.</span><span>Broken or missing route.</span><span>Add route or mark not public.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>reproduction_route</span><span>Replay, review, issue, demo, or bounded supplement path.</span><span>No route, private-only route, or unverifiable route.</span><span>Downgrade to review.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>sha256</span><span>Public file hash or explicit hash_status.</span><span>Mismatch, missing hash, or replaced file.</span><span>Publish corrected status.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>doi_status</span><span>Published, concept DOI, pending, stale, replaced, or not_applicable.</span><span>Ambiguous or stale DOI/status.</span><span>Add freshness note.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>claim_boundary</span><span>does_not_claim, downgrade_trigger, withdraw_condition.</span><span>Claim has no negative boundary.</span><span>Split or narrow the claim.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>action_permission_status</span><span>pass, review, stop, or no_credit.</span><span>Evidence gap is framed as permission.</span><span>Block action and rewrite.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Asset Groups</p>
+        <h2>What the check applies to.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The first public pass focuses on P22 v0.2, W0, F1/P8, D3, and the current P23-P45 upload matrix. The check
+          does not add new empirical claims. It adds public fields that make existing claims easier to inspect, attack,
+          downgrade, or repair.
+        </p>
+        <p>
+          If support material is not public, if a TeX/source bundle is absent from a public publication record, if a
+          link is broken, or if hash/status fields disagree, the correct state is review or stop, not silent trust.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/stop-condition-ledger-20260608.png" alt="Stop-condition ledger visual showing pass, review, and stop states for public evidence fields.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Stop Conditions</p>
+        <h2>The useful output is a blocked action with a reason.</h2>
+        <p>
+          A stop condition should be specific enough to repair: broken_link, missing_repro, hash_mismatch,
+          doi_status_stale, missing_boundary, stale_evidence, or evidence_gap_used_as_permission.
+        </p>
+        <p>
+          This is why blocked action is not failure theater. It is accountable engineering work: the public record says
+          why action is blocked and which public field must change before the row can move.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Failure Modes</p>
+        <h2>How a row should fail.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Agent stop-rule failure modes">
+        <div class="paper-row head" role="row">
+          <span>Failure</span><span>Meaning</span><span>Permission</span><span>Public repair</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>broken_link</span><span>The public object cannot be reached.</span><span>stop</span><span>Fix route or remove claim support.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>missing_repro</span><span>No public reproduction, review, or counterexample path exists.</span><span>review</span><span>Add bounded route or mark unavailable.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>hash_mismatch</span><span>The artifact no longer matches its recorded digest.</span><span>stop</span><span>Publish corrected digest and version note.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>stale_evidence</span><span>Old evidence is still carrying a stronger current claim.</span><span>review</span><span>Add last_verified and stale_reason.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>missing_boundary</span><span>The claim lacks a negative boundary or downgrade trigger.</span><span>stop</span><span>Add does_not_claim and withdraw condition.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>evidence_gap_as_permission</span><span>A missing field is treated as permission to proceed.</span><span>stop</span><span>Rewrite as blocked or no_credit.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Attack one public field.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The best critique is small: report a broken public link, a hash/DOI/status mismatch, stale evidence, missing
+          stop condition, or a sentence that turns an evidence gap into action permission.
+        </p>
+        <p>
+          Use public materials only. Do not request private runtime logs, customer data, account state, financial
+          execution details, internal prompts, commercial schedulers, private endpoints, or production traces.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/boundary-filter-paper-20260608.png" alt="Boundary filter visual separating public paper evidence checks from private systems.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Public / Private Boundary</p>
+        <h2>Validate public records, not private systems.</h2>
+        <p>
+          This update is limited to public registries, pages, manifests, demos, schemas, issue routes, boundaries, and
+          counterexample routes. It excludes private runtime, customer data, real accounts, production logs, internal
+          prompts, financial execution details, and any executable action strategy.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public launch materials for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>
