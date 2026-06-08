@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Architecture of Regret, 2026-05-26 | Mian Zhang</title>
+  <meta name="description" content="A public note on regret architecture, no-credit repair, negative-space memory, and clean learning for reliable AI action.">
+  <meta property="og:title" content="The Architecture of Regret | Ouroboros Project">
+  <meta property="og:description" content="Reliable AI should not only act; it should know when a failed, blocked, or deferred action becomes evidence for repair.">
+  <meta property="og:image" content="https://mianzhang.org/assets/regret-architecture-hero-20260526.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Architecture of Regret">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-05-26</p>
+        <h1>The architecture of regret.</h1>
+        <p class="lead">
+          A reliable agent should not only store success. It should preserve blocked actions, failed actions,
+          and waits as structured evidence: what was attempted, which proof was missing, what would make regret
+          computable, and which repair work earns no credit until the evidence closes.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/mmjbds/proof-carrying-action">Proof-Carrying Action</a>
+          <a class="button" href="../evidence/">Evidence Map</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/regret-architecture-hero-20260526.png" alt="Architecture of regret visual with proof-carrying action ledgers and repair traces.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Definition</p>
+        <h2>Regret is not a feeling. It is an accounting interface.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          In high-risk AI, regret should not mean a vague after-the-fact apology. It should mean that an action or
+          non-action can be compared against null arms, opportunity cost, evidence gaps, execution receipts, and
+          contamination penalties.
+        </p>
+        <p>
+          If those ingredients are missing, the system should not pretend that it learned. It should produce a repair
+          work order and keep that work outside the reward path until the missing proof is closed.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">01</span>
+        <h3>Failure Memory</h3>
+        <p>A scar is not a slogan. It records the boundary that was tested, the evidence that failed, and the future condition required before the system may generalize.</p>
+      </article>
+      <article>
+        <span class="card-index">02</span>
+        <h3>No-Credit Repair</h3>
+        <p>Repair intent receives no reward, no denominator credit, no clean-learning credit, and no action permission until a verifier closes the missing evidence.</p>
+      </article>
+      <article>
+        <span class="card-index">03</span>
+        <h3>Negative-Space Memory</h3>
+        <p>Waiting is also a decision. The system records why it did not act, what evidence was absent, and which future receipt would make regret computable.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <figure class="inline-visual">
+        <img src="../assets/regret-negative-space-20260526.png" alt="Negative-space memory visual showing deferred actions and evidence gaps.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">From Gap To Work</p>
+        <h2>A blocked action should become a repair contract.</h2>
+        <p>
+          The public interface is deliberately simple:
+          <code>event -> evidence gap -> repair work order -> verification -> clean memory</code>.
+          The important part is the separation. A system may repair itself, but the act of repair is not itself a
+          performance claim.
+        </p>
+        <p>
+          That separation matters in finance, robotics, medical decision support, legal workflows, infrastructure
+          automation, and any other domain where a plausible answer can still be unsafe to execute.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Reviewer Interface</p>
+        <h2>What this release does and does not claim.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Architecture of regret boundaries">
+        <div class="paper-row head" role="row">
+          <span>Problem</span><span>Failure mode</span><span>Regret architecture response</span><span>Public boundary</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Action without proof</span><span>A plausible story becomes authority</span><span>ActionWarrant plus explicit evidence gaps</span><span>Schema and public examples only</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Repair as progress</span><span>The agent rewards itself for fixing paperwork</span><span>No-credit repair discipline</span><span>No private thresholds exposed</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Waiting ignored</span><span>Opportunity cost vanishes from memory</span><span>Negative-space memory and counterfactual receipts</span><span>No live-money claim</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Posthoc learning</span><span>Explanations pollute future labels</span><span>Clean memory / scar memory separation</span><span>No private customer trace</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Claim Boundary</p>
+        <h2>Open the discipline. Protect the engine.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Today's note is a public architecture update. It does not claim profit, detector SOTA, real-robot deployment,
+          medical validity, autonomous enforcement readiness, or universal safety. It claims something narrower and
+          more useful: high-risk agents need a computable way to transform blocked action into auditable repair.
+        </p>
+        <p>
+          The public artifacts should be enough for builders to understand, test, and challenge the discipline. The
+          private product logic, customer workflows, proprietary ledgers, and unreleased operating system remain
+          protected.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <figure class="inline-visual">
+        <img src="../assets/regret-no-credit-repair-20260526.png" alt="No-credit repair visual with closed and open evidence loops.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Why It Matters</p>
+        <h2>Reliable action needs clean failure, not perfect confidence.</h2>
+        <p>
+          The practical question is not whether an AI system can sound right. The practical question is whether it can
+          tell the difference between a suggestion, a repaired gap, a verified action, and a clean learning event.
+        </p>
+        <p>
+          The architecture of regret is one step toward that discipline: action after proof, learning after closure,
+          and memory that preserves both what happened and what was wisely withheld.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Mian Zhang. Independent Researcher, Ouroboros Project.</span>
+    <span>Public contact: 373743743@qq.com</span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community | Ouroboros Project</title>
+  <meta name="description" content="GitHub community route for the Ouroboros Project: repositories, counterexample reports, paper index policy, and public/private boundaries.">
+  <meta property="og:title" content="Community | Ouroboros Project">
+  <meta property="og:description" content="Where to inspect code, challenge claims, and follow the public paper index.">
+  <meta property="og:image" content="https://mianzhang.org/assets/open-source-boundary-20260515.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">GitHub Community Layer</p>
+        <h1>Challenge the claims, not the private runtime.</h1>
+        <p class="lead">
+          GitHub is the public working surface for schemas, issue templates, paper indices, claim boundaries, and
+          counterexamples. Zenodo remains the canonical archive for DOI records and public files.
+        </p>
+        <div class="signature-line" aria-label="Community signature">
+          <span>repository</span>
+          <span>registry</span>
+          <span>challenge</span>
+          <span>boundary</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/mmjbds">GitHub Profile</a>
+          <a class="button" href="https://github.com/mmjbds/wisdombench">WisdomBench</a>
+          <a class="button" href="https://github.com/mmjbds/proof-carrying-action">Proof-Carrying Action</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/open-source-boundary-20260515.webp" alt="Public and private boundary map for open-source community work.">
+      </figure>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Repository Roles</p>
+        <h2>One community map, several focused repositories.</h2>
+        <p>The public repositories should be small, inspectable, and issue-driven. The internal factory repository is not published as a whole.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="GitHub repository roles">
+        <div class="paper-row head" role="row">
+          <span>Repo</span><span>Role</span><span>Put here</span><span>Keep out</span>
+        </div>
+        <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org" role="row">
+          <span>mianzhang.org</span><span>Public website</span><span>Static pages, public indices, links, sitemap</span><span>Internal ops, secrets, unpublished submissions</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/wisdombench" role="row">
+          <span>wisdombench</span><span>Benchmark route</span><span>Schema, scorer, examples, reproduction notes</span><span>Anonymous review packages and private data</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/proof-carrying-action" role="row">
+          <span>proof-carrying-action</span><span>Action proof protocol</span><span>Proof envelope, action warrant, toy demo, no-go tests</span><span>Trading hooks, broker execution, customer workflows</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/ouroboros-papers" role="row">
+          <span>ouroboros-papers</span><span>Paper index</span><span>DOI map, citation files, claim boundary pointers</span><span>Bulk PDF history and duplicate archives</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Issue</span>
+        <h3>Counterexample</h3>
+        <p>Name the claim, provide reproduction steps, explain the expected failure, and state the minimum repair needed.</p>
+      </article>
+      <article>
+        <span class="card-index">Issue</span>
+        <h3>Boundary challenge</h3>
+        <p>Report a public sentence that overstates evidence, hides a negative result, or implies deployment not yet shown.</p>
+      </article>
+      <article>
+        <span class="card-index">Issue</span>
+        <h3>Hash mismatch</h3>
+        <p>Report DOI, file name, checksum, version, and where the mismatch appears in a registry or manifest.</p>
+      </article>
+      <article>
+        <span class="card-index">PR</span>
+        <h3>Registry repair</h3>
+        <p>Small pull requests may fix links, status labels, DOI rows, issue templates, or documentation boundaries.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Paper Policy</p>
+        <h2>GitHub is the map. Zenodo is the archive.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          GitHub should not become a full PDF warehouse. Public, non-anonymous, license-clear PDFs may be mirrored as
+          release assets only when useful, but the citable authority remains the Zenodo DOI landing page.
+        </p>
+        <p>
+          The public paper index should be text-first: DOI, record URL, version, date, file hash, evidence level,
+          forbidden claims, and the current review/publication boundary. Anonymous conference material never links back
+          to this public identity layer.
+        </p>
+      </div>
+    </section>
+
+    <section class="section manifesto">
+      <p class="kicker">Community Rule</p>
+      <blockquote>
+        A good objection is a public asset when it is precise enough to repair.
+      </blockquote>
+      <p class="manifesto-note">
+        The strongest community work is not applause. It is a clean claim, a reproducible failure, a corrected boundary,
+        and a versioned repair.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. GitHub community materials expose validation interfaces, not private runtime systems.</span>
+  </footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 ---
-title: Mian Zhang | Ouroboros Project
-emoji: "🧠"
+title: Ouroboros Project: Evidence-Gated AI Systems
+emoji: 🧭
 colorFrom: yellow
 colorTo: gray
 sdk: static
@@ -8,7 +8,7 @@ pinned: false
 license: cc-by-4.0
 ---
 
-# Mian Zhang | Ouroboros Project
+# Mian Zhang | Ouroboros Project: Evidence-Gated AI Systems
 
 This is the public static website package for `mianzhang.org`.
 
@@ -17,26 +17,23 @@ This is the public static website package for `mianzhang.org`.
 - English homepage: `index.html`
 - Papers and DOI map: `papers/index.html`
 - Evidence map: `evidence/index.html`
+- GitHub community route: `community/index.html`
+- Technology page: `technology/index.html`
 - Systems product page: `systems/index.html`
 - Public press kit: `press/index.html`
-- Daily note, 2026-05-13: `press/public-launch-2026-05-13.html`
-- Daily note, 2026-05-14: `press/public-launch-2026-05-14.html`
-- Daily note, 2026-05-15: `press/public-launch-2026-05-15.html`
-- Daily note, 2026-05-16: `press/public-launch-2026-05-16.html`
-- Daily note, 2026-05-17: `press/public-launch-2026-05-17.html`
-- Daily note, 2026-05-18: `press/public-launch-2026-05-18.html`
-- Daily note, 2026-05-19: `press/public-launch-2026-05-19.html`
-- Daily note, 2026-05-20: `press/public-launch-2026-05-20.html`
-- Daily note, 2026-05-21: `press/public-launch-2026-05-21.html`
-- Daily note, 2026-05-22: `press/public-launch-2026-05-22.html`
-- Daily note, 2026-05-23: `press/public-launch-2026-05-23.html`
-- Daily note, 2026-05-24: `press/public-launch-2026-05-24.html`
 - Chinese entry: `zh/index.html`
 - Chinese long-form article: `zh/reliable-action.html`
 
 ## Public Archive
 
 Research portfolio DOI: https://zenodo.org/records/20027295
+
+## Platform Roles
+
+- Zenodo is the canonical DOI archive for public papers and files.
+- GitHub is the community layer for code, schemas, registries, issue templates, and counterexample reports.
+- Hugging Face is a technical static mirror for demos, registries, boundaries, and artifact pages.
+- `mianzhang.org/zh/` is the canonical low-cost Chinese entry.
 
 ## Boundary
 
