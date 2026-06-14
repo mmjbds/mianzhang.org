@@ -7,7 +7,7 @@ Latest public note:
 https://mianzhang.org/press/public-launch-2026-06-14.html
 
 Technical mirror:
-https://mmjbds-mianzhang-org.static.hf.space/index.html
+https://mianzhang.org/index.html
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -24,20 +24,20 @@ Core entry points:
 - Technology overview: https://mianzhang.org/technology/
 - Systems overview: https://mianzhang.org/systems/
 - Chinese entry: https://mianzhang.org/zh/
-- HF technical mirror: https://mmjbds-mianzhang-org.static.hf.space/index.html
-- HF Start Here: https://mmjbds-mianzhang-org.static.hf.space/start-here/index.html
-- HF Field Manual: https://mmjbds-mianzhang-org.static.hf.space/field-manual/index.html
-- HF Claim Boundaries: https://mmjbds-mianzhang-org.static.hf.space/boundaries/index.html
-- HF Canonical Claim Boundary: https://mmjbds-mianzhang-org.static.hf.space/boundaries/CLAIM_BOUNDARY_CANONICAL.md
-- HF public registries: https://mmjbds-mianzhang-org.static.hf.space/registries/index.html
-- HF claim-to-evidence table: https://mmjbds-mianzhang-org.static.hf.space/registries/claim_to_evidence_table_v0.html
-- HF artifact and reproduction scope: https://mmjbds-mianzhang-org.static.hf.space/registries/artifact_repro_scope_v0.html
-- HF demos: https://mmjbds-mianzhang-org.static.hf.space/demos/index.html
-- HF runnable mini gate: https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html
-- HF counterexample route: https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html
-- HF open source artifacts: https://mmjbds-mianzhang-org.static.hf.space/open-source/index.html
-- HF public archive status: https://mmjbds-mianzhang-org.static.hf.space/review-status/index.html
-- Complete HF technical llms file: https://mmjbds-mianzhang-org.static.hf.space/llms.txt
+- HF technical mirror: https://mianzhang.org/index.html
+- HF Start Here: https://mianzhang.org/start-here/index.html
+- HF Field Manual: https://mianzhang.org/field-manual/index.html
+- HF Claim Boundaries: https://mianzhang.org/boundaries/index.html
+- HF Canonical Claim Boundary: https://mianzhang.org/boundaries/CLAIM_BOUNDARY_CANONICAL.md
+- HF public registries: https://mianzhang.org/registries/index.html
+- HF claim-to-evidence table: https://mianzhang.org/registries/claim_to_evidence_table_v0.html
+- HF artifact and reproduction scope: https://mianzhang.org/registries/artifact_repro_scope_v0.html
+- HF demos: https://mianzhang.org/demos/index.html
+- HF runnable mini gate: https://mianzhang.org/demos/proof-action-mini/index.html
+- HF counterexample route: https://mianzhang.org/counterexamples/index.html
+- HF open source artifacts: https://mianzhang.org/open-source/index.html
+- HF public archive status: https://mianzhang.org/review-status/index.html
+- Complete HF technical llms file: https://mianzhang.org/llms.txt
 
 External public sources:
 - GitHub organization: https://github.com/mmjbds
@@ -67,3 +67,15 @@ Public claim boundary:
 - Public materials do not prove general intelligence, general safety, production readiness, customer readiness, real-time trading returns, real robot deployment, medical validity, or private execution quality.
 - Public materials do not disclose credentials, customer data, private logs, private orchestration, commercial scheduling, or non-public material.
 - Cite per-paper DOI records for specific paper claims; use the Zenodo portfolio record only as the archive index.
+
+Stable concept entries:
+- Concept index: https://mianzhang.org/concepts/index.html
+- No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
+- Robot/Vision Downgrade Rule: https://mianzhang.org/concepts/robot-vision-downgrade-rule.html
+- Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
+- Proof-Carrying Action: https://mianzhang.org/concepts/proof-carrying-action.html
+- WisdomBench: https://mianzhang.org/concepts/wisdombench.html
+- The Grounding Canon: https://mianzhang.org/concepts/grounding-canon.html
+
+Public evidence field manifest:
+https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json

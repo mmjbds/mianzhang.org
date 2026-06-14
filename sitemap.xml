@@ -192,4 +192,36 @@
     <loc>https://mianzhang.org/papers/public_index/PAPER_ARCHIVE_POLICY_CN.md</loc>
     <lastmod>2026-06-14</lastmod>
   </url>
+  <url>
+    <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/index.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/grounding-canon.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/no-proof-no-action-gate.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/proof-carrying-action.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/robot-vision-downgrade-rule.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/self-certification-grounding-check.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/wisdombench.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
 </urlset>

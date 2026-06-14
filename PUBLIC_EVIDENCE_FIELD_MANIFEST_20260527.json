@@ -1,0 +1,104 @@
+{
+  "schema_version": "public_evidence_field_manifest_v0",
+  "generated_utc": "2026-06-14T00:00:00Z",
+  "site": {
+    "name": "Mian Zhang | Ouroboros Project",
+    "base_url": "https://mmjbds-mianzhang-org.static.hf.space",
+    "status": "public_mirror_verified",
+    "public_verification_status": "Static routes are checked against the public sitemap and canonical evidence boundaries.",
+    "canonical_public_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
+    "custom_domain_target": "mianzhang.org",
+    "canonical_policy": "Use this HF Space as the technical evidence mirror; use mianzhang.org as the main public site and canonical Chinese-language entry."
+  },
+  "public_purpose": "A technical evidence mirror for evidence-gated AI systems: claims, evidence, boundaries, demos, registries, and bounded counterexample routes.",
+  "primary_routes": [
+    "/start-here/index.html",
+    "/evidence/index.html",
+    "/counterexamples/index.html"
+  ],
+  "supporting_routes": [
+    "/field-manual/index.html",
+    "/papers/index.html",
+    "/boundaries/index.html",
+    "/registries/index.html",
+    "/registries/artifact_repro_scope_v0.html",
+    "/demos/index.html",
+    "/open-source/index.html",
+    "/technology/index.html",
+    "/systems/index.html",
+    "/review-status/index.html",
+    "/press/index.html",
+    "/zh/index.html"
+  ],
+  "machine_readable_registries": [
+    "/registries/claim_registry_v0.json",
+    "/registries/evidence_registry_v0.json",
+    "/registries/counterexample_registry_v0.json",
+    "/registries/action_registry_v0.json",
+    "/registries/claim_to_evidence_table_v0.json"
+  ],
+  "canonical_boundaries": [
+    "/boundaries/index.html",
+    "/boundaries/CLAIM_BOUNDARY_CANONICAL.md"
+  ],
+  "public_challenge_classes": [
+    "formula_counterexample",
+    "data_leakage",
+    "stronger_baseline",
+    "reproduction_failure",
+    "claim_boundary_too_broad",
+    "credit_leak",
+    "authority_leak"
+  ],
+  "protected_not_public": [
+    "api_keys",
+    "private_finance_execution_details",
+    "customer_data",
+    "private_agent_orchestration",
+    "commercial_schedulers",
+    "venue_restricted_or_non_public_materials",
+    "private_live_trading_logs"
+  ],
+  "latest_daily_route": "/press/public-launch-2026-06-14.html",
+  "artifact_reproduction_scope": "/registries/artifact_repro_scope_v0.html",
+  "recommended_summary": "Challenge public claims through public artifacts. Do not request protected execution details as a condition for evaluating public boundaries.",
+  "route_categories": {
+    "primary_entry_routes": [
+      "/start-here/index.html",
+      "/evidence/index.html",
+      "/counterexamples/index.html"
+    ],
+    "public_evidence_routes": [
+      "/papers/index.html",
+      "/boundaries/index.html",
+      "/registries/index.html",
+      "/demos/index.html",
+      "/open-source/index.html",
+      "/technology/index.html",
+      "/review-status/index.html"
+    ],
+    "bounded_inquiry_routes": [
+      "/systems/index.html",
+      "/demos/proof-action-mini/index.html"
+    ],
+    "public_communication_routes": [
+      "/press/index.html"
+    ],
+    "machine_routes": [
+      "/llms.txt",
+      "/sitemap.xml",
+      "/robots.txt",
+      "/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json"
+    ],
+    "external_language_routes": [
+      "https://mianzhang.org/zh/"
+    ]
+  },
+  "citation_grades": {
+    "public_reproducible_artifact": "Public data/code or artifact can be independently inspected or rerun.",
+    "toy_interface_reproduction": "Public demo validates interface logic only.",
+    "protocol_stage_public_registry": "Protocol/registry is public; stronger empirical claims require further traces.",
+    "claim_boundary_only_until_artifact_public": "Boundary is public; empirical claim is intentionally downgraded until artifact release.",
+    "public_boundary_private_runtime_excluded": "Public summary excludes protected private execution details by design."
+  }
+}
