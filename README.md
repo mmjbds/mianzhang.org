@@ -7,6 +7,7 @@ This is the public static website package for `mianzhang.org`.
 - English homepage: `index.html`
 - Papers and DOI map: `papers/index.html`
 - Evidence map: `evidence/index.html`
+- Concepts: `concepts/index.html`
 - GitHub community route: `community/index.html`
 - Technology page: `technology/index.html`
 - Systems product page: `systems/index.html`
@@ -20,7 +21,7 @@ This is the public static website package for `mianzhang.org`.
 
 Research portfolio index: https://zenodo.org/records/20027295
 
-Latest public note: https://mianzhang.org/press/public-launch-2026-06-14.html
+Latest public note: https://mianzhang.org/press/public-launch-2026-06-15.html
 
 ## Retrieval Anchors
 

@@ -45,6 +45,30 @@
     <lastmod>2026-06-14</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/public_registry/paper_index_20260608.jsonl</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/papers/public_index/paper_index_20260608.csv</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/papers/public_index/PAPER_ARCHIVE_POLICY_CN.md</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/press/index.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/press/public-launch-2026-06-15.html</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-14.html</loc>
     <lastmod>2026-06-14</lastmod>
   </url>
@@ -179,22 +203,6 @@
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-12.html</loc>
     <lastmod>2026-05-12</lastmod>
-  </url>
-  <url>
-    <loc>https://mianzhang.org/public_registry/paper_index_20260608.jsonl</loc>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://mianzhang.org/papers/public_index/paper_index_20260608.csv</loc>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://mianzhang.org/papers/public_index/PAPER_ARCHIVE_POLICY_CN.md</loc>
-    <lastmod>2026-06-14</lastmod>
-  </url>
-  <url>
-    <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
-    <lastmod>2026-06-15</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/index.html</loc>

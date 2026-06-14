@@ -1,0 +1,163 @@
+{
+  "schema_version": "claim_to_evidence_table_v0",
+  "updated": "2026-05-27",
+  "public_private_boundary": "Public rows expose bounded claims, public artifacts, known limits, and repair routes. They do not expose private financial execution details, customer data, protected operational details, commercial schedulers, API keys, or venue-restricted or non-public materials.",
+  "rows": [
+    {
+      "claim_id": "P02-C1",
+      "claim": "WisdomBench measures longitudinal learning from failure rather than single-shot task capability.",
+      "evidence_ids": [
+        "E-P02-3600",
+        "E-P02-ARTIFACT"
+      ],
+      "evidence_status": "public_supporting",
+      "public_artifacts": [
+        "https://github.com/mmjbds/wisdombench",
+        "https://huggingface.co/datasets/MMJBDS/wisdombench",
+        "https://zenodo.org/records/19793098"
+      ],
+      "does_not_prove": "Human-like wisdom, general deployment reliability, or that all agents learn from failure.",
+      "downgrade_trigger": "If task leakage, scoring bugs, reproduction failure, or stronger baselines remove the longitudinal effect.",
+      "attack_routes": [
+        "data leakage",
+        "stronger baseline",
+        "reproduction failure",
+        "claim boundary too broad"
+      ],
+      "counterexample_route": "https://github.com/mmjbds/wisdombench/issues/new/choose"
+    },
+    {
+      "claim_id": "PCA-C1",
+      "claim": "High-risk AI action should not earn action credit until warrant and receipt closure exist.",
+      "evidence_ids": [
+        "E-PCA-MINI-GATE",
+        "E-PCA-PUBLIC-REPO"
+      ],
+      "evidence_status": "public_protocol_and_interface_demo",
+      "public_artifacts": [
+        "https://github.com/mmjbds/proof-carrying-action",
+        "https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html"
+      ],
+      "does_not_prove": "Live trading profit, private product performance, or universal safety.",
+      "downgrade_trigger": "If the public gate allows unsafe action, gives credit without receipts, or cannot reproduce its no-go boundary.",
+      "attack_routes": [
+        "false no-go",
+        "missing receipt",
+        "credit leak",
+        "unsafe action allowed"
+      ],
+      "counterexample_route": "https://github.com/mmjbds/proof-carrying-action/issues/new/choose"
+    },
+    {
+      "claim_id": "CREDIT-C1",
+      "claim": "Repair intent, pretty reports, bootstrap probes, or semantic summaries must not become metric, reward, denominator, or clean-learning credit until closed evidence exists.",
+      "evidence_ids": [
+        "E-PCA-MINI-GATE",
+        "E-COUNTEREXAMPLE-CREDIT-LEAK"
+      ],
+      "evidence_status": "public_boundary_and_counterexample_route",
+      "public_artifacts": [
+        "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/examples.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html"
+      ],
+      "does_not_prove": "Private internal repair queues are fully public or that every private trace can be disclosed.",
+      "downgrade_trigger": "If a public artifact lets repair intent influence reward, denominator, clean-learning labels, or gate authority without closure.",
+      "attack_routes": [
+        "credit leak",
+        "missing receipt",
+        "claim boundary too broad"
+      ],
+      "counterexample_route": "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/examples.html"
+    },
+    {
+      "claim_id": "AUTH-C1",
+      "claim": "Research-only, shadow, suggestion, no-go, or public demo outputs must not imply permission to act.",
+      "evidence_ids": [
+        "E-PCA-MINI-GATE",
+        "E-COUNTEREXAMPLE-AUTHORITY-LEAK",
+        "E-REVIEW-STATUS"
+      ],
+      "evidence_status": "public_boundary_and_counterexample_route",
+      "public_artifacts": [
+        "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/examples.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/review-status/index.html"
+      ],
+      "does_not_prove": "Live deployment safety, private product readiness, or permission to act in any external system.",
+      "downgrade_trigger": "If a UI label, API field, README, or public page turns a research artifact into action authority.",
+      "attack_routes": [
+        "authority leak",
+        "unsafe action allowed",
+        "claim boundary too broad"
+      ],
+      "counterexample_route": "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/examples.html"
+    },
+    {
+      "claim_id": "P24-C1",
+      "claim": "Adaptive systems need relational observability: relations, constraints, control debt, and evidence half-life, not scalar score alone.",
+      "evidence_ids": [
+        "E-P24-PROTOCOL",
+        "E-REGISTRY-LAYER"
+      ],
+      "evidence_status": "public_protocol_stage",
+      "public_artifacts": [
+        "https://mmjbds-mianzhang-org.static.hf.space/technology/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/registries/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/evidence/index.html"
+      ],
+      "does_not_prove": "A theorem covering all adaptive systems or a finished private product.",
+      "downgrade_trigger": "If relation variables, control debt, or evidence half-life do not change decisions beyond scalar baselines.",
+      "attack_routes": [
+        "unmeasured relation variable",
+        "unmeasured control debt",
+        "failed transfer",
+        "strong scalar baseline"
+      ],
+      "counterexample_route": "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html"
+    },
+    {
+      "claim_id": "P20-C1",
+      "claim": "Physical AI should route degraded evidence to recovery or abstention rather than direct action.",
+      "evidence_ids": [
+        "E-P20-STRESS-PANEL",
+        "E-P20-BOUNDARY"
+      ],
+      "evidence_status": "claim_boundary_only_until_artifact_public",
+      "public_artifacts": [
+        "https://zenodo.org/records/20097570",
+        "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html"
+      ],
+      "does_not_prove": "Detector SOTA, offensive autonomy, or real-world robot deployment performance.",
+      "downgrade_trigger": "If stronger conformal, shield, or fusion baselines handle the same degraded evidence without the proposed boundary.",
+      "attack_routes": [
+        "independent public dataset",
+        "stronger conformal/shield baseline",
+        "real log mismatch",
+        "action coverage tradeoff"
+      ],
+      "counterexample_route": "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html"
+    },
+    {
+      "claim_id": "F1-C1",
+      "claim": "Trading is used as a high-risk testbed for proof-carrying action discipline, not as a public claim of live profitability.",
+      "evidence_ids": [
+        "E-F1-NOGO",
+        "E-F1-SCHEMA"
+      ],
+      "evidence_status": "public_boundary_and_private_briefing_route",
+      "public_artifacts": [
+        "https://zenodo.org/records/20156365",
+        "https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html"
+      ],
+      "does_not_prove": "Live trading edge, customer readiness, private execution quality, or alpha dominance.",
+      "downgrade_trigger": "If public language implies live profitability, private execution readiness, or authority beyond no-go evidence.",
+      "attack_routes": [
+        "claim boundary too broad",
+        "missing public schema",
+        "no-go misinterpreted",
+        "credit leak"
+      ],
+      "counterexample_route": "https://github.com/mmjbds/proof-carrying-action/issues/new/choose"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "public_evidence_field_manifest_v0",
-  "generated_utc": "2026-06-14T00:00:00Z",
+  "generated_utc": "2026-06-15T00:00:00Z",
   "site": {
     "name": "Mian Zhang | Ouroboros Project",
     "base_url": "https://mmjbds-mianzhang-org.static.hf.space",
@@ -59,7 +59,7 @@
     "venue_restricted_or_non_public_materials",
     "private_live_trading_logs"
   ],
-  "latest_daily_route": "/press/public-launch-2026-06-14.html",
+  "latest_daily_route": "/press/public-launch-2026-06-15.html",
   "artifact_reproduction_scope": "/registries/artifact_repro_scope_v0.html",
   "recommended_summary": "Challenge public claims through public artifacts. Do not request protected execution details as a condition for evaluating public boundaries.",
   "route_categories": {

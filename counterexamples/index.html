@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Counterexamples | Ouroboros Project</title>
+  <meta name="description" content="Public counterexample route with seven valid challenge classes: formula counterexample, data leakage, stronger baseline, reproduction failure, claim-boundary overreach, credit leak, and authority leak.">
+  <meta property="og:title" content="Counterexamples | Ouroboros Project">
+  <meta property="og:description" content="Submit useful counterexamples with public materials, invalid-boundary checks, and minimal replay steps.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://mmjbds-mianzhang-org.static.hf.space/assets/counterexample-route-20260527.png">
+  <meta property="og:image:alt" content="Counterexample route visual showing how public claims become repairable evidence gaps.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Counterexamples | Ouroboros Project">
+  <meta name="twitter:description" content="Seven valid challenge classes for turning critique into replayable repair work.">
+  <meta name="twitter:image" content="https://mmjbds-mianzhang-org.static.hf.space/assets/counterexample-route-20260527.png">
+  <meta name="twitter:image:alt" content="Counterexample route visual showing how public claims become repairable evidence gaps.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">
+  <meta name="robots" content="index,follow">
+  <meta property="og:url" content="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mmjbds-mianzhang-org.static.hf.space/index.html">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/index.html">Home</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/start-here/index.html">Start Here</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/evidence/index.html">Evidence Map</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Challenge</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/papers/index.html">Papers</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/technology/index.html">Technology</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/systems/index.html">Systems</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/press/index.html">Press</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Validation Route</p>
+        <h1>Help break the claim, not the project.</h1>
+        <p class="lead">
+          This page is the public route for seven useful challenges: formula counterexamples, data leakage reports,
+          stronger baselines, reproduction failures, claim-boundary overreach, credit-leak reports, and authority-leak reports. It is a scientific challenge,
+          not a security target and not a request for private data.
+        </p>
+        <p class="lead compact-lead">
+          Challenge public claims with public evidence, not private people or private systems.
+        </p>
+        <div class="signature-line" aria-label="Counterexample signature">
+          <span>claim</span>
+          <span>input</span>
+          <span>failure</span>
+          <span>repair</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/mmjbds/proof-carrying-action/issues/new/choose">Proof Action Issues</a>
+          <a class="button" href="https://github.com/mmjbds/wisdombench/issues/new/choose">WisdomBench Issues</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/examples.html">Example Packets</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/COUNTEREXAMPLE_ISSUE_TEMPLATE.md">Issue Template</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/evidence/index.html">Evidence Map</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/counterexample-route-20260527.png" alt="Counterexample route visual for public claim repair.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Template</p>
+        <h2>Use the smallest reproducible objection.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          A good counterexample names one challenge class, identifies the target claim, gives public input,
+          states expected behavior, shows observed failure, and proposes the narrowest repair. Use the local
+          template when filing an issue.
+        </p>
+        <p>
+          <a class="text-link" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/COUNTEREXAMPLE_ISSUE_TEMPLATE.md">Open the counterexample issue template</a>
+        </p>
+        <p>
+          <a class="text-link" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/examples.html">See seven minimal example packets</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Class 1</span>
+        <h3>Formula counterexample</h3>
+        <p>Give a concrete variable assignment, boundary case, or toy state that violates a published formula or protocol rule.</p>
+      </article>
+      <article>
+        <span class="card-index">Class 2</span>
+        <h3>Data leakage</h3>
+        <p>Show train/test contamination, future information, duplicate rows, leaked labels, or provenance mismatch using public evidence.</p>
+      </article>
+      <article>
+        <span class="card-index">Class 3</span>
+        <h3>Stronger baseline</h3>
+        <p>Use the same scoring boundary to show a simpler baseline matches, beats, or removes the reported effect.</p>
+      </article>
+      <article>
+        <span class="card-index">Class 4</span>
+        <h3>Repro failure</h3>
+        <p>Give task id, command, environment, expected output, observed output, and the smallest public replay case.</p>
+      </article>
+      <article>
+        <span class="card-index">Class 5</span>
+        <h3>Claim-boundary overreach</h3>
+        <p>Point to exact wording where a public claim exceeds the evidence envelope and propose a narrower boundary.</p>
+      </article>
+      <article>
+        <span class="card-index">Class 6</span>
+        <h3>Credit leak</h3>
+        <p>Show where repair intent, bootstrap notes, semantic guesses, or paper-only artifacts accidentally become metric, reward, denominator, or clean-learning credit.</p>
+      </article>
+      <article>
+        <span class="card-index">Class 7</span>
+        <h3>Authority leak</h3>
+        <p>Show where research-only, shadow, suggestion, or no-go output is presented as action permission, deployment readiness, or gate authority.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Rule</p>
+        <h2>A useful objection must be reproducible.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The strongest critique is not a slogan. It names a claim, provides a public input or state, states the
+          expected safe behavior, shows the observed failure, and identifies the missing evidence or receipt.
+        </p>
+        <p>
+          Accepted counterexamples create repair work orders, benchmark tasks, claim-boundary edits, or new gate tests.
+          Repeated counterexamples become part of the evidence ladder.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Allowed Scope</p>
+        <h2>Seven useful ways to attack the work.</h2>
+        <p>
+          Submit only public, non-sensitive examples. Do not include credentials, customer data, sensitive instructions,
+          live operational logs, unpublished review material, or operational harm instructions.
+        </p>
+      </div>
+      <div class="paper-table wide-table" role="table" aria-label="Counterexample classes">
+        <div class="paper-row head" role="row">
+          <span>Class</span><span>Submit</span><span>Invalid if</span><span>Minimal verification</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Formula counterexample</span><span>Formula/protocol id, variable assignment, expected result, observed contradiction.</span><span>It only says the formula feels wrong or needs private assumptions.</span><span>Replay the assignment; check whether the stated rule, inequality, gate, or invariant fails.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Data leakage</span><span>Dataset row ids, split ids, hashes, duplicate evidence, future timestamp, or provenance mismatch.</span><span>It requires private data, protected logs, or guesses about hidden pipelines.</span><span>Recompute split/provenance checks on public artifacts; confirm whether label, future, or duplicate leakage exists.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Stronger baseline</span><span>Baseline description, public code/command, same task set, same metric, seeds, and result table.</span><span>The baseline changes the task, metric, data boundary, or allowed information.</span><span>Run the baseline under the same scoring contract; compare effect size and confidence interval.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Repro failure</span><span>Command, environment, artifact version, expected output, observed output, and minimal failing case.</span><span>It omits the command, uses private dependencies, or reports only a screenshot without replay details.</span><span>Run the stated command from a clean checkout or artifact package; confirm the mismatch.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Claim-boundary overreach</span><span>Exact sentence, claimed scope, supporting evidence, missing evidence, and proposed narrower wording.</span><span>It attacks a claim the project does not make or asks for private disclosure.</span><span>Trace claim -> artifact -> metric -> limitation; decide whether wording, evidence, or boundary must change.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Credit leak</span><span>Metric/reward/denominator/clean-learning field, forbidden source, public artifact or wording, and affected claim.</span><span>It requires private logs or only says the system may have rewarded itself.</span><span>Trace source tag -> credit field -> claim; confirm whether a no-credit or quarantine rule was bypassed.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Authority leak</span><span>Route, UI label, API field, README wording, or public claim that implies permission to act without a closed warrant.</span><span>It asks for private execution details or attacks an action claim the project does not make.</span><span>Trace wording -> warrant requirement -> action boundary; confirm whether the public label must be downgraded.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Not In Scope</p>
+        <h2>This is not an open challenge surface.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Do not submit exploit instructions, credential tests, harassment, private deployment guesses, live trading
+          log requests, customer-data requests, or claims that require protected commercial orchestration to verify.
+        </p>
+        <p>
+          A valid challenge should be public, minimal, reproducible, and connected to a named claim. If the challenge
+          needs non-public material, the correct public outcome is usually a claim-boundary downgrade, not disclosure.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Report Template</p>
+        <h2>Make the objection useful enough to replay.</h2>
+        <p>
+          A strong challenge should fit this structure. If a field cannot be filled with public information, do not
+          publish the non-public material; request a boundary downgrade instead.
+        </p>
+      </div>
+      <div class="paper-table wide-table" role="table" aria-label="Counterexample report template">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>What to provide</span><span>Why it matters</span><span>Safety boundary</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Target claim</span><span>Exact claim, card, paper section, metric, or README line.</span><span>Prevents vague criticism.</span><span>No personal claims.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Counterexample class</span><span>Benchmark error, proof gap, false no-go, credit leak, authority leak, or boundary mismatch.</span><span>Routes it to the right repair queue.</span><span>No exploit class.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Public input</span><span>Minimal task, transcript, toy state, code snippet, or public dataset row.</span><span>Makes replay possible.</span><span>No credentials or private logs.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Expected behavior</span><span>What the protocol should have done under its own rules.</span><span>Tests the stated boundary.</span><span>No demand for private execution.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Observed failure</span><span>What actually happened, with artifact link or screenshot if safe.</span><span>Separates evidence from opinion.</span><span>Redact sensitive material.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Evidence gap</span><span>Missing threshold, falsifier, receipt, null arm, baseline, provenance, stop rule, or confidence interval.</span><span>Turns criticism into a fixable object.</span><span>No secret-system inference.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Proposed repair</span><span>Patch, new test, boundary downgrade, stronger baseline, or reproduction command.</span><span>Creates forward motion.</span><span>Keep it public and safe.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Required</span>
+        <h3>Claim attacked</h3>
+        <p>Name the exact claim, metric, gate, paper section, README line, or system behavior being challenged.</p>
+      </article>
+      <article>
+        <span class="card-index">Required</span>
+        <h3>Public input</h3>
+        <p>Provide a task, state, transcript, toy case, or minimal script that can be shared without private data.</p>
+      </article>
+      <article>
+        <span class="card-index">Required</span>
+        <h3>Expected vs observed</h3>
+        <p>State what a safe system should do and what the current artifact actually does.</p>
+      </article>
+      <article>
+        <span class="card-index">Required</span>
+        <h3>Evidence gap</h3>
+        <p>Name the missing proof: falsifier, receipt, null arm, baseline, provenance, confidence interval, or stop rule.</p>
+      </article>
+    </section>
+
+    <section class="section system-grid">
+      <figure>
+        <img src="../assets/counterexample-route-20260527.png" alt="Counterexample route visual for claim boundaries and repair routes.">
+      </figure>
+      <div>
+        <p class="kicker">Where To Submit</p>
+        <h2>Use the narrowest public channel.</h2>
+        <ul class="check-list">
+          <li>Proof-carrying action, warrants, receipts, no-credit repair: use the proof-carrying-action issue tracker.</li>
+          <li>Benchmark tasks, scoring, longitudinal metrics: use the WisdomBench issue tracker.</li>
+          <li>Website wording, evidence boundaries, public link errors: use the website source repository or email.</li>
+          <li>Private deployment, customer data, financial execution details, or sensitive operational logs: do not post publicly.</li>
+        </ul>
+        <div class="link-row">
+          <a class="button primary" href="https://github.com/mmjbds/proof-carrying-action/issues/new/choose">Open proof action issue</a>
+          <a class="button" href="https://github.com/mmjbds/wisdombench/issues/new/choose">Open WisdomBench issue</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Triage</p>
+        <h2>How reports are handled.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Counterexample triage">
+        <div class="paper-row head" role="row">
+          <span>Status</span><span>Meaning</span><span>Public outcome</span><span>Private boundary</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Accepted</span><span>The counterexample changes a claim, metric, or gate.</span><span>Patch, repair work order, or benchmark task.</span><span>No customer data exposed.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Needs reproduction</span><span>The case may be valid but is not yet replayable.</span><span>Request for smaller public input.</span><span>No private logs requested publicly.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Boundary issue</span><span>The objection attacks a claim the project does not make.</span><span>Claim-boundary clarification.</span><span>No expansion into unsupported claims.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Security private route</span><span>The report may be valid but contains sensitive operational details.</span><span>Public summary plus private handling if needed.</span><span>No exploit or private data published.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Declined</span><span>The report is unreproducible, unsafe, or outside scope.</span><span>Short reason and safer route if possible.</span><span>No debate theater.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section manifesto">
+      <p class="kicker">Validation Thesis</p>
+      <blockquote>
+        A system that cannot accept structured counterexamples cannot claim reliable action.
+      </blockquote>
+      <p class="manifesto-note">
+        This is the public pressure valve: critique becomes evidence, and evidence becomes repair.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Counterexamples must be public, safe, and reproducible.</span>
+  </footer>
+</body>
+</html>

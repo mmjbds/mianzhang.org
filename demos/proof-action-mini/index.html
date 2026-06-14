@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proof-Carrying Action Mini Demo | Mian Zhang</title>
+  <meta name="description" content="A small public demo for checking whether an AI action carries enough proof to act, repair, or stop.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html">
+  <meta property="og:title" content="Proof-Carrying Action Mini Demo">
+  <meta property="og:description" content="Run a toy evidence gate: no action without carried proof.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html">
+  <meta property="og:image" content="https://mmjbds-mianzhang-org.static.hf.space/assets/receipt-schema-20260527.png">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://mmjbds-mianzhang-org.static.hf.space/index.html">Mian Zhang | Ouroboros Project</a>
+    <nav>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/start-here/index.html">Start Here</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/evidence/index.html">Evidence</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/demos/index.html">Demos</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html">Mini Gate</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Runnable Public Demo</p>
+      <h1>Proof-carrying action, reduced to one gate.</h1>
+      <p class="lead">
+        This toy workbench checks whether a proposed AI action carries enough public evidence
+        to act, repair, or stop. It is not a trading engine, robot controller, or private product path.
+      </p>
+      <div class="actions">
+        <button class="button" type="button" id="runGate">Run Gate</button>
+        <button class="button secondary" type="button" id="loadComplete">Load Complete Packet</button>
+        <button class="button secondary" type="button" id="loadBroken">Load Broken Packet</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="two-column">
+        <article>
+          <h2>Input packet</h2>
+          <p>
+            Edit the JSON and run the gate. The gate is intentionally strict:
+            a confident answer is not an action unless it carries thesis, falsifier,
+            nulls, receipts, and counterfactual closure.
+          </p>
+          <textarea id="packetInput" aria-label="Proof packet JSON" style="width:100%;min-height:430px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:0.92rem;line-height:1.45;border:1px solid #d9ded8;border-radius:8px;padding:16px;box-sizing:border-box;"></textarea>
+        </article>
+
+        <article>
+          <h2>Gate result</h2>
+          <p>
+            A public gate should be boring in the right way: explicit reasons,
+            no hidden credit, and a clean claim boundary.
+          </p>
+          <div id="decisionCard" class="paper-card">
+            <h3 id="decisionTitle">Not run yet</h3>
+            <p id="decisionSummary">Load a packet or run the default example.</p>
+          </div>
+          <pre id="resultJson" aria-label="Gate result JSON">{
+  "status": "waiting"
+}</pre>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Gate rules</h2>
+      <table class="paper-table">
+        <thead>
+          <tr>
+            <th>Rule</th>
+            <th>Why it exists</th>
+            <th>Failure state</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Thesis + falsifier</td>
+            <td>An action must say what would make it wrong.</td>
+            <td>NO_GO_MISSING_TESTABLE_CLAIM</td>
+          </tr>
+          <tr>
+            <td>Null arms</td>
+            <td>The system must compare against doing nothing or simpler baselines.</td>
+            <td>NO_GO_REQUIRED_NULLS_MISSING</td>
+          </tr>
+          <tr>
+            <td>Entry, terminal, and counterfactual receipts</td>
+            <td>Regret is not computable without closed evidence.</td>
+            <td>NO_GO_RECEIPT_CLOSURE_FAILED</td>
+          </tr>
+          <tr>
+            <td>No-credit repair</td>
+            <td>Repair intent cannot become reward, denominator credit, or authority.</td>
+            <td>REPAIR_ONLY_NO_CREDIT</td>
+          </tr>
+          <tr>
+            <td>High-risk review</td>
+            <td>High-impact action requires a separate authority boundary.</td>
+            <td>NO_GO_HUMAN_REVIEW_REQUIRED</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>30-second expected output</h2>
+      <div class="three-column">
+        <article class="paper-card">
+          <h3>Broken Packet</h3>
+          <p>
+            Should return <strong>NO_GO_PROOF_NOT_CLOSED</strong>, with
+            <code>authority_leak: 0</code> and <code>credit_leak: 0</code>.
+            The missing proof should include falsifier, null arms, and closed receipts.
+          </p>
+        </article>
+        <article class="paper-card">
+          <h3>Complete Packet</h3>
+          <p>
+            Should return <strong>ALLOW_PUBLIC_NON_DEPLOYMENT_ACTION</strong>.
+            This means the toy public evidence card is coherent; it is still not deployment permission.
+          </p>
+        </article>
+        <article class="paper-card">
+          <h3>Invalid JSON</h3>
+          <p>
+            Should return <strong>INVALID_PACKET</strong>. A malformed packet cannot be scored,
+            cannot earn credit, and cannot create authority.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section muted">
+      <h2>What this demo does not prove</h2>
+      <p>
+        It does not prove model intelligence, profitability, robot safety, or deployment readiness.
+        It only demonstrates the public shape of an auditable action gate:
+        explicit evidence, explicit missing proof, and explicit refusal to award credit.
+      </p>
+      <div class="actions">
+        <a class="button secondary" href="https://mmjbds-mianzhang-org.static.hf.space/registries/index.html">View Registries</a>
+        <a class="button secondary" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Challenge the Gate</a>
+        <a class="button secondary" href="https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html">Prepare Mini Gate</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ouroboros Project. Public evidence pages expose protocols and boundaries, not private execution systems.</p>
+  </footer>
+
+  <script>
+    const examples = {
+      complete: {
+        action_id: "public_demo_complete_001",
+        proposed_action: "publish a public evidence card",
+        risk_level: "medium",
+        thesis: "The claim is bounded, sourced, and has a counterexample route.",
+        falsifier: "If the linked evidence is unavailable or the claim exceeds the evidence, the action must stop.",
+        null_arms: ["publish nothing", "publish a shorter boundary-only note"],
+        evidence_type: "multi_receipt",
+        receipts: {
+          entry: true,
+          terminal: true,
+          counterfactual: true,
+          wait_policy: true
+        },
+        repair_intent: false,
+        closed_evidence: true,
+        human_review: false
+      },
+      broken: {
+        action_id: "public_demo_broken_001",
+        proposed_action: "treat a confident model answer as deployable action",
+        risk_level: "high",
+        thesis: "The answer looks plausible.",
+        falsifier: "",
+        null_arms: [],
+        evidence_type: "price_only",
+        receipts: {
+          entry: false,
+          terminal: false,
+          counterfactual: false,
+          wait_policy: false
+        },
+        repair_intent: true,
+        closed_evidence: false,
+        human_review: false
+      }
+    };
+
+    const input = document.getElementById("packetInput");
+    const resultJson = document.getElementById("resultJson");
+    const decisionTitle = document.getElementById("decisionTitle");
+    const decisionSummary = document.getElementById("decisionSummary");
+
+    function pretty(value) {
+      return JSON.stringify(value, null, 2);
+    }
+
+    function loadPacket(kind) {
+      input.value = pretty(examples[kind]);
+      runGate();
+    }
+
+    function evaluate(packet) {
+      const missing = [];
+      const repairs = [];
+      const receipts = packet.receipts || {};
+      const nullArms = Array.isArray(packet.null_arms) ? packet.null_arms : [];
+
+      if (!packet.thesis || packet.thesis.trim().length < 12) missing.push("missing_or_weak_thesis");
+      if (!packet.falsifier || packet.falsifier.trim().length < 12) missing.push("missing_falsifier");
+      if (nullArms.length < 1) missing.push("required_nulls_missing");
+      if (packet.evidence_type === "price_only") missing.push("price_only_is_not_execution_cert");
+      if (!receipts.entry) missing.push("entry_receipt_missing");
+      if (!receipts.terminal) missing.push("terminal_receipt_missing");
+      if (!receipts.counterfactual) missing.push("counterfactual_receipt_missing");
+      if (packet.risk_level === "high" && packet.human_review !== true) missing.push("human_review_required_for_high_risk_action");
+
+      if (missing.includes("required_nulls_missing")) repairs.push("add_null_arms_before_any_credit");
+      if (missing.some((x) => x.includes("receipt"))) repairs.push("close_receipt_chain_before_regret");
+      if (missing.includes("price_only_is_not_execution_cert")) repairs.push("quarantine_price_only_evidence");
+      if (packet.repair_intent === true && packet.closed_evidence !== true) repairs.push("mark_repair_as_no_credit");
+
+      const regretComputable = Boolean(receipts.terminal && receipts.counterfactual && nullArms.length > 0);
+      const creditAllowed = missing.length === 0 && packet.repair_intent !== true;
+      const authorityAllowed = missing.length === 0 && packet.closed_evidence === true;
+
+      let decision = "ALLOW_PUBLIC_NON_DEPLOYMENT_ACTION";
+      if (packet.repair_intent === true && packet.closed_evidence !== true) decision = "REPAIR_ONLY_NO_CREDIT";
+      if (missing.length > 0) decision = "NO_GO_PROOF_NOT_CLOSED";
+
+      return {
+        action_id: packet.action_id || "unnamed_action",
+        decision,
+        authority_allowed: authorityAllowed,
+        credit_allowed: creditAllowed,
+        authority_leak: 0,
+        credit_leak: 0,
+        regret_computable: regretComputable,
+        missing_evidence: missing,
+        repair_work_orders: repairs,
+        claim_boundary: "Toy public protocol demo only. Not deployment permission, not performance evidence, not private execution logic."
+      };
+    }
+
+    function runGate() {
+      try {
+        const packet = JSON.parse(input.value);
+        const result = evaluate(packet);
+        resultJson.textContent = pretty(result);
+        decisionTitle.textContent = result.decision;
+        decisionSummary.textContent = result.missing_evidence.length
+          ? "The gate refuses action until missing proof is closed. Repair work gets no credit by default."
+          : "The packet passes this toy public gate. Deployment would still require domain-specific review.";
+      } catch (error) {
+        const result = {
+          decision: "INVALID_PACKET",
+          error: String(error.message || error),
+          authority_leak: 0,
+          credit_leak: 0
+        };
+        resultJson.textContent = pretty(result);
+        decisionTitle.textContent = "INVALID_PACKET";
+        decisionSummary.textContent = "The input is not valid JSON, so the action cannot be evaluated.";
+      }
+    }
+
+    document.getElementById("runGate").addEventListener("click", runGate);
+    document.getElementById("loadComplete").addEventListener("click", () => loadPacket("complete"));
+    document.getElementById("loadBroken").addEventListener("click", () => loadPacket("broken"));
+    loadPacket("broken");
+  </script>
+</body>
+</html>

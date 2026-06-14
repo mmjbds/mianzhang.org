@@ -1,0 +1,129 @@
+[
+  {
+    "claim_id": "P02-C1",
+    "plain_claim": "Language agents can answer tasks correctly on first exposure while still failing to learn reliably from repeated failures.",
+    "formula_or_protocol": "WisdomBench longitudinal protocol: WQ, GR, RFR, task/category/condition confidence intervals.",
+    "scope": "Public benchmark setting with anonymized model-family reporting and controlled repeated rounds.",
+    "does_not_claim": "Does not claim human-like wisdom, universal AGI, SOTA leaderboard dominance, or deployment safety.",
+    "evidence_ids": [
+      "E-P02-3600"
+    ],
+    "attack_routes": [
+      "stronger_baseline",
+      "task_leakage",
+      "scoring_bug",
+      "claim_too_broad",
+      "reproduction_failure"
+    ],
+    "status": "public_preprint_and_tmlr_artifact_candidate"
+  },
+  {
+    "claim_id": "PCA-C1",
+    "plain_claim": "High-risk AI action should require a warrant and receipt closure before it earns action credit.",
+    "formula_or_protocol": "Proof-carrying action loop: thesis -> falsifier -> warrant -> receipt -> regret -> clean learning.",
+    "scope": "Public protocol, toy demos, and redacted high-risk action infrastructure summaries.",
+    "does_not_claim": "Does not claim live-money profitability, deployment certification, or disclosure of private execution systems.",
+    "evidence_ids": [
+      "E-PCA-NOGO-001",
+      "E-DEMO-RECEIPT-001"
+    ],
+    "attack_routes": [
+      "false_no_go",
+      "missing_receipt",
+      "credit_leak",
+      "authority_leak",
+      "stronger_action_policy"
+    ],
+    "status": "public_protocol"
+  },
+  {
+    "claim_id": "P24-C1",
+    "plain_claim": "Adaptive intelligence needs relational observability: systems must observe changing relations, constraints, control debt, and evidence half-life rather than only scalar scores.",
+    "formula_or_protocol": "Relational observability packet: relation graph, control-debt ledger, evidence half-life, actionability gate.",
+    "scope": "Systems evidence protocol across language agents, finance testbeds, robot-safety simulations, and product workflows.",
+    "does_not_claim": "Does not claim a universal law without independent real-world validation or third-party audits.",
+    "evidence_ids": [
+      "E-RO-PUBLIC-001"
+    ],
+    "attack_routes": [
+      "missing_relation",
+      "unmeasured_control_debt",
+      "half_life_miscalibration",
+      "domain_transfer_failure"
+    ],
+    "status": "research_track_candidate"
+  },
+  {
+    "claim_id": "P20-C1",
+    "plain_claim": "Safe physical AI should not convert detector confidence directly into action under adverse evidence conditions.",
+    "formula_or_protocol": "Counter-reflexive evidence integrity: evidence state, partial-order hypotheses, gating, recovery, and abstention.",
+    "scope": "Synthetic stress panels and public adverse-condition detector/tracker evidence panels.",
+    "does_not_claim": "Does not claim detector SOTA, offensive inference, or real-robot deployment certification.",
+    "evidence_ids": [
+      "E-P20-SYNTH-001",
+      "E-P20-PUBLIC-LOG-001"
+    ],
+    "attack_routes": [
+      "independent_dataset_failure",
+      "baseline_underfit",
+      "unrealistic_interference",
+      "action_policy_underspecified"
+    ],
+    "status": "rebuild_required_after_editorial_feedback"
+  },
+  {
+    "claim_id": "F1-C1",
+    "plain_claim": "Trading can serve as a high-risk testbed for proof-carrying action discipline without claiming live profitability.",
+    "formula_or_protocol": "Proof-carrying cognitive action loop: warrant -> receipt closure -> no-credit repair -> regret attribution -> clean learning.",
+    "scope": "Public finance-facing boundary documents and systems boundary route; no private execution logs or live-money claims.",
+    "does_not_claim": "Does not claim live trading edge, customer readiness, private execution quality, or alpha dominance.",
+    "evidence_ids": [
+      "E-F1-NOGO",
+      "E-F1-SCHEMA"
+    ],
+    "attack_routes": [
+      "claim_boundary_too_broad",
+      "missing_public_schema",
+      "no_go_misinterpreted",
+      "credit_leak"
+    ],
+    "status": "public_boundary_and_private_briefing_route"
+  },
+  {
+    "claim_id": "CREDIT-C1",
+    "plain_claim": "Repair intent, attractive reports, bootstrap probes, and semantic summaries must not earn metric, reward, denominator, or clean-learning credit until closed evidence exists.",
+    "formula_or_protocol": "No-credit repair protocol: repair_intent != metric_credit != reward_credit != denominator_credit until receipt closure is satisfied.",
+    "scope": "Public proof-carrying action demos, counterexample routes, and high-risk action evidence boundaries.",
+    "does_not_claim": "Does not disclose private repair queues or claim that every private trace is public.",
+    "evidence_ids": [
+      "E-PCA-MINI-GATE",
+      "E-COUNTEREXAMPLE-CREDIT-LEAK"
+    ],
+    "attack_routes": [
+      "credit_leak",
+      "missing_receipt",
+      "reward_contamination",
+      "claim_too_broad"
+    ],
+    "status": "public_boundary_and_counterexample_route"
+  },
+  {
+    "claim_id": "AUTH-C1",
+    "plain_claim": "Research-only, shadow, suggestion, no-go, or public demo outputs must not imply permission to act.",
+    "formula_or_protocol": "Authority boundary protocol: action_permission requires explicit warrant, receipt closure, and deployment authority; public demos and research notes have authority=false.",
+    "scope": "Public proof-carrying action demos, review-status route, and counterexample challenge boundary.",
+    "does_not_claim": "Does not claim private product readiness or live deployment certification.",
+    "evidence_ids": [
+      "E-PCA-MINI-GATE",
+      "E-COUNTEREXAMPLE-AUTHORITY-LEAK",
+      "E-REVIEW-STATUS"
+    ],
+    "attack_routes": [
+      "authority_leak",
+      "unsafe_action_allowed",
+      "ambiguous_ui_label",
+      "claim_too_broad"
+    ],
+    "status": "public_boundary_and_counterexample_route"
+  }
+]

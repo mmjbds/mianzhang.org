@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registry Schema Notes | Mian Zhang</title>
+  <meta name="description" content="Human-readable notes for the public claim, evidence, action, and counterexample registries.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://mmjbds-mianzhang-org.static.hf.space/registries/schema_notes_v0.html">
+  <meta property="og:title" content="Registry Schema Notes">
+  <meta property="og:description" content="How to read public claim, evidence, action, and counterexample registry fields.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mmjbds-mianzhang-org.static.hf.space/registries/schema_notes_v0.html">
+  <meta property="og:image" content="https://mmjbds-mianzhang-org.static.hf.space/assets/evidence-shape-hero-20260527.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Registry Schema Notes">
+  <meta name="twitter:description" content="How to read public claim, evidence, action, and counterexample registry fields.">
+  <meta name="twitter:image" content="https://mmjbds-mianzhang-org.static.hf.space/assets/evidence-shape-hero-20260527.png">
+  <meta name="twitter:image:alt" content="Evidence shape visual for public registry fields.">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://mmjbds-mianzhang-org.static.hf.space/index.html">Mian Zhang | Ouroboros Project</a>
+    <nav>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/start-here/index.html">Start Here</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/evidence/index.html">Evidence</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/registries/index.html">Registries</a>
+      <a href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Counterexamples</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Registry Notes</p>
+      <h1>Fields first, interpretation second.</h1>
+      <p class="lead">
+        These notes define how public registry rows should be read. Unknown fields should stay unknown;
+        they should not be inferred into stronger claims.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Core fields</h2>
+      <table class="paper-table">
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Meaning</th>
+            <th>Common failure</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>claim_id</code></td>
+            <td>Stable pointer to a bounded claim, formula, protocol, or benchmark result.</td>
+            <td>Using one claim ID for multiple incompatible claims.</td>
+          </tr>
+          <tr>
+            <td><code>evidence_role</code></td>
+            <td>Whether the row is main evidence, support, negative result, boundary, or manifest.</td>
+            <td>Treating support evidence as decisive evidence.</td>
+          </tr>
+          <tr>
+            <td><code>evidence_status</code></td>
+            <td>The current strength of the evidence: public support, protocol stage, negative result, pending repair, or boundary only.</td>
+            <td>Reading protocol-stage evidence as if it were deployment-grade evidence.</td>
+          </tr>
+          <tr>
+            <td><code>artifact</code></td>
+            <td>The public file, DOI, code, table, figure, or manifest that can be checked.</td>
+            <td>Pointing to a page that describes evidence but does not expose it.</td>
+          </tr>
+          <tr>
+            <td><code>boundary</code></td>
+            <td>What this row does not prove.</td>
+            <td>Letting a narrow result silently expand into a broad claim.</td>
+          </tr>
+          <tr>
+            <td><code>counterexample_route</code></td>
+            <td>The smallest way a critic can weaken, falsify, or narrow the claim.</td>
+            <td>Making criticism possible in theory but impossible in practice.</td>
+          </tr>
+          <tr>
+            <td><code>downgrade_trigger</code></td>
+            <td>The condition that should narrow, weaken, or retract the claim.</td>
+            <td>Keeping the same claim after a reproduction failure, leakage finding, or stronger baseline.</td>
+          </tr>
+          <tr>
+            <td><code>credit_policy</code></td>
+            <td>Whether a row can count as proof, repair intent, or no-credit context.</td>
+            <td>Awarding credit to repair work before closed evidence exists.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Reading rule</h2>
+      <p>
+        A public registry row is a pointer, not a victory lap. It should tell a reader:
+        what is being claimed, what evidence is exposed, what is still not proven, and how to attack it.
+      </p>
+      <pre>{
+  "claim": "bounded",
+  "evidence": "publicly checkable",
+  "boundary": "explicit",
+  "counterexample_route": "open",
+  "private_system_details": "not included"
+}</pre>
+    </section>
+
+    <section class="section muted">
+      <h2>Public-private boundary</h2>
+      <p>
+        Public registries may expose protocols, manifest hashes, negative results, and reproducible toy gates.
+        They do not expose private financial execution details, customer data, internal agent orchestration,
+        commercial schedulers, or non-public review material.
+      </p>
+      <div class="actions">
+        <a class="button secondary" href="https://mmjbds-mianzhang-org.static.hf.space/registries/claim_registry_v0.json">Claim Registry JSON</a>
+        <a class="button secondary" href="https://mmjbds-mianzhang-org.static.hf.space/registries/evidence_registry_v0.json">Evidence Registry JSON</a>
+        <a class="button secondary" href="https://mmjbds-mianzhang-org.static.hf.space/registries/claim_to_evidence_table_v0.html">Claim-to-Evidence Table</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ouroboros Project. Public evidence pages expose protocols and boundaries, not private execution systems.</p>
+  </footer>
+</body>
+</html>
