@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Counterexample Challenge, 2026-05-28 | Mian Zhang</title>
+  <meta name="description" content="A public note on turning disagreement into a reproducible interface for evidence-gated AI claims: exact claim, minimum failing case, observed behavior, missing receipt, and boundary update.">
+  <meta property="og:title" content="Counterexample Challenge | Ouroboros Project">
+  <meta property="og:description" content="A mature AI claim should say what would break it, how to reproduce the break, and which boundary must change.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-05-28.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/counterexample-challenge-hero-20260528.png">
+  <meta property="og:image:alt" content="A structured counterexample challenge map connecting claim, receipt, replay, counterexample, and boundary update.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Counterexample Challenge">
+  <meta name="twitter:description" content="A mature AI claim should say what would break it, how to reproduce the break, and which boundary must change.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/counterexample-challenge-hero-20260528.png">
+  <meta name="twitter:image:alt" content="A structured counterexample challenge map connecting claim, receipt, replay, counterexample, and boundary update.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-05-28.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-05-28</p>
+        <h1>How to attack an AI claim scientifically.</h1>
+        <p class="lead">
+          A mature claim does not only show success cases. It must also say what evidence would force it to change:
+          the exact claim, the minimum failing case, the observed break, the missing receipt, and the boundary update.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Counterexample Challenge</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/examples.html">Worked Examples</a>
+          <a class="button" href="https://mianzhang.org/registries/claim_to_evidence_table_v0.html">Claim-Evidence Table</a>
+          <a class="button" href="../evidence/">Evidence Map</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/counterexample-challenge-hero-20260528.png" alt="A structured counterexample challenge map connecting claim, receipt, replay, counterexample, and boundary update.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Principle</p>
+        <h2>Disagreement is useful only when it can be replayed.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Public AI work should not ask readers to accept a claim on authority. It should give readers a clean way to
+          break the claim, reproduce the break, and force a narrower boundary if the break is valid.
+        </p>
+        <p>
+          The Counterexample Challenge is therefore not a debate format. It is a small public protocol for converting
+          skepticism into evidence: precise claim, minimum case, expected behavior, observed behavior, missing proof,
+          and repair target.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Packet</p>
+        <h2>A valid counterexample has a shape.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Counterexample packet schema">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Question</span><span>Valid example</span><span>Invalid example</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>claim_id</span><span>Which public claim is attacked?</span><span>A row in the claim-evidence table.</span><span>"The project is wrong."</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>minimum_case</span><span>What is the smallest failing case?</span><span>One task, one seed, one trace, one reproduced metric.</span><span>A broad opinion or anecdote.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>expected_behavior</span><span>What should the protocol predict?</span><span>The declared metric, receipt, or gate outcome.</span><span>A moving target after seeing results.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>observed_behavior</span><span>What actually happened?</span><span>Reproducible output with command, hash, and artifact pointer.</span><span>Screenshot-only claims without replay path.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>missing_receipt</span><span>Which evidence object is absent?</span><span>Missing provenance, baseline, boundary, or failure receipt.</span><span>"It feels unconvincing."</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>boundary_update</span><span>How should the claim shrink?</span><span>New condition, excluded regime, or stricter artifact requirement.</span><span>Demanding unrelated private material.</span>
+        </div>
+      </div>
+      <figure class="feature-visual">
+        <img src="../assets/receipt-template-20260528.png" alt="A schema card listing the minimum fields for a reproducible counterexample.">
+      </figure>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>Formula counterexample</h3>
+        <p>Find a bounded setting where the stated variable relation fails while the assumptions still hold.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>Data leakage</h3>
+        <p>Show that a score depends on information unavailable at the declared decision time.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>Stronger baseline</h3>
+        <p>Provide a simpler or standard baseline that beats the reported result under the same protocol.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>Irreproducible step</h3>
+        <p>Identify the exact command, artifact, dependency, or random seed that prevents replay.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>Boundary overreach</h3>
+        <p>Show that a public claim says more than its evidence object can support.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>Credit leak</h3>
+        <p>Show that repair work, exploratory output, or paper-only evidence was counted as performance credit.</p>
+      </article>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/challenge-rules-20260528.png" alt="Five counterexample types for evidence-gated AI claims.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Boundary</p>
+        <h2>Not every attack is a counterexample.</h2>
+        <p>
+          A useful challenge changes the evidence state. It either narrows a claim, finds a missing receipt, improves a
+          baseline, reveals leakage, or makes reproduction fail in a specific place.
+        </p>
+        <p>
+          A vague attack does not change the evidence state. Identity arguments, status arguments, broad dislike,
+          demands for private logs, or requests to expose unsafe operational details are not part of this public route.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Where to aim</p>
+        <h2>Three flagship public surfaces.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Flagship counterexample surfaces">
+        <div class="paper-row head" role="row">
+          <span>Surface</span><span>Claim type</span><span>Best public challenge</span><span>Public route</span>
+        </div>
+        <a class="paper-row" href="../papers/" role="row">
+          <span>WisdomBench</span><span>Learning from failure can be measured longitudinally.</span><span>Task-level leakage, stronger baseline, unstable metric.</span><span>Papers</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/proof-carrying-action" role="row">
+          <span>Proof-Carrying Action</span><span>High-risk action should carry warrant and receipt objects.</span><span>Missing receipt, credit leak, false action authority.</span><span>GitHub</span>
+        </a>
+        <a class="paper-row" href="../technology/" role="row">
+          <span>Relational Observability</span><span>Adaptive systems need observable relation, boundary, and control debt.</span><span>Unobserved relation, stale evidence, boundary overreach.</span><span>Technology</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Public commitment</p>
+        <h2>If a counterexample is valid, the claim changes.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The point of a public evidence field is not to win arguments. The point is to keep the claim surface clean:
+          supported claims stay, unsupported claims shrink, missing artifacts become work orders, and negative results
+          become part of the record.
+        </p>
+        <p>
+          This is the same discipline used inside the system: no proof, no action; no closed receipt, no credit; no
+          clean denominator, no performance claim.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Routes</p>
+        <h2>Start with the public interfaces.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Public counterexample routes">
+        <div class="paper-row head" role="row">
+          <span>Route</span><span>Use</span><span>Best reader</span><span>Link</span>
+        </div>
+        <a class="paper-row" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html" role="row">
+          <span>Challenge rules</span><span>How to submit a scientific attack.</span><span>Reviewers, engineers, skeptics.</span><span>Open</span>
+        </a>
+        <a class="paper-row" href="https://mianzhang.org/counterexamples/examples.html" role="row">
+          <span>Worked examples</span><span>Concrete shapes of valid and invalid attacks.</span><span>Reproducibility readers.</span><span>Open</span>
+        </a>
+        <a class="paper-row" href="https://mianzhang.org/registries/claim_to_evidence_table_v0.html" role="row">
+          <span>Claim table</span><span>Which claim is supported by which artifact.</span><span>Technical readers.</span><span>Open</span>
+        </a>
+        <a class="paper-row" href="https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html" role="row">
+          <span>Pilot packet</span><span>How a serious pilot would be scoped.</span><span>Potential partners.</span><span>Open</span>
+        </a>
+      </div>
+      <figure class="feature-visual">
+        <img src="../assets/public-call-20260528.png" alt="A public call to inspect, reproduce, challenge, and update AI claims.">
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public launch materials for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

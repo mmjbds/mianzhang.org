@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evidence Has a Shape, 2026-05-27 | Mian Zhang</title>
+  <meta name="description" content="A public note on claim-to-receipt evidence objects: provenance, assumptions, artifacts, replay paths, boundaries, failure cases, timestamps, and hashes.">
+  <meta property="og:title" content="Evidence Has a Shape | Ouroboros Project">
+  <meta property="og:description" content="For high-risk AI, a claim is not enough. Claims should compile into inspectable receipts.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-05-27.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/evidence-shape-hero-20260527.png">
+  <meta property="og:image:alt" content="Evidence shape visual showing a claim compiled into an inspectable receipt schema.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Evidence Has a Shape">
+  <meta name="twitter:description" content="For high-risk AI, claims should compile into inspectable receipts with provenance, replay paths, boundaries, and failure cases.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/evidence-shape-hero-20260527.png">
+  <meta name="twitter:image:alt" content="Evidence shape visual showing a claim compiled into an inspectable receipt schema.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-05-27.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-05-27</p>
+        <h1>Evidence has a shape.</h1>
+        <p class="lead">
+          Evidence is not a paragraph that supports a claim. For high-risk AI, evidence should be an inspectable
+          object: provenance, assumptions, artifact, replay path, boundary, failure case, timestamp, and hash.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="../evidence/">Evidence Map</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Counterexample Challenge</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html">Mini Gate</a>
+          <a class="button" href="https://github.com/mmjbds/proof-carrying-action">Proof-Carrying Action</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/evidence-shape-hero-20260527.png" alt="Claim-to-receipt visual showing a claim being validated and structured into an inspectable receipt schema.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Definition</p>
+        <h2>A claim is a sentence. A receipt is an object.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Many AI systems leave explanations. Fewer leave receipts. The difference is not rhetorical. A receipt is
+          machine-readable enough to be indexed, replayed, bounded, expired, challenged, and repaired.
+        </p>
+        <p>
+          This is the narrow point of today's release: evidence is not attitude, confidence, or a polished narrative.
+          Evidence has a structure that can fail.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Receipt Schema</p>
+        <h2>The minimum shape of an evidence object.</h2>
+      </div>
+      <figure class="inline-visual">
+        <img src="../assets/receipt-schema-20260527.png" alt="Evidence receipt schema linking claim, assumption, artifact, and boundary objects.">
+      </figure>
+      <div class="paper-table" role="table" aria-label="Minimum receipt schema">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Question</span><span>Failure if missing</span><span>Public use</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>claim_id</code></span><span>Which claim is supported?</span><span>Evidence floats without target.</span><span>Maps artifacts to statements.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>source</code></span><span>Where did the evidence originate?</span><span>Post-hoc contamination hides.</span><span>Preserves provenance.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>assumption</code></span><span>What must be true?</span><span>The claim silently overreaches.</span><span>Exposes dependency.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>artifact</code></span><span>Which file, log, trace, or table supports it?</span><span>No inspectable object exists.</span><span>Connects claim to material.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>replay_path</code></span><span>How can another reader inspect it?</span><span>The evidence cannot be checked.</span><span>Turns trust into procedure.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>boundary</code></span><span>What does this not prove?</span><span>A local result becomes a universal claim.</span><span>Prevents overclaiming.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>failure_case</code></span><span>What would break it?</span><span>The claim becomes unfalsifiable.</span><span>Invites useful challenges.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span><code>timestamp/hash</code></span><span>When and which exact object?</span><span>Versions blur together.</span><span>Fixes identity.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">01</span>
+        <h3>Positive Receipt</h3>
+        <p>Supports a bounded claim with provenance, artifact identity, replay path, and an explicit failure condition.</p>
+      </article>
+      <article>
+        <span class="card-index">02</span>
+        <h3>Negative Receipt</h3>
+        <p>Records why the current evidence is not sufficient: missing nulls, stale provenance, incomplete execution certificate, or no clean denominator.</p>
+      </article>
+      <article>
+        <span class="card-index">03</span>
+        <h3>Failed Receipt</h3>
+        <p>Shows where the evidence chain breaks and turns that break into a repair target rather than a hidden weakness.</p>
+      </article>
+      <article>
+        <span class="card-index">04</span>
+        <h3>Counterexample Receipt</h3>
+        <p>Lets an external reader submit the claim, required receipt, missing field, and wrong-action risk in a compact format.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <figure class="inline-visual">
+        <img src="../assets/bad-evidence-shapes-20260527.png" alt="Bad evidence shapes contrasted with an ordered receipt structure.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Bad Evidence Shapes</p>
+        <h2>Not every artifact is a receipt.</h2>
+        <p>
+          A screenshot without provenance is weak. A table without denominator is incomplete. A log without replay path
+          is opaque. A claim without boundary is too large. A post-hoc explanation without timestamp can reward the
+          system for inventing a story after the fact.
+        </p>
+        <p>
+          The purpose of a receipt schema is not to make the system sound more rigorous. It is to make weak evidence
+          fail in public before it becomes action authority.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Minimal Interface</p>
+        <h2>A claim should compile into a receipt.</h2>
+      </div>
+      <pre class="code-block"><code>{
+  "claim_id": "agent_improves_after_failure_rounds",
+  "source": "public benchmark artifact",
+  "assumption": ["same task family", "same scoring rule", "no post-hoc relabeling"],
+  "artifact": ["task table", "raw score file", "scoring script"],
+  "replay_path": "run scorer on released artifact",
+  "boundary": ["does not prove human-like wisdom", "does not prove deployment safety"],
+  "failure_case": ["stronger baseline wins", "score leak found", "task labels inconsistent"],
+  "timestamp": "2026-05-27",
+  "hash": "artifact identity"
+}</code></pre>
+    </section>
+
+    <section class="section split">
+      <figure class="inline-visual">
+        <img src="../assets/counterexample-route-20260527.png" alt="Counterexample route from claim validation to missing field and wrong action risk.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Counterexample Route</p>
+        <h2>The best attack is a minimal failing receipt.</h2>
+        <p>
+          A useful counterexample is not a vague objection. It identifies the original claim, the receipt that should
+          support it, the missing or broken field, and why that gap could lead to a wrong action.
+        </p>
+        <p>
+          That is the public standard we want: do not trust the project first; inspect the shape of its evidence.
+        </p>
+        <p>
+          <a href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Open the Counterexample Challenge</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Boundary</p>
+        <h2>What this release does not claim.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Evidence has a shape boundaries">
+        <div class="paper-row head" role="row">
+          <span>Not claimed</span><span>Reason</span><span>Current public position</span><span>Next evidence needed</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Production safety</span><span>Receipt interfaces are not deployment certification.</span><span>Public protocol and artifact surface.</span><span>Third-party deployment audit.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Financial performance</span><span>Evidence discipline is not live alpha.</span><span>Proof-carrying action infrastructure.</span><span>Clean denominator and post-cost edge.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Real-robot validation</span><span>Public simulation and benchmark evidence do not replace hardware.</span><span>Robot-learning research layer.</span><span>Physical robot logs.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>Universal reliability</span><span>A receipt can support only a bounded claim.</span><span>Claim-to-receipt interface.</span><span>Stronger counterexamples and independent replication.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public launch materials for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

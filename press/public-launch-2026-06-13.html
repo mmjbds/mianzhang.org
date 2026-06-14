@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Self-Certification Grounding Check v0, 2026-06-13 | Mian Zhang</title>
+  <meta name="description" content="A public grounding check for self-certification claims: trust language must land in records, limits, pending review, and external constraints.">
+  <meta property="og:title" content="Self-Certification Grounding Check v0 | Ouroboros Project">
+  <meta property="og:description" content="A public grounding check for self-certification claims: trust language must land in records, limits, pending review, and external constraints.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-13.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/self-cert-hero-20260613.png">
+  <meta property="og:image:alt" content="Self-certification grounding visual showing a claim moving into registry, pending review, and external constraint.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Self-Certification Grounding Check v0">
+  <meta name="twitter:description" content="A public grounding check for self-certification claims: trust language must land in records, limits, pending review, and external constraints.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/self-cert-hero-20260613.png">
+  <meta name="twitter:image:alt" content="Self-certification grounding visual showing a claim moving into registry, pending review, and external constraint.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-13.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-13</p>
+        <h1>A system cannot certify itself into trust.</h1>
+        <p class="lead">Artifact: Self-Certification Grounding Check v0. A system saying it passed a check is still a claim. It becomes useful only when the check, record, failure state, pending review, and expiry condition are visible.</p>
+        <div class="signature-line" aria-label="Self-Certification Grounding Check v0 fields">
+          <span>self_claim</span>
+          <span>public_record</span>
+          <span>failure_state</span>
+          <span>pending_review</span>
+          <span>external_constraint</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="../papers/">Papers</a>
+          <a class="button" href="../evidence/">Evidence Map</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Counterexamples</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/registries/index.html">Registries</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/self-cert-hero-20260613.png" alt="Self-certification grounding visual showing a claim moving into registry, pending review, and external constraint.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>Self-reporting is not final proof.</h2>
+      </div>
+      <div class="body-text">
+        <p>This update separates public proof, honesty language, and grounding claims. A polished self-certification can be helpful, but it cannot be the final source of trust.</p>
+        <p>This page does not claim complete zero-knowledge proof, permanent honesty, production safety, or deployment readiness from a self-reported check.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>Self claim</h3>
+        <p>What the system says about its own state.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>Public record</h3>
+        <p>Where the claim can be inspected outside the system&#x27;s own wording.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>Failure state</h3>
+        <p>What did not pass, what is missing, or what remains unresolved.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>Pending review</h3>
+        <p>The state that prevents self-certification from becoming final proof.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>External constraint</h3>
+        <p>The check, registry, reviewer, or artifact outside the self-report.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>Expiry condition</h3>
+        <p>When the status must be refreshed or downgraded.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Trust Boundary</p>
+        <h2>Trust language must land in a record.</h2>
+      </div>
+      <div class="body-text">
+        <p>A sentence such as &#x27;I passed the checks&#x27; can feel complete, but it leaves the important questions unanswered: which checks, where is the record, what failed, what is pending, and when does the status expire?</p>
+        <p>The grounding check turns self-certification into an inspectable object instead of a polished tone.</p>
+      </div>
+    </section>
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/registry-entry-20260613.png" alt="Registry entry showing self claim, public record, failure state, pending review, and expiry condition.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Registry Grounding</p>
+        <h2>Pending review is a first-class state.</h2>
+        <p>A trustworthy record should show passed states and unresolved states together. Hiding pending review makes self-certification look stronger than the evidence permits.</p>
+        <p>The goal is not to ban self-reporting. The goal is to keep self-reporting from becoming the final proof.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge Surface</p>
+        <h2>Find the missing external constraint.</h2>
+      </div>
+      <div class="body-text">
+        <p>A useful challenge identifies where a self-certification claim lacks an outside record, failure state, review route, or expiry trigger.</p>
+        <p>If the claim cannot point beyond its own wording, it should narrow to pending review.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Matrix</p>
+        <h2>Self-certification grounding fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Self-Certification Grounding Check v0 matrix">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Required value</span><span>Failure mode</span><span>Repair route</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>self_claim</span><span>The system&#x27;s statement about its state.</span><span>Tone is treated as evidence.</span><span>Move claim to registry.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>public_record</span><span>Artifact, registry row, or proof surface.</span><span>No external record.</span><span>Add inspectable route.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>failure_state</span><span>Failed, missing, stale, or unresolved fields.</span><span>Only pass states are visible.</span><span>Expose negative state.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>pending_review</span><span>Explicit review or unresolved status.</span><span>Self-report becomes final proof.</span><span>Keep pending state.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>external_constraint</span><span>Constraint outside the self-report.</span><span>System certifies itself.</span><span>Add independent check.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>expiry_condition</span><span>When the status must refresh.</span><span>Trust becomes permanent.</span><span>Add recheck trigger.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Challenge one self-certification claim.</h2>
+      </div>
+      <div class="body-text">
+        <p>Point to any claim that uses self-reporting as if it were final proof.</p>
+        <p>The strongest challenge names the missing public record, failure state, or external constraint.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

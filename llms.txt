@@ -1,0 +1,69 @@
+# Mian Zhang / Ouroboros Project
+
+Public entry:
+https://mianzhang.org/
+
+Latest public note:
+https://mianzhang.org/press/public-launch-2026-06-14.html
+
+Technical mirror:
+https://mmjbds-mianzhang-org.static.hf.space/index.html
+
+Canonical archive:
+https://zenodo.org/records/20027295
+
+Summary:
+Mian Zhang is an independent researcher building the Ouroboros Project: evidence-gated AI systems, proof-carrying action, learning from failure, cognitive immunity, relational observability, and reliable high-risk action boundaries. The public materials are research records, DOI routes, evidence maps, demos, registries, and counterexample targets; they are not production safety guarantees, real-time trading claims, medical claims, or private-system disclosures.
+
+Core entry points:
+- Home: https://mianzhang.org/
+- Papers and DOI map: https://mianzhang.org/papers/
+- Evidence map: https://mianzhang.org/evidence/
+- Public press archive: https://mianzhang.org/press/
+- GitHub community route: https://mianzhang.org/community/
+- Technology overview: https://mianzhang.org/technology/
+- Systems overview: https://mianzhang.org/systems/
+- Chinese entry: https://mianzhang.org/zh/
+- HF technical mirror: https://mmjbds-mianzhang-org.static.hf.space/index.html
+- HF Start Here: https://mmjbds-mianzhang-org.static.hf.space/start-here/index.html
+- HF Field Manual: https://mmjbds-mianzhang-org.static.hf.space/field-manual/index.html
+- HF Claim Boundaries: https://mmjbds-mianzhang-org.static.hf.space/boundaries/index.html
+- HF Canonical Claim Boundary: https://mmjbds-mianzhang-org.static.hf.space/boundaries/CLAIM_BOUNDARY_CANONICAL.md
+- HF public registries: https://mmjbds-mianzhang-org.static.hf.space/registries/index.html
+- HF claim-to-evidence table: https://mmjbds-mianzhang-org.static.hf.space/registries/claim_to_evidence_table_v0.html
+- HF artifact and reproduction scope: https://mmjbds-mianzhang-org.static.hf.space/registries/artifact_repro_scope_v0.html
+- HF demos: https://mmjbds-mianzhang-org.static.hf.space/demos/index.html
+- HF runnable mini gate: https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html
+- HF counterexample route: https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html
+- HF open source artifacts: https://mmjbds-mianzhang-org.static.hf.space/open-source/index.html
+- HF public archive status: https://mmjbds-mianzhang-org.static.hf.space/review-status/index.html
+- Complete HF technical llms file: https://mmjbds-mianzhang-org.static.hf.space/llms.txt
+
+External public sources:
+- GitHub organization: https://github.com/mmjbds
+- Website source: https://github.com/mmjbds/mianzhang.org
+- WisdomBench GitHub: https://github.com/mmjbds/wisdombench
+- Proof-Carrying Action GitHub: https://github.com/mmjbds/proof-carrying-action
+- Hugging Face organization: https://huggingface.co/MMJBDS
+- WisdomBench dataset: https://huggingface.co/datasets/MMJBDS/wisdombench
+- Zenodo portfolio index: https://zenodo.org/records/20027295
+- Current P22 v0.2 Zenodo record: https://zenodo.org/records/20582195
+- Current P45 Zenodo record: https://zenodo.org/records/20581591
+
+Distinctive terms and routes:
+- SOVEREIGN cognitive operating system: https://zenodo.org/records/19793250
+- Cognitive Immunity: https://zenodo.org/records/19791688
+- WisdomBench: https://zenodo.org/records/19793098
+- Proof-Carrying Action: https://mianzhang.org/technology/
+- Evidence-Gated AI Systems: https://mianzhang.org/evidence/
+- No-Proof No-Action Gate: https://mianzhang.org/press/public-launch-2026-06-11.html
+- Robot/Vision Shadow Evidence Boundary: https://mianzhang.org/press/public-launch-2026-06-12.html
+- Self-Certification Grounding Check: https://mianzhang.org/press/public-launch-2026-06-13.html
+- Boundary-First Weekly Evidence Digest: https://mianzhang.org/press/public-launch-2026-06-14.html
+- Reality-Bounded Improvement / Grounding-Efficiency Engine (RBI/GEE): https://mianzhang.org/papers/
+
+Public claim boundary:
+- Public materials may describe papers, datasets, registries, demos, schemas, claim-to-evidence tables, artifact scope, and counterexample routes.
+- Public materials do not prove general intelligence, general safety, production readiness, customer readiness, real-time trading returns, real robot deployment, medical validity, or private execution quality.
+- Public materials do not disclose credentials, customer data, private logs, private orchestration, commercial scheduling, or non-public material.
+- Cite per-paper DOI records for specific paper claims; use the Zenodo portfolio record only as the archive index.

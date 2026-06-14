@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robot/Vision Shadow Evidence Boundary v0, 2026-06-12 | Mian Zhang</title>
+  <meta name="description" content="A public boundary for robot and vision evidence: a clean recognition screenshot is not deployment proof; uncertain perception should downgrade the claim.">
+  <meta property="og:title" content="Robot/Vision Shadow Evidence Boundary v0 | Ouroboros Project">
+  <meta property="og:description" content="A public boundary for robot and vision evidence: a clean recognition screenshot is not deployment proof; uncertain perception should downgrade the claim.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-12.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/vision-stop-hero-20260612.png">
+  <meta property="og:image:alt" content="Robot vision stop-rule visual showing uncertain recognition moving into downgrade and review.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Robot/Vision Shadow Evidence Boundary v0">
+  <meta name="twitter:description" content="A public boundary for robot and vision evidence: a clean recognition screenshot is not deployment proof; uncertain perception should downgrade the claim.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/vision-stop-hero-20260612.png">
+  <meta name="twitter:image:alt" content="Robot vision stop-rule visual showing uncertain recognition moving into downgrade and review.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-12.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-12</p>
+        <h1>When vision is unclear, downgrade the claim.</h1>
+        <p class="lead">Artifact: Robot/Vision Shadow Evidence Boundary v0. A robot vision demo should show more than a successful frame. It should show what happens under occlusion, low confidence, bad lighting, and human-review thresholds.</p>
+        <div class="signature-line" aria-label="Robot/Vision Shadow Evidence Boundary v0 fields">
+          <span>candidate</span>
+          <span>confidence</span>
+          <span>occlusion</span>
+          <span>downgrade</span>
+          <span>review</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="../papers/">Papers</a>
+          <a class="button" href="../evidence/">Evidence Map</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Counterexamples</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/registries/index.html">Registries</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/vision-stop-hero-20260612.png" alt="Robot vision stop-rule visual showing uncertain recognition moving into downgrade and review.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>A screenshot is not deployment evidence.</h2>
+      </div>
+      <div class="body-text">
+        <p>This update clarifies the P41/P44/P45 robotics and vision boundary. Candidate, shadow, and addendum evidence must not be described as real deployment, third-party replication, or unconditional optimality.</p>
+        <p>The public claim is narrower: when perception is uncertain, the system should downgrade, stop, or ask for review instead of treating a candidate result as an action-ready fact.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>Observed frame</h3>
+        <p>What the visual material actually shows.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>Blind spot</h3>
+        <p>What the frame does not show: occlusion, lighting, ambiguity, or alternatives.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>Confidence state</h3>
+        <p>Whether the system knows the result is uncertain.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>Downgrade rule</h3>
+        <p>The condition that moves the claim from action-ready to review.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>Human review</h3>
+        <p>Where review enters before real-world action.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>Boundary note</h3>
+        <p>No real deployment, no third-party replication, no unconditional optimality.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Vision Boundary</p>
+        <h2>Recognition is only one layer of evidence.</h2>
+      </div>
+      <div class="body-text">
+        <p>A bounding box around one object can be useful, but it does not prove stable perception across messy scenes. The harder question is how the system behaves when the evidence weakens.</p>
+        <p>The page separates observed result, missing context, confidence state, downgrade rule, and review route.</p>
+      </div>
+    </section>
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/downgrade-rule-entry-20260612.png" alt="Downgrade rule entry for robot vision evidence with confidence and review thresholds.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Downgrade Rule</p>
+        <h2>The stop condition is part of the evidence.</h2>
+        <p>The most important field is not the best frame. It is the rule that prevents a weak frame from becoming an over-broad deployment claim.</p>
+        <p>If the system cannot say &#x27;I am not sure,&#x27; pause, or route the case to review, the demo is easier to overread than to trust.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge Surface</p>
+        <h2>Find any visual claim whose evidence tier is inflated.</h2>
+      </div>
+      <div class="body-text">
+        <p>A useful challenge points to the exact screenshot, caption, registry row, or wording where candidate evidence is treated as stronger than it is.</p>
+        <p>The repair is not rhetorical. The claim should narrow, the tier should downgrade, or the missing review route should be added.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Matrix</p>
+        <h2>Robot/vision evidence fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Robot/Vision Shadow Evidence Boundary v0 matrix">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Required value</span><span>Failure mode</span><span>Repair route</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>visual_artifact</span><span>The public image, frame, or demo route.</span><span>Artifact is treated as complete proof.</span><span>Add evidence tier.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>confidence_state</span><span>Known confidence, uncertainty, or missing threshold.</span><span>Confidence is implied.</span><span>Add threshold field.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>blind_spot</span><span>Occlusion, lighting, similar objects, or scene limits.</span><span>No negative visual boundary.</span><span>Add does_not_show.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>downgrade_rule</span><span>When the claim moves to review or stop.</span><span>No downgrade path.</span><span>Add stop condition.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>review_entry</span><span>Where human or bounded review enters.</span><span>Action is implied.</span><span>Route to review.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>does_not_claim</span><span>No real deployment or unconditional optimality.</span><span>Tier inflation.</span><span>Narrow the claim.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Challenge one visual boundary.</h2>
+      </div>
+      <div class="body-text">
+        <p>Point to any visual claim that upgrades candidate or shadow evidence into deployment evidence.</p>
+        <p>The strongest challenge names the artifact, the inflated sentence, and the boundary update it requires.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

@@ -337,6 +337,109 @@ h3 {
   line-height: 1.62;
 }
 
+.boundary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.boundary-grid article {
+  min-height: 260px;
+  padding: 28px;
+  border: 1px solid rgba(22, 19, 14, 0.14);
+  background: rgba(22, 19, 14, 0.035);
+}
+
+.boundary-grid p {
+  color: rgba(22, 19, 14, 0.68);
+  line-height: 1.65;
+}
+
+.evidence-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.evidence-card {
+  min-height: 620px;
+  padding: 28px;
+  border: 1px solid rgba(22, 19, 14, 0.14);
+  background: rgba(22, 19, 14, 0.035);
+}
+
+.evidence-card h3 {
+  color: var(--ink);
+}
+
+.evidence-card dl {
+  display: grid;
+  gap: 14px;
+  margin: 22px 0 0;
+}
+
+.evidence-card dt {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.evidence-card dd {
+  margin: 0;
+  color: rgba(22, 19, 14, 0.7);
+  line-height: 1.58;
+}
+
+.evidence-card a {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.proof-rail {
+  border-block: 1px solid rgba(199, 163, 72, 0.18);
+  background:
+    linear-gradient(90deg, rgba(155, 47, 34, 0.08), transparent),
+    rgba(243, 239, 227, 0.025);
+}
+
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.step-lane {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 34px;
+  border: 1px solid rgba(199, 163, 72, 0.18);
+  background: rgba(199, 163, 72, 0.18);
+}
+
+.step-lane div {
+  min-height: 150px;
+  padding: 24px;
+  background: rgba(7, 7, 6, 0.86);
+}
+
+.step-lane strong {
+  display: block;
+  color: var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+}
+
+.step-lane span {
+  display: block;
+  margin-top: 18px;
+  color: rgba(243, 239, 227, 0.72);
+  line-height: 1.5;
+}
+
 .compact-cards {
   padding-top: 0;
 }
@@ -575,6 +678,12 @@ footer {
   .cards,
   .metrics {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .boundary-grid,
+  .evidence-card-grid,
+  .step-lane {
+    grid-template-columns: 1fr;
   }
 
   .paper-row {

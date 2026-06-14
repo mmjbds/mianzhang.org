@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claim Ledger v0, 2026-06-01 | Mian Zhang</title>
+  <meta name="description" content="A public note introducing Claim Ledger v0: each public AI claim should have status, scope, evidence links, boundary notes, downgrade triggers, and challenge routes.">
+  <meta property="og:title" content="Claim Ledger v0 | Ouroboros Project">
+  <meta property="og:description" content="A serious public claim should not be only a sentence. It should have state, evidence, boundaries, and downgrade conditions.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-01.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/boundary-ledger-card-20260529.png">
+  <meta property="og:image:alt" content="Boundary ledger card with claim, counterexample, update type, old boundary, new boundary, and artifact requirement.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claim Ledger v0">
+  <meta name="twitter:description" content="Each public claim needs status, scope, evidence links, downgrade triggers, and challenge routes.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/boundary-ledger-card-20260529.png">
+  <meta name="twitter:image:alt" content="Boundary ledger card with claim, counterexample, update type, old boundary, new boundary, and artifact requirement.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-01.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-01</p>
+        <h1>Every public claim needs a state.</h1>
+        <p class="lead">
+          A serious claim should not be only a sentence. It should have status, scope, evidence links,
+          boundary notes, downgrade triggers, and challenge routes.
+        </p>
+        <div class="signature-line" aria-label="Claim ledger fields">
+          <span>claim</span>
+          <span>status</span>
+          <span>scope</span>
+          <span>downgrade</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/boundaries/index.html">Public Boundaries</a>
+          <a class="button" href="https://mianzhang.org/registries/claim_to_evidence_table_v0.html">Claim Table</a>
+          <a class="button" href="../evidence/">Evidence Map</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Challenge Route</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/boundary-ledger-card-20260529.png" alt="Boundary ledger card with claim, counterexample, update type, old boundary, new boundary, and artifact requirement.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Ledger</p>
+        <h2>The claim surface must become inspectable.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Yesterday's Evidence Console turned public pages into a control surface. Today focuses on the first control:
+          the Claim Ledger. A public claim is not ready until it can be inspected, attacked, downgraded, or withdrawn.
+        </p>
+        <p>
+          Claim Ledger v0 records only public claims. It does not mix in private experiments, customer examples,
+          non-public review material, production logs, or internal orchestration details.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>claim_id</h3>
+        <p>A stable identifier prevents moving targets when readers challenge a public statement.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>plain_claim</h3>
+        <p>The claim must be understandable without private context, hidden logs, or unstated assumptions.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>status</h3>
+        <p>Each claim should be marked as supported, protocol-stage, under review, downgraded, or withdrawn.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>scope</h3>
+        <p>The ledger should name the task family, data boundary, scale, and environment where the claim applies.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>evidence_ids</h3>
+        <p>Evidence links should point to public artifacts, registries, demos, papers, or bounded summaries.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>downgrade_trigger</h3>
+        <p>A claim should say what would shrink it, split it, raise evidence requirements, or withdraw it.</p>
+      </article>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Schema</p>
+        <h2>Claim Ledger v0 fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Claim Ledger v0 fields">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Purpose</span><span>Public boundary</span><span>Challenge route</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>claim_id</span><span>Stable target for inspection.</span><span>Public identifier only.</span><span>Moving target check.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>plain_claim</span><span>Human-readable claim text.</span><span>No private customer context.</span><span>Scope too broad.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>status</span><span>Current support level.</span><span>No implied deployment proof.</span><span>Status overclaim.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>supported_by</span><span>Evidence IDs and public routes.</span><span>Public artifacts only.</span><span>Missing evidence.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>does_not_claim</span><span>Explicit negative boundary.</span><span>Private system remains private.</span><span>Boundary leak.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>downgrade_trigger</span><span>What would reduce the claim.</span><span>Counterexamples must be public-safe.</span><span>Unclear trigger.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/what-this-does-not-prove-20260529.png" alt="A claim card showing what a public claim does and does not prove.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Boundary</p>
+        <h2>A claim should know what it does not prove.</h2>
+        <p>
+          The ledger is valuable only if it prevents overreach. It should not silently turn a protocol note into a deployment claim,
+          a demo into production evidence, or a private observation into a public result.
+        </p>
+        <p>
+          Each row should therefore carry a negative boundary: what the claim does not say, does not prove, and must not imply.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>The useful challenge is specific.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          Pick one public claim and ask whether its scope is too broad, whether its evidence link is missing,
+          whether its status is too strong, or whether its downgrade trigger is unclear.
+        </p>
+        <p>
+          A valid attack should change the ledger: narrow the claim, add evidence requirements, split the row,
+          mark it under review, or withdraw it.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public launch materials for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

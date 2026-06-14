@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Upload Matrix Registry Validator v0, 2026-06-07 | Mian Zhang</title>
+  <meta name="description" content="A public note introducing Upload Matrix Registry Validator v0: required fields and failure conditions for paper, claim, evidence, counterexample, boundary, freshness, DOI, and hash records.">
+  <meta property="og:title" content="Upload Matrix Registry Validator v0 | Ouroboros Project">
+  <meta property="og:description" content="Without a registry schema, PDF, manifest, claim boundary, hash, and DOI/status drift across versions. The validator keeps public records aligned without reading protected systems.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-07.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/registry-schema-validator-hero-20260607.png">
+  <meta property="og:image:alt" content="Schema validator visual showing PDF, manifest, hash, metadata, schema, and timestamp entering a validation gateway.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Upload Matrix Registry Validator v0">
+  <meta name="twitter:description" content="A public validator shape for paper_id, file_id, claim_id, evidence_id, boundary_id, hash_status, and DOI/status integrity.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/registry-schema-validator-hero-20260607.png">
+  <meta name="twitter:image:alt" content="Schema validator visual showing PDF, manifest, hash, metadata, schema, and timestamp entering a validation gateway.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-07.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-07</p>
+        <h1>Without schema, paper evidence drifts.</h1>
+        <p class="lead">
+          Artifact: Upload Matrix Registry Validator v0. If the 16-paper upload matrix has no registry schema, PDF,
+          manifest, claim boundary, hash, and DOI/status records slowly drift across versions.
+        </p>
+        <div class="signature-line" aria-label="Registry validator fields">
+          <span>paper_id</span>
+          <span>claim_id</span>
+          <span>evidence_id</span>
+          <span>boundary_id</span>
+          <span>hash_status</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mmjbds-mianzhang-org.static.hf.space/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/registries/schema_notes_v0.html">Schema Notes</a>
+          <a class="button" href="../evidence/">Evidence Map</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html">Challenge Route</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/registry-schema-validator-hero-20260607.png" alt="Schema validator visual showing PDF, manifest, hash, metadata, schema, and timestamp entering a validation gateway.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Validator</p>
+        <h2>The matrix needs records that can fail.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The current public record is tied to W0, P23, P28, P29, P30, P31, P32-P40, and F1/P8. A validator does not
+          make those papers stronger. It makes the public upload matrix less ambiguous by checking whether each public
+          row has the identifiers, routes, boundaries, freshness fields, and failure status needed for review.
+        </p>
+        <p>
+          Today defines a public validation shape for paper, claim, evidence, counterexample, boundary, freshness,
+          DOI/status, and hash records. It validates public registries and upload-package fields only. It does not read
+          protected logs, customer data, account state, or protected execution systems.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>Required fields</h3>
+        <p>paper_id, file_id, claim_id, evidence_id, boundary_id, public_route, hash_status, doi_status, and last_verified.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>Failure modes</h3>
+        <p>orphan paper_id, missing public_route, broken evidence link, hash mismatch, missing boundary, stale status, or ambiguous claim.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>Validator report</h3>
+        <p>Each row should say pass, fail, warn, needs_human_review, and the exact public field that caused the result.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>Boundary check</h3>
+        <p>The validator checks public fields; it does not demand protected operational systems, customer logs, account state, or protected execution traces.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>Challenge route</h3>
+        <p>Challenge a registry field if it causes ambiguity between paper, evidence, boundary, DOI/hash, freshness, or claim status.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>Repair action</h3>
+        <p>A valid failure should produce a public repair: add a route, downgrade a claim, mark stale, update a boundary, or request evidence.</p>
+      </article>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Schema</p>
+        <h2>Minimum validation fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Upload matrix registry validator fields">
+        <div class="paper-row head" role="row">
+          <span>Record</span><span>Required fields</span><span>Failure condition</span><span>Boundary</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>paper</span><span>paper_id, title, group, public_file, status.</span><span>Missing public PDF, manifest, or stable identifier.</span><span>No non-public identifiers.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>claim</span><span>claim_id, paper_id, text, scope, evidence_tier.</span><span>Claim has no paper link, no scope, or unsupported wording.</span><span>No hidden deployment or performance claim.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>evidence</span><span>evidence_id, public_route, artifact_type, hash_status, reproduction_route.</span><span>Broken link, missing route, stale hash, or unclassified artifact.</span><span>No private path or raw log.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>boundary</span><span>boundary_id, does_not_claim, downgrade_trigger, withdraw_condition.</span><span>Claim lacks a negative boundary or repair condition.</span><span>No marketing expansion.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>counterexample</span><span>paper_id, target_claim, evidence_gap, attack_class, status.</span><span>Challenge route lacks a target or boundary effect.</span><span>Public materials only.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>freshness</span><span>last_verified, doi_status, hash_status, route_health, stale_reason.</span><span>Status is pending, stale, replaced, or unverifiable without notice.</span><span>No non-public or private account status.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/drift-prevention-schema-20260607.png" alt="Mechanical schema diagram linking paper_id and claim_id to PDF, manifest, hash, and boundary records across time.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Drift Prevention</p>
+        <h2>Identifiers hold versions together.</h2>
+        <p>
+          The validator is not a trust badge. It is a way to stop version drift: a PDF changes but the manifest does
+          not, a claim boundary moves but the claim_id stays vague, a hash is replaced but freshness is not updated,
+          or a DOI/status field becomes ambiguous.
+        </p>
+        <p>
+          A passing row should mean only this: the public registry has enough structure for a reader, reviewer, or
+          tool to trace the public claim to public evidence and a public challenge route.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Validator Report</p>
+        <h2>The output should be inspectable.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Upload matrix validator report states">
+        <div class="paper-row head" role="row">
+          <span>Status</span><span>Meaning</span><span>Example repair</span><span>Public note</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>pass</span><span>Required public fields exist and route health is current.</span><span>No action.</span><span>Still not proof of the claim.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>warn</span><span>Field exists but status is pending, stale, or needs human review.</span><span>Add freshness note or review date.</span><span>Do not hide uncertainty.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>fail</span><span>Required public route, boundary, identifier, hash, or claim link is missing.</span><span>Add route, downgrade claim, or mark not yet public.</span><span>Failure is repair work.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>needs_human_review</span><span>The schema cannot decide whether wording overclaims or leaks authority.</span><span>Route to boundary review.</span><span>Prefer downgrade over ambiguity.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Attack one registry field.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The useful critique for this artifact is small and sharp: name a registry field that makes a paper, evidence
+          object, boundary, DOI/hash status, freshness state, or challenge route ambiguous.
+        </p>
+        <p>
+          Do not ask for non-public material. The validator must stay public-first: schemas, manifests, registries, demos,
+          boundaries, issue routes, and negative results.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/validator-boundary-filter-20260607.png" alt="Boundary filter visual sending public registry and upload package fields through validation while private logs and customer data stay isolated.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Public / Private Boundary</p>
+        <h2>Validate public records, not private systems.</h2>
+        <p>
+          This validator must not become a back door into protected material. It excludes protected operational systems, customer
+          data, account state, protected execution logs, sensitive instructions, protected orchestration, commercial schedulers,
+          financial execution details, alpha hints, and trading advice.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public launch materials for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

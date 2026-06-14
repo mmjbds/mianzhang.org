@@ -13,10 +13,31 @@ This is the public static website package for `mianzhang.org`.
 - Public press kit: `press/index.html`
 - Chinese entry: `zh/index.html`
 - Chinese long-form article: `zh/reliable-action.html`
+- LLM retrieval file: `llms.txt`
+- XML sitemap: `sitemap.xml`
 
 ## Public Archive
 
 Research portfolio index: https://zenodo.org/records/20027295
+
+Latest public note: https://mianzhang.org/press/public-launch-2026-06-14.html
+
+## Retrieval Anchors
+
+Use these terms and routes to identify this project unambiguously:
+
+- Mian Zhang / Ouroboros Project
+- Evidence-Gated AI Systems
+- Proof-Carrying Action
+- SOVEREIGN cognitive operating system
+- WisdomBench
+- Cognitive Immunity
+- Reality-Bounded Improvement / Grounding-Efficiency Engine (RBI/GEE)
+- No-Proof No-Action Gate
+- Robot/Vision Shadow Evidence Boundary
+- Self-Certification Grounding Check
+
+Machine-readable entry: https://mianzhang.org/llms.txt
 
 ## Platform Roles
 

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>16-paper Public Index JSONL v0, 2026-06-05 | Mian Zhang</title>
+  <meta name="description" content="A public note introducing a machine-auditable index shape for the 16-paper upload matrix: paper_id, public_file, claim, boundary, hash, DOI/status, and attack_route.">
+  <meta property="og:title" content="16-paper Public Index JSONL v0 | Ouroboros Project">
+  <meta property="og:description" content="The paper matrix should be auditable by machines, not only browsed by humans. The index exports public fields, public URLs, claim boundaries, freshness status, and challenge routes.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-05.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/machine-auditable-schema-20260605.png">
+  <meta property="og:image:alt" content="Schema definition visual for paper_export.jsonl with public fields such as paper_id, public_file, claim, boundary, hash, DOI status, and challenge route.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="16-paper Public Index JSONL v0">
+  <meta name="twitter:description" content="A machine-auditable index shape for paper_id, public files, claims, boundaries, hashes, DOI/status, and challenge routes.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/machine-auditable-schema-20260605.png">
+  <meta name="twitter:image:alt" content="Schema definition visual for paper_export.jsonl with public fields such as paper_id, public_file, claim, boundary, hash, DOI status, and challenge route.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-05.html">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="../">Home</a>
+      <a href="../papers/">Papers</a>
+      <a href="../evidence/">Evidence</a>
+      <a href="../community/">Community</a>
+      <a href="../technology/">Technology</a>
+      <a href="../systems/">Systems</a>
+      <a href="../zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-05</p>
+        <h1>The paper matrix should be machine-auditable.</h1>
+        <p class="lead">
+          Beyond a page that humans can browse, the 16-paper upload matrix needs a public index shape: paper_id,
+          public file, claim, boundary, hash, DOI/status, freshness, and challenge route.
+        </p>
+        <div class="signature-line" aria-label="Public index fields">
+          <span>paper_id</span>
+          <span>public_file</span>
+          <span>claim</span>
+          <span>boundary</span>
+          <span>attack_route</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mmjbds-mianzhang-org.static.hf.space/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/llms.txt">llms.txt</a>
+          <a class="button" href="https://mianzhang.org/sitemap.xml">Sitemap</a>
+          <a class="button" href="https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json">Manifest</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/machine-auditable-schema-20260605.png" alt="Schema definition visual for paper_export.jsonl with public fields such as paper_id, public_file, claim, boundary, hash, DOI status, and challenge route.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Upload Matrix</p>
+        <h2>Readers need pages. Reviewers and tools need records.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The current public record is tied to a 16-paper upload matrix: W0, P23, P28, P29, P30, P31, P32-P40,
+          and F1/P8. The point is not paper-count promotion. The point is to make each paper's claim, evidence,
+          boundary, freshness status, and challenge route inspectable.
+        </p>
+        <p>
+          The public index is a v0 export shape, not a request to expose private storage. It names the minimum fields
+          that should be machine-readable before the upload matrix becomes a public story.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>papers.jsonl</h3>
+        <p>One row per paper or paper group, with public URL, status, hash, DOI/status, and latest verification date.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>claims.jsonl</h3>
+        <p>Claim identifiers, claim text, scope, evidence tier, does_not_claim, and boundary note.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>evidence.jsonl</h3>
+        <p>Public artifact links, manifest status, checksum status, reproduction route, and known limitation.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>counterexamples.jsonl</h3>
+        <p>Challenge routes by paper_id, target_claim, evidence_gap, class, status, and boundary effect.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>boundaries.jsonl</h3>
+        <p>Old boundary, new boundary, downgrade trigger, withdraw condition, and public note.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>freshness</h3>
+        <p>Last verified date, DOI/hash status, route health, and whether the public artifact is stale.</p>
+      </article>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Index Shape</p>
+        <h2>Minimum fields for public audit.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Public index JSONL fields">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Meaning</span><span>Allowed value</span><span>Boundary</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>paper_id</span><span>Stable paper or group identifier.</span><span>W0, P23, P28, P29, P30, P31, P32-P40, F1/P8.</span><span>No non-public identifiers.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>public_file</span><span>Public PDF, manifest, registry, or static route.</span><span>HTTPS public URL only.</span><span>No local absolute path or private storage URL.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>claim</span><span>The public claim under inspection.</span><span>Exact public wording or stable claim_id.</span><span>No hidden deployment or private performance claim.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>boundary</span><span>What the claim supports and does not support.</span><span>does_not_claim, known_limit, evidence tier.</span><span>No marketing expansion.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>hash_status</span><span>Whether the public file has a recorded checksum.</span><span>present, pending, stale, replaced, not_applicable.</span><span>No private build artifact hash.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>doi_status</span><span>Publication or archive status.</span><span>published, pending, not_applicable, superseded.</span><span>No non-public status.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>attack_route</span><span>Where a reader can challenge the claim.</span><span>Public counterexample or issue route.</span><span>No private endpoint or credentialed workflow.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/jsonl-boundary-filter-20260605.png" alt="Filtering visual showing public URLs and fields allowed while local paths, private logs, customer data, and account information are blocked.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Public / Private Filter</p>
+        <h2>Export public fields, not local context.</h2>
+        <p>
+          A useful JSONL index should be easy to crawl, diff, and review. It should not leak local absolute paths,
+          private routes, customer information, account state, internal filenames, unpublished download links, private
+          prompts, or execution logs.
+        </p>
+        <p>
+          If a field cannot be explained as public evidence, public boundary, public freshness, or public attack
+          route, it should not enter the export.
+        </p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Matrix Map</p>
+        <h2>What the index should make traceable.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="16-paper public index traceability">
+        <div class="paper-row head" role="row">
+          <span>Paper group</span><span>Index focus</span><span>Public route</span><span>Attack check</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>W0</span><span>Foundational definitions, metrology, and interoperability claims.</span><span>Papers, evidence map, manifest.</span><span>Claim-to-definition traceability.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>P23</span><span>Bounded self-modification evidence package.</span><span>Public upload fields and replay boundary.</span><span>Dry-run boundary overreach.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>P28 / P29</span><span>Drift bridge and pluralistic relabel boundaries.</span><span>Public synthetic or heldout-safe routes.</span><span>Private data leakage or unsupported scope.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>P30 / P31</span><span>Proof, wisdom, and honesty-stage claims.</span><span>Public transcript, verifier, or protocol-stage route.</span><span>Verifier mismatch or overclaim.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>P32-P40</span><span>Protocol gates, diagnostic gates, ethics gates, and authority boundaries.</span><span>Public protocol artifacts and registries.</span><span>Authority leak or deployment implication.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>F1/P8</span><span>No-trade negative result and refusal-layer boundary.</span><span>No alpha, no trading advice, public no-trade framing only.</span><span>Any claim of alpha, strategy, account state, or trading advice.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Audit the index before trusting the narrative.</h2>
+      </div>
+      <div class="body-text">
+        <p>
+          The best critique for this artifact is a field-level critique: which row exposes non-public context, which
+          public route cannot be traced to an upload package, which hash or DOI status is stale, or which claim lacks
+          a usable challenge route.
+        </p>
+        <p>
+          The standard remains: public credibility, not public control authority.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public launch materials for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>
