@@ -1,0 +1,2262 @@
+{
+  "status": "PATCH_PACK_READY_NOT_ACCOUNT_APPLIED",
+  "generated_date": "2026-06-15",
+  "main_public_base_url": "https://mianzhang.org",
+  "technical_mirror_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
+  "github_source": "https://github.com/mmjbds/mianzhang.org",
+  "records": [
+    {
+      "paper_id": "Portfolio",
+      "title": "Wisdom Science Research Portfolio",
+      "doi": "10.5281/zenodo.20027295",
+      "doi_url": "https://doi.org/10.5281/zenodo.20027295",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "portfolio_index",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/Portfolio.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/Portfolio.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/Portfolio.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/Portfolio.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/Portfolio.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/Portfolio.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/Portfolio.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/Portfolio.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/Portfolio.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20027295",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P00",
+      "title": "SOVEREIGN: A Cognitive Operating System for Self-Evolving AI Agents",
+      "doi": "10.5281/zenodo.19793250",
+      "doi_url": "https://doi.org/10.5281/zenodo.19793250",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P00.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P00.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P00.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P00.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P00.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P00.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P00.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P00.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P00.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/19793250",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P01-current",
+      "title": "Cognitive Immunity",
+      "doi": "10.5281/zenodo.19791688",
+      "doi_url": "https://doi.org/10.5281/zenodo.19791688",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint_current_p01",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P01-current.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-current.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-current.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P01-current.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-current.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-current.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P01-current.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-current.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-current.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/19791688",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P01-legacy",
+      "title": "Reflexive Intelligence",
+      "doi": "10.5281/zenodo.19557261",
+      "doi_url": "https://doi.org/10.5281/zenodo.19557261",
+      "current_public_status": "LEGACY_PUBLIC_ZENODO_RECORD",
+      "evidence_level": "legacy_record",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P01-legacy.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-legacy.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-legacy.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P01-legacy.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-legacy.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-legacy.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P01-legacy.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-legacy.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-legacy.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/19557261",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P02",
+      "title": "WisdomBench",
+      "doi": "10.5281/zenodo.19793098",
+      "doi_url": "https://doi.org/10.5281/zenodo.19793098",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P02.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P02.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P02.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P02.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P02.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P02.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P02.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P02.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P02.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/19793098",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P03",
+      "title": "The Intelligence-Wisdom Gap",
+      "doi": "10.5281/zenodo.19793366",
+      "doi_url": "https://doi.org/10.5281/zenodo.19793366",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P03.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P03.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P03.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P03.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P03.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P03.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P03.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P03.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P03.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/19793366",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P04",
+      "title": "The Second Scaling Law",
+      "doi": "10.5281/zenodo.19895990",
+      "doi_url": "https://doi.org/10.5281/zenodo.19895990",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P04.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P04.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P04.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P04.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P04.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P04.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P04.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P04.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P04.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/19895990",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P05",
+      "title": "Physical Second Scaling Law",
+      "doi": "10.5281/zenodo.20028053",
+      "doi_url": "https://doi.org/10.5281/zenodo.20028053",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_embodied_evidence_record",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P05.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P05.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P05.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P05.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P05.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P05.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P05.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P05.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P05.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20028053",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P06",
+      "title": "WisdomBench-Embodied RLBench",
+      "doi": "10.5281/zenodo.20028470",
+      "doi_url": "https://doi.org/10.5281/zenodo.20028470",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_embodied_evidence_record",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P06.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P06.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P06.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P06.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P06.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P06.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P06.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P06.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P06.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20028470",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P07",
+      "title": "WisdomBench-Embodied LIBERO / VLA",
+      "doi": "10.5281/zenodo.20028518",
+      "doi_url": "https://doi.org/10.5281/zenodo.20028518",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_embodied_evidence_record",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P07.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P07.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P07.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P07.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P07.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P07.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P07.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P07.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P07.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20028518",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P08",
+      "title": "Representation Genesis",
+      "doi": "10.5281/zenodo.20028566",
+      "doi_url": "https://doi.org/10.5281/zenodo.20028566",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "workshop_route_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P08.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P08.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P08.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P08.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P08.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P08.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P08.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P08.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P08.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20028566",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P09",
+      "title": "Embodied Failure Immunity",
+      "doi": "10.5281/zenodo.20028687",
+      "doi_url": "https://doi.org/10.5281/zenodo.20028687",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "robot_safety_route_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P09.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P09.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P09.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P09.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P09.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P09.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P09.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P09.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P09.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20028687",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P10",
+      "title": "Cybernetic Teaching",
+      "doi": "10.5281/zenodo.20094848",
+      "doi_url": "https://doi.org/10.5281/zenodo.20094848",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P10.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P10.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P10.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P10.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P10.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P10.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P10.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P10.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P10.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20094848",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P11",
+      "title": "Social Calibration",
+      "doi": "10.5281/zenodo.20094832",
+      "doi_url": "https://doi.org/10.5281/zenodo.20094832",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P11.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P11.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P11.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P11.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P11.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P11.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P11.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P11.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P11.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20094832",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P12",
+      "title": "Supra-Body Architecture",
+      "doi": "10.5281/zenodo.20096775",
+      "doi_url": "https://doi.org/10.5281/zenodo.20096775",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P12.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P12.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P12.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P12.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P12.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P12.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P12.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P12.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P12.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20096775",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P13",
+      "title": "Reflexive Counter-Autonomy",
+      "doi": "10.5281/zenodo.20096812",
+      "doi_url": "https://doi.org/10.5281/zenodo.20096812",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint_boundary",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P13.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P13.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P13.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P13.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P13.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P13.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P13.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P13.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P13.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20096812",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P14",
+      "title": "Reflexive Swarm Civic Safety",
+      "doi": "10.5281/zenodo.20096871",
+      "doi_url": "https://doi.org/10.5281/zenodo.20096871",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P14.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P14.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P14.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P14.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P14.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P14.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P14.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P14.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P14.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20096871",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P15/P16",
+      "title": "Causal-Unknown and Compact Evidence Benchmarks",
+      "doi": "10.5281/zenodo.20097429",
+      "doi_url": "https://doi.org/10.5281/zenodo.20097429",
+      "current_public_status": "PUBLIC_ZENODO_DATASET_RECORD",
+      "evidence_level": "dataset_only",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P15_P16.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P15_P16.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P15_P16.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P15_P16.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P15_P16.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P15_P16.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P15_P16.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P15_P16.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P15_P16.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20097429",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P17",
+      "title": "Cognitive Sovereignty",
+      "doi": "10.5281/zenodo.20097466",
+      "doi_url": "https://doi.org/10.5281/zenodo.20097466",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P17.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P17.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P17.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P17.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P17.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P17.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P17.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P17.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P17.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20097466",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P18",
+      "title": "Evolutionary Digital Twins",
+      "doi": "10.5281/zenodo.20097501",
+      "doi_url": "https://doi.org/10.5281/zenodo.20097501",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P18.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P18.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P18.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P18.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P18.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P18.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P18.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P18.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P18.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20097501",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P19",
+      "title": "Gaia Reflex",
+      "doi": "10.5281/zenodo.20097537",
+      "doi_url": "https://doi.org/10.5281/zenodo.20097537",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "ai_for_science_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P19.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P19.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P19.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P19.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P19.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P19.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P19.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P19.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P19.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20097537",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P20",
+      "title": "Counter-Reflexive Evidence Integrity",
+      "doi": "10.5281/zenodo.20097570",
+      "doi_url": "https://doi.org/10.5281/zenodo.20097570",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "workshop_first_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P20.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P20.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P20.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P20.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P20.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P20.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P20.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P20.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P20.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20097570",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P21",
+      "title": "Reflexive Co-Embodiment",
+      "doi": "10.5281/zenodo.20110472",
+      "doi_url": "https://doi.org/10.5281/zenodo.20110472",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "public_preprint",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P21.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P21.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P21.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20110472",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P21-evidence",
+      "title": "Co-Embodiment evidence dataset",
+      "doi": "10.5281/zenodo.20110671",
+      "doi_url": "https://doi.org/10.5281/zenodo.20110671",
+      "current_public_status": "PUBLIC_ZENODO_DATASET_RECORD",
+      "evidence_level": "evidence_dataset",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P21-evidence.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21-evidence.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21-evidence.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P21-evidence.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21-evidence.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21-evidence.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P21-evidence.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21-evidence.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21-evidence.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20110671",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P22",
+      "title": "The Wisdom Closure Theorems: A Formal Theory of Failure-Learning Architectures",
+      "doi": "10.5281/zenodo.20582195",
+      "doi_url": "https://doi.org/10.5281/zenodo.20582195",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "formal_theory_public_record",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P22.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P22.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P22.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P22.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P22.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P22.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P22.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P22.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P22.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20582195",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "W0",
+      "title": "The Wisdom Standard",
+      "doi": "10.5281/zenodo.20502488",
+      "doi_url": "https://doi.org/10.5281/zenodo.20502488",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "meta_layer_standard",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/W0.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/W0.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/W0.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/W0.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/W0.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/W0.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/W0.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/W0.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/W0.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20502488",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P23",
+      "title": "Bounded Reflexive Self-Modification",
+      "doi": "10.5281/zenodo.20502642",
+      "doi_url": "https://doi.org/10.5281/zenodo.20502642",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "p22_v2_theory",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P23.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P23.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P23.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P23.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P23.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P23.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P23.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P23.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P23.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20502642",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P28",
+      "title": "Wisdom under World Drift",
+      "doi": "10.5281/zenodo.20503883",
+      "doi_url": "https://doi.org/10.5281/zenodo.20503883",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "p22_v2_drift_protocol",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P28.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P28.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P28.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P28.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P28.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P28.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P28.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P28.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P28.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20503883",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P29",
+      "title": "Pluralistic Wisdom",
+      "doi": "10.5281/zenodo.20504263",
+      "doi_url": "https://doi.org/10.5281/zenodo.20504263",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "p22_v2_pluralism_theory",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P29.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P29.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P29.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P29.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P29.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P29.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P29.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P29.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P29.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20504263",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P30",
+      "title": "Provable Wisdom",
+      "doi": "10.5281/zenodo.20502567",
+      "doi_url": "https://doi.org/10.5281/zenodo.20502567",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "proof_protocol",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P30.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P30.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P30.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P30.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P30.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P30.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P30.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P30.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P30.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20502567",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P31",
+      "title": "Architectural Honesty",
+      "doi": "10.5281/zenodo.20502600",
+      "doi_url": "https://doi.org/10.5281/zenodo.20502600",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "honesty_protocol",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P31.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P31.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P31.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P31.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P31.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P31.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P31.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P31.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P31.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20502600",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P32",
+      "title": "Reflexive Measurement",
+      "doi": "10.5281/zenodo.20504387",
+      "doi_url": "https://doi.org/10.5281/zenodo.20504387",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "protocol_only_replay_gate",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P32.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P32.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P32.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P32.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P32.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P32.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P32.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P32.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P32.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20504387",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P33",
+      "title": "Architectural Mortality and Wisdom Succession",
+      "doi": "10.5281/zenodo.20504465",
+      "doi_url": "https://doi.org/10.5281/zenodo.20504465",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "structural_handoff_protocol",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P33.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P33.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P33.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P33.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P33.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P33.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P33.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P33.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P33.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20504465",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P34",
+      "title": "Agent Polis",
+      "doi": "10.5281/zenodo.20504528",
+      "doi_url": "https://doi.org/10.5281/zenodo.20504528",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "polis_scale_failure_learning",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P34.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P34.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P34.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P34.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P34.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P34.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P34.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P34.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P34.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20504528",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P35",
+      "title": "Wisdom Thermodynamics",
+      "doi": "10.5281/zenodo.20504674",
+      "doi_url": "https://doi.org/10.5281/zenodo.20504674",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "energy_budget_constraints",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P35.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P35.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P35.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P35.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P35.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P35.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P35.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P35.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P35.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20504674",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P36",
+      "title": "Substrate-Wisdom Coupling",
+      "doi": "10.5281/zenodo.20504922",
+      "doi_url": "https://doi.org/10.5281/zenodo.20504922",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "substrate_coupling_theory",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P36.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P36.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P36.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P36.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P36.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P36.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P36.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P36.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P36.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20504922",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P37",
+      "title": "Architectural Interiority",
+      "doi": "10.5281/zenodo.20505081",
+      "doi_url": "https://doi.org/10.5281/zenodo.20505081",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "no_consciousness_boundary_theory",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P37.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P37.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P37.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P37.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P37.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P37.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P37.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P37.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P37.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20505081",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P38",
+      "title": "Asymmetric Reflexivity",
+      "doi": "10.5281/zenodo.20505224",
+      "doi_url": "https://doi.org/10.5281/zenodo.20505224",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "simulation_only_protocol_target",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P38.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P38.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P38.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P38.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P38.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P38.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P38.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P38.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P38.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20505224",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P39",
+      "title": "Cultural Wisdom Stewardship",
+      "doi": "10.5281/zenodo.20505309",
+      "doi_url": "https://doi.org/10.5281/zenodo.20505309",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "ethics_gates_and_authorized_partitions",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P39.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P39.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P39.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P39.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P39.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P39.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P39.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P39.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P39.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20505309",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P40",
+      "title": "Spectral Wisdom Theory",
+      "doi": "10.5281/zenodo.20505348",
+      "doi_url": "https://doi.org/10.5281/zenodo.20505348",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "local_diagnostic_negative_controls",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P40.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P40.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P40.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P40.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P40.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P40.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P40.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P40.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P40.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20505348",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "F1-old",
+      "title": "Machine Economic Agency",
+      "doi": "10.5281/zenodo.20103761",
+      "doi_url": "https://doi.org/10.5281/zenodo.20103761",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "old_finance_preprint_line",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/F1-old.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-old.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-old.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/F1-old.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-old.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-old.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/F1-old.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-old.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-old.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20103761",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P27/F1-trace",
+      "title": "Unified Proof-Action Trace Pack",
+      "doi": "10.5281/zenodo.20397217",
+      "doi_url": "https://doi.org/10.5281/zenodo.20397217",
+      "current_public_status": "PUBLIC_ZENODO_DATASET_RECORD",
+      "evidence_level": "strict_public_minimal_trace_dataset",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P27_F1-trace.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P27_F1-trace.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P27_F1-trace.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P27_F1-trace.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P27_F1-trace.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P27_F1-trace.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P27_F1-trace.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P27_F1-trace.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P27_F1-trace.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20397217",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "F1-P8",
+      "title": "No Trade Without Proof",
+      "doi": "10.5281/zenodo.20505485",
+      "doi_url": "https://doi.org/10.5281/zenodo.20505485",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "negative_result_financial_ai",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/F1-P8.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-P8.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-P8.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/F1-P8.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-P8.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-P8.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/F1-P8.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-P8.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-P8.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20505485",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "F2/P-AE/D3",
+      "title": "No Act Without Proof supplementary engineering artifacts",
+      "doi": "10.5281/zenodo.20508591",
+      "doi_url": "https://doi.org/10.5281/zenodo.20508591",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "supplementary_engineering_artifacts",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/F2_P-AE_D3.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F2_P-AE_D3.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F2_P-AE_D3.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/F2_P-AE_D3.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F2_P-AE_D3.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F2_P-AE_D3.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/F2_P-AE_D3.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F2_P-AE_D3.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F2_P-AE_D3.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20508591",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P41",
+      "title": "Confident Error Alone Does Not Predict Robot Data Value",
+      "doi": "10.5281/zenodo.20568943",
+      "doi_url": "https://doi.org/10.5281/zenodo.20568943",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "LOCAL_CONSTRUCTED_EVIDENCE_ONLY",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P41.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P41.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P41.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P41.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P41.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P41.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P41.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P41.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P41.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20568943",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P42",
+      "title": "Wisdom Is Not Capability",
+      "doi": "10.5281/zenodo.20569156",
+      "doi_url": "https://doi.org/10.5281/zenodo.20569156",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "SHADOW_ONLY_RUNTIME_EVIDENCE / NO_ALPHA_CLAIM",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P42.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P42.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P42.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P42.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P42.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P42.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P42.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P42.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P42.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20569156",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P43",
+      "title": "Self-Certification Is Not Grounding",
+      "doi": "10.5281/zenodo.20569248",
+      "doi_url": "https://doi.org/10.5281/zenodo.20569248",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "THEORY_CONSTRUCTED_WITNESSES_ONLY",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P43.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P43.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P43.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P43.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P43.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P43.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P43.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P43.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P43.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20569248",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P44",
+      "title": "Reality-Bounded Improvement",
+      "doi": "10.5281/zenodo.20571161",
+      "doi_url": "https://doi.org/10.5281/zenodo.20571161",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "OPEN_MODEL_RSHADOW_FULL_ROLLOUT_CANDIDATE_INCLUDED_NOT_COMPLETED",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P44.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P44.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P44.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P44.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P44.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P44.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P44.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P44.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P44.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20571161",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P45",
+      "title": "RBI/GEE Phase-2 Empirical",
+      "doi": "10.5281/zenodo.20581591",
+      "doi_url": "https://doi.org/10.5281/zenodo.20581591",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "C_CONTROLLED_POSITIVE / PUBLIC_NO_CREDIT_RECEIPTS / ROBOT_VLA_ADDENDUM_CANDIDATE",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P45.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P45.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P45.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P45.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P45.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P45.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P45.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P45.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P45.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20581591",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P46",
+      "title": "The Grounding Canon: Reality-Bounded Improvement, Grounding Laws, and the Cost of External Receipts",
+      "doi": "10.5281/zenodo.20619452",
+      "doi_url": "https://doi.org/10.5281/zenodo.20619452",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "GROUNDING_CANON_SYNTHESIS_T_C_RSHADOW_H_REVIEWED_LADDER",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P46.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P46.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P46.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P46.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P46.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P46.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P46.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P46.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P46.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20619452",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    },
+    {
+      "paper_id": "P47",
+      "title": "Interventional Recovery Cells for Robot Learning from Physical Failure",
+      "doi": "10.5281/zenodo.20619527",
+      "doi_url": "https://doi.org/10.5281/zenodo.20619527",
+      "current_public_status": "PUBLIC_ZENODO_RECORD",
+      "evidence_level": "LOCAL_PROXY_SIM_AND_SMALL_MANISKILL_STATE_ONLY_PILOT",
+      "recommended_public_links": {
+        "main_site_paper_card": "https://mianzhang.org/papers/public_index/P47.md",
+        "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P47.md",
+        "hf_paper_card": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P47.md",
+        "paper_index": "https://mianzhang.org/papers/",
+        "concept_index": "https://mianzhang.org/concepts/",
+        "challenge_route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose"
+      },
+      "recommended_description_block": "Public navigation and challenge routes: main paper card https://mianzhang.org/papers/public_index/P47.md; GitHub card https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P47.md; Hugging Face technical mirror card https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P47.md; public paper index https://mianzhang.org/papers/; public issue routes https://github.com/mmjbds/mianzhang.org/issues/new/choose. Use this Zenodo DOI landing page as citation authority. The linked public routes provide navigation, issue routing, evidence boundaries, and challenge reports.",
+      "recommended_related_identifiers": [
+        {
+          "identifier": "https://mianzhang.org/papers/public_index/P47.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P47.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "software"
+        },
+        {
+          "identifier": "https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P47.md",
+          "relation": "isSupplementedBy",
+          "resource_type": "publication-other"
+        },
+        {
+          "identifier": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+          "relation": "isSupplementedBy",
+          "resource_type": "other"
+        }
+      ],
+      "verification": {
+        "zenodo_api_record": "https://zenodo.org/api/records/20619527",
+        "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
+      },
+      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+    }
+  ],
+  "global_links": {
+    "main_site": "https://mianzhang.org/",
+    "paper_index": "https://mianzhang.org/papers/",
+    "concept_index": "https://mianzhang.org/concepts/",
+    "external_submission_status": "https://mianzhang.org/docs/external-submission-status-2026-06-15.html",
+    "external_action_pack": "https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html",
+    "hf_technical_mirror": "https://mmjbds-mianzhang-org.static.hf.space/",
+    "github_source": "https://github.com/mmjbds/mianzhang.org"
+  }
+}

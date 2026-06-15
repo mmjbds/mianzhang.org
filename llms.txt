@@ -25,6 +25,8 @@ Core public entry points:
 - Search discovery entry: https://mianzhang.org/docs/search-discovery-2026-06-15.html
 - Search index weekly report: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
 - External submission status: https://mianzhang.org/docs/external-submission-status-2026-06-15.html
+- External submission action pack: https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html
+- Zenodo metadata patch pack: https://mianzhang.org/docs/zenodo-metadata-backlink-patch-pack-2026-06-15.json
 - Sitemap: https://mianzhang.org/sitemap.xml
 - Robots: https://mianzhang.org/robots.txt
 
