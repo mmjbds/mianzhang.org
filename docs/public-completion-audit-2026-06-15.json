@@ -6,7 +6,7 @@
   "technical_mirror_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
   "github_source": "https://github.com/mmjbds/mianzhang.org",
   "zenodo_portfolio": "https://zenodo.org/records/20027295",
-  "summary": "Public files, concept routes, issue routes, paper index, digest, roadmap, and IndexNow route are in place. Zenodo metadata backlinks and search-console receipts still require public external evidence before they can be marked complete.",
+  "summary": "Public files, concept routes, issue routes, paper index, digest, roadmap, IndexNow route, and partial public search-result visibility are in place. Zenodo metadata backlinks and search-console receipts still require public external evidence before they can be marked complete.",
   "items": [
     {
       "item": "Main site discovery files",
@@ -73,8 +73,8 @@
     },
     {
       "item": "site: and exact-term search weekly report",
-      "status": "COMPLETED_WITH_NO_INDEXING_CLAIM",
-      "evidence": "Weekly report records public query checks without treating query-page text as direct indexing proof.",
+      "status": "COMPLETED_WITH_PARTIAL_PUBLIC_RESULTS",
+      "evidence": "Weekly report records confirmed public result URLs for the main site and HF mirror while keeping exact concept-entry coverage, console receipts, and AI retrieval unclaimed.",
       "route": "https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html",
       "proof_condition": "Record direct result URLs, screenshots, or console exports before claiming indexing or model retrieval."
     },
