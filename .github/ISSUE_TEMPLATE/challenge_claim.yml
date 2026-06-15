@@ -1,14 +1,14 @@
 name: Claim challenge
-description: Challenge a public claim, registry row, paper statement, concept entry, or demo boundary with minimal public evidence.
+description: Challenge the wording, scope, contradiction, or interpretation of a public claim.
 title: "[Claim Challenge] "
 labels: ["claim-challenge", "claim-boundary"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template when a public claim appears too broad, ambiguous, unsupported, or contradicted by public evidence.
+        Use this template when the public sentence itself is too broad, ambiguous, unsupported, contradicted, or missing a clear boundary. If you have a minimal case that breaks the claim, use the Counterexample template. If the claim mainly needs a missing receipt or provenance link, use Evidence Gap.
 
-        Evidence boundary: submit only public, reproducible, and safely shareable material. Do not include private customer data, secrets, private logs, real trading accounts, real transaction records, confidential review material, or steps that attack a real system.
+        Evidence boundary: submit only public, reproducible, and safely shareable material. Do not include private customer data, secrets, private logs, real accounts, real transaction records, restricted non-public material, or steps that attack a real system.
   - type: input
     id: target
     attributes:
@@ -23,10 +23,10 @@ body:
       label: Challenge type
       options:
         - Claim is too broad
-        - Claim lacks public evidence
+        - Claim is ambiguous
         - Claim conflicts with public evidence
         - Scope or applicability is unclear
-        - Evidence-to-action gap
+        - Evidence-to-action wording is too strong
         - Provenance or credit concern
         - Other
     validations:
@@ -34,28 +34,26 @@ body:
   - type: textarea
     id: public_evidence
     attributes:
-      label: Minimal public evidence
-      description: Provide the smallest public input, public or synthetic data, reproduction command, expected result, and observed result.
+      label: Minimal public evidence or quote
+      description: Provide the exact public quote, public citation, contradictory source, missing boundary statement, or minimal reproducible observation.
       placeholder: |
-        Minimal input:
-        Public or synthetic data:
-        Reproduction command:
-        Expected result:
-        Observed result:
+        Exact public quote or claim:
+        Public evidence or citation:
+        Why the wording is too broad or contradicted:
     validations:
       required: true
   - type: textarea
     id: boundary_effect
     attributes:
       label: Boundary impact
-      description: Explain how this should change the claim wording, evidence grade, applicability range, registry status, or repair queue.
+      description: Explain how this should change claim wording, evidence grade, applicability range, registry status, or repair queue.
     validations:
       required: true
   - type: textarea
     id: proposed_repair
     attributes:
       label: Proposed repair
-      description: For example, narrow the claim, add a baseline, add a receipt, add a stop rule, mark a negative result, or update a registry.
+      description: For example, narrow the claim, add a receipt, add a stop rule, mark a negative result, update a registry, or move to a different template route.
     validations:
       required: false
   - type: checkboxes
@@ -65,9 +63,9 @@ body:
       options:
         - label: This issue does not include API keys, tokens, passwords, private configuration, or secrets.
           required: true
-        - label: This issue does not include customer data, private logs, real trading accounts, real transaction records, or internal execution traces.
+        - label: This issue does not include customer data, private logs, real accounts, real transaction records, or internal execution traces.
           required: true
-        - label: This issue does not include confidential review material, private reviewer pages, email screenshots, or de-anonymizing information.
+        - label: This issue does not include restricted non-public material, private correspondence, or de-anonymizing information.
           required: true
         - label: This issue does not include steps that can be directly used to attack a real system.
           required: true

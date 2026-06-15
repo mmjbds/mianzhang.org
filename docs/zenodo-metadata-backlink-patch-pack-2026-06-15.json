@@ -47,7 +47,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20027295",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P00",
@@ -91,7 +91,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/19793250",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P01-current",
@@ -135,7 +135,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/19791688",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P01-legacy",
@@ -179,7 +179,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/19557261",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P02",
@@ -223,7 +223,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/19793098",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P03",
@@ -267,7 +267,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/19793366",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P04",
@@ -311,7 +311,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/19895990",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P05",
@@ -319,7 +319,7 @@
       "doi": "10.5281/zenodo.20028053",
       "doi_url": "https://doi.org/10.5281/zenodo.20028053",
       "current_public_status": "PUBLIC_ZENODO_RECORD",
-      "evidence_level": "public_embodied_evidence_record",
+      "evidence_level": "corl_public_asset",
       "recommended_public_links": {
         "main_site_paper_card": "https://mianzhang.org/papers/public_index/P05.md",
         "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P05.md",
@@ -355,7 +355,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20028053",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P06",
@@ -363,7 +363,7 @@
       "doi": "10.5281/zenodo.20028470",
       "doi_url": "https://doi.org/10.5281/zenodo.20028470",
       "current_public_status": "PUBLIC_ZENODO_RECORD",
-      "evidence_level": "public_embodied_evidence_record",
+      "evidence_level": "corl_public_asset",
       "recommended_public_links": {
         "main_site_paper_card": "https://mianzhang.org/papers/public_index/P06.md",
         "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P06.md",
@@ -399,7 +399,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20028470",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P07",
@@ -407,7 +407,7 @@
       "doi": "10.5281/zenodo.20028518",
       "doi_url": "https://doi.org/10.5281/zenodo.20028518",
       "current_public_status": "PUBLIC_ZENODO_RECORD",
-      "evidence_level": "public_embodied_evidence_record",
+      "evidence_level": "corl_priority_asset",
       "recommended_public_links": {
         "main_site_paper_card": "https://mianzhang.org/papers/public_index/P07.md",
         "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P07.md",
@@ -443,7 +443,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20028518",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P08",
@@ -487,7 +487,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20028566",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P09",
@@ -531,7 +531,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20028687",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P10",
@@ -575,7 +575,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20094848",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P11",
@@ -619,7 +619,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20094832",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P12",
@@ -663,7 +663,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20096775",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P13",
@@ -671,7 +671,7 @@
       "doi": "10.5281/zenodo.20096812",
       "doi_url": "https://doi.org/10.5281/zenodo.20096812",
       "current_public_status": "PUBLIC_ZENODO_RECORD",
-      "evidence_level": "public_preprint_boundary",
+      "evidence_level": "public_preprint_with_corl_boundary",
       "recommended_public_links": {
         "main_site_paper_card": "https://mianzhang.org/papers/public_index/P13.md",
         "github_paper_card": "https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P13.md",
@@ -707,7 +707,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20096812",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P14",
@@ -751,7 +751,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20096871",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P15/P16",
@@ -795,7 +795,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20097429",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P17",
@@ -839,7 +839,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20097466",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P18",
@@ -883,7 +883,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20097501",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P19",
@@ -927,7 +927,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20097537",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P20",
@@ -971,7 +971,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20097570",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P21",
@@ -1015,7 +1015,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20110472",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P21-evidence",
@@ -1059,7 +1059,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20110671",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P22",
@@ -1103,7 +1103,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20582195",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "W0",
@@ -1147,7 +1147,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20502488",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P23",
@@ -1191,7 +1191,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20502642",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P28",
@@ -1235,7 +1235,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20503883",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P29",
@@ -1279,7 +1279,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20504263",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P30",
@@ -1323,7 +1323,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20502567",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P31",
@@ -1367,7 +1367,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20502600",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P32",
@@ -1411,7 +1411,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20504387",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P33",
@@ -1455,7 +1455,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20504465",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P34",
@@ -1499,7 +1499,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20504528",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P35",
@@ -1543,7 +1543,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20504674",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P36",
@@ -1587,7 +1587,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20504922",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P37",
@@ -1631,7 +1631,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20505081",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P38",
@@ -1675,7 +1675,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20505224",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P39",
@@ -1719,7 +1719,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20505309",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P40",
@@ -1763,7 +1763,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20505348",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "F1-old",
@@ -1807,7 +1807,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20103761",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P27/F1-trace",
@@ -1851,7 +1851,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20397217",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "F1-P8",
@@ -1895,7 +1895,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20505485",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "F2/P-AE/D3",
@@ -1939,7 +1939,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20508591",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P41",
@@ -1983,7 +1983,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20568943",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P42",
@@ -2027,7 +2027,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20569156",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P43",
@@ -2071,7 +2071,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20569248",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P44",
@@ -2115,7 +2115,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20571161",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P45",
@@ -2159,7 +2159,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20581591",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P46",
@@ -2203,7 +2203,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20619452",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     },
     {
       "paper_id": "P47",
@@ -2247,7 +2247,7 @@
         "zenodo_api_record": "https://zenodo.org/api/records/20619527",
         "success_condition": "public Zenodo metadata description or related_identifiers includes mianzhang.org, github.com/mmjbds, and huggingface.co or static.hf.space routes"
       },
-      "boundary": "Do not add non-public review material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
+      "boundary": "Do not add restricted material, credentials, customer data, private logs, real account records, or non-public execution traces to Zenodo metadata."
     }
   ],
   "global_links": {
@@ -2256,6 +2256,7 @@
     "concept_index": "https://mianzhang.org/concepts/",
     "external_submission_status": "https://mianzhang.org/docs/external-submission-status-2026-06-15.html",
     "external_action_pack": "https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html",
+    "public_completion_audit": "https://mianzhang.org/docs/public-completion-audit-2026-06-15.html",
     "hf_technical_mirror": "https://mmjbds-mianzhang-org.static.hf.space/",
     "github_source": "https://github.com/mmjbds/mianzhang.org"
   }

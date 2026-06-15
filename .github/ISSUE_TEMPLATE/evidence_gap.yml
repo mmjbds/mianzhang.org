@@ -6,15 +6,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template when a public statement depends on evidence that is missing, too vague, inaccessible, or not linked to a public registry entry.
+        Use this template when the claim may be reasonable but its public receipt, provenance, registry link, evidence grade, or negative-result record is missing or unclear. If the claim wording itself is too broad or contradicted, use Claim Challenge.
 
-        Evidence boundary: we welcome public references, synthetic examples, reproducible scripts, and sanitized summaries. Do not submit private customer data, secrets, private logs, real trading accounts, real transaction records, private review material, or internal execution traces.
+        Evidence boundary: we welcome public references, synthetic examples, reproducible scripts, and sanitized summaries. Do not submit private customer data, secrets, private logs, real accounts, real transaction records, restricted non-public material, or internal execution traces.
   - type: input
     id: claim_or_statement
     attributes:
       label: Claim, statement, or registry row
       description: Link the public claim, README sentence, registry row, paper paragraph, demo page, or release note.
-      placeholder: "Example: Claim-001 / docs/public_evidence_field/evidence_map.md#claim-001"
+      placeholder: "Example: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html"
     validations:
       required: true
   - type: dropdown
@@ -22,12 +22,12 @@ body:
     attributes:
       label: Gap type
       options:
-        - Missing public evidence
+        - Missing public receipt
         - Evidence exists but is not linked
-        - Evidence is not reproducible
         - Provenance is unclear
-        - Confidence level is unsupported
+        - Evidence grade is unsupported
         - Negative result is not documented
+        - External provider receipt is missing
         - Other
     validations:
       required: true
@@ -38,14 +38,14 @@ body:
       description: Summarize what public evidence is currently linked, if any.
       placeholder: |
         Current linked evidence:
-        What is missing or unclear:
+        Missing receipt, provenance, or status:
     validations:
       required: true
   - type: textarea
     id: suggested_receipt
     attributes:
       label: Suggested public receipt
-      description: Suggest a public dataset, synthetic fixture, script, benchmark, citation, registry entry, or wording change that would close the gap.
+      description: Suggest a public dataset, synthetic fixture, script, benchmark, citation, registry entry, console receipt, DOI link, or wording change that would close the gap.
     validations:
       required: false
   - type: checkboxes
@@ -55,7 +55,7 @@ body:
       options:
         - label: This issue uses only public, synthetic, or sanitized material.
           required: true
-        - label: This issue does not request or include private customer data, secrets, private logs, real trading accounts, real transaction records, or internal execution traces.
+        - label: This issue does not request or include private customer data, secrets, private logs, real accounts, real transaction records, or internal execution traces.
           required: true
-        - label: This issue does not rely on confidential review material, private reviewer pages, email screenshots, or de-anonymizing information.
+        - label: This issue does not rely on restricted non-public material, private correspondence, or de-anonymizing information.
           required: true

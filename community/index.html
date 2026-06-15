@@ -91,7 +91,7 @@
       <div class="section-head">
         <p class="kicker">Issue Template Routes</p>
         <h2>Challenge, reproduce, gap, baseline.</h2>
-        <p>Use the narrowest public issue route. Do not include secrets, private logs, customer data, real account records, or non-public review material.</p>
+        <p>Use the narrowest public issue route. Do not include secrets, private logs, customer data, real account records, or restricted non-public material. If the claim wording is too broad, use claim challenge; if a concrete public case breaks the claim, use counterexample; if a receipt or provenance link is missing, use evidence gap.</p>
       </div>
       <div class="paper-table" role="table" aria-label="GitHub issue template routes">
         <div class="paper-row head" role="row">
@@ -99,6 +99,9 @@
         </div>
         <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org/issues/new?template=challenge_claim.yml" role="row">
           <span>Claim challenge</span><span>Public claim too broad, ambiguous, or contradicted.</span><span>challenge_claim.yml</span><span>Public evidence only</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org/issues/new?template=counterexample.yml" role="row">
+          <span>Counterexample</span><span>Minimal public case that falsifies, breaks, or narrows a specific claim.</span><span>counterexample.yml</span><span>Public or synthetic case</span>
         </a>
         <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org/issues/new?template=reproduction_failure.yml" role="row">
           <span>Reproduction failure</span><span>Public artifact, command, demo, or schema cannot be reproduced.</span><span>reproduction_failure.yml</span><span>Public or synthetic inputs</span>
@@ -108,6 +111,12 @@
         </a>
         <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org/issues/new?template=baseline_challenge.yml" role="row">
           <span>Baseline challenge</span><span>Suggest stronger, simpler, fairer, or better documented baseline.</span><span>baseline_challenge.yml</span><span>Reproducible comparison</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org/issues/new?template=documentation_boundary.yml" role="row">
+          <span>Documentation boundary</span><span>Public wording, route, link, sitemap, README, or status repair.</span><span>documentation_boundary.yml</span><span>Public docs only</span>
+        </a>
+        <a class="paper-row" href="https://github.com/mmjbds/mianzhang.org/issues/new?template=security_boundary.yml" role="row">
+          <span>Security boundary</span><span>Public security-boundary wording only; sensitive reports use SECURITY.md.</span><span>security_boundary.yml</span><span>No sensitive details</span>
         </a>
       </div>
     </section>

@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Private security reports or sensitive material
-    url: mailto:373743743@qq.com
-    about: Do not post secrets, customer data, private logs, exploit chains, real account records, or de-anonymizing material in public issues. Email the maintainers first with minimum safe metadata only.
+  - name: Security-sensitive report
+    url: https://github.com/mmjbds/mianzhang.org/blob/main/.github/SECURITY.md
+    about: Do not open a public issue for vulnerabilities, secrets, private logs, real accounts, or sensitive exposure.
+  - name: Public completion audit
+    url: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
+    about: Check what is complete and what still requires external evidence.

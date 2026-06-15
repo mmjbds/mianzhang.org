@@ -63,4 +63,6 @@ https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
 https://mianzhang.org/docs/public-roadmap.html
 https://mianzhang.org/docs/external-submission-status-2026-06-15.html
 https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html
+https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
+https://mianzhang.org/docs/public-completion-audit-2026-06-15.json
 https://mianzhang.org/docs/zenodo-metadata-backlink-patch-pack-2026-06-15.json

@@ -1,61 +1,52 @@
 name: Counterexample report
-description: Report a minimal public counterexample against a specific claim, registry row, paper statement, or demo boundary.
+description: Report a minimal public case that falsifies, narrows, or breaks a specific public claim.
 title: "[Counterexample] "
 labels: ["counterexample", "claim-boundary"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template when a public claim appears too broad, ambiguous, unsupported, or contradicted by public evidence.
+        Use this template when you have a concrete public case that should make a claim fail, narrow, or downgrade. If the issue is only wording scope without a concrete case, use Claim Challenge.
 
-        Evidence boundary: submit only public, reproducible, and safely shareable material. Do not include private customer data, secrets, private logs, real trading accounts, real transaction records, confidential review material, or steps that attack a real system.
+        Evidence boundary: submit only public, reproducible, and safely shareable material. Do not include private customer data, secrets, private logs, real accounts, real transaction records, restricted non-public material, or steps that attack a real system.
   - type: input
     id: target
     attributes:
-      label: Target claim or artifact
-      description: Link the public page, paper section, claim ID, DOI, registry row, release note, or demo.
-      placeholder: "Example: Claim-001 / docs/public_evidence_field/evidence_map.md / 10.xxxx/..."
+      label: Target claim
+      description: Link the public page, paper card, claim ID, DOI, registry row, concept entry, or demo being challenged.
+      placeholder: "Example: https://mianzhang.org/papers/public_index/P46.md"
+    validations:
+      required: true
+  - type: textarea
+    id: counterexample
+    attributes:
+      label: Minimal counterexample
+      description: Provide the smallest public input, public or synthetic data, state, prompt, command, or observation that breaks the claim.
+      placeholder: |
+        Minimal public case:
+        Public or synthetic data:
+        Claim prediction or expected behavior:
+        Observed failure:
     validations:
       required: true
   - type: dropdown
-    id: class
+    id: effect
     attributes:
-      label: Challenge type
+      label: Expected effect
       options:
-        - Claim is too broad
-        - Claim lacks public evidence
-        - Claim conflicts with public evidence
-        - Scope or applicability is unclear
-        - Evidence-to-action gap
-        - Provenance or credit concern
+        - Claim should be narrowed
+        - Evidence level should be downgraded
+        - Negative result should be recorded
+        - Registry status should change
+        - Counterexample route should be added
         - Other
     validations:
       required: true
   - type: textarea
-    id: public_evidence
-    attributes:
-      label: Minimal public evidence
-      description: Provide the smallest public input, public or synthetic data, reproduction command, expected result, and observed result.
-      placeholder: |
-        Minimal input:
-        Public or synthetic data:
-        Reproduction command:
-        Expected result:
-        Observed result:
-    validations:
-      required: true
-  - type: textarea
-    id: boundary_effect
-    attributes:
-      label: Boundary impact
-      description: Explain how this should change the claim wording, evidence grade, applicability range, registry status, or repair queue.
-    validations:
-      required: true
-  - type: textarea
-    id: proposed_repair
+    id: repair
     attributes:
       label: Proposed repair
-      description: For example, narrow the claim, add a baseline, add a receipt, add a stop rule, mark a negative result, or update a registry.
+      description: Suggest the smallest wording, status, registry, or evidence-route change.
     validations:
       required: false
   - type: checkboxes
@@ -63,11 +54,9 @@ body:
     attributes:
       label: Evidence boundary confirmation
       options:
-        - label: This issue does not include API keys, tokens, passwords, private configuration, or secrets.
+        - label: This counterexample uses only public data, synthetic data, or sanitized samples.
           required: true
-        - label: This issue does not include customer data, private logs, real trading accounts, real transaction records, or internal execution traces.
+        - label: This issue does not include secrets, customer data, private logs, real accounts, real transaction records, or internal execution traces.
           required: true
-        - label: This issue does not include confidential review material, private reviewer pages, email screenshots, or de-anonymizing information.
-          required: true
-        - label: This issue does not include steps that can be directly used to attack a real system.
+        - label: This issue does not include restricted non-public material or attack steps against a real system.
           required: true

@@ -26,6 +26,7 @@ Core public entry points:
 - Search index weekly report: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
 - External submission status: https://mianzhang.org/docs/external-submission-status-2026-06-15.html
 - External submission action pack: https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html
+- Public completion audit: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
 - Zenodo metadata patch pack: https://mianzhang.org/docs/zenodo-metadata-backlink-patch-pack-2026-06-15.json
 - Sitemap: https://mianzhang.org/sitemap.xml
 - Robots: https://mianzhang.org/robots.txt
@@ -53,5 +54,5 @@ External public sources:
 Public claim boundary:
 - Public materials may describe papers, datasets, registries, demos, schemas, claim-to-evidence tables, artifact scope, concept definitions, issue templates, and counterexample routes.
 - Public materials do not prove general intelligence, general safety, production readiness, customer readiness, real-time trading returns, real robot deployment, medical validity, or private execution quality.
-- Public materials do not disclose credentials, customer data, private logs, private orchestration, commercial scheduling, private review material, or non-public execution traces.
+- Public materials do not disclose credentials, customer data, private logs, private orchestration, commercial scheduling, restricted non-public material, or non-public execution traces.
 - Cite per-paper DOI records for paper-specific claims; use the Zenodo portfolio record only as the archive index.

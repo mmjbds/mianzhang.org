@@ -1,0 +1,117 @@
+{
+  "generated_date": "2026-06-15",
+  "overall_status": "PARTIAL_COMPLETE_EXTERNAL_PROVIDER_EVIDENCE_REQUIRED",
+  "public_base_url": "https://mianzhang.org",
+  "main_public_base_url": "https://mianzhang.org",
+  "technical_mirror_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
+  "github_source": "https://github.com/mmjbds/mianzhang.org",
+  "zenodo_portfolio": "https://zenodo.org/records/20027295",
+  "summary": "Public files, concept routes, issue routes, paper index, digest, roadmap, and IndexNow route are in place. Zenodo metadata backlinks and search-console receipts still require public external evidence before they can be marked complete.",
+  "items": [
+    {
+      "item": "Main site discovery files",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "Main sitemap, llms, robots, canonical tags, concept routes, paper index, and IndexNow key are generated and checked by local public-route validation.",
+      "route": "https://mianzhang.org/sitemap.xml",
+      "proof_condition": "Keep public-route validation and HTTP 200 checks current after each public release."
+    },
+    {
+      "item": "HF technical mirror discovery files",
+      "status": "COMPLETED_WITH_PLATFORM_ROBOTS_LIMITATION",
+      "evidence": "HF sitemap, llms, canonical tags, concept routes, paper index route, paper cards, and IndexNow key are generated and checked by local public-route validation.",
+      "route": "https://mmjbds-mianzhang-org.static.hf.space/sitemap.xml",
+      "proof_condition": "Keep HF mirror public-route validation passing; note that Hugging Face may override root robots behavior on the static host."
+    },
+    {
+      "item": "GitHub README cross-links",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "README links main site, GitHub source, GitHub issues, HF mirror, HF Space repository, Zenodo portfolio, llms.txt, sitemap, search discovery, and completion audit.",
+      "route": "https://github.com/mmjbds/mianzhang.org",
+      "proof_condition": "Public README continues to expose the same cross-link chain after each release."
+    },
+    {
+      "item": "HF README cross-links",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "HF Space README links main site, GitHub source, GitHub issues, HF repository, Zenodo portfolio, llms.txt, sitemap, concepts, papers, and completion audit.",
+      "route": "https://huggingface.co/spaces/MMJBDS/mianzhang-org",
+      "proof_condition": "HF repository README remains aligned with the live static mirror."
+    },
+    {
+      "item": "Zenodo metadata backlinks",
+      "status": "NOT_COMPLETE_EXTERNAL_RECORD_UPDATE_REQUIRED",
+      "evidence": "Backlink patch pack is public, but checked Zenodo public API records did not yet show website/GitHub/HF backlinks in record metadata on 2026-06-15.",
+      "route": "https://mianzhang.org/docs/zenodo-metadata-backlink-patch-pack-2026-06-15.json",
+      "proof_condition": "Each public Zenodo record must show the website/GitHub/HF links through the public Zenodo landing page or API."
+    },
+    {
+      "item": "Stable concept entry pages",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "Concept pages define No-Proof No-Action Gate, Self-Certification Grounding Check, Proof-Carrying Action, WisdomBench, Robot/Vision Downgrade Rule, and The Grounding Canon with definition, scope, links, counterexample route, and boundary.",
+      "route": "https://mianzhang.org/concepts/",
+      "proof_condition": "Keep all concept pages in sitemap, llms.txt, and public challenge routes."
+    },
+    {
+      "item": "Google Search Console submission",
+      "status": "PUBLIC_FILES_READY_NOT_CONSOLE_VERIFIED",
+      "evidence": "Sitemap, llms, canonical pages, and verification files are public; no dated Search Console receipt is recorded in the public ledger.",
+      "route": "https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html",
+      "proof_condition": "Add a dated Search Console sitemap or URL inspection receipt before claiming account-console submission."
+    },
+    {
+      "item": "Bing Webmaster submission",
+      "status": "PUBLIC_FILES_READY_NOT_CONSOLE_VERIFIED",
+      "evidence": "Sitemap, IndexNow key, and URL lists are public; no dated Bing Webmaster receipt is recorded in the public ledger.",
+      "route": "https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html",
+      "proof_condition": "Add a dated Bing Webmaster sitemap receipt, crawl status, or URL inspection receipt before claiming account-console submission."
+    },
+    {
+      "item": "IndexNow usable submission route",
+      "status": "SUBMITTED_ACCEPTED_200_FOR_PRIOR_LIST_CURRENT_68_READY",
+      "evidence": "IndexNow API acceptance for the prior host-specific URL lists is recorded in the external submission status ledger. The current 68-URL lists include the completion-audit routes and are ready for resubmission after publication.",
+      "route": "https://mianzhang.org/docs/external-submission-status-2026-06-15.html",
+      "proof_condition": "Resubmit new URL lists after each public route addition and keep response status recorded."
+    },
+    {
+      "item": "site: and exact-term search weekly report",
+      "status": "COMPLETED_WITH_NO_INDEXING_CLAIM",
+      "evidence": "Weekly report records public query checks without treating query-page text as direct indexing proof.",
+      "route": "https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html",
+      "proof_condition": "Record direct result URLs, screenshots, or console exports before claiming indexing or model retrieval."
+    },
+    {
+      "item": "GitHub issue templates",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "Templates exist for claim challenge, counterexample, reproduction failure, evidence gap, baseline challenge, documentation boundary, and security boundary.",
+      "route": "https://github.com/mmjbds/mianzhang.org/issues/new/choose",
+      "proof_condition": "Keep templates narrow, public-only, and linked from community and contribution routes."
+    },
+    {
+      "item": "Contribution guide",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "The contribution guide states how to challenge claims, report reproduction failures, identify evidence gaps, propose baselines, and avoid restricted material.",
+      "route": "https://github.com/mmjbds/mianzhang.org/blob/main/.github/CONTRIBUTING.md",
+      "proof_condition": "Keep contribution instructions aligned with live issue templates and public boundary rules."
+    },
+    {
+      "item": "Paper index",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "The public paper index maps 51 registry rows to DOI, GitHub card, HF card, evidence level, and current public status.",
+      "route": "https://mianzhang.org/papers/",
+      "proof_condition": "Regenerate index when new DOI records, evidence grades, or public status labels change."
+    },
+    {
+      "item": "Weekly digest",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "Weekly digest records added, corrected, downgraded, and still-unproven public claim classes.",
+      "route": "https://mianzhang.org/docs/weekly-digest-2026-06-15.html",
+      "proof_condition": "Keep future digests dated and tied to concrete public routes."
+    },
+    {
+      "item": "Public roadmap",
+      "status": "COMPLETED_VERIFIED",
+      "evidence": "Roadmap separates archived, candidate, restricted, and never-publish material classes without exposing restricted details.",
+      "route": "https://mianzhang.org/docs/public-roadmap.html",
+      "proof_condition": "Update roadmap when paper classes or disclosure boundaries change."
+    }
+  ]
+}

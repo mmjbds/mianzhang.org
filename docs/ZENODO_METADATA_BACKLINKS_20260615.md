@@ -20,4 +20,4 @@ Public routes: main site https://mianzhang.org/, paper index https://mianzhang.o
 
 ## Boundary
 
-Zenodo metadata should not include non-public review routes, private logs, credentials, customer data, real account records, or non-public execution traces.
+Zenodo metadata should not include restricted routes, private logs, credentials, customer data, real account records, or non-public execution traces.

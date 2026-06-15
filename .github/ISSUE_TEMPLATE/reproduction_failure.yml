@@ -8,12 +8,24 @@ body:
       value: |
         Use this template for failures to reproduce public artifacts with public, synthetic, or sanitized sample inputs.
 
-        Evidence boundary: do not upload private data, secrets, local caches, customer logs, confidential review material, real trading accounts, or real transaction records.
+        Evidence boundary: do not upload private data, secrets, local caches, customer logs, restricted non-public material, real accounts, or real transaction records.
   - type: input
     id: artifact
     attributes:
       label: Public artifact
       description: Provide the public URL, file path, DOI, registry row, README section, script, schema, or demo route.
+    validations:
+      required: true
+  - type: textarea
+    id: version_context
+    attributes:
+      label: Version and environment context
+      description: Include commit or release tag, public dataset version, runtime, dependency versions, OS, browser, and any public fixture needed to reproduce.
+      placeholder: |
+        Commit or release:
+        Public dataset or fixture:
+        Runtime/dependencies:
+        OS/browser:
     validations:
       required: true
   - type: textarea
@@ -36,13 +48,6 @@ body:
         Actual:
     validations:
       required: true
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: OS, Python/Node version, browser, public dataset version, dependency version, or other relevant public context.
-    validations:
-      required: false
   - type: checkboxes
     id: boundary
     attributes:
@@ -50,5 +55,5 @@ body:
       options:
         - label: The reproduction uses only public data, synthetic data, or sanitized samples.
           required: true
-        - label: This issue does not include secrets, customer data, private logs, local temporary artifacts, real trading accounts, or real transaction records.
+        - label: This issue does not include secrets, customer data, private logs, local temporary artifacts, real accounts, or real transaction records.
           required: true

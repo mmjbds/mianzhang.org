@@ -1,23 +1,24 @@
 # HF 静态镜像边界
 
-Hugging Face 静态镜像是公开技术证据的分层索引。它链接 GitHub、Zenodo、自有站和中文入口，重点呈现 demo、registry、artifact、claim boundary 与反例路线。
+Hugging Face 静态镜像是技术索引层，不是 DOI 权威、不替代主站，也不作为中文长文站点。
 
-## 推荐分层
+## 角色分工
 
-- L0 入口层：项目首页、start-here、公开 sitemap、robots、llms。
-- L1 证据层：papers、evidence、boundaries、registries、claim-to-evidence。
-- L2 复核层：demos、counterexamples、公开复现说明、公开安全样例。
-- L3 外部来源层：GitHub 源码与 issue、Zenodo DOI 与归档、自有站入口、中文区入口。
+- mianzhang.org：统一公开入口、概念页、论文索引、社区入口和中文入口。
+- GitHub：公开源码、issue 模板、复现失败、证据缺口和基线挑战。
+- Hugging Face：技术镜像、demo、registry、边界页和可被模型检索的静态材料。
+- Zenodo：公开 DOI 记录和引用权威。
 
-## 内容边界
+## HF 镜像应该包含
 
-- 面向一般读者的长文、品牌介绍、传播材料和中文长文集中放在自有站入口。
-- 私有简报、试点材料、客户材料、真实交易、内部编排和商业调度器不进入公开镜像。
-- 非公开版本、大型上传包和数据集整包使用各自的正式发布渠道。
+- 可公开复核的静态页面、demo、registry、paper card、概念页和 llms.txt。
+- 与主站一致的 sitemap、canonical、边界声明和反向链接。
+- 指向 GitHub issue 模板、Zenodo DOI、主站概念页和完成度审计的链接。
 
-## 链接策略
+## HF 镜像不应该包含
 
-- GitHub 用于源码、issue、反例和贡献流程。
-- Zenodo 用于 DOI、公开归档和可引用材料。
-- 自有站用于完整公开网站入口。
-- 中文区用于中文读者入口；HF 只链接入口和相关公开证据。
+- 凭证、客户数据、私有日志、真实账号记录、真实交易记录或私有执行链。
+- 不可公开复核的发布指令、账号操作记录或状态。
+- 与 DOI、GitHub、主站和公开边界不一致的单独叙事。
+
+当前镜像入口：https://mmjbds-mianzhang-org.static.hf.space/

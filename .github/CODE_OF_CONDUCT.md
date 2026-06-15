@@ -1,25 +1,25 @@
-# 社区行为准则
+# Code of Conduct
 
-本项目欢迎围绕公开论文、公开证据、复现材料、反例和文档边界的严肃讨论。社区讨论的目标是让主张更可检验、证据更清楚、边界更准确。
+This project welcomes careful public discussion around papers, evidence, reproducibility, counterexamples, and documentation boundaries. The shared goal is to make claims more testable, evidence clearer, and boundaries more accurate.
 
-## 期待行为
+## Expected Behavior
 
-- 针对公开材料、公开 claim、公开代码和公开数据提出可复核意见。
-- 用最小反例、最小复现步骤或明确链接说明问题。
-- 尊重不同背景的贡献者，避免人身攻击、骚扰、羞辱或歧视性表达。
-- 在发现安全或隐私风险时先保护当事人和数据，不在公开 issue 中贴出敏感内容。
+- Address a specific public claim, public artifact, public code path, public DOI, public registry row, or public documentation route.
+- Provide the smallest public counterexample, reproduction step, baseline comparison, citation, or boundary repair that makes the issue actionable.
+- Keep discussion respectful and focused on evidence, wording, reproducibility, or repair.
+- When a security, privacy, or exposure concern appears, protect people and data first. Do not post sensitive details in public issues.
 
-## 不接受行为
+## Unacceptable Behavior
 
-- 公开或索取 API key、token、密码、客户数据、私有日志、真实交易记录、内部 agent 编排或未授权材料。
-- 对个人、组织、审稿身份或匿名投稿进行骚扰、跟踪、去匿名化或人肉搜索。
-- 发布可直接用于攻击真实系统、绕过权限、窃取数据或造成现实伤害的步骤。
-- 把商业宣传、投资人叙事或与公开证据无关的争论塞进技术 issue。
+- Posting or requesting API keys, tokens, passwords, customer data, private logs, real account records, real transaction records, private execution traces, or restricted non-public material.
+- Harassment, personal attacks, de-anonymization, identity tracing, or attempts to expose private correspondence.
+- Publishing steps that can directly attack real systems, bypass permissions, steal data, or increase practical harm.
+- Turning technical issues into marketing, investment promotion, or broad claims that are not tied to public evidence.
 
-## 处理方式
+## Enforcement
 
-维护者可以编辑、隐藏、关闭或删除违反边界的内容，也可以限制相关账号继续参与。对安全、隐私、骚扰或去匿名化风险，维护者会优先保护受影响方，而不是保留公开讨论完整性。
+Maintainers may edit, hide, close, or delete material that violates these boundaries. For safety, privacy, harassment, or de-anonymization risks, maintainers prioritize reducing exposure over preserving a public thread.
 
-## 报告
+## Reporting
 
-行为准则问题可以通过项目维护者已公开的私有渠道报告。安全漏洞或敏感材料不要提交公开 issue，请按 [SECURITY.md](./SECURITY.md) 的安全报告边界处理。
+For conduct issues, use the maintainer contact route already published by the project. For security-sensitive material, do not open a public issue; follow [SECURITY.md](./SECURITY.md).

@@ -1,22 +1,24 @@
 # GitHub 社区规范索引
 
-本目录存放 GitHub 社区健康文件的详细说明。仓库根社区文件保持简短，详细边界、issue 路由和 HF 静态镜像说明在这里统一维护。
+本目录说明公开仓库如何接收质疑、复现失败、证据缺口和基线挑战。所有内容都必须基于公开材料、公开数据、合成样例或可安全分享的最小复现。
 
 ## 文件地图
 
-- [贡献边界](./CONTRIBUTING_BOUNDARY_CN.md)：说明什么贡献可以进入公开仓库，什么内容必须留在私有渠道或不应提交。
-- [安全边界](./SECURITY_BOUNDARY_CN.md)：说明公开 issue 与私有安全报告的分界。
-- [Issue 路由](./ISSUE_ROUTING_CN.md)：说明反例、复现失败、文档修正和安全边界咨询如何选择模板。
-- [HF 静态镜像边界](./HF_STATIC_MIRROR_BOUNDARY_CN.md)：说明 Hugging Face 镜像的技术索引角色，以及它与官网、中文入口和 Zenodo 的分工。
+- [贡献边界](./CONTRIBUTING_BOUNDARY_CN.md)：说明哪些贡献可以进入公开仓库，哪些内容必须保留在非公开渠道或不应提交。
+- [Issue 路由](./ISSUE_ROUTING_CN.md)：说明 claim challenge、reproduction failure、evidence gap、baseline challenge 应如何选择模板。
+- [安全边界](./SECURITY_BOUNDARY_CN.md)：说明公开 issue 与安全报告之间的分界。
+- [HF 静态镜像边界](./HF_STATIC_MIRROR_BOUNDARY_CN.md)：说明 Hugging Face 镜像的技术索引角色，以及它与官网、GitHub 和 Zenodo 的分工。
 
-## 社区目标
+## 公开入口
 
-社区讨论应围绕公开材料展开：公开论文、公开 DOI、公开 registry、公开 demo、公开 README、公开证据卡和公开 claim boundary。高质量贡献会让主张更窄、更准、更可复核，而不是让叙事更大。
+- 主站社区页：https://mianzhang.org/community/
+- GitHub issue 模板：https://github.com/mmjbds/mianzhang.org/issues/new/choose
+- 贡献指南：https://github.com/mmjbds/mianzhang.org/blob/main/.github/CONTRIBUTING.md
+- 公开完成度审计：https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
 
 ## 统一红线
 
-- 不公开密钥、token、密码或私有配置。
-- 不公开客户数据、真实交易记录、私有日志、内部提示词、私有编排或商业调度器。
-- 不提交非公开材料、私人通信、未公开版本或敏感身份线索。
-- 不发布可直接攻击真实系统、绕过权限或造成现实伤害的步骤。
-- 技术证据入口只收录公开可复核材料；面向一般读者的长文、叙事材料和传播内容应放在相应网站入口。
+- 不提交密钥、token、密码、私有配置或凭证。
+- 不提交客户数据、真实账号记录、真实交易记录、私有日志、私有执行链或无法公开复核的材料。
+- 不提交会扩大现实攻击能力的利用步骤、攻击链或绕过权限方法。
+- 技术质疑必须指向一个公开页面、公开 DOI、公开 registry、公开代码路径、公开 demo 或明确的边界声明。

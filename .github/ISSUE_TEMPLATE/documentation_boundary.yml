@@ -1,55 +1,39 @@
-name: Documentation issue
-description: Report unclear public documentation, broken links, routing mistakes, or evidence-boundary wording problems.
-title: "[Docs] "
-labels: ["documentation", "community"]
+name: Documentation boundary
+description: Report public documentation, link, route, wording, or boundary text that needs repair.
+title: "[Documentation Boundary] "
+labels: ["documentation", "boundary"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template for public documentation issues: broken links, unclear README flow, missing public references, ambiguous claim boundaries, or confusing GitHub/Hugging Face/Zenodo routing.
-
-        Evidence boundary: do not include private customer data, secrets, private logs, real trading accounts, real transaction records, private review pages, email screenshots, or internal memos.
+        Use this template for public wording, link, route, sitemap, README, page, or boundary repairs that do not require a claim challenge.
   - type: input
-    id: location
+    id: target
     attributes:
-      label: Documentation location
-      description: Provide the file path, page URL, section heading, registry row, or anchor.
-    validations:
-      required: true
-  - type: dropdown
-    id: issue_type
-    attributes:
-      label: Issue type
-      options:
-        - Broken link
-        - DOI / GitHub / Zenodo / Hugging Face routing error
-        - Claim boundary is unclear
-        - Evidence boundary is unclear
-        - README entry path is confusing
-        - Missing public reference
-        - Other
+      label: Public document or route
+      description: Link the public page, README, registry row, sitemap URL, GitHub file, or HF mirror route.
     validations:
       required: true
   - type: textarea
-    id: current_text
+    id: problem
     attributes:
-      label: Current problem
-      description: Briefly explain why the current text is unclear, inaccurate, missing public support, or outside the stated boundary.
+      label: Problem
+      description: Explain the broken link, unclear wording, stale status, duplicate route, or boundary issue.
     validations:
       required: true
   - type: textarea
-    id: proposed_text
+    id: repair
     attributes:
-      label: Proposed change
-      description: Provide suggested wording, a target link, or a concise description of the desired documentation change.
+      label: Suggested repair
+      description: Provide the smallest wording, link, route, status, or boundary fix.
     validations:
       required: false
   - type: checkboxes
-    id: scope
+    id: boundary
     attributes:
-      label: Evidence boundary confirmation
+      label: Public boundary confirmation
       options:
-        - label: This is about public documentation, public links, public evidence, or public boundary wording.
+        - label: This issue contains only public or safely shareable information.
           required: true
-        - label: This issue does not include private material, private logs, secrets, real trading accounts, real transaction records, internal memos, or copied private narrative material.
+        - label: This issue does not include secrets, customer data, private logs, real accounts, or restricted non-public material.
           required: true

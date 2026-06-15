@@ -1,35 +1,25 @@
 # 贡献边界
 
-## 优先接受
+本项目欢迎能让公开主张更窄、更准、更可复核的贡献。贡献的价值不在于把叙事写得更大，而在于让证据、边界和失败状态更清楚。
 
-- 公开链接修正：GitHub、Zenodo、Hugging Face、DOI、自有站和中文区入口。
-- 公开证据修正：registry、manifest、claim-to-evidence table、artifact scope、README。
-- 反例与复现：最小公开输入、合成样例、公开数据、可运行命令和观察结果。
-- 边界文本：claim boundary、counterexample boundary、no-go、stop rule、证据等级说明。
-- 社区流程：issue template、PR template、贡献指南、安全政策和支持边界。
+## 可以提交
 
-## 必须拒绝
+- 公开主张过宽、证据不足、边界不清或与公开证据冲突时，提交 claim challenge。
+- 公开 artifact、demo、schema、paper card、registry row 或 README 路径无法复现时，提交 reproduction failure。
+- 某个公开 claim 缺少 DOI、receipt、provenance、状态标签或边界说明时，提交 evidence gap。
+- 某个比较缺少更强、更简单或更公平的基线时，提交 baseline challenge。
+- 修正文档链接、公开状态标签、issue 模板、证据等级或边界措辞。
 
-- 密钥、token、密码、私有配置或任何凭证。
-- 客户数据、真实交易日志、私有执行链、私有 agent 编排、商业调度器。
-- 非公开材料、私人通信、未公开版本、敏感身份线索或无法公开复核的信息。
-- 未授权安全测试、攻击链、绕过步骤、武器化 exploit 或第三方系统攻击说明。
-- 与公开技术证据无关的传播材料、私有沟通材料或不可复核宣传。
+## 不要提交
 
-## Claim 写法
+- 密钥、token、密码、私有配置、客户数据、私有日志、真实账号记录、真实交易记录。
+- 无法公开复核的截图、私有通信、非公开版本、非公开执行链或敏感身份线索。
+- 可以直接攻击真实系统、绕过权限或扩大现实伤害的步骤。
+- 与公开证据、DOI、GitHub 路由、HF 路由或边界声明无关的营销文案。
 
-公开 claim 必须至少具备以下一种支撑：
+## 提交前检查
 
-- 公开论文、公开 DOI 或公开数据入口。
-- 可复核 registry、manifest、schema 或 claim-to-evidence 表。
-- 最小 demo、合成样例或公开复现命令。
-- 明确反证条件、适用范围或 no-go 边界。
-
-没有证据入口的说法应降为背景说明；无法公开验证且涉及私有执行质量的说法不应进入公开仓库。
-
-## PR 最小要求
-
-- 修改范围与目标一致，不混入无关重构。
-- 文档标题层级清楚，中文 UTF-8，无乱码。
-- 链接使用稳定公开入口，避免临时本地路径。
-- 对敏感或安全问题只写公开安全摘要，不公开利用细节。
+- 目标是否是一个公开 URL、公开 DOI、公开 registry row、公开代码路径或公开 demo。
+- 复现材料是否只使用公开数据、合成数据或已脱敏样例。
+- 修复建议是否能落到一种明确动作：收窄 claim、补 receipt、补 baseline、降级状态、标记负结果或更新 registry。
+- 是否没有引入任何凭证、私有日志、真实账号记录或受限材料。

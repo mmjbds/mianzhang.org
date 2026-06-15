@@ -13,6 +13,7 @@ This is the public static website package for `mianzhang.org`.
 - LLM retrieval file: https://mianzhang.org/llms.txt
 - XML sitemap: https://mianzhang.org/sitemap.xml
 - Search discovery entry: https://mianzhang.org/docs/search-discovery-2026-06-15.html
+- Public completion audit: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
 
 ## Public Routes
 
@@ -24,6 +25,7 @@ This is the public static website package for `mianzhang.org`.
 - Community route: `community/index.html`
 - Public roadmap: `docs/public-roadmap.html`
 - Weekly digest: `docs/weekly-digest-2026-06-15.html`
+- Public completion audit: `docs/public-completion-audit-2026-06-15.html`
 
 ## Platform Roles
 
@@ -34,4 +36,4 @@ This is the public static website package for `mianzhang.org`.
 
 ## Boundary
 
-This public site is a research and evidence index. Use Zenodo DOI records for citation authority and GitHub issues for public challenges. Do not place private review material, customer data, credentials, private logs, real account records, or non-public execution traces in the public layer.
+This public site is a research and evidence index. Use Zenodo DOI records for citation authority and GitHub issues for public challenges. Do not place restricted non-public material, customer data, credentials, private logs, real account records, or non-public execution traces in the public layer.

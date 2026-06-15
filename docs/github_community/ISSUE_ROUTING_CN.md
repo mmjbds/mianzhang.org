@@ -1,22 +1,24 @@
 # Issue 路由
 
-## 选择模板
+请使用最窄的公开 issue 模板。一个好的 issue 应该让外部读者能看清：目标是什么、证据是什么、哪里失败、应该如何修。
 
-- `反例 / 主张边界`：用于挑战公开 claim、证据等级、适用范围或 claim-to-evidence 映射。
-- `复现失败 / 文档缺口`：用于公开 artifact、脚本、schema、README、链接或命令无法复现。
-- `文档边界 / 链接修正`：用于修正 GitHub、Zenodo、Hugging Face、自有站、中文区入口或 README 层级。
-- `安全边界咨询`：仅用于不含敏感细节的公开安全边界问题。
+## 模板选择
 
-## 不要开公开 issue 的情况
+- Claim challenge：公开主张过宽、含糊、证据不足或与公开证据冲突。
+- Reproduction failure：公开 artifact、命令、demo、schema、paper card 或 registry row 无法复现。
+- Evidence gap：公开 claim 缺少 DOI、receipt、provenance、状态标签或边界声明。
+- Baseline challenge：比较对象不够公平、不够强、不够简单，或缺少可复核的 baseline。
+- Security boundary：只用于不含敏感细节的安全边界问题；真实漏洞、攻击链或凭证问题不要开公开 issue。
 
-- 你需要贴密钥、客户数据、私有日志、真实账户或真实交易记录才能说明问题。
-- 问题涉及未授权系统、第三方攻击目标、绕过权限或漏洞利用链。
-- 内容来自非公开材料、私人通信、未公开版本或敏感身份线索。
-- 主题是投资、销售、官网长文、中文长文搬运或不可复核叙事。
+## 高质量 issue 的结构
 
-## 高质量 issue 的形状
+- 指向一个明确公开目标：URL、DOI、paper card、registry row、代码路径、demo 或概念页。
+- 给出最小公开证据：公开数据、合成样例、命令、预期结果和实际结果。
+- 说明边界影响：需要降级、收窄、补证据、补 baseline、标负结果，还是转入等待状态。
+- 给出最小修复建议，不要求一次解决全部问题。
 
-- 指向一个明确公开目标。
-- 给出最小公开证据或最短复现步骤。
-- 说明期望结果、实际结果和边界影响。
-- 给出可能的修复方式，哪怕只是“收窄 claim”或“标为负结果”。
+## 入口
+
+- 模板选择页：https://github.com/mmjbds/mianzhang.org/issues/new/choose
+- 社区说明页：https://mianzhang.org/community/
+- 贡献指南：https://github.com/mmjbds/mianzhang.org/blob/main/.github/CONTRIBUTING.md

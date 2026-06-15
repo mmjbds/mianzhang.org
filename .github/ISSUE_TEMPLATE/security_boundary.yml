@@ -8,7 +8,7 @@ body:
       value: |
         Use this only for public boundary wording, permission-scope questions, evidence contamination concerns, or safe public-documentation issues.
 
-        If you found a real vulnerability, secret, customer data exposure, private log, exploit chain, real trading account issue, or account-specific incident, do not open a public issue. Follow SECURITY.md and use a private reporting channel.
+        If you found a real vulnerability, secret, customer data exposure, private log, exploit chain, real account issue, or account-specific incident, do not open a public issue. Follow SECURITY.md: https://github.com/mmjbds/mianzhang.org/blob/main/.github/SECURITY.md
   - type: input
     id: public_scope
     attributes:
@@ -50,5 +50,5 @@ body:
       options:
         - label: This issue does not include exploit chains, bypass steps, or instructions for attacking third-party systems.
           required: true
-        - label: This issue does not include secrets, customer data, real accounts, private logs, internal execution traces, real trading accounts, or real transaction records.
+        - label: This issue does not include secrets, customer data, real accounts, private logs, internal execution traces, or real transaction records.
           required: true
