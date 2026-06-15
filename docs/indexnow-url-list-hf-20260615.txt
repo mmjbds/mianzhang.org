@@ -60,6 +60,7 @@ https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P46.md
 https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P47.md
 https://mmjbds-mianzhang-org.static.hf.space/docs/search-discovery-2026-06-15.html
 https://mmjbds-mianzhang-org.static.hf.space/docs/search-index-weekly-report-2026-06-15.html
+https://mmjbds-mianzhang-org.static.hf.space/docs/search-index-weekly-report-2026-06-15.json
 https://mmjbds-mianzhang-org.static.hf.space/docs/public-roadmap.html
 https://mmjbds-mianzhang-org.static.hf.space/docs/external-submission-status-2026-06-15.html
 https://mmjbds-mianzhang-org.static.hf.space/docs/external-submission-action-pack-2026-06-15.html

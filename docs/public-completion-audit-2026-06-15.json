@@ -66,15 +66,15 @@
     },
     {
       "item": "IndexNow usable submission route",
-      "status": "SUBMITTED_ACCEPTED_200_CURRENT_68",
-      "evidence": "IndexNow API returned HTTP 200 for the current 68-URL host-specific lists on 2026-06-15, after the completion-audit routes were live.",
+      "status": "SUBMITTED_ACCEPTED_200_CURRENT_69",
+      "evidence": "IndexNow API returned HTTP 200 for the current 69-URL host-specific lists on 2026-06-15, after the machine-readable search report route was added.",
       "route": "https://mianzhang.org/docs/external-submission-status-2026-06-15.html",
       "proof_condition": "IndexNow status applies only to the recorded URL list and dated API response; later route additions require separate evidence."
     },
     {
       "item": "site: and exact-term search weekly report",
       "status": "COMPLETED_WITH_PARTIAL_PUBLIC_RESULTS",
-      "evidence": "Weekly report records confirmed public result URLs for the main site and HF mirror while keeping exact concept-entry coverage, console receipts, and AI retrieval unclaimed.",
+      "evidence": "Weekly report records confirmed public result URLs for the main site and HF mirror in both HTML and machine-readable JSON while keeping exact concept-entry coverage, console receipts, and AI retrieval unclaimed.",
       "route": "https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html",
       "proof_condition": "Record direct result URLs, screenshots, or console exports before claiming indexing or model retrieval."
     },

@@ -60,6 +60,7 @@ https://mianzhang.org/papers/public_index/P46.md
 https://mianzhang.org/papers/public_index/P47.md
 https://mianzhang.org/docs/search-discovery-2026-06-15.html
 https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
+https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.json
 https://mianzhang.org/docs/public-roadmap.html
 https://mianzhang.org/docs/external-submission-status-2026-06-15.html
 https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html

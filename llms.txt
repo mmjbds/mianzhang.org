@@ -24,6 +24,7 @@ Core public entry points:
 - Weekly digest: https://mianzhang.org/docs/weekly-digest-2026-06-15.html
 - Search discovery entry: https://mianzhang.org/docs/search-discovery-2026-06-15.html
 - Search index weekly report: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
+- Search index weekly report JSON: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.json
 - External submission status: https://mianzhang.org/docs/external-submission-status-2026-06-15.html
 - External submission action pack: https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html
 - Public completion audit: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
