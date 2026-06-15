@@ -13,14 +13,14 @@
       "status": "COMPLETED_VERIFIED",
       "evidence": "Main sitemap, llms, robots, canonical tags, concept routes, paper index, and IndexNow key are generated and checked by local public-route validation.",
       "route": "https://mianzhang.org/sitemap.xml",
-      "proof_condition": "Keep public-route validation and HTTP 200 checks current after each public release."
+      "proof_condition": "Continued public validity is evidenced by dated HTTP 200 checks and public-route validation."
     },
     {
       "item": "HF technical mirror discovery files",
       "status": "COMPLETED_WITH_PLATFORM_ROBOTS_LIMITATION",
       "evidence": "HF sitemap, llms, canonical tags, concept routes, paper index route, paper cards, and IndexNow key are generated and checked by local public-route validation.",
       "route": "https://mmjbds-mianzhang-org.static.hf.space/sitemap.xml",
-      "proof_condition": "Keep HF mirror public-route validation passing; note that Hugging Face may override root robots behavior on the static host."
+      "proof_condition": "Continued HF mirror validity is evidenced by dated HTTP 200 checks and public-route validation; note that Hugging Face may override root robots behavior on the static host."
     },
     {
       "item": "GitHub README cross-links",
@@ -69,7 +69,7 @@
       "status": "SUBMITTED_ACCEPTED_200_CURRENT_68",
       "evidence": "IndexNow API returned HTTP 200 for the current 68-URL host-specific lists on 2026-06-15, after the completion-audit routes were live.",
       "route": "https://mianzhang.org/docs/external-submission-status-2026-06-15.html",
-      "proof_condition": "Resubmit new URL lists after each public route addition and keep response status recorded."
+      "proof_condition": "IndexNow status applies only to the recorded URL list and dated API response; later route additions require separate evidence."
     },
     {
       "item": "site: and exact-term search weekly report",
