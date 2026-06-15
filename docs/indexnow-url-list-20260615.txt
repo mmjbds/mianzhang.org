@@ -10,7 +10,3 @@ https://mianzhang.org/papers/
 https://mianzhang.org/docs/search-discovery-2026-06-15.html
 https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
 https://mianzhang.org/docs/public-roadmap.html
-https://mmjbds-mianzhang-org.static.hf.space/
-https://mmjbds-mianzhang-org.static.hf.space/llms.txt
-https://mmjbds-mianzhang-org.static.hf.space/sitemap.xml
-https://mmjbds-mianzhang-org.static.hf.space/concepts/
