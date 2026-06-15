@@ -3,12 +3,14 @@
   "generated_utc": "2026-06-15T00:00:00Z",
   "site": {
     "name": "Mian Zhang | Ouroboros Project",
-    "base_url": "https://mmjbds-mianzhang-org.static.hf.space",
-    "status": "public_mirror_verified",
+    "base_url": "https://mianzhang.org",
+    "status": "public_routes_hardened",
     "public_verification_status": "Static routes are checked against the public sitemap and canonical evidence boundaries.",
-    "canonical_public_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
+    "canonical_public_base_url": "https://mianzhang.org",
     "custom_domain_target": "mianzhang.org",
-    "canonical_policy": "Use this HF Space as the technical evidence mirror; use mianzhang.org as the main public site and canonical Chinese-language entry."
+    "canonical_policy": "mianzhang.org is the main public entry; the Hugging Face Space is the technical mirror. Each served target has self-consistent sitemap, robots, llms, and canonical tags.",
+    "main_public_base_url": "https://mianzhang.org",
+    "technical_mirror_base_url": "https://mmjbds-mianzhang-org.static.hf.space"
   },
   "public_purpose": "A technical evidence mirror for evidence-gated AI systems: claims, evidence, boundaries, demos, registries, and bounded counterexample routes.",
   "primary_routes": [
@@ -100,5 +102,21 @@
     "protocol_stage_public_registry": "Protocol/registry is public; stronger empirical claims require further traces.",
     "claim_boundary_only_until_artifact_public": "Boundary is public; empirical claim is intentionally downgraded until artifact release.",
     "public_boundary_private_runtime_excluded": "Public summary excludes protected private execution details by design."
-  }
+  },
+  "search_discovery_routes": [
+    "/llms.txt",
+    "/sitemap.xml",
+    "/robots.txt",
+    "/indexnow-key.txt",
+    "/docs/search-discovery-2026-06-15.html",
+    "/docs/search-index-weekly-report-2026-06-15.html"
+  ],
+  "stable_concept_routes": [
+    "/concepts/no-proof-no-action-gate.html",
+    "/concepts/self-certification-grounding-check.html",
+    "/concepts/proof-carrying-action.html",
+    "/concepts/wisdombench.html",
+    "/concepts/robot-vision-downgrade-rule.html",
+    "/concepts/grounding-canon.html"
+  ]
 }

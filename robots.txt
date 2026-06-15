@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://mianzhang.org/sitemap.xml
+
+# IndexNow key: https://mianzhang.org/indexnow-key.txt

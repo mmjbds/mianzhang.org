@@ -1,52 +1,54 @@
-name: 安全边界咨询
-description: 仅用于不含敏感细节的安全边界、权限、证据污染或公开文档安全问题。
+name: Public security boundary question
+description: Ask about public security-boundary wording without posting sensitive details.
 title: "[Security Boundary] "
 labels: ["security", "boundary"]
 body:
   - type: markdown
     attributes:
       value: |
-        如果你发现真实漏洞、密钥、客户数据、私有日志或可被利用的攻击链，请不要使用公开 issue。请按 SECURITY.md 走私有报告。
+        Use this only for public boundary wording, permission-scope questions, evidence contamination concerns, or safe public-documentation issues.
+
+        If you found a real vulnerability, secret, customer data exposure, private log, exploit chain, real trading account issue, or account-specific incident, do not open a public issue. Follow SECURITY.md and use a private reporting channel.
   - type: input
     id: public_scope
     attributes:
-      label: 公开范围
-      description: 指向公开文件、公开页面、公开 demo 或公开文档段落。
+      label: Public scope
+      description: Point to the public file, public page, public demo, public documentation section, or public registry row.
     validations:
       required: true
   - type: dropdown
     id: risk_type
     attributes:
-      label: 风险类型
+      label: Boundary concern type
       options:
-        - 权限边界表述不清
-        - 证据污染或 credit leak
-        - 数据泄漏风险提示不足
-        - 安全声明过宽
-        - 公开 demo no-go 边界不足
-        - 其他
+        - Permission boundary wording is unclear
+        - Evidence contamination or credit leak concern
+        - Data exposure warning is insufficient
+        - Security claim is too broad
+        - Public demo no-go boundary is insufficient
+        - Other
     validations:
       required: true
   - type: textarea
     id: concern
     attributes:
-      label: 边界问题
-      description: 只描述公开层面的风险，不贴 exploit、密钥、客户数据或真实私有日志。
+      label: Public boundary concern
+      description: Describe only the public-level risk. Do not post exploit details, secrets, customer data, real account details, private logs, or incident-specific traces.
     validations:
       required: true
   - type: textarea
     id: repair
     attributes:
-      label: 建议修复
-      description: 例如收窄声明、添加 no-go、移除链接、补充权限说明或更新安全政策。
+      label: Suggested repair
+      description: For example, narrow a statement, add a no-go boundary, remove a link, clarify permissions, or update the security policy.
     validations:
       required: false
   - type: checkboxes
     id: public_safe
     attributes:
-      label: 公开安全确认
+      label: Public-safety confirmation
       options:
-        - label: 不包含漏洞利用链、绕过步骤或攻击第三方系统的说明。
+        - label: This issue does not include exploit chains, bypass steps, or instructions for attacking third-party systems.
           required: true
-        - label: 不包含密钥、客户数据、真实账户、私有日志或内部执行链。
+        - label: This issue does not include secrets, customer data, real accounts, private logs, internal execution traces, real trading accounts, or real transaction records.
           required: true

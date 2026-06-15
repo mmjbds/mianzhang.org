@@ -1,0 +1,56 @@
+name: Baseline challenge
+description: Propose or report a stronger public baseline that changes the interpretation of a public result.
+title: "[Baseline Challenge] "
+labels: ["baseline-challenge", "evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when a public result should be compared against a stronger, simpler, fairer, or better-documented baseline.
+
+        Evidence boundary: provide public code, public data, synthetic data, or sanitized examples only. Do not submit private customer data, secrets, private logs, real trading accounts, real transaction records, proprietary account exports, or internal execution traces.
+  - type: input
+    id: target_result
+    attributes:
+      label: Target result or claim
+      description: Link the public result, claim ID, benchmark table, registry row, paper section, demo, or README statement being challenged.
+    validations:
+      required: true
+  - type: input
+    id: proposed_baseline
+    attributes:
+      label: Proposed baseline
+      description: Name and link the baseline if possible. It can be a public method, simple heuristic, prior paper, open-source implementation, or reproducible script.
+      placeholder: "Example: public method name + URL / simple heuristic + script link"
+    validations:
+      required: true
+  - type: textarea
+    id: comparison_protocol
+    attributes:
+      label: Comparison protocol
+      description: Describe the metric, public data or synthetic fixture, setup, command, and expected comparison.
+      placeholder: |
+        Metric:
+        Public or synthetic data:
+        Command or notebook:
+        Expected comparison:
+    validations:
+      required: true
+  - type: textarea
+    id: interpretation_effect
+    attributes:
+      label: Interpretation effect
+      description: Explain how the baseline would change the result, confidence level, claim wording, registry status, or future evaluation plan.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Evidence boundary confirmation
+      options:
+        - label: The comparison can be run with public data, synthetic data, or sanitized examples.
+          required: true
+        - label: This issue does not include secrets, private logs, customer data, real trading accounts, real transaction records, proprietary account exports, or internal execution traces.
+          required: true
+        - label: This issue does not ask maintainers to disclose private customer datasets, private model traces, private logs, or credentials.
+          required: true

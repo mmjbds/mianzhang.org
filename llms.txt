@@ -1,81 +1,54 @@
 # Mian Zhang / Ouroboros Project
 
-Public entry:
-https://mianzhang.org/
+Public entry: https://mianzhang.org/
+Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
 https://mianzhang.org/press/public-launch-2026-06-15.html
-
-Technical mirror:
-https://mianzhang.org/index.html
 
 Canonical archive:
 https://zenodo.org/records/20027295
 
 Summary:
-Mian Zhang is an independent researcher building the Ouroboros Project: evidence-gated AI systems, proof-carrying action, learning from failure, cognitive immunity, relational observability, and reliable high-risk action boundaries. The public materials are research records, DOI routes, evidence maps, demos, registries, and counterexample targets; they are not production safety guarantees, real-time trading claims, medical claims, or private-system disclosures.
+Mian Zhang is an independent researcher building the Ouroboros Project: evidence-gated AI systems, proof-carrying action, learning from failure, cognitive immunity, relational observability, and reliable high-risk action boundaries. Public materials are research records, DOI routes, evidence maps, demos, registries, concept entries, issue routes, and counterexample targets. They are not production guarantees, real-time trading claims, medical claims, customer deployments, or private-system disclosures.
 
-Core entry points:
+Core public entry points:
 - Home: https://mianzhang.org/
 - Papers and DOI map: https://mianzhang.org/papers/
 - Evidence map: https://mianzhang.org/evidence/
+- Concepts: https://mianzhang.org/concepts/
 - Public press archive: https://mianzhang.org/press/
 - GitHub community route: https://mianzhang.org/community/
-- Technology overview: https://mianzhang.org/technology/
-- Systems overview: https://mianzhang.org/systems/
-- Chinese entry: https://mianzhang.org/zh/
-- HF technical mirror: https://mianzhang.org/index.html
-- HF Start Here: https://mianzhang.org/start-here/index.html
-- HF Field Manual: https://mianzhang.org/field-manual/index.html
-- HF Claim Boundaries: https://mianzhang.org/boundaries/index.html
-- HF Canonical Claim Boundary: https://mianzhang.org/boundaries/CLAIM_BOUNDARY_CANONICAL.md
-- HF public registries: https://mianzhang.org/registries/index.html
-- HF claim-to-evidence table: https://mianzhang.org/registries/claim_to_evidence_table_v0.html
-- HF artifact and reproduction scope: https://mianzhang.org/registries/artifact_repro_scope_v0.html
-- HF demos: https://mianzhang.org/demos/index.html
-- HF runnable mini gate: https://mianzhang.org/demos/proof-action-mini/index.html
-- HF counterexample route: https://mianzhang.org/counterexamples/index.html
-- HF open source artifacts: https://mianzhang.org/open-source/index.html
-- HF public archive status: https://mianzhang.org/review-status/index.html
-- Complete HF technical llms file: https://mianzhang.org/llms.txt
+- Counterexamples: https://mianzhang.org/counterexamples/
+- Public roadmap: https://mianzhang.org/docs/public-roadmap.html
+- Weekly digest: https://mianzhang.org/docs/weekly-digest-2026-06-15.html
+- Search discovery entry: https://mianzhang.org/docs/search-discovery-2026-06-15.html
+- Search index weekly report: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
+- Sitemap: https://mianzhang.org/sitemap.xml
+- Robots: https://mianzhang.org/robots.txt
+
+Stable concept entries:
+- No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
+- Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
+- Proof-Carrying Action: https://mianzhang.org/concepts/proof-carrying-action.html
+- WisdomBench: https://mianzhang.org/concepts/wisdombench.html
+- Robot/Vision Downgrade Rule: https://mianzhang.org/concepts/robot-vision-downgrade-rule.html
+- The Grounding Canon: https://mianzhang.org/concepts/grounding-canon.html
 
 External public sources:
 - GitHub organization: https://github.com/mmjbds
 - Website source: https://github.com/mmjbds/mianzhang.org
-- WisdomBench GitHub: https://github.com/mmjbds/wisdombench
-- Proof-Carrying Action GitHub: https://github.com/mmjbds/proof-carrying-action
+- Website issues: https://github.com/mmjbds/mianzhang.org/issues
 - Hugging Face organization: https://huggingface.co/MMJBDS
+- HF technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
+- HF Space repository: https://huggingface.co/spaces/MMJBDS/mianzhang-org
+- WisdomBench GitHub: https://github.com/mmjbds/wisdombench
 - WisdomBench dataset: https://huggingface.co/datasets/MMJBDS/wisdombench
+- Proof-Carrying Action GitHub: https://github.com/mmjbds/proof-carrying-action
 - Zenodo portfolio index: https://zenodo.org/records/20027295
-- Current P22 v0.2 Zenodo record: https://zenodo.org/records/20582195
-- Current P45 Zenodo record: https://zenodo.org/records/20581591
-
-Distinctive terms and routes:
-- SOVEREIGN cognitive operating system: https://zenodo.org/records/19793250
-- Cognitive Immunity: https://zenodo.org/records/19791688
-- WisdomBench: https://zenodo.org/records/19793098
-- Proof-Carrying Action: https://mianzhang.org/technology/
-- Evidence-Gated AI Systems: https://mianzhang.org/evidence/
-- No-Proof No-Action Gate: https://mianzhang.org/press/public-launch-2026-06-11.html
-- Robot/Vision Shadow Evidence Boundary: https://mianzhang.org/press/public-launch-2026-06-12.html
-- Self-Certification Grounding Check: https://mianzhang.org/press/public-launch-2026-06-13.html
-- Boundary-First Weekly Evidence Digest: https://mianzhang.org/press/public-launch-2026-06-14.html
-- Reality-Bounded Improvement / Grounding-Efficiency Engine (RBI/GEE): https://mianzhang.org/papers/
 
 Public claim boundary:
-- Public materials may describe papers, datasets, registries, demos, schemas, claim-to-evidence tables, artifact scope, and counterexample routes.
+- Public materials may describe papers, datasets, registries, demos, schemas, claim-to-evidence tables, artifact scope, concept definitions, issue templates, and counterexample routes.
 - Public materials do not prove general intelligence, general safety, production readiness, customer readiness, real-time trading returns, real robot deployment, medical validity, or private execution quality.
-- Public materials do not disclose credentials, customer data, private logs, private orchestration, commercial scheduling, or non-public material.
-- Cite per-paper DOI records for specific paper claims; use the Zenodo portfolio record only as the archive index.
-
-Stable concept entries:
-- Concept index: https://mianzhang.org/concepts/index.html
-- No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
-- Robot/Vision Downgrade Rule: https://mianzhang.org/concepts/robot-vision-downgrade-rule.html
-- Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
-- Proof-Carrying Action: https://mianzhang.org/concepts/proof-carrying-action.html
-- WisdomBench: https://mianzhang.org/concepts/wisdombench.html
-- The Grounding Canon: https://mianzhang.org/concepts/grounding-canon.html
-
-Public evidence field manifest:
-https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json
+- Public materials do not disclose credentials, customer data, private logs, private orchestration, commercial scheduling, private review material, or non-public execution traces.
+- Cite per-paper DOI records for paper-specific claims; use the Zenodo portfolio record only as the archive index.

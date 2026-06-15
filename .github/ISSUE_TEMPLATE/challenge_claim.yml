@@ -1,0 +1,73 @@
+name: Claim challenge
+description: Challenge a public claim, registry row, paper statement, concept entry, or demo boundary with minimal public evidence.
+title: "[Claim Challenge] "
+labels: ["claim-challenge", "claim-boundary"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when a public claim appears too broad, ambiguous, unsupported, or contradicted by public evidence.
+
+        Evidence boundary: submit only public, reproducible, and safely shareable material. Do not include private customer data, secrets, private logs, real trading accounts, real transaction records, confidential review material, or steps that attack a real system.
+  - type: input
+    id: target
+    attributes:
+      label: Target claim or artifact
+      description: Link the public page, paper card, paper section, claim ID, DOI, registry row, release note, concept entry, or demo.
+      placeholder: "Example: https://mianzhang.org/concepts/no-proof-no-action-gate.html"
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Challenge type
+      options:
+        - Claim is too broad
+        - Claim lacks public evidence
+        - Claim conflicts with public evidence
+        - Scope or applicability is unclear
+        - Evidence-to-action gap
+        - Provenance or credit concern
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: public_evidence
+    attributes:
+      label: Minimal public evidence
+      description: Provide the smallest public input, public or synthetic data, reproduction command, expected result, and observed result.
+      placeholder: |
+        Minimal input:
+        Public or synthetic data:
+        Reproduction command:
+        Expected result:
+        Observed result:
+    validations:
+      required: true
+  - type: textarea
+    id: boundary_effect
+    attributes:
+      label: Boundary impact
+      description: Explain how this should change the claim wording, evidence grade, applicability range, registry status, or repair queue.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_repair
+    attributes:
+      label: Proposed repair
+      description: For example, narrow the claim, add a baseline, add a receipt, add a stop rule, mark a negative result, or update a registry.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Evidence boundary confirmation
+      options:
+        - label: This issue does not include API keys, tokens, passwords, private configuration, or secrets.
+          required: true
+        - label: This issue does not include customer data, private logs, real trading accounts, real transaction records, or internal execution traces.
+          required: true
+        - label: This issue does not include confidential review material, private reviewer pages, email screenshots, or de-anonymizing information.
+          required: true
+        - label: This issue does not include steps that can be directly used to attack a real system.
+          required: true

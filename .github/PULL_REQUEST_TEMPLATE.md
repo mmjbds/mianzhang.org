@@ -1,24 +1,31 @@
-# PR 检查清单
+# Pull Request Checklist
 
-## 改动类型
+## Change Type
 
-- [ ] 文档 / README
-- [ ] issue template / 社区文件
-- [ ] claim boundary / 反例入口
-- [ ] 公开镜像说明
-- [ ] 其他：
+- [ ] Documentation / README
+- [ ] Issue template / community file
+- [ ] Claim boundary / public challenge protocol
+- [ ] Public evidence registry or receipt
+- [ ] Reproduction fixture, script, or baseline
+- [ ] Other:
 
-## 边界确认
+## Evidence Boundary
 
-- [ ] 没有提交 API key、token、密码、客户数据、私有日志或真实交易记录。
-- [ ] 没有提交会议匿名材料、审稿私有页面、邮件截图或去匿名化信息。
-- [ ] 没有公开可直接用于攻击真实系统的步骤。
-- [ ] 如包含 claim，已经写清证据入口、反证条件或适用边界。
-- [ ] 中文文档为 UTF-8，标题层级和链接格式已检查。
+- [ ] This PR does not include API keys, tokens, passwords, private configuration, or secrets.
+- [ ] This PR does not include customer data, private logs, real trading accounts, real transaction records, proprietary account exports, or internal execution traces.
+- [ ] This PR does not include confidential review material, private reviewer pages, email screenshots, or de-anonymizing information.
+- [ ] This PR does not publish steps that can be directly used to attack a real system or bypass permissions.
+- [ ] If this PR changes a claim, it documents the public evidence, counter-evidence path, applicability boundary, or confidence level.
 
-## 验证
+## Public Evidence
 
-请列出你运行的检查命令或人工检查项：
+- [ ] Public links, registry IDs, DOIs, or file paths are included where relevant.
+- [ ] Reproduction steps use public data, synthetic data, or sanitized samples only.
+- [ ] New or changed documentation is written for external readers, not as an internal memo.
+
+## Validation
+
+List the checks you ran or the manual review you performed:
 
 ```text
 

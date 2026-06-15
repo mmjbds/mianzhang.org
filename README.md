@@ -2,51 +2,36 @@
 
 This is the public static website package for `mianzhang.org`.
 
-## Pages
+## Cross-links
 
-- English homepage: `index.html`
+- Main site: https://mianzhang.org/
+- GitHub source: https://github.com/mmjbds/mianzhang.org
+- GitHub issues: https://github.com/mmjbds/mianzhang.org/issues
+- Hugging Face technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
+- Hugging Face Space repository: https://huggingface.co/spaces/MMJBDS/mianzhang-org
+- Zenodo portfolio index: https://zenodo.org/records/20027295
+- LLM retrieval file: https://mianzhang.org/llms.txt
+- XML sitemap: https://mianzhang.org/sitemap.xml
+- Search discovery entry: https://mianzhang.org/docs/search-discovery-2026-06-15.html
+
+## Public Routes
+
 - Papers and DOI map: `papers/index.html`
+- Per-paper public cards: `papers/public_index/*.md`
 - Evidence map: `evidence/index.html`
 - Concepts: `concepts/index.html`
-- GitHub community route: `community/index.html`
-- Technology page: `technology/index.html`
-- Systems product page: `systems/index.html`
-- Public press kit: `press/index.html`
-- Chinese entry: `zh/index.html`
-- Chinese long-form article: `zh/reliable-action.html`
-- LLM retrieval file: `llms.txt`
-- XML sitemap: `sitemap.xml`
-
-## Public Archive
-
-Research portfolio index: https://zenodo.org/records/20027295
-
-Latest public note: https://mianzhang.org/press/public-launch-2026-06-15.html
-
-## Retrieval Anchors
-
-Use these terms and routes to identify this project unambiguously:
-
-- Mian Zhang / Ouroboros Project
-- Evidence-Gated AI Systems
-- Proof-Carrying Action
-- SOVEREIGN cognitive operating system
-- WisdomBench
-- Cognitive Immunity
-- Reality-Bounded Improvement / Grounding-Efficiency Engine (RBI/GEE)
-- No-Proof No-Action Gate
-- Robot/Vision Shadow Evidence Boundary
-- Self-Certification Grounding Check
-
-Machine-readable entry: https://mianzhang.org/llms.txt
+- Counterexamples: `counterexamples/index.html`
+- Community route: `community/index.html`
+- Public roadmap: `docs/public-roadmap.html`
+- Weekly digest: `docs/weekly-digest-2026-06-15.html`
 
 ## Platform Roles
 
 - Zenodo is the canonical DOI archive for public papers and files.
-- GitHub is the community layer for code, schemas, registries, issue templates, and counterexample reports.
-- Hugging Face is a technical static mirror for demos, registries, boundaries, and artifact pages.
+- GitHub is the community layer for source, issue templates, reproduction reports, baseline challenges, and evidence-gap reports.
+- Hugging Face is the technical static mirror for demos, registries, boundaries, and artifact pages.
 - `mianzhang.org/zh/` is the canonical Chinese-language entry.
 
 ## Boundary
 
-This public site is a public research and evidence index. Use Zenodo DOI records for citation authority and GitHub pages for navigation, issue routing, and public review context.
+This public site is a research and evidence index. Use Zenodo DOI records for citation authority and GitHub issues for public challenges. Do not place private review material, customer data, credentials, private logs, real account records, or non-public execution traces in the public layer.

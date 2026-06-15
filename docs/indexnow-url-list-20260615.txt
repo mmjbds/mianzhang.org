@@ -1,0 +1,16 @@
+https://mianzhang.org/
+https://mianzhang.org/llms.txt
+https://mianzhang.org/sitemap.xml
+https://mianzhang.org/concepts/
+https://mianzhang.org/concepts/no-proof-no-action-gate.html
+https://mianzhang.org/concepts/self-certification-grounding-check.html
+https://mianzhang.org/concepts/proof-carrying-action.html
+https://mianzhang.org/concepts/wisdombench.html
+https://mianzhang.org/papers/
+https://mianzhang.org/docs/search-discovery-2026-06-15.html
+https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
+https://mianzhang.org/docs/public-roadmap.html
+https://mmjbds-mianzhang-org.static.hf.space/
+https://mmjbds-mianzhang-org.static.hf.space/llms.txt
+https://mmjbds-mianzhang-org.static.hf.space/sitemap.xml
+https://mmjbds-mianzhang-org.static.hf.space/concepts/

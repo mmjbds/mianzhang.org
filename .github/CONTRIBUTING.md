@@ -1,30 +1,45 @@
-# 贡献指南
+# Contributing Guide
 
-感谢你帮助改进本项目。优先贡献方向是公开证据、公开复现、claim boundary、反例模板、文档链接和安全边界说明。
+This project accepts public, evidence-focused contributions only.
 
-详细规则见 [docs/github_community/README_CN.md](../docs/github_community/README_CN.md)。
+## Useful Contributions
 
-## 可接受贡献
+- Challenge a public claim that is too broad, ambiguous, unsupported, or contradicted by public evidence.
+- Report a reproduction failure for a public artifact, demo, schema, paper card, registry row, or README path.
+- Identify an evidence gap where a public claim needs a stronger receipt, provenance link, or boundary statement.
+- Propose a stronger baseline or fairer comparison protocol.
+- Improve public documentation, links, claim boundaries, issue templates, or safe public examples.
 
-- 公开论文、公开 DOI、公开数据或公开 registry 的链接修正。
-- 最小反例、复现失败、基线比较、数据泄漏或 provenance 问题。
-- 文档结构、README、issue template、claim boundary 和安全边界修正。
-- 只使用公开样例、合成样例或已清理材料的 demo 说明。
+## Do Not Submit
 
-## 不接受贡献
+- API keys, tokens, passwords, private configuration, or credentials.
+- Customer data, private logs, private agent orchestration, private execution traces, real account records, or real transaction records.
+- Confidential review material, private reviewer pages, email screenshots, de-anonymizing information, or venue-specific non-public files.
+- Exploit chains, attack steps against real systems, or material that expands practical harm.
+- Marketing copy that is not tied to public evidence, a DOI record, a GitHub route, a Hugging Face route, or a claim boundary.
 
-- API key、token、密码、私有配置或内部凭证。
-- 客户数据、真实交易日志、私有 agent 编排、商业调度器或未公开执行链。
-- 会议匿名材料、审稿私有页面、邮件截图或可去匿名化信息。
-- 攻击真实系统、绕过权限、扩大漏洞利用或造成现实伤害的步骤。
-- 官网长文、中文长文搬运、投资人叙事或与技术证据无关的宣传材料。
+## Issue Routes
 
-## PR 检查
+- Claim challenge: use the `challenge_claim.yml` template.
+- Reproduction failure: use the `reproduction_failure.yml` template.
+- Evidence gap: use the `evidence_gap.yml` template.
+- Baseline challenge: use the `baseline_challenge.yml` template.
+- Security-sensitive material: do not open a public issue. Follow `SECURITY.md`.
 
-提交前请确认：
+## Pull Request Checklist
 
-- 改动只依赖公开、可引用或已清理材料。
-- 文档中的主张有证据入口、反证条件或明确边界。
-- 没有引入密钥、客户数据、私有日志、本地绝对路径或临时产物。
-- 如涉及安全问题，已经按 [SECURITY.md](./SECURITY.md) 处理，没有公开敏感细节。
-- 中文文档使用 UTF-8，标题层级清晰，链接可检查。
+Before opening a PR, confirm that:
+
+- Every changed claim points to a public DOI, public page, public registry row, public code path, or explicit boundary statement.
+- The change does not introduce secrets, private logs, customer data, local absolute paths, temporary artifacts, or private review material.
+- Reproduction steps use public data, synthetic data, or sanitized examples only.
+- If a claim is weakened, narrowed, downgraded, or marked unresolved, the status change is visible in the relevant page or registry.
+- Links are checkable from the public site, GitHub, Hugging Face mirror, or Zenodo record.
+
+## Public Cross-links
+
+- Main site: https://mianzhang.org/
+- GitHub source: https://github.com/mmjbds/mianzhang.org
+- Hugging Face technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
+- Hugging Face Space: https://huggingface.co/spaces/MMJBDS/mianzhang-org
+- Zenodo portfolio: https://zenodo.org/records/20027295

@@ -1,0 +1,61 @@
+name: Evidence gap
+description: Identify a public claim that needs a stronger public receipt, clearer provenance, or a missing registry link.
+title: "[Evidence Gap] "
+labels: ["evidence-gap", "claim-boundary"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when a public statement depends on evidence that is missing, too vague, inaccessible, or not linked to a public registry entry.
+
+        Evidence boundary: we welcome public references, synthetic examples, reproducible scripts, and sanitized summaries. Do not submit private customer data, secrets, private logs, real trading accounts, real transaction records, private review material, or internal execution traces.
+  - type: input
+    id: claim_or_statement
+    attributes:
+      label: Claim, statement, or registry row
+      description: Link the public claim, README sentence, registry row, paper paragraph, demo page, or release note.
+      placeholder: "Example: Claim-001 / docs/public_evidence_field/evidence_map.md#claim-001"
+    validations:
+      required: true
+  - type: dropdown
+    id: gap_type
+    attributes:
+      label: Gap type
+      options:
+        - Missing public evidence
+        - Evidence exists but is not linked
+        - Evidence is not reproducible
+        - Provenance is unclear
+        - Confidence level is unsupported
+        - Negative result is not documented
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current_support
+    attributes:
+      label: Current public support
+      description: Summarize what public evidence is currently linked, if any.
+      placeholder: |
+        Current linked evidence:
+        What is missing or unclear:
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_receipt
+    attributes:
+      label: Suggested public receipt
+      description: Suggest a public dataset, synthetic fixture, script, benchmark, citation, registry entry, or wording change that would close the gap.
+    validations:
+      required: false
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Evidence boundary confirmation
+      options:
+        - label: This issue uses only public, synthetic, or sanitized material.
+          required: true
+        - label: This issue does not request or include private customer data, secrets, private logs, real trading accounts, real transaction records, or internal execution traces.
+          required: true
+        - label: This issue does not rely on confidential review material, private reviewer pages, email screenshots, or de-anonymizing information.
+          required: true

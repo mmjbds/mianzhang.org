@@ -1,48 +1,55 @@
-name: 文档边界 / 链接修正
-description: 修正公开链接、README、HF/GitHub/Zenodo 路由或边界口径。
+name: Documentation issue
+description: Report unclear public documentation, broken links, routing mistakes, or evidence-boundary wording problems.
 title: "[Docs] "
-labels: ["documentation", "boundary"]
+labels: ["documentation", "community"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for public documentation issues: broken links, unclear README flow, missing public references, ambiguous claim boundaries, or confusing GitHub/Hugging Face/Zenodo routing.
+
+        Evidence boundary: do not include private customer data, secrets, private logs, real trading accounts, real transaction records, private review pages, email screenshots, or internal memos.
   - type: input
     id: location
     attributes:
-      label: 文档位置
-      description: 填写文件路径、页面 URL 或段落标题。
+      label: Documentation location
+      description: Provide the file path, page URL, section heading, registry row, or anchor.
     validations:
       required: true
   - type: dropdown
     id: issue_type
     attributes:
-      label: 问题类型
+      label: Issue type
       options:
-        - 链接失效
-        - DOI / GitHub / Zenodo / HF 路由错误
-        - claim boundary 不清
-        - README 入口过长或层级不清
-        - 混入不该由 HF 镜像承载的内容
-        - 其他
+        - Broken link
+        - DOI / GitHub / Zenodo / Hugging Face routing error
+        - Claim boundary is unclear
+        - Evidence boundary is unclear
+        - README entry path is confusing
+        - Missing public reference
+        - Other
     validations:
       required: true
   - type: textarea
     id: current_text
     attributes:
-      label: 当前问题
-      description: 简述当前文本为什么不清楚、不准确或越界。
+      label: Current problem
+      description: Briefly explain why the current text is unclear, inaccurate, missing public support, or outside the stated boundary.
     validations:
       required: true
   - type: textarea
     id: proposed_text
     attributes:
-      label: 建议改法
-      description: 给出建议文本或目标链接。
+      label: Proposed change
+      description: Provide suggested wording, a target link, or a concise description of the desired documentation change.
     validations:
       required: false
   - type: checkboxes
     id: scope
     attributes:
-      label: 范围确认
+      label: Evidence boundary confirmation
       options:
-        - label: 这是公开文档、公开链接或公开边界问题。
+        - label: This is about public documentation, public links, public evidence, or public boundary wording.
           required: true
-        - label: 不包含私有材料、投资人叙事、官网长文搬运或中文长文搬运。
+        - label: This issue does not include private material, private logs, secrets, real trading accounts, real transaction records, internal memos, or copied private narrative material.
           required: true

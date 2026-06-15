@@ -1,72 +1,73 @@
-name: 反例 / 主张边界
-description: 用最小公开证据挑战论文、claim、registry 或 demo 边界。
+name: Counterexample report
+description: Report a minimal public counterexample against a specific claim, registry row, paper statement, or demo boundary.
 title: "[Counterexample] "
 labels: ["counterexample", "claim-boundary"]
 body:
   - type: markdown
     attributes:
       value: |
-        请只提交公开、可复核、可安全分享的材料。不要提交客户数据、密钥、私有日志、真实交易记录、会议匿名材料或攻击真实系统的步骤。
+        Use this template when a public claim appears too broad, ambiguous, unsupported, or contradicted by public evidence.
+
+        Evidence boundary: submit only public, reproducible, and safely shareable material. Do not include private customer data, secrets, private logs, real trading accounts, real transaction records, confidential review material, or steps that attack a real system.
   - type: input
     id: target
     attributes:
-      label: 目标 claim / artifact
-      description: 填写页面、论文、claim ID、DOI、registry 行或 demo 链接。
-      placeholder: "例如：PCA-C1 / papers/index.html / 10.xxxx/..."
+      label: Target claim or artifact
+      description: Link the public page, paper section, claim ID, DOI, registry row, release note, or demo.
+      placeholder: "Example: Claim-001 / docs/public_evidence_field/evidence_map.md / 10.xxxx/..."
     validations:
       required: true
   - type: dropdown
     id: class
     attributes:
-      label: 反例类型
+      label: Challenge type
       options:
-        - claim 过宽
-        - 数据泄漏或 provenance 错误
-        - 更强基线
-        - 复现失败
-        - 证据到行动缺口
-        - false no-go / 过度保守 gate
-        - credit contamination
-        - 其他
+        - Claim is too broad
+        - Claim lacks public evidence
+        - Claim conflicts with public evidence
+        - Scope or applicability is unclear
+        - Evidence-to-action gap
+        - Provenance or credit concern
+        - Other
     validations:
       required: true
   - type: textarea
     id: public_evidence
     attributes:
-      label: 最小公开证据
-      description: 给出最小输入、公开数据或合成样例、复现命令、期望结果和观察结果。
+      label: Minimal public evidence
+      description: Provide the smallest public input, public or synthetic data, reproduction command, expected result, and observed result.
       placeholder: |
-        最小输入：
-        公开数据或合成样例：
-        复现命令：
-        期望结果：
-        观察结果：
+        Minimal input:
+        Public or synthetic data:
+        Reproduction command:
+        Expected result:
+        Observed result:
     validations:
       required: true
   - type: textarea
     id: boundary_effect
     attributes:
-      label: 边界影响
-      description: 说明这个反例会如何改变 claim、证据等级、适用范围或 repair queue。
+      label: Boundary impact
+      description: Explain how this should change the claim wording, evidence grade, applicability range, registry status, or repair queue.
     validations:
       required: true
   - type: textarea
     id: proposed_repair
     attributes:
-      label: 建议修复
-      description: 例如收窄 claim、补 baseline、补 receipt、补 stop rule、标负结果或更新 registry。
+      label: Proposed repair
+      description: For example, narrow the claim, add a baseline, add a receipt, add a stop rule, mark a negative result, or update a registry.
     validations:
       required: false
   - type: checkboxes
     id: safety
     attributes:
-      label: 安全确认
+      label: Evidence boundary confirmation
       options:
-        - label: 不包含 API key、token、密码或私有配置。
+        - label: This issue does not include API keys, tokens, passwords, private configuration, or secrets.
           required: true
-        - label: 不包含客户数据、私有日志、真实交易记录或内部执行链。
+        - label: This issue does not include customer data, private logs, real trading accounts, real transaction records, or internal execution traces.
           required: true
-        - label: 不包含会议匿名材料、审稿私有页面、邮件截图或去匿名化信息。
+        - label: This issue does not include confidential review material, private reviewer pages, email screenshots, or de-anonymizing information.
           required: true
-        - label: 不包含可直接用于攻击真实系统的步骤。
+        - label: This issue does not include steps that can be directly used to attack a real system.
           required: true

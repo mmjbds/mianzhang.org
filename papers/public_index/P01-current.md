@@ -1,0 +1,19 @@
+# P01-current - Cognitive Immunity
+
+Status: `PUBLIC_ZENODO_RECORD`
+
+Evidence level: `public_preprint_current_p01`
+
+DOI: 10.5281/zenodo.19791688
+
+DOI URL: https://doi.org/10.5281/zenodo.19791688
+
+Main site card: https://mianzhang.org/papers/public_index/P01-current.md
+
+GitHub card: https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-current.md
+
+Hugging Face card: https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-current.md
+
+Challenge route: https://github.com/mmjbds/mianzhang.org/issues/new?template=challenge_claim.yml
+
+Boundary: cite the DOI record for paper-specific claims. Use this card as a navigation and evidence-boundary pointer, not as a replacement for the DOI landing page.

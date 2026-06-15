@@ -4,36 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Papers | Ouroboros Project</title>
-  <meta name="description" content="Public paper and DOI map for Mian Zhang / Ouroboros Project: Wisdom Science, reflexive AI, embodied intelligence, and reliable decision systems.">
-  <meta property="og:url" content="https://mianzhang.org/papers/">
+  <meta name="description" content="Public paper index mapping each record to DOI, GitHub, Hugging Face, evidence level, and current status.">
   <meta property="og:title" content="Papers | Ouroboros Project">
-  <meta property="og:description" content="Public paper and DOI map for Wisdom Science and Ouroboros Project.">
-  <meta property="og:image" content="https://mianzhang.org/assets/evidence-eclipse.webp">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Papers | Ouroboros Project">
+  <meta property="og:description" content="Public paper index mapping each record to DOI, GitHub, Hugging Face, evidence level, and current status.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mianzhang.org/papers/">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="../favicon.png" type="image/png">
   <link rel="stylesheet" href="../styles.css">
   <link rel="canonical" href="https://mianzhang.org/papers/">
   <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Papers", "description": "Public paper index mapping each record to DOI, GitHub, Hugging Face, evidence level, and current status.", "url": "https://mianzhang.org/papers/", "isPartOf": {"@type": "WebSite", "name": "Ouroboros Project", "url": "https://mianzhang.org"}}</script>
 </head>
 <body>
   <div class="site-texture" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="../">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
       <span class="brand-mark"></span>
       <span>Mian Zhang</span>
     </a>
     <nav aria-label="Primary navigation">
-      <a href="../">Home</a>
-      <a href="../evidence/">Evidence</a>
-      <a href="../concepts/">Concepts</a>
-      <a href="../community/">Community</a>
-      <a href="../technology/">Technology</a>
-      <a href="../press/">Press</a>
-      <a href="../systems/">Systems</a>
-      <a href="../zh/">Chinese</a>
-      <a href="#published">Published</a>
-      <a href="#policy">Policy</a>
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/docs/public-roadmap.html">Roadmap</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
     </nav>
   </header>
 
@@ -41,204 +39,483 @@
     <section class="hero article-hero">
       <div class="hero-copy">
         <p class="kicker">Public Archive / DOI Index</p>
-        <h1>Papers, versions, and evidence boundaries.</h1>
-        <p class="lead">
-          Zenodo is the canonical archive for public papers and files. GitHub carries the text index, issue routes, and
-          manifest checks. This page stays focused on public records, versions, evidence boundaries, and challenge routes.
-        </p>
+        <h1>Papers, public routes, and evidence levels.</h1>
+        <p class="lead">Each paper row maps DOI, GitHub card, Hugging Face card, evidence level, and current public status. Zenodo remains the citation authority; GitHub and HF provide navigation, review, and challenge routes.</p>
         <div class="hero-actions">
-          <a class="button primary" href="https://zenodo.org/records/20027295">Portfolio Archive Index</a>
-          <a class="button" href="../evidence/">Evidence Map</a>
-          <a class="button" href="../community/">GitHub Community</a>
+          <a class="button primary" href="https://zenodo.org/records/20027295">Zenodo Portfolio</a>
+          <a class="button" href="https://github.com/mmjbds/mianzhang.org/tree/main/papers/public_index">GitHub Index</a>
+          <a class="button" href="https://github.com/mmjbds/mianzhang.org/issues/new/choose">Challenge a Claim</a>
+          <a class="button" href="https://mmjbds-mianzhang-org.static.hf.space/papers/">HF Mirror</a>
         </div>
       </div>
-      <figure class="hero-visual">
-        <img src="../assets/evidence-eclipse.webp" alt="Black-gold evidence gate visual.">
-      </figure>
     </section>
 
-    <section id="published" class="section portfolio">
+    <section class="section portfolio">
       <div class="section-head">
-        <p class="kicker">Confirmed Public Records</p>
-        <h2>Current public DOI map.</h2>
-        <p>These entries are public DOI records or public dataset/support records. GitHub provides a registry view; Zenodo remains the citation archive.</p>
+        <p class="kicker">Paper Index</p>
+        <h2>DOI / GitHub / HF / Evidence / Status.</h2>
+        <p>The rows are generated from the public JSONL registry. Challenge claim scope, reproduction failures, evidence gaps, or baseline issues through the GitHub issue templates.</p>
       </div>
-      <div class="paper-table" role="table" aria-label="Confirmed public DOI records">
-        <div class="paper-row head" role="row">
-          <span>ID</span><span>Paper</span><span>Status</span><span>Record</span>
+      <div class="paper-table" role="table" aria-label="Paper DOI GitHub HF evidence status index">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>ID</span><span>Paper</span><span>DOI</span><span>GitHub</span><span>HF</span><span>Evidence level</span><span>Status</span>
         </div>
-        <a class="paper-row" href="https://zenodo.org/records/19793250" role="row">
-          <span>P00</span><span>SOVEREIGN: A Cognitive Operating System for Self-Evolving AI Agents</span><span>Preprint</span><span>10.5281/zenodo.19793250</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/19791688" role="row">
-          <span>P01</span><span>Cognitive Immunity: Anti-Fragile Reasoning through Bio-Inspired Failure Learning in AI Agents</span><span>Public preprint</span><span>10.5281/zenodo.19791688</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/19793098" role="row">
-          <span>P02</span><span>WisdomBench: A Longitudinal Benchmark for Measuring Wisdom Acquisition in AI Agents</span><span>Public benchmark record</span><span>10.5281/zenodo.19793098</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/19793366" role="row">
-          <span>P03</span><span>The Intelligence-Wisdom Gap: Why Smarter AI Agents Are Not Wiser Ones</span><span>Public preprint</span><span>10.5281/zenodo.19793366</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/19895990" role="row">
-          <span>P04</span><span>The Second Scaling Law: Intelligence Scales with Parameters, Wisdom Scales with Architecture</span><span>Public preprint</span><span>10.5281/zenodo.19895990</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20028053" role="row">
-          <span>P05</span><span>The Second Scaling Law in Physical Worlds: Why Architecture Determines Robot Learning Ability</span><span>Public embodied evidence record</span><span>10.5281/zenodo.20028053</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20028470" role="row">
-          <span>P06</span><span>WisdomBench-Embodied: A Longitudinal Benchmark for Measuring Learning Ability in Physical Agents</span><span>Public embodied evidence record</span><span>10.5281/zenodo.20028470</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20028518" role="row">
-          <span>P07</span><span>WisdomBench-Embodied in Practice: Measuring Learning Ability in VLA Agents on LIBERO</span><span>Public embodied evidence record</span><span>10.5281/zenodo.20028518</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20028566" role="row">
-          <span>P08</span><span>Representation Genesis: Compression, Macro Search, and Perspectival Grounding in Wisdom Systems</span><span>Workshop route</span><span>10.5281/zenodo.20028566</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20028687" role="row">
-          <span>P09</span><span>Embodied Failure Immunity: Antigen Memory, Recovery Adapters, and Whole-Organism Intelligence</span><span>Workshop route</span><span>10.5281/zenodo.20028687</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20094848" role="row">
-          <span>P10</span><span>Cybernetic Teaching</span><span>Public preprint</span><span>10.5281/zenodo.20094848</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20094832" role="row">
-          <span>P11</span><span>Social Calibration</span><span>Public preprint</span><span>10.5281/zenodo.20094832</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20096775" role="row">
-          <span>P12</span><span>Supra-Body Architecture</span><span>Public preprint</span><span>10.5281/zenodo.20096775</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20096812" role="row">
-          <span>P13</span><span>Reflexive Counter-Autonomy</span><span>Public preprint boundary</span><span>10.5281/zenodo.20096812</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20096871" role="row">
-          <span>P14</span><span>Reflexive Swarm Civic Safety</span><span>Public preprint</span><span>10.5281/zenodo.20096871</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20097429" role="row">
-          <span>P15/P16</span><span>Causal-Unknown and Compact Evidence Benchmarks</span><span>Dataset/support record</span><span>10.5281/zenodo.20097429</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20097466" role="row">
-          <span>P17</span><span>Cognitive Sovereignty</span><span>Public preprint</span><span>10.5281/zenodo.20097466</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20097501" role="row">
-          <span>P18</span><span>Evolutionary Digital Twins</span><span>Public preprint</span><span>10.5281/zenodo.20097501</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20097537" role="row">
-          <span>P19</span><span>Gaia Reflex: Planetary Homeostasis as a Reflexive AI-for-Science Benchmark</span><span>AI-for-science preprint</span><span>10.5281/zenodo.20097537</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20097570" role="row">
-          <span>P20</span><span>Counter-Reflexive Evidence Integrity: Interference-Aware Perception and Action Control</span><span>Workshop-first preprint</span><span>10.5281/zenodo.20097570</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20110472" role="row">
-          <span>P21</span><span>Reflexive Co-Embodiment</span><span>Public preprint</span><span>10.5281/zenodo.20110472</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20110671" role="row">
-          <span>P21 evidence</span><span>Co-Embodiment evidence dataset</span><span>Dataset/support record</span><span>10.5281/zenodo.20110671</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20582195" role="row">
-          <span>P22</span><span>The Wisdom Closure Theorems</span><span>v0.2 current; concept DOI 10.5281/zenodo.20156364</span><span>10.5281/zenodo.20582195</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20156365" role="row">
-          <span>P22 prev.</span><span>The Wisdom Closure Theorems</span><span>V0.1 previous version only</span><span>10.5281/zenodo.20156365</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20502488" role="row">
-          <span>W0</span><span>The Wisdom Standard</span><span>V2; continue with new versions in same concept</span><span>10.5281/zenodo.20502488</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20502642" role="row">
-          <span>P23</span><span>Bounded Reflexive Self-Modification</span><span>P22 v2 trilogy</span><span>10.5281/zenodo.20502642</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20503883" role="row">
-          <span>P28</span><span>Wisdom under World Drift</span><span>P22 v2 trilogy</span><span>10.5281/zenodo.20503883</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20504263" role="row">
-          <span>P29</span><span>Pluralistic Wisdom</span><span>P22 v2 trilogy</span><span>10.5281/zenodo.20504263</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20502567" role="row">
-          <span>P30</span><span>Provable Wisdom</span><span>V2 current</span><span>10.5281/zenodo.20502567</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20502600" role="row">
-          <span>P31</span><span>Architectural Honesty</span><span>V2 current</span><span>10.5281/zenodo.20502600</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20504387" role="row">
-          <span>P32</span><span>Reflexive Measurement</span><span>Protocol-only replay gate</span><span>10.5281/zenodo.20504387</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20504465" role="row">
-          <span>P33</span><span>Architectural Mortality and Wisdom Succession</span><span>Structural handoff protocol</span><span>10.5281/zenodo.20504465</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20504528" role="row">
-          <span>P34</span><span>Agent Polis</span><span>Polis-scale failure learning</span><span>10.5281/zenodo.20504528</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20504674" role="row">
-          <span>P35</span><span>Wisdom Thermodynamics</span><span>Energy-budget constraints</span><span>10.5281/zenodo.20504674</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20504922" role="row">
-          <span>P36</span><span>Substrate-Wisdom Coupling</span><span>Substrate coupling</span><span>10.5281/zenodo.20504922</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20505081" role="row">
-          <span>P37</span><span>Architectural Interiority</span><span>No-consciousness boundary</span><span>10.5281/zenodo.20505081</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20505224" role="row">
-          <span>P38</span><span>Asymmetric Reflexivity</span><span>Simulation-only protocol target</span><span>10.5281/zenodo.20505224</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20505309" role="row">
-          <span>P39</span><span>Cultural Wisdom Stewardship</span><span>Ethics gates and authorized partitions</span><span>10.5281/zenodo.20505309</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20505348" role="row">
-          <span>P40</span><span>Spectral Wisdom Theory</span><span>Local diagnostic and negative controls</span><span>10.5281/zenodo.20505348</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20568943" role="row">
-          <span>P41</span><span>Confident Error Alone Does Not Predict Robot Data Value</span><span>Local constructed evidence only</span><span>10.5281/zenodo.20568943</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20569156" role="row">
-          <span>P42</span><span>Wisdom Is Not Capability</span><span>Shadow-only runtime evidence; no alpha claim</span><span>10.5281/zenodo.20569156</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20569248" role="row">
-          <span>P43</span><span>Self-Certification Is Not Grounding</span><span>Theory and constructed witnesses only</span><span>10.5281/zenodo.20569248</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20571161" role="row">
-          <span>P44</span><span>Reality-Bounded Improvement</span><span>R-shadow full-rollout candidate included, not completed</span><span>10.5281/zenodo.20571161</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20581591" role="row">
-          <span>P45</span><span>RBI/GEE Phase-2 Empirical</span><span>C-controlled success plus bounded public no-credit receipts</span><span>10.5281/zenodo.20581591</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20505485" role="row">
-          <span>F1-P8</span><span>No Trade Without Proof</span><span>Negative result in proof-carrying financial AI</span><span>10.5281/zenodo.20505485</span>
-        </a>
-        <a class="paper-row" href="https://zenodo.org/records/20508591" role="row">
-          <span>F2/P-AE/D3</span><span>No Act Without Proof supplementary engineering artifacts</span><span>D3 belongs here; speed-up remains not demonstrated</span><span>10.5281/zenodo.20508591</span>
-        </a>
+        <div id="Portfolio" class="paper-row paper-row-extended" role="row">
+          <span>Portfolio</span>
+          <span>Wisdom Science Research Portfolio</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20027295">10.5281/zenodo.20027295</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/Portfolio.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/Portfolio.md">HF</a></span>
+          <span>portfolio_index</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P00" class="paper-row paper-row-extended" role="row">
+          <span>P00</span>
+          <span>SOVEREIGN: A Cognitive Operating System for Self-Evolving AI Agents</span>
+          <span><a href="https://doi.org/10.5281/zenodo.19793250">10.5281/zenodo.19793250</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P00.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P00.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P01-current" class="paper-row paper-row-extended" role="row">
+          <span>P01-current</span>
+          <span>Cognitive Immunity</span>
+          <span><a href="https://doi.org/10.5281/zenodo.19791688">10.5281/zenodo.19791688</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-current.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-current.md">HF</a></span>
+          <span>public_preprint_current_p01</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P01-legacy" class="paper-row paper-row-extended" role="row">
+          <span>P01-legacy</span>
+          <span>Reflexive Intelligence</span>
+          <span><a href="https://doi.org/10.5281/zenodo.19557261">10.5281/zenodo.19557261</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P01-legacy.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P01-legacy.md">HF</a></span>
+          <span>legacy_record</span>
+          <span>LEGACY_PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P02" class="paper-row paper-row-extended" role="row">
+          <span>P02</span>
+          <span>WisdomBench</span>
+          <span><a href="https://doi.org/10.5281/zenodo.19793098">10.5281/zenodo.19793098</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P02.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P02.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P03" class="paper-row paper-row-extended" role="row">
+          <span>P03</span>
+          <span>The Intelligence-Wisdom Gap</span>
+          <span><a href="https://doi.org/10.5281/zenodo.19793366">10.5281/zenodo.19793366</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P03.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P03.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P04" class="paper-row paper-row-extended" role="row">
+          <span>P04</span>
+          <span>The Second Scaling Law</span>
+          <span><a href="https://doi.org/10.5281/zenodo.19895990">10.5281/zenodo.19895990</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P04.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P04.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P05" class="paper-row paper-row-extended" role="row">
+          <span>P05</span>
+          <span>Physical Second Scaling Law</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20028053">10.5281/zenodo.20028053</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P05.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P05.md">HF</a></span>
+          <span>public_embodied_evidence_record</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P06" class="paper-row paper-row-extended" role="row">
+          <span>P06</span>
+          <span>WisdomBench-Embodied RLBench</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20028470">10.5281/zenodo.20028470</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P06.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P06.md">HF</a></span>
+          <span>public_embodied_evidence_record</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P07" class="paper-row paper-row-extended" role="row">
+          <span>P07</span>
+          <span>WisdomBench-Embodied LIBERO / VLA</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20028518">10.5281/zenodo.20028518</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P07.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P07.md">HF</a></span>
+          <span>public_embodied_evidence_record</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P08" class="paper-row paper-row-extended" role="row">
+          <span>P08</span>
+          <span>Representation Genesis</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20028566">10.5281/zenodo.20028566</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P08.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P08.md">HF</a></span>
+          <span>workshop_route_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P09" class="paper-row paper-row-extended" role="row">
+          <span>P09</span>
+          <span>Embodied Failure Immunity</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20028687">10.5281/zenodo.20028687</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P09.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P09.md">HF</a></span>
+          <span>robot_safety_route_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P10" class="paper-row paper-row-extended" role="row">
+          <span>P10</span>
+          <span>Cybernetic Teaching</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20094848">10.5281/zenodo.20094848</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P10.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P10.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P11" class="paper-row paper-row-extended" role="row">
+          <span>P11</span>
+          <span>Social Calibration</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20094832">10.5281/zenodo.20094832</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P11.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P11.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P12" class="paper-row paper-row-extended" role="row">
+          <span>P12</span>
+          <span>Supra-Body Architecture</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20096775">10.5281/zenodo.20096775</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P12.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P12.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P13" class="paper-row paper-row-extended" role="row">
+          <span>P13</span>
+          <span>Reflexive Counter-Autonomy</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20096812">10.5281/zenodo.20096812</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P13.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P13.md">HF</a></span>
+          <span>public_preprint_boundary</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P14" class="paper-row paper-row-extended" role="row">
+          <span>P14</span>
+          <span>Reflexive Swarm Civic Safety</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20096871">10.5281/zenodo.20096871</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P14.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P14.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P15_P16" class="paper-row paper-row-extended" role="row">
+          <span>P15/P16</span>
+          <span>Causal-Unknown and Compact Evidence Benchmarks</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20097429">10.5281/zenodo.20097429</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P15_P16.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P15_P16.md">HF</a></span>
+          <span>dataset_only</span>
+          <span>PUBLIC_ZENODO_DATASET_RECORD</span>
+        </div>
+        <div id="P17" class="paper-row paper-row-extended" role="row">
+          <span>P17</span>
+          <span>Cognitive Sovereignty</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20097466">10.5281/zenodo.20097466</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P17.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P17.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P18" class="paper-row paper-row-extended" role="row">
+          <span>P18</span>
+          <span>Evolutionary Digital Twins</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20097501">10.5281/zenodo.20097501</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P18.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P18.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P19" class="paper-row paper-row-extended" role="row">
+          <span>P19</span>
+          <span>Gaia Reflex</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20097537">10.5281/zenodo.20097537</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P19.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P19.md">HF</a></span>
+          <span>ai_for_science_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P20" class="paper-row paper-row-extended" role="row">
+          <span>P20</span>
+          <span>Counter-Reflexive Evidence Integrity</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20097570">10.5281/zenodo.20097570</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P20.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P20.md">HF</a></span>
+          <span>workshop_first_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P21" class="paper-row paper-row-extended" role="row">
+          <span>P21</span>
+          <span>Reflexive Co-Embodiment</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20110472">10.5281/zenodo.20110472</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21.md">HF</a></span>
+          <span>public_preprint</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P21-evidence" class="paper-row paper-row-extended" role="row">
+          <span>P21-evidence</span>
+          <span>Co-Embodiment evidence dataset</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20110671">10.5281/zenodo.20110671</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P21-evidence.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P21-evidence.md">HF</a></span>
+          <span>evidence_dataset</span>
+          <span>PUBLIC_ZENODO_DATASET_RECORD</span>
+        </div>
+        <div id="P22" class="paper-row paper-row-extended" role="row">
+          <span>P22</span>
+          <span>The Wisdom Closure Theorems: A Formal Theory of Failure-Learning Architectures</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20582195">10.5281/zenodo.20582195</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P22.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P22.md">HF</a></span>
+          <span>formal_theory_public_record</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="W0" class="paper-row paper-row-extended" role="row">
+          <span>W0</span>
+          <span>The Wisdom Standard</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20502488">10.5281/zenodo.20502488</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/W0.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/W0.md">HF</a></span>
+          <span>meta_layer_standard</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P23" class="paper-row paper-row-extended" role="row">
+          <span>P23</span>
+          <span>Bounded Reflexive Self-Modification</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20502642">10.5281/zenodo.20502642</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P23.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P23.md">HF</a></span>
+          <span>p22_v2_theory</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P28" class="paper-row paper-row-extended" role="row">
+          <span>P28</span>
+          <span>Wisdom under World Drift</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20503883">10.5281/zenodo.20503883</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P28.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P28.md">HF</a></span>
+          <span>p22_v2_drift_protocol</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P29" class="paper-row paper-row-extended" role="row">
+          <span>P29</span>
+          <span>Pluralistic Wisdom</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20504263">10.5281/zenodo.20504263</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P29.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P29.md">HF</a></span>
+          <span>p22_v2_pluralism_theory</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P30" class="paper-row paper-row-extended" role="row">
+          <span>P30</span>
+          <span>Provable Wisdom</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20502567">10.5281/zenodo.20502567</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P30.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P30.md">HF</a></span>
+          <span>proof_protocol</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P31" class="paper-row paper-row-extended" role="row">
+          <span>P31</span>
+          <span>Architectural Honesty</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20502600">10.5281/zenodo.20502600</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P31.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P31.md">HF</a></span>
+          <span>honesty_protocol</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P32" class="paper-row paper-row-extended" role="row">
+          <span>P32</span>
+          <span>Reflexive Measurement</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20504387">10.5281/zenodo.20504387</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P32.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P32.md">HF</a></span>
+          <span>protocol_only_replay_gate</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P33" class="paper-row paper-row-extended" role="row">
+          <span>P33</span>
+          <span>Architectural Mortality and Wisdom Succession</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20504465">10.5281/zenodo.20504465</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P33.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P33.md">HF</a></span>
+          <span>structural_handoff_protocol</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P34" class="paper-row paper-row-extended" role="row">
+          <span>P34</span>
+          <span>Agent Polis</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20504528">10.5281/zenodo.20504528</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P34.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P34.md">HF</a></span>
+          <span>polis_scale_failure_learning</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P35" class="paper-row paper-row-extended" role="row">
+          <span>P35</span>
+          <span>Wisdom Thermodynamics</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20504674">10.5281/zenodo.20504674</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P35.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P35.md">HF</a></span>
+          <span>energy_budget_constraints</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P36" class="paper-row paper-row-extended" role="row">
+          <span>P36</span>
+          <span>Substrate-Wisdom Coupling</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20504922">10.5281/zenodo.20504922</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P36.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P36.md">HF</a></span>
+          <span>substrate_coupling_theory</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P37" class="paper-row paper-row-extended" role="row">
+          <span>P37</span>
+          <span>Architectural Interiority</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20505081">10.5281/zenodo.20505081</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P37.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P37.md">HF</a></span>
+          <span>no_consciousness_boundary_theory</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P38" class="paper-row paper-row-extended" role="row">
+          <span>P38</span>
+          <span>Asymmetric Reflexivity</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20505224">10.5281/zenodo.20505224</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P38.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P38.md">HF</a></span>
+          <span>simulation_only_protocol_target</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P39" class="paper-row paper-row-extended" role="row">
+          <span>P39</span>
+          <span>Cultural Wisdom Stewardship</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20505309">10.5281/zenodo.20505309</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P39.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P39.md">HF</a></span>
+          <span>ethics_gates_and_authorized_partitions</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P40" class="paper-row paper-row-extended" role="row">
+          <span>P40</span>
+          <span>Spectral Wisdom Theory</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20505348">10.5281/zenodo.20505348</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P40.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P40.md">HF</a></span>
+          <span>local_diagnostic_negative_controls</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="F1-old" class="paper-row paper-row-extended" role="row">
+          <span>F1-old</span>
+          <span>Machine Economic Agency</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20103761">10.5281/zenodo.20103761</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-old.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-old.md">HF</a></span>
+          <span>old_finance_preprint_line</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P27_F1-trace" class="paper-row paper-row-extended" role="row">
+          <span>P27/F1-trace</span>
+          <span>Unified Proof-Action Trace Pack</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20397217">10.5281/zenodo.20397217</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P27_F1-trace.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P27_F1-trace.md">HF</a></span>
+          <span>strict_public_minimal_trace_dataset</span>
+          <span>PUBLIC_ZENODO_DATASET_RECORD</span>
+        </div>
+        <div id="F1-P8" class="paper-row paper-row-extended" role="row">
+          <span>F1-P8</span>
+          <span>No Trade Without Proof</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20505485">10.5281/zenodo.20505485</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F1-P8.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F1-P8.md">HF</a></span>
+          <span>negative_result_financial_ai</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="F2_P-AE_D3" class="paper-row paper-row-extended" role="row">
+          <span>F2/P-AE/D3</span>
+          <span>No Act Without Proof supplementary engineering artifacts</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20508591">10.5281/zenodo.20508591</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/F2_P-AE_D3.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/F2_P-AE_D3.md">HF</a></span>
+          <span>supplementary_engineering_artifacts</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P41" class="paper-row paper-row-extended" role="row">
+          <span>P41</span>
+          <span>Confident Error Alone Does Not Predict Robot Data Value</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20568943">10.5281/zenodo.20568943</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P41.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P41.md">HF</a></span>
+          <span>LOCAL_CONSTRUCTED_EVIDENCE_ONLY</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P42" class="paper-row paper-row-extended" role="row">
+          <span>P42</span>
+          <span>Wisdom Is Not Capability</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20569156">10.5281/zenodo.20569156</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P42.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P42.md">HF</a></span>
+          <span>SHADOW_ONLY_RUNTIME_EVIDENCE / NO_ALPHA_CLAIM</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P43" class="paper-row paper-row-extended" role="row">
+          <span>P43</span>
+          <span>Self-Certification Is Not Grounding</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20569248">10.5281/zenodo.20569248</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P43.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P43.md">HF</a></span>
+          <span>THEORY_CONSTRUCTED_WITNESSES_ONLY</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P44" class="paper-row paper-row-extended" role="row">
+          <span>P44</span>
+          <span>Reality-Bounded Improvement</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20571161">10.5281/zenodo.20571161</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P44.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P44.md">HF</a></span>
+          <span>OPEN_MODEL_RSHADOW_FULL_ROLLOUT_CANDIDATE_INCLUDED_NOT_COMPLETED</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
+        <div id="P45" class="paper-row paper-row-extended" role="row">
+          <span>P45</span>
+          <span>RBI/GEE Phase-2 Empirical</span>
+          <span><a href="https://doi.org/10.5281/zenodo.20581591">10.5281/zenodo.20581591</a></span>
+          <span><a href="https://github.com/mmjbds/mianzhang.org/blob/main/papers/public_index/P45.md">GitHub</a></span>
+          <span><a href="https://mmjbds-mianzhang-org.static.hf.space/papers/public_index/P45.md">HF</a></span>
+          <span>C_CONTROLLED_POSITIVE / PUBLIC_NO_CREDIT_RECEIPTS / ROBOT_VLA_ADDENDUM_CANDIDATE</span>
+          <span>PUBLIC_ZENODO_RECORD</span>
+        </div>
       </div>
     </section>
 
-    <section id="policy" class="section">
-      <div class="section-head">
-        <p class="kicker">GitHub Paper Policy</p>
-        <h2>Index everything public. Mirror PDFs only when justified.</h2>
-        <p class="body-text">
-          The public GitHub layer stores small, text-first metadata: DOI, record URL, version, publication date,
-          manifest, checksums, evidence level, and forbidden claims. Large binaries, non-public review files, cloud returns,
-          and private release packages stay outside the public git tree.
-        </p>
-      </div>
-      <div class="cards compact-cards">
-        <article><span class="card-index">Canonical</span><h3>Zenodo first</h3><p>Cite DOI landing pages and version records. Use GitHub pages as navigation, not authority replacement.</p></article>
-        <article><span class="card-index">Allowed</span><h3>Text index</h3><p>Keep JSONL, CSV, README cards, claim boundaries, hash receipts, and release notes in GitHub.</p></article>
-        <article><span class="card-index">Optional</span><h3>Release assets</h3><p>Mirror a few public, license-clear PDFs in GitHub Releases only when it helps readers.</p></article>
-        <article><span class="card-index">Boundary</span><h3>Private/sensitive</h3><p>Sensitive operational material is outside the public research archive.</p></article>
+    <section class="section split">
+      <div><p class="kicker">Boundary</p><h2>How to read this table.</h2></div>
+      <div class="body-text">
+        <p>A DOI record is a citable public archive route. It is not, by itself, proof of production readiness, real-world deployment, or third-party replication.</p>
+        <p>GitHub cards and HF cards are public navigation surfaces. They point readers to evidence levels, status, and challenge routes without replacing the DOI record.</p>
       </div>
     </section>
 
-    <section class="section manifesto">
-      <p class="kicker">Boundary</p>
-      <blockquote>
-        Public DOI records establish priority and inspectability. They are the authority for public citation and version tracking.
-      </blockquote>
-      <p class="manifesto-note">
-        Venue-specific materials should use the prepared route for that venue; the public paper index remains focused on citable public records.
-      </p>
-    </section>
   </main>
 
   <footer>
-    <span>(C) 2026 Mian Zhang. Public preprints and artifacts are archived on Zenodo.</span>
+    <span>(C) 2026 Mian Zhang. Public evidence pages define citation routes, challenge paths, and boundaries.</span>
   </footer>
 </body>
 </html>
