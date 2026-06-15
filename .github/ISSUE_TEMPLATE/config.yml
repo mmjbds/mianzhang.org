@@ -5,7 +5,7 @@ contact_links:
     about: Do not open a public issue for vulnerabilities, secrets, private logs, real accounts, or sensitive exposure.
   - name: Public completion audit
     url: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
-    about: Check what is complete and what still requires external evidence.
+    about: Check what is complete, what remains evidence-gated, and what still needs external receipts.
   - name: Search discovery report
     url: https://mianzhang.org/docs/search-discovery-2026-06-15.html
     about: Check the committed public discovery entrypoints, IndexNow URL list, and indexing boundaries.

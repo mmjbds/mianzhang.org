@@ -1,12 +1,12 @@
 {
   "generated_date": "2026-06-15",
-  "overall_status": "PARTIAL_COMPLETE_EXTERNAL_PROVIDER_EVIDENCE_REQUIRED",
+  "overall_status": "PARTIAL_COMPLETE_SEARCH_CONSOLE_RECEIPTS_AND_HISTORICAL_ZENODO_BACKFILL_PENDING",
   "public_base_url": "https://mianzhang.org",
   "main_public_base_url": "https://mianzhang.org",
   "technical_mirror_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
   "github_source": "https://github.com/mmjbds/mianzhang.org",
   "zenodo_portfolio": "https://zenodo.org/records/20027295",
-  "summary": "Public files, concept routes, issue routes, paper index, digest, roadmap, IndexNow route, and partial public search-result visibility are in place. Zenodo metadata backlinks and search-console receipts still require public external evidence before they can be marked complete.",
+  "summary": "Public files, concept routes, issue routes, paper index, digest, roadmap, IndexNow route, partial public search-result visibility, and priority Zenodo metadata backlinks are in place. Google Search Console, Bing Webmaster receipts, and historical Zenodo backfill still require public external evidence before they can be marked complete.",
   "items": [
     {
       "item": "Main site discovery files",
@@ -38,10 +38,10 @@
     },
     {
       "item": "Zenodo metadata backlinks",
-      "status": "NOT_COMPLETE_EXTERNAL_RECORD_UPDATE_REQUIRED",
-      "evidence": "Backlink patch pack is public, but checked Zenodo public API records did not yet show website/GitHub/HF backlinks in record metadata on 2026-06-15.",
+      "status": "PRIORITY_RECORDS_VERIFIED_HISTORICAL_BACKFILL_PENDING",
+      "evidence": "Seven priority Zenodo records were verified through the public Zenodo API on 2026-06-15. Each verified record exposes website, GitHub, HF/static HF backlinks and four related-work entries. The broader 51-record patch pack still includes 44 historical records that have not yet been account-applied.",
       "route": "https://mianzhang.org/docs/zenodo-metadata-backlink-patch-pack-2026-06-15.json",
-      "proof_condition": "Each public Zenodo record must show the website/GitHub/HF links through the public Zenodo landing page or API."
+      "proof_condition": "Priority records remain complete while their public Zenodo landing pages or API metadata expose mianzhang.org, github.com/mmjbds/mianzhang.org, and Hugging Face/static HF links. Historical records should be backfilled separately before claiming full-archive completion."
     },
     {
       "item": "Stable concept entry pages",
@@ -112,6 +112,50 @@
       "evidence": "Roadmap separates archived, candidate, restricted, and never-publish material classes without exposing restricted details.",
       "route": "https://mianzhang.org/docs/public-roadmap.html",
       "proof_condition": "Update roadmap when paper classes or disclosure boundaries change."
+    }
+  ],
+  "zenodo_priority_records_verified": [
+    {
+      "label": "Portfolio",
+      "record_id": "20027295",
+      "route": "https://zenodo.org/records/20027295",
+      "related_work_count": 4
+    },
+    {
+      "label": "P02 / WisdomBench",
+      "record_id": "19793098",
+      "route": "https://zenodo.org/records/19793098",
+      "related_work_count": 4
+    },
+    {
+      "label": "F2/P-AE/D3 / No Act Without Proof artifacts",
+      "record_id": "20508591",
+      "route": "https://zenodo.org/records/20508591",
+      "related_work_count": 4
+    },
+    {
+      "label": "P43 / Self-Certification Is Not Grounding",
+      "record_id": "20569248",
+      "route": "https://zenodo.org/records/20569248",
+      "related_work_count": 4
+    },
+    {
+      "label": "P45 / RBI/GEE Phase-2 Empirical",
+      "record_id": "20581591",
+      "route": "https://zenodo.org/records/20581591",
+      "related_work_count": 4
+    },
+    {
+      "label": "P46 / Grounding Canon",
+      "record_id": "20619452",
+      "route": "https://zenodo.org/records/20619452",
+      "related_work_count": 4
+    },
+    {
+      "label": "P47 / Interventional Recovery Cells",
+      "record_id": "20619527",
+      "route": "https://zenodo.org/records/20619527",
+      "related_work_count": 4
     }
   ]
 }
