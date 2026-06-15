@@ -1,12 +1,12 @@
 {
   "generated_date": "2026-06-15",
-  "overall_status": "PARTIAL_COMPLETE_SEARCH_CONSOLE_RECEIPTS_AND_HISTORICAL_ZENODO_BACKFILL_PENDING",
+  "overall_status": "PARTIAL_COMPLETE_GSC_REPORTED_BING_AND_HISTORICAL_ZENODO_BACKFILL_PENDING",
   "public_base_url": "https://mianzhang.org",
   "main_public_base_url": "https://mianzhang.org",
   "technical_mirror_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
   "github_source": "https://github.com/mmjbds/mianzhang.org",
   "zenodo_portfolio": "https://zenodo.org/records/20027295",
-  "summary": "Public files, concept routes, issue routes, paper index, digest, roadmap, IndexNow route, partial public search-result visibility, and priority Zenodo metadata backlinks are in place. Google Search Console, Bing Webmaster receipts, and historical Zenodo backfill still require public external evidence before they can be marked complete.",
+  "summary": "Public files, concept routes, issue routes, paper index, digest, roadmap, IndexNow route, partial public search-result visibility, priority Zenodo metadata backlinks, and user-reported Google Search Console sitemap / URL inspection requests are in place. Bing Webmaster receipts, public Google indexing evidence, and historical Zenodo backfill still require evidence before they can be marked complete.",
   "items": [
     {
       "item": "Main site discovery files",
@@ -52,10 +52,10 @@
     },
     {
       "item": "Google Search Console submission",
-      "status": "PUBLIC_FILES_READY_NOT_CONSOLE_VERIFIED",
-      "evidence": "Sitemap, llms, canonical pages, and verification files are public; no dated Search Console receipt is recorded in the public ledger.",
+      "status": "USER_REPORTED_GSC_SITEMAP_SUBMITTED_URL_INSPECTION_REQUESTED",
+      "evidence": "User reported on 2026-06-15 that the mianzhang.org Google Search Console domain property passed verification, the sitemap submission flow was completed, and priority URLs were inspected / requested for indexing. This status records account-side action; it does not claim Google indexing, ranking, or AI retrieval.",
       "route": "https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html",
-      "proof_condition": "Add a dated Search Console sitemap or URL inspection receipt before claiming account-console submission."
+      "proof_condition": "Keep this status separate from indexing evidence. Mark Google indexing complete only after a dated Search Console indexed-status export, URL inspection screenshot, or public Google result URL is recorded."
     },
     {
       "item": "Bing Webmaster submission",
@@ -157,5 +157,15 @@
       "route": "https://zenodo.org/records/20619527",
       "related_work_count": 4
     }
-  ]
+  ],
+  "google_search_console_reported": {
+    "reported_date": "2026-06-15",
+    "property": "mianzhang.org",
+    "domain_verification": "passed_per_user_report",
+    "sitemap": "https://mianzhang.org/sitemap.xml",
+    "sitemap_submission": "completed_per_user_report",
+    "url_inspection": "priority_urls_requested_for_indexing_per_user_report",
+    "indexing_claim": "not_claimed",
+    "public_receipt": "not_archived_in_repo"
+  }
 }
