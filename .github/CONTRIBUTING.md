@@ -51,3 +51,5 @@ Before opening a PR, confirm that:
 - Hugging Face Space: https://huggingface.co/spaces/MMJBDS/mianzhang-org
 - Zenodo portfolio: https://zenodo.org/records/20027295
 - Public completion audit: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
+- Search discovery report: https://mianzhang.org/docs/search-discovery-2026-06-15.html
+- Search weekly report JSON: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.json
