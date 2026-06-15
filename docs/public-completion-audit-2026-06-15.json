@@ -66,8 +66,8 @@
     },
     {
       "item": "IndexNow usable submission route",
-      "status": "SUBMITTED_ACCEPTED_200_FOR_PRIOR_LIST_CURRENT_68_READY",
-      "evidence": "IndexNow API acceptance for the prior host-specific URL lists is recorded in the external submission status ledger. The current 68-URL lists include the completion-audit routes and are ready for resubmission after publication.",
+      "status": "SUBMITTED_ACCEPTED_200_CURRENT_68",
+      "evidence": "IndexNow API returned HTTP 200 for the current 68-URL host-specific lists on 2026-06-15, after the completion-audit routes were live.",
       "route": "https://mianzhang.org/docs/external-submission-status-2026-06-15.html",
       "proof_condition": "Resubmit new URL lists after each public route addition and keep response status recorded."
     },
