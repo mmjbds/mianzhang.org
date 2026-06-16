@@ -2,6 +2,10 @@
 
 This is the public static website package for `mianzhang.org`.
 
+## Latest Public Note
+
+- Bounded State-Space Actuation Note v0: https://mianzhang.org/press/public-launch-2026-06-16.html
+
 ## Cross-links
 
 - Main site: https://mianzhang.org/

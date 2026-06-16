@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bounded State-Space Actuation Note v0, 2026-06-16 | Mian Zhang</title>
+  <meta name="description" content="A technical boundary note for high-risk AI action: state-space bounds, entropy and baseline-divergence checks, deterministic fallback gates, audit receipts, and explicit non-claims.">
+  <meta property="og:title" content="Bounded State-Space Actuation Note v0 | Ouroboros Project">
+  <meta property="og:description" content="A technical boundary note for high-risk AI action: state-space bounds, entropy and baseline-divergence checks, deterministic fallback gates, audit receipts, and explicit non-claims.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-16.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/system-boundary-blueprint-20260616.png">
+  <meta property="og:image:alt" content="System boundary blueprint visual for bounded state-space actuation.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bounded State-Space Actuation Note v0">
+  <meta name="twitter:description" content="State envelope, entropy drift, baseline divergence, fallback gate, audit receipt, and challenge route for high-risk AI action.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/system-boundary-blueprint-20260616.png">
+  <meta name="twitter:image:alt" content="System boundary blueprint visual for bounded state-space actuation.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-16.html">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Bounded State-Space Actuation Note v0", "description": "A technical boundary note for high-risk AI action: state-space bounds, entropy and baseline-divergence checks, deterministic fallback gates, audit receipts, and explicit non-claims.", "datePublished": "2026-06-16", "dateModified": "2026-06-16", "author": {"@type": "Person", "name": "Mian Zhang"}, "publisher": {"@type": "Organization", "name": "Ouroboros Project"}, "mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-16.html", "image": "https://mianzhang.org/assets/system-boundary-blueprint-20260616.png", "about": ["state_envelope", "entropy_drift", "baseline_divergence", "fallback_gate", "audit_receipt", "challenge_route"], "isPartOf": {"@type": "WebSite", "name": "Ouroboros Project Technical Evidence Mirror", "url": "https://mianzhang.org"}}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/index.html" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/index.html">Home</a>
+      <a href="https://mianzhang.org/papers/index.html">Papers</a>
+      <a href="https://mianzhang.org/evidence/index.html">Evidence</a>
+      <a href="https://mianzhang.org/concepts/index.html">Concepts</a>
+      <a href="https://mianzhang.org/technology/index.html">Technology</a>
+      <a href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mianzhang.org/systems/index.html">Systems</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mianzhang.org/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-16</p>
+        <h1>A model may propose. A bounded system decides whether action is allowed.</h1>
+        <p class="lead">Artifact: Bounded State-Space Actuation Note v0. This public note turns model uncertainty into reviewable fields: state envelope, entropy drift, baseline divergence, deterministic fallback, receipt, and challenge route.</p>
+        <div class="signature-line" aria-label="Bounded State-Space Actuation Note fields">
+          <span>state_envelope</span>
+          <span>entropy_drift</span>
+          <span>baseline_divergence</span>
+          <span>fallback_gate</span>
+          <span>audit_receipt</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/papers/index.html">Papers</a>
+          <a class="button" href="https://mianzhang.org/evidence/index.html">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/concepts/index.html">Concepts</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+          <a class="button" href="https://mianzhang.org/registries/index.html">Registries</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/system-boundary-blueprint-20260616.png" alt="System boundary blueprint visual for bounded state-space actuation.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>Probability is not action permission.</h2>
+      </div>
+      <div class="body-text">
+        <p>This update records a control boundary for AI systems whose outputs may route into high-risk action. A fluent answer, a high-confidence string, or a large model does not by itself grant action authority.</p>
+        <p>The public object is the boundary shape: what is bounded, what is measured, when the system falls back, what receipt is kept, and what would challenge the claim.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>State envelope</h3>
+        <p>The permitted operating region for the current task, asset, route, or action class.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>Action vector</h3>
+        <p>The proposed action representation that must remain inside the permitted envelope.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>Entropy signal</h3>
+        <p>A public field for uncertainty or action spread, not a standalone proof of risk.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>Baseline divergence</h3>
+        <p>A measured distance from a deterministic or policy-defined baseline.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>Fallback gate</h3>
+        <p>The route to no-action, review, narrower scope, or deterministic execution.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>Audit receipt</h3>
+        <p>A record of the boundary state, trigger, fallback decision, and unresolved evidence.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Control Boundary</p>
+        <h2>When uncertainty rises, the system should narrow authority.</h2>
+      </div>
+      <div class="body-text">
+        <p>A bounded actuation layer can treat model output as a proposal, not a command. If the action distribution becomes too diffuse, or the proposed action diverges from the baseline beyond a declared threshold, the public state should move toward no-action, human review, or a narrower deterministic route.</p>
+        <p>The relevant question is not whether the model can produce a persuasive explanation. The relevant question is whether the action boundary, fallback decision, and receipt are inspectable.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/entropy-audit-log-20260616.png" alt="Concept visual of an entropy audit log and fallback trigger.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Audit</p>
+        <h2>A stop decision should leave a receipt.</h2>
+        <p>The public claim is not that a specific private runtime, latency, threshold, or deployment has been externally verified here. The claim is that high-risk AI action should expose a reviewable stop shape: trigger, boundary, fallback, receipt, and unresolved state.</p>
+        <p>Private logs, customer records, credentials, live execution traces, and account material remain outside the public layer.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Naming Boundary</p>
+        <h2>Do not mix this control note with the paper index card.</h2>
+      </div>
+      <div class="body-text">
+        <p>The current public paper card labeled P07 remains <a href="https://mianzhang.org/papers/public_index/P07.md">WisdomBench-Embodied LIBERO / VLA</a>, with its own DOI record and paper-specific boundary.</p>
+        <p>This 2026-06-16 note is a protocol-facing control boundary. Cite the paper DOI for paper-specific claims; cite this note only for the public actuation-boundary shape.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Matrix</p>
+        <h2>Bounded actuation fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Bounded State-Space Actuation Note matrix">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Required value</span><span>Failure mode</span><span>Repair route</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>claim_id</span><span>The exact action-boundary claim.</span><span>Boundary is described as a slogan.</span><span>Add stable claim id.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>state_envelope</span><span>Allowed state or action region.</span><span>No defined operating region.</span><span>Declare envelope and exclusions.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>action_proposal</span><span>Action vector, route, or candidate command.</span><span>Text answer is treated as command.</span><span>Separate proposal from permission.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>entropy_signal</span><span>Uncertainty or spread measure such as <code>H(A | S_t)</code>.</span><span>Uncertainty is hidden.</span><span>Expose signal and threshold status.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>baseline_divergence</span><span>Distance from deterministic baseline, such as <code>D_KL(P_model || P_baseline)</code>.</span><span>No baseline.</span><span>Add baseline and distance rule.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>fallback_decision</span><span>No-action, review, narrower scope, or deterministic route.</span><span>System guesses through the gap.</span><span>Route to refusal or review.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>receipt</span><span>Trigger, state, decision, and unresolved evidence.</span><span>Stop decision leaves no audit trail.</span><span>Add public-safe receipt.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>challenge_route</span><span>Where readers can contest threshold, baseline, or boundary.</span><span>No public attack route.</span><span>Add GitHub issue or registry row.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/evidence-registry-terminal-20260616.png" alt="Concept visual of an evidence registry terminal for bounded action receipts.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Receipt Layer</p>
+        <h2>The useful public record is the decision boundary, not private execution.</h2>
+        <p>A strong public record can show that an action would require a state envelope, baseline, threshold, fallback, and receipt. It does not need to expose private runtime material to make that boundary inspectable.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Challenge one actuation boundary.</h2>
+      </div>
+      <div class="body-text">
+        <p>Point to any claim where the state envelope is vague, the baseline is missing, the entropy or divergence trigger is not defined, or the fallback route permits guessing under uncertainty.</p>
+        <p>The strongest challenge names the action class, the missing boundary field, and the public-safe receipt needed to make the claim inspectable.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

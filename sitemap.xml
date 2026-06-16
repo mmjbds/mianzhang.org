@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mianzhang.org/sitemap.xml</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/.github/CODE_OF_CONDUCT.md</loc>
@@ -121,6 +121,14 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-20260616.txt</loc>
+    <lastmod>2026-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260616.txt</loc>
+    <lastmod>2026-06-16</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/docs/public-completion-audit-2026-06-15.html</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
@@ -182,7 +190,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/llms.txt</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/open-source/</loc>
@@ -410,7 +418,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/press/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-12.html</loc>
@@ -553,8 +561,12 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/press/public-launch-2026-06-16.html</loc>
+    <lastmod>2026-06-16</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/public_registry/paper_index_20260608.jsonl</loc>
@@ -562,7 +574,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/README.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/registries/action_registry_v0.json</loc>

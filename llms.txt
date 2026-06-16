@@ -4,7 +4,8 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-06-15.html
+https://mianzhang.org/press/public-launch-2026-06-16.html
+Bounded State-Space Actuation Note v0, 2026-06-16.
 
 Canonical archive:
 https://zenodo.org/records/20027295
