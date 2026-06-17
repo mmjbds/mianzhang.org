@@ -4,8 +4,8 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-06-16.html
-Bounded State-Space Actuation Note v0, 2026-06-16.
+https://mianzhang.org/press/public-launch-2026-06-17.html
+Same-Claim Baseline Intake v1, 2026-06-17.
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -33,6 +33,14 @@ Core public entry points:
 - Sitemap: https://mianzhang.org/sitemap.xml
 - Robots: https://mianzhang.org/robots.txt
 
+Recent public daily notes:
+- 2026-06-17: Same-Claim Baseline Intake v1 - https://mianzhang.org/press/public-launch-2026-06-17.html
+- 2026-06-16: Bounded State-Space Actuation Note v0 - https://mianzhang.org/press/public-launch-2026-06-16.html
+- 2026-06-15: Public Evidence Route Boundary v0 - https://mianzhang.org/press/public-launch-2026-06-15.html
+- 2026-06-14: Boundary-First Weekly Evidence Digest - https://mianzhang.org/press/public-launch-2026-06-14.html
+- 2026-06-13: Self-Certification Grounding Check v0 - https://mianzhang.org/press/public-launch-2026-06-13.html
+- 2026-06-12: Robot/Vision Shadow Evidence Boundary v0 - https://mianzhang.org/press/public-launch-2026-06-12.html
+- 2026-06-11: No-Proof No-Action Gate v0 - https://mianzhang.org/press/public-launch-2026-06-11.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html

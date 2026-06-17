@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mianzhang.org/sitemap.xml</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://mianzhang.org/</loc>
+    <lastmod>2026-06-15</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/.github/CODE_OF_CONDUCT.md</loc>
@@ -25,15 +25,27 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/boundaries/CLAIM_BOUNDARY_CANONICAL.md</loc>
-    <lastmod>2026-06-08</lastmod>
+    <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
+    <lastmod>2026-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/README.md</loc>
+    <lastmod>2026-06-17</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/boundaries/</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/boundaries/CLAIM_BOUNDARY_CANONICAL.md</loc>
+    <lastmod>2026-06-08</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/community/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/concepts/</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
@@ -41,8 +53,8 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/concepts/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://mianzhang.org/concepts/index.html</loc>
+    <lastmod>2026-06-17</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/no-proof-no-action-gate.html</loc>
@@ -65,6 +77,10 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/counterexamples/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/counterexamples/COUNTEREXAMPLE_ISSUE_TEMPLATE.md</loc>
     <lastmod>2026-06-08</lastmod>
   </url>
@@ -73,15 +89,15 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/counterexamples/</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/demos/</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/demos/proof-action-mini/</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/ZENODO_METADATA_BACKLINKS_20260615.md</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
@@ -117,16 +133,24 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260615.txt</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-20260616.txt</loc>
     <lastmod>2026-06-16</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-20260617.txt</loc>
+    <lastmod>2026-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260615.txt</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260616.txt</loc>
     <lastmod>2026-06-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260617.txt</loc>
+    <lastmod>2026-06-17</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/public-completion-audit-2026-06-15.html</loc>
@@ -161,10 +185,6 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/docs/ZENODO_METADATA_BACKLINKS_20260615.md</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/evidence/</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
@@ -181,16 +201,12 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/indexnow-key.txt</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/llms.txt</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/open-source/</loc>
@@ -201,11 +217,11 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/papers/public_index/F1-old.md</loc>
+    <loc>https://mianzhang.org/papers/public_index/F1-P8.md</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/papers/public_index/F1-P8.md</loc>
+    <loc>https://mianzhang.org/papers/public_index/F1-old.md</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
@@ -401,10 +417,6 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/papers/public_index/paper_index_20260608.csv</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/papers/public_index/Portfolio.md</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
@@ -417,8 +429,16 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/papers/public_index/paper_index_20260608.csv</loc>
+    <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/press/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/press/index.html</loc>
+    <lastmod>2026-06-17</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-12.html</loc>
@@ -565,16 +585,16 @@
     <lastmod>2026-06-16</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://mianzhang.org/press/public-launch-2026-06-17.html</loc>
+    <lastmod>2026-06-17</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/public_registry/paper_index_20260608.jsonl</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/README.md</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://mianzhang.org/registries/</loc>
+    <lastmod>2026-06-15</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/registries/action_registry_v0.json</loc>
@@ -605,10 +625,6 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/registries/</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/registries/schema_notes_v0.html</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
@@ -619,6 +635,10 @@
   <url>
     <loc>https://mianzhang.org/robots.txt</loc>
     <lastmod>2026-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/sitemap.xml</loc>
+    <lastmod>2026-06-17</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/start-here/</loc>

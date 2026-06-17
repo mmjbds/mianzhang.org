@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Bounded State-Space Actuation Note v0: https://mianzhang.org/press/public-launch-2026-06-16.html
+- Same-Claim Baseline Intake v1: https://mianzhang.org/press/public-launch-2026-06-17.html
 
 ## Cross-links
 
