@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAG Grounding vs AI Self-Certification | Mian Zhang</title>
+  <meta name="description" content="A guide explaining why retrieval-augmented generation is not the same as proof, and why AI self-certification needs external grounding.">
+  <meta property="og:title" content="RAG Grounding vs AI Self-Certification | Ouroboros Project">
+  <meta property="og:description" content="A guide explaining why retrieval-augmented generation is not the same as proof, and why AI self-certification needs external grounding.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/guides/rag-grounding-vs-self-certification/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/guides/rag-grounding-vs-self-certification/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/guides/rag-grounding-vs-self-certification/#webpage","url": "https://mianzhang.org/guides/rag-grounding-vs-self-certification/","name": "RAG Grounding vs AI Self-Certification","description": "A guide explaining why retrieval-augmented generation is not the same as proof, and why AI self-certification needs external grounding.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["RAG grounding","AI self-certification","AI hallucination checker","LLM grounding","AI verification","retrieval augmented generation risk"],"mainEntity": {"@id": "https://mianzhang.org/guides/rag-grounding-vs-self-certification/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/guides/rag-grounding-vs-self-certification/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Guides","item": "https://mianzhang.org/guides/"},{"@type": "ListItem","position": 3,"name": "RAG Grounding vs AI Self-Certification","item": "https://mianzhang.org/guides/rag-grounding-vs-self-certification/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/guides/rag-grounding-vs-self-certification/#faq","mainEntity": [{"@type": "Question","name": "Does RAG solve hallucination?","acceptedAnswer": {"@type": "Answer","text": "No. It can reduce some errors, but grounding still requires claim-to-evidence checks."}},{"@type": "Question","name": "What is AI self-certification?","acceptedAnswer": {"@type": "Answer","text": "The system reports its own state or basis; public reliability still requires external evidence."}},{"@type": "Question","name": "What should happen when a source is weak?","acceptedAnswer": {"@type": "Answer","text": "Downgrade the claim, mark it pending, or route it to review."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Guide / RAG Grounding</p>
+        <h1>Retrieval is not proof. Self-certification is not grounding.</h1>
+        <p class="lead">RAG can fetch documents, but it does not guarantee that the documents support the claim. The missing layer is claim-to-evidence verification.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>RAG grounding</span>
+          <span>AI self-certification</span>
+          <span>AI hallucination checker</span>
+          <span>LLM grounding</span>
+          <span>AI verification</span>
+          <span>retrieval augmented generation risk</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>The reader wants to know why RAG answers can still be wrong.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>Does RAG eliminate hallucination?</li>
+          <li>What is the difference between cited text and evidence?</li>
+          <li>How should an AI answer be grounded?</li>
+          <li>When should a retrieved claim be downgraded?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Distinction</p>
+        <h2>RAG answers the source-access problem, not the proof problem.</h2>
+      </div>
+      <div class="body-text">
+        <p>A retrieved passage can be irrelevant, outdated, contradicted, or too weak for the current claim. The model may cite a real source while making an unsupported inference.</p>
+        <p>Grounding requires a second step: does this source actually support this claim under this boundary?</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Checklist</p>
+        <h2>Grounded answers need record, relation, boundary, and status.</h2>
+      </div>
+      <div class="body-text">
+        <p>The record is the source. The relation is the link between source and claim. The boundary states what the source does not prove. The status records whether the claim is supported, pending, downgraded, or failed.</p>
+        <p>Without those fields, retrieval can become a more sophisticated way to sound certain.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Counterexample</p>
+        <h2>A good grounding system invites attack.</h2>
+      </div>
+      <div class="body-text">
+        <p>If a reader can show that a source does not support the claim, the system should update the boundary or status. That challenge path is a feature, not a reputational threat.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point, not a standalone proof. It routes the reader to evidence, DOI records, registries, public challenge paths, and explicit non-claims.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="RAG Grounding vs AI Self-Certification evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, counterexample, and action records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge</span><span>Counterexample route</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records where available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Concept</span><span>Self-Certification Grounding Check</span><span><a href="https://mianzhang.org/concepts/self-certification-grounding-check.html">https://mianzhang.org/concepts/self-certification-grounding-check.html</a></span><span>Grounding fields for AI self-report.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim RAG is useless.</li>
+          <li>It does not claim to solve all hallucination.</li>
+          <li>It does not turn private logs into public proof.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Does RAG solve hallucination?</h3>
+        <p>No. It can reduce some errors, but grounding still requires claim-to-evidence checks.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is AI self-certification?</h3>
+        <p>The system reports its own state or basis; public reliability still requires external evidence.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What should happen when a source is weak?</h3>
+        <p>Downgrade the claim, mark it pending, or route it to review.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>AI Self-Certification Grounding</h3>
+        <p><a href="https://mianzhang.org/guides/ai-self-certification-grounding/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">中文</span>
+        <h3>AI 为什么不能只靠自信回答</h3>
+        <p><a href="https://mianzhang.org/zh/ai-self-certification-grounding/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Long-tail pages connect real search questions to public evidence, not empty keyword targeting.</span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Humanoid Robot Failure Safety and Evidence Downgrade | Mian Zhang</title>
+  <meta name="description" content="A robotics guide for humanoid robot failure safety: perception uncertainty, physical failure, downgrade rules, stop states, and public evidence boundaries.">
+  <meta property="og:title" content="Humanoid Robot Failure Safety and Evidence Downgrade | Ouroboros Project">
+  <meta property="og:description" content="A robotics guide for humanoid robot failure safety: perception uncertainty, physical failure, downgrade rules, stop states, and public evidence boundaries.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/robotics/humanoid-robot-failure-safety/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/robotics/humanoid-robot-failure-safety/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/robotics/humanoid-robot-failure-safety/#webpage","url": "https://mianzhang.org/robotics/humanoid-robot-failure-safety/","name": "Humanoid Robot Failure Safety and Evidence Downgrade","description": "A robotics guide for humanoid robot failure safety: perception uncertainty, physical failure, downgrade rules, stop states, and public evidence boundaries.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["humanoid robot failure safety","robot learning from failure","embodied AI safety","robot perception uncertainty","VLA safety","robot stop rule"],"mainEntity": {"@id": "https://mianzhang.org/robotics/humanoid-robot-failure-safety/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/robotics/humanoid-robot-failure-safety/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Robotics","item": "https://mianzhang.org/robotics/"},{"@type": "ListItem","position": 3,"name": "Humanoid Robot Failure Safety and Evidence Downgrade","item": "https://mianzhang.org/robotics/humanoid-robot-failure-safety/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/robotics/humanoid-robot-failure-safety/#faq","mainEntity": [{"@type": "Question","name": "Is a robot demo deployment proof?","acceptedAnswer": {"@type": "Answer","text": "No. It is evidence only inside its validated boundary."}},{"@type": "Question","name": "What should uncertain vision do?","acceptedAnswer": {"@type": "Answer","text": "Downgrade the claim, stop, ask for review, or log unresolved status."}},{"@type": "Question","name": "Why mention failure?","acceptedAnswer": {"@type": "Answer","text": "Failure is the material that tells the system where its boundary actually is."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Robotics / Failure Safety</p>
+        <h1>A robot that cannot downgrade perception should not upgrade action.</h1>
+        <p class="lead">Humanoid robot safety is not only about impressive demos. The real question is what happens when vision is uncertain, contact fails, or the scene changes.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>humanoid robot failure safety</span>
+          <span>robot learning from failure</span>
+          <span>embodied AI safety</span>
+          <span>robot perception uncertainty</span>
+          <span>VLA safety</span>
+          <span>robot stop rule</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>The reader wants to know how robot failures become safer behavior.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>What should a robot do when perception is uncertain?</li>
+          <li>How should physical failure be logged?</li>
+          <li>When is a demo not deployment proof?</li>
+          <li>What is an evidence downgrade rule?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Failure</p>
+        <h2>Physical failure has to change the claim.</h2>
+      </div>
+      <div class="body-text">
+        <p>A robot demo may show one successful trajectory. That does not prove robust deployment. Occlusion, contact, lighting, object shift, or ambiguous affordance should narrow the claim.</p>
+        <p>If uncertainty stays hidden, the public story becomes stronger while the evidence stays weak.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Rule</p>
+        <h2>Uncertain perception should route to stop, review, or downgraded wording.</h2>
+      </div>
+      <div class="body-text">
+        <p>The system should log what changed: candidate object, confidence, occlusion, contact state, recovery attempt, and human review status.</p>
+        <p>The public claim should match the validated envelope. Screenshot recognition is not the same as physical competence.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>A safer robot claim is often a narrower robot claim.</h2>
+      </div>
+      <div class="body-text">
+        <p>Narrowing is not weakness. It prevents a single impressive run from being mistaken for a general deployment claim.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point, not a standalone proof. It routes the reader to evidence, DOI records, registries, public challenge paths, and explicit non-claims.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="Humanoid Robot Failure Safety and Evidence Downgrade evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, counterexample, and action records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge</span><span>Counterexample route</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records where available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Concept</span><span>Robot/Vision Downgrade Rule</span><span><a href="https://mianzhang.org/concepts/robot-vision-downgrade-rule.html">https://mianzhang.org/concepts/robot-vision-downgrade-rule.html</a></span><span>Perception uncertainty and deployment-language boundary.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim real robot deployment.</li>
+          <li>It does not certify hardware safety.</li>
+          <li>It does not replace robotics safety engineering or physical testing.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Is a robot demo deployment proof?</h3>
+        <p>No. It is evidence only inside its validated boundary.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What should uncertain vision do?</h3>
+        <p>Downgrade the claim, stop, ask for review, or log unresolved status.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Why mention failure?</h3>
+        <p>Failure is the material that tells the system where its boundary actually is.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Robotics</span>
+        <h3>Robot Learning From Physical Failure</h3>
+        <p><a href="https://mianzhang.org/robotics/robot-learning-from-failure/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Robotics</span>
+        <h3>VLA Safety Evidence Downgrade</h3>
+        <p><a href="https://mianzhang.org/robotics/vla-safety-evidence-downgrade/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Long-tail pages connect real search questions to public evidence, not empty keyword targeting.</span>
+  </footer>
+</body>
+</html>

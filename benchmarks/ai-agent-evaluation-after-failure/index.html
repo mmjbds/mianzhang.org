@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Agent Evaluation After Failure | Mian Zhang</title>
+  <meta name="description" content="A guide to evaluating AI agents after failure: recovery, boundary updates, repeated errors, grader drift, and evidence-backed improvement.">
+  <meta property="og:title" content="AI Agent Evaluation After Failure | Ouroboros Project">
+  <meta property="og:description" content="A guide to evaluating AI agents after failure: recovery, boundary updates, repeated errors, grader drift, and evidence-backed improvement.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/#webpage","url": "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/","name": "AI Agent Evaluation After Failure","description": "A guide to evaluating AI agents after failure: recovery, boundary updates, repeated errors, grader drift, and evidence-backed improvement.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI agent evaluation after failure","LLM evaluation","AI benchmark","failure learning benchmark","agent reliability evaluation","WisdomBench"],"mainEntity": {"@id": "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Benchmarks","item": "https://mianzhang.org/benchmarks/"},{"@type": "ListItem","position": 3,"name": "AI Agent Evaluation After Failure","item": "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/#faq","mainEntity": [{"@type": "Question","name": "What matters after failure?","acceptedAnswer": {"@type": "Answer","text": "Recovery, boundary update, repeated error rate, and evidence of changed behavior."}},{"@type": "Question","name": "Is a higher score enough?","acceptedAnswer": {"@type": "Answer","text": "No. The score should be tied to failure classes and evidence records."}},{"@type": "Question","name": "Why track grader drift?","acceptedAnswer": {"@type": "Answer","text": "Because inconsistent grading can fake improvement."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Benchmarks / Failure Evaluation</p>
+        <h1>The benchmark starts after the agent fails.</h1>
+        <p class="lead">Capability benchmarks often ask what the system can do once. Reliability evaluation asks what changes after failure, ambiguity, and correction.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI agent evaluation after failure</span>
+          <span>LLM evaluation</span>
+          <span>AI benchmark</span>
+          <span>failure learning benchmark</span>
+          <span>agent reliability evaluation</span>
+          <span>WisdomBench</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>The reader wants an evaluation method for failure learning, not a single score.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>How do you evaluate an AI agent after it fails?</li>
+          <li>What is failure learning?</li>
+          <li>What should a benchmark log?</li>
+          <li>How does this relate to WisdomBench?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Metric</p>
+        <h2>A useful score must record what changed.</h2>
+      </div>
+      <div class="body-text">
+        <p>If an agent repeats the same error after feedback, high first-pass fluency is not enough. The evaluation should track recovery, boundary update, repeated failure, and whether the system learned the right lesson.</p>
+        <p>A failure can improve the system only if it enters the record.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Drift</p>
+        <h2>The grader can drift too.</h2>
+      </div>
+      <div class="body-text">
+        <p>Evaluation needs stable criteria. If the grader changes standards between attempts, improvement may be an illusion.</p>
+        <p>A useful benchmark records prompt, input, output, failure class, correction, next attempt, and scoring rule.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>Failure learning is not the same as unlimited self-improvement.</h2>
+      </div>
+      <div class="body-text">
+        <p>The public claim should stay bounded: what failure class, what horizon, what evidence, and what unresolved cases remain.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point, not a standalone proof. It routes the reader to evidence, DOI records, registries, public challenge paths, and explicit non-claims.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="AI Agent Evaluation After Failure evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, counterexample, and action records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge</span><span>Counterexample route</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records where available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Benchmark</span><span>WisdomBench failure learning</span><span><a href="https://mianzhang.org/benchmarks/wisdombench-failure-learning/">https://mianzhang.org/benchmarks/wisdombench-failure-learning/</a></span><span>Failure learning benchmark route.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim solved general intelligence.</li>
+          <li>It does not certify all agents as self-improving.</li>
+          <li>It does not replace task-specific evaluation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What matters after failure?</h3>
+        <p>Recovery, boundary update, repeated error rate, and evidence of changed behavior.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Is a higher score enough?</h3>
+        <p>No. The score should be tied to failure classes and evidence records.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Why track grader drift?</h3>
+        <p>Because inconsistent grading can fake improvement.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Benchmark</span>
+        <h3>WisdomBench Failure Learning</h3>
+        <p><a href="https://mianzhang.org/benchmarks/wisdombench-failure-learning/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Essay</span>
+        <h3>Intelligence vs Wisdom</h3>
+        <p><a href="https://mianzhang.org/essays/intelligence-vs-wisdom-ai/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Long-tail pages connect real search questions to public evidence, not empty keyword targeting.</span>
+  </footer>
+</body>
+</html>

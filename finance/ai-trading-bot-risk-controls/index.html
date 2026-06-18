@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Trading Bot Risk Controls Before Any Order | Mian Zhang</title>
+  <meta name="description" content="A non-investment guide to AI trading bot risk controls: evidence, authority, scope, audit receipt, and no-action states before any order.">
+  <meta property="og:title" content="AI Trading Bot Risk Controls Before Any Order | Ouroboros Project">
+  <meta property="og:description" content="A non-investment guide to AI trading bot risk controls: evidence, authority, scope, audit receipt, and no-action states before any order.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/finance/ai-trading-bot-risk-controls/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/finance/ai-trading-bot-risk-controls/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/finance/ai-trading-bot-risk-controls/#webpage","url": "https://mianzhang.org/finance/ai-trading-bot-risk-controls/","name": "AI Trading Bot Risk Controls Before Any Order","description": "A non-investment guide to AI trading bot risk controls: evidence, authority, scope, audit receipt, and no-action states before any order.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI trading bot risk controls","AI trading bot risk","automated trading guardrails","AI finance risk","no trade without proof","algorithmic trading safety"],"mainEntity": {"@id": "https://mianzhang.org/finance/ai-trading-bot-risk-controls/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/finance/ai-trading-bot-risk-controls/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Finance","item": "https://mianzhang.org/finance/"},{"@type": "ListItem","position": 3,"name": "AI Trading Bot Risk Controls Before Any Order","item": "https://mianzhang.org/finance/ai-trading-bot-risk-controls/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/finance/ai-trading-bot-risk-controls/#faq","mainEntity": [{"@type": "Question","name": "What is the minimum safe state?","acceptedAnswer": {"@type": "Answer","text": "No order when proof, authority, scope, or audit receipt is missing."}},{"@type": "Question","name": "Does this predict returns?","acceptedAnswer": {"@type": "Answer","text": "No. It is about action boundaries, not alpha."}},{"@type": "Question","name": "Why log refusals?","acceptedAnswer": {"@type": "Answer","text": "Refusal reasons show whether the system is controlling risk or hiding uncertainty."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Finance / Risk Controls</p>
+        <h1>The safest trade may be the one the AI refuses to place.</h1>
+        <p class="lead">A trading bot that always produces an action is not reliable. In finance, missing proof should become no-action, not a confident order.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI trading bot risk controls</span>
+          <span>AI trading bot risk</span>
+          <span>automated trading guardrails</span>
+          <span>AI finance risk</span>
+          <span>no trade without proof</span>
+          <span>algorithmic trading safety</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>The reader wants guardrails before an AI system touches money.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>What should an AI trading system check before an order?</li>
+          <li>When should it refuse to trade?</li>
+          <li>What is an audit receipt?</li>
+          <li>Why is this not investment advice?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Control</p>
+        <h2>Evidence, authority, scope, and audit receipt must exist before action.</h2>
+      </div>
+      <div class="body-text">
+        <p>The system should know what signal it is using, whether the signal is current, who authorized the action, which portfolio or sandbox is in scope, and what record will exist after the decision.</p>
+        <p>If the system cannot answer those questions, the correct state is no trade.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Human Risk</p>
+        <h2>People overtrust systems that sound decisive.</h2>
+      </div>
+      <div class="body-text">
+        <p>A confident trading explanation can create pressure to act even when the evidence is weak. The interface should resist that pressure by making missing proof visible.</p>
+        <p>The refusal reason should be part of the record: stale data, authority gap, unclear scope, insufficient evidence, or failed baseline.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>Risk control is not a return claim.</h2>
+      </div>
+      <div class="body-text">
+        <p>This route does not claim profitable trading. It describes the evidence fields that should exist before any high-risk financial action.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point, not a standalone proof. It routes the reader to evidence, DOI records, registries, public challenge paths, and explicit non-claims.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="AI Trading Bot Risk Controls Before Any Order evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, counterexample, and action records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge</span><span>Counterexample route</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records where available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Finance Route</span><span>No Trade Without Proof</span><span><a href="https://mianzhang.org/finance/no-trade-without-proof/">https://mianzhang.org/finance/no-trade-without-proof/</a></span><span>General finance no-action boundary.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page is not investment advice.</li>
+          <li>It does not claim live trading performance.</li>
+          <li>It does not certify any production trading system.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is the minimum safe state?</h3>
+        <p>No order when proof, authority, scope, or audit receipt is missing.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Does this predict returns?</h3>
+        <p>No. It is about action boundaries, not alpha.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Why log refusals?</h3>
+        <p>Refusal reasons show whether the system is controlling risk or hiding uncertainty.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Finance</span>
+        <h3>No Trade Without Proof</h3>
+        <p><a href="https://mianzhang.org/finance/no-trade-without-proof/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>No-Proof No-Action Gate</h3>
+        <p><a href="https://mianzhang.org/concepts/no-proof-no-action-gate.html">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Long-tail pages connect real search questions to public evidence, not empty keyword targeting.</span>
+  </footer>
+</body>
+</html>

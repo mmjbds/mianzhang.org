@@ -33,3 +33,10 @@ https://mianzhang.org/boundaries/
 https://mianzhang.org/evidence/
 https://mianzhang.org/community/
 https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json
+https://mianzhang.org/guides/ai-agent-hallucination-risk/
+https://mianzhang.org/guides/rag-grounding-vs-self-certification/
+https://mianzhang.org/finance/ai-trading-bot-risk-controls/
+https://mianzhang.org/robotics/humanoid-robot-failure-safety/
+https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/
+https://mianzhang.org/zh/ai-trading-bot-risk-controls/
+https://mianzhang.org/zh/embodied-ai-failure-learning/

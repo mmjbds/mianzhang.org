@@ -60,7 +60,14 @@
     "/docs/seo-geo-plan-2026-06-19.html",
     "/docs/geo-ai-profile-2026-06-19.html",
     "/docs/geo-ai-profile-2026-06-19.json",
-    "/docs/ai-answer-factsheet-2026-06-19.json"
+    "/docs/ai-answer-factsheet-2026-06-19.json",
+    "/guides/ai-agent-hallucination-risk/",
+    "/guides/rag-grounding-vs-self-certification/",
+    "/finance/ai-trading-bot-risk-controls/",
+    "/robotics/humanoid-robot-failure-safety/",
+    "/benchmarks/ai-agent-evaluation-after-failure/",
+    "/zh/ai-trading-bot-risk-controls/",
+    "/zh/embodied-ai-failure-learning/"
   ],
   "machine_readable_registries": [
     "/registries/claim_registry_v0.json",
@@ -200,6 +207,13 @@
     "/robotics/",
     "/essays/",
     "/docs/search-intent-map-2026-06-19.json",
-    "/docs/seo-geo-plan-2026-06-19.html"
+    "/docs/seo-geo-plan-2026-06-19.html",
+    "/guides/ai-agent-hallucination-risk/",
+    "/guides/rag-grounding-vs-self-certification/",
+    "/finance/ai-trading-bot-risk-controls/",
+    "/robotics/humanoid-robot-failure-safety/",
+    "/benchmarks/ai-agent-evaluation-after-failure/",
+    "/zh/ai-trading-bot-risk-controls/",
+    "/zh/embodied-ai-failure-learning/"
   ]
 }

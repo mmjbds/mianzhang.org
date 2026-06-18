@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>具身智能为什么要从失败里学习 | Mian Zhang</title>
+  <meta name="description" content="中文解释：具身智能、机器人和 VLA 系统为什么必须记录物理失败、感知不确定性、降级规则和停止状态。">
+  <meta property="og:title" content="具身智能为什么要从失败里学习 | Ouroboros Project">
+  <meta property="og:description" content="中文解释：具身智能、机器人和 VLA 系统为什么必须记录物理失败、感知不确定性、降级规则和停止状态。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/zh/embodied-ai-failure-learning/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/zh/embodied-ai-failure-learning/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/zh/embodied-ai-failure-learning/#webpage","url": "https://mianzhang.org/zh/embodied-ai-failure-learning/","name": "具身智能为什么要从失败里学习","description": "中文解释：具身智能、机器人和 VLA 系统为什么必须记录物理失败、感知不确定性、降级规则和停止状态。","inLanguage": "zh-CN","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["具身智能失败学习","机器人失败安全","VLA 安全","机器人视觉不确定性","人形机器人安全","机器人停止规则"],"mainEntity": {"@id": "https://mianzhang.org/zh/embodied-ai-failure-learning/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/zh/embodied-ai-failure-learning/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "中文","item": "https://mianzhang.org/zh/"},{"@type": "ListItem","position": 3,"name": "具身智能为什么要从失败里学习","item": "https://mianzhang.org/zh/embodied-ai-failure-learning/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/zh/embodied-ai-failure-learning/#faq","mainEntity": [{"@type": "Question","name": "机器人演示能证明部署吗？","acceptedAnswer": {"@type": "Answer","text": "不能。它只能证明特定条件下的一个能力片段。"}},{"@type": "Question","name": "视觉不确定怎么办？","acceptedAnswer": {"@type": "Answer","text": "停止、复核、降级或重新观察。"}},{"@type": "Question","name": "失败为什么重要？","acceptedAnswer": {"@type": "Answer","text": "失败暴露能力边界，是长期学习的材料。"}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">中文问题入口 / 具身智能失败学习</p>
+        <h1>机器人真正的能力，不只在成功演示里，也在失败之后。</h1>
+        <p class="lead">一个机器人成功抓起一次物体，不等于它理解了世界。关键是视觉不确定、接触失败、环境变化时，它怎么停、怎么记、怎么改。</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>具身智能失败学习</span>
+          <span>机器人失败安全</span>
+          <span>VLA 安全</span>
+          <span>机器人视觉不确定性</span>
+          <span>人形机器人安全</span>
+          <span>机器人停止规则</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>中文读者真正想问的是：机器人失败以后发生什么？</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>机器人演示为什么不等于部署证明？</li>
+          <li>视觉不确定时应该怎么做？</li>
+          <li>失败日志有什么价值？</li>
+          <li>什么是证据降级？</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">演示陷阱</p>
+        <h2>一个漂亮视频，不能替代边界记录。</h2>
+      </div>
+      <div class="body-text">
+        <p>机器人视频往往展示成功的一刻，但真实可靠性要看失败时的系统行为：看错、抓空、碰撞、遮挡、光照变化、物体移动。</p>
+        <p>如果这些失败不进入记录，外部读者只能看到强叙事，看不到能力边界。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">降级规则</p>
+        <h2>视觉不确定时，不应该升级行动。</h2>
+      </div>
+      <div class="body-text">
+        <p>感知置信度下降、目标被遮挡、接触状态不明时，系统应进入停止、复核、降级描述或重新观察，而不是把不确定判断推进成动作。</p>
+        <p>证据降级不是退缩，而是让公开主张匹配真实验证范围。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">学习</p>
+        <h2>失败只有被记录，才可能变成学习材料。</h2>
+      </div>
+      <div class="body-text">
+        <p>失败记录应包括场景、目标、感知状态、动作、失败类别、恢复尝试、人工判断和下一次边界更新。</p>
+        <p>这类记录比单次成功更能说明系统是否有长期改进能力。</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point, not a standalone proof. It routes the reader to evidence, DOI records, registries, public challenge paths, and explicit non-claims.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="具身智能为什么要从失败里学习 evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, counterexample, and action records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge</span><span>Counterexample route</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records where available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Robotics</span><span>Robot learning from failure</span><span><a href="https://mianzhang.org/robotics/robot-learning-from-failure/">https://mianzhang.org/robotics/robot-learning-from-failure/</a></span><span>English robotics failure-learning route.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>本文不声称真实机器人部署。</li>
+          <li>本文不替代机器人安全工程和物理测试。</li>
+          <li>本文不把单次成功演示当成通用能力证明。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>机器人演示能证明部署吗？</h3>
+        <p>不能。它只能证明特定条件下的一个能力片段。</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>视觉不确定怎么办？</h3>
+        <p>停止、复核、降级或重新观察。</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>失败为什么重要？</h3>
+        <p>失败暴露能力边界，是长期学习的材料。</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Robotics</span>
+        <h3>Robot Learning From Physical Failure</h3>
+        <p><a href="https://mianzhang.org/robotics/robot-learning-from-failure/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Robotics</span>
+        <h3>VLA Safety Evidence Downgrade</h3>
+        <p><a href="https://mianzhang.org/robotics/vla-safety-evidence-downgrade/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Long-tail pages connect real search questions to public evidence, not empty keyword targeting.</span>
+  </footer>
+</body>
+</html>

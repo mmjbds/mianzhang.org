@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 交易机器人为什么必须先学会不交易 | Mian Zhang</title>
+  <meta name="description" content="中文解释：AI 交易机器人在下单前需要哪些证据、权限、范围、审计记录和拒绝状态；本文不是投资建议。">
+  <meta property="og:title" content="AI 交易机器人为什么必须先学会不交易 | Ouroboros Project">
+  <meta property="og:description" content="中文解释：AI 交易机器人在下单前需要哪些证据、权限、范围、审计记录和拒绝状态；本文不是投资建议。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/zh/ai-trading-bot-risk-controls/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/zh/ai-trading-bot-risk-controls/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/zh/ai-trading-bot-risk-controls/#webpage","url": "https://mianzhang.org/zh/ai-trading-bot-risk-controls/","name": "AI 交易机器人为什么必须先学会不交易","description": "中文解释：AI 交易机器人在下单前需要哪些证据、权限、范围、审计记录和拒绝状态；本文不是投资建议。","inLanguage": "zh-CN","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI 交易机器人风险","AI 自动交易风控","无证明不交易","AI 金融风险","交易机器人护栏","自动化交易安全"],"mainEntity": {"@id": "https://mianzhang.org/zh/ai-trading-bot-risk-controls/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/zh/ai-trading-bot-risk-controls/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "中文","item": "https://mianzhang.org/zh/"},{"@type": "ListItem","position": 3,"name": "AI 交易机器人为什么必须先学会不交易","item": "https://mianzhang.org/zh/ai-trading-bot-risk-controls/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/zh/ai-trading-bot-risk-controls/#faq","mainEntity": [{"@type": "Question","name": "最短原则是什么？","acceptedAnswer": {"@type": "Answer","text": "没有证明，不交易。"}},{"@type": "Question","name": "拒绝交易是不是保守？","acceptedAnswer": {"@type": "Answer","text": "在高风险场景里，拒绝可能正是可靠性的证据。"}},{"@type": "Question","name": "要记录什么？","acceptedAnswer": {"@type": "Answer","text": "信号、证据、权限、范围、拒绝原因和下一步复核路线。"}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">中文问题入口 / AI 金融风险</p>
+        <h1>最危险的交易机器人，是永远都能给你一个动作的机器人。</h1>
+        <p class="lead">在金融场景里，AI 最大的问题不是答错一句话，而是在证据不足时仍然推动行动。没有证明，就不该下单。</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI 交易机器人风险</span>
+          <span>AI 自动交易风控</span>
+          <span>无证明不交易</span>
+          <span>AI 金融风险</span>
+          <span>交易机器人护栏</span>
+          <span>自动化交易安全</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>中文读者真正想问的是：AI 到底什么时候不能碰钱？</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>AI 交易机器人下单前要检查什么？</li>
+          <li>什么时候应该拒绝交易？</li>
+          <li>为什么拒绝交易不是能力差？</li>
+          <li>这和投资建议有什么区别？</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">风险</p>
+        <h2>一段建议和一笔订单，不是同一个风险等级。</h2>
+      </div>
+      <div class="body-text">
+        <p>AI 写一段市场分析，和 AI 触发一笔真实订单，是两回事。前者主要是信息风险，后者会改变资产状态。</p>
+        <p>下单前必须检查信号来源、数据新鲜度、权限范围、账户边界、失败代价和审计记录。缺一项，就应该 no-action。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">人性</p>
+        <h2>越自信的解释，越容易让人忽视证据缺口。</h2>
+      </div>
+      <div class="body-text">
+        <p>交易场景天然会放大确定性幻觉。一个说得很顺的系统，会让人误以为它真的知道下一步。</p>
+        <p>可靠系统应该把缺失项写出来：数据过期、权限不明、风险边界不清、证据不足、需要人工复核。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">边界</p>
+        <h2>风控不是收益承诺。</h2>
+      </div>
+      <div class="body-text">
+        <p>本文只解释行动前证据门，不提供投资建议，不声称收益，不证明任何真实交易系统已经部署。</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point, not a standalone proof. It routes the reader to evidence, DOI records, registries, public challenge paths, and explicit non-claims.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="AI 交易机器人为什么必须先学会不交易 evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, counterexample, and action records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge</span><span>Counterexample route</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records where available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Finance</span><span>No Trade Without Proof</span><span><a href="https://mianzhang.org/finance/no-trade-without-proof/">https://mianzhang.org/finance/no-trade-without-proof/</a></span><span>英文 no-action finance route.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>本文不是投资建议。</li>
+          <li>本文不声称任何 AI 交易系统有真实收益。</li>
+          <li>本文不证明生产部署或账户级执行能力。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>最短原则是什么？</h3>
+        <p>没有证明，不交易。</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>拒绝交易是不是保守？</h3>
+        <p>在高风险场景里，拒绝可能正是可靠性的证据。</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>要记录什么？</h3>
+        <p>信号、证据、权限、范围、拒绝原因和下一步复核路线。</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Finance</span>
+        <h3>No Trade Without Proof</h3>
+        <p><a href="https://mianzhang.org/finance/no-trade-without-proof/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">中文</span>
+        <h3>可靠 AI 智能体行动前需要什么证明</h3>
+        <p><a href="https://mianzhang.org/zh/reliable-ai-agent-proof-gate/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Long-tail pages connect real search questions to public evidence, not empty keyword targeting.</span>
+  </footer>
+</body>
+</html>

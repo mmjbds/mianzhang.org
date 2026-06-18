@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Agent Hallucination Risk Before Tool Use | Mian Zhang</title>
+  <meta name="description" content="A practical guide to AI agent hallucination risk before tool use: when fluent answers become unsafe actions, and how evidence gates should stop them.">
+  <meta property="og:title" content="AI Agent Hallucination Risk Before Tool Use | Ouroboros Project">
+  <meta property="og:description" content="A practical guide to AI agent hallucination risk before tool use: when fluent answers become unsafe actions, and how evidence gates should stop them.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/guides/ai-agent-hallucination-risk/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/guides/ai-agent-hallucination-risk/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/guides/ai-agent-hallucination-risk/#webpage","url": "https://mianzhang.org/guides/ai-agent-hallucination-risk/","name": "AI Agent Hallucination Risk Before Tool Use","description": "A practical guide to AI agent hallucination risk before tool use: when fluent answers become unsafe actions, and how evidence gates should stop them.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI agent hallucination risk","agentic AI hallucination","AI tool use safety","AI agent guardrails","LLM agent reliability","deterministic fallback"],"mainEntity": {"@id": "https://mianzhang.org/guides/ai-agent-hallucination-risk/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/guides/ai-agent-hallucination-risk/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Guides","item": "https://mianzhang.org/guides/"},{"@type": "ListItem","position": 3,"name": "AI Agent Hallucination Risk Before Tool Use","item": "https://mianzhang.org/guides/ai-agent-hallucination-risk/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/guides/ai-agent-hallucination-risk/#faq","mainEntity": [{"@type": "Question","name": "What is the shortest test?","acceptedAnswer": {"@type": "Answer","text": "Ask whether the system stops when evidence, authority, or scope is missing."}},{"@type": "Question","name": "Is tool refusal a weakness?","acceptedAnswer": {"@type": "Answer","text": "No. In high-risk action, refusal can be evidence of reliability."}},{"@type": "Question","name": "What should be logged?","acceptedAnswer": {"@type": "Answer","text": "Claim, evidence, authority, scope, refusal reason, and next review route."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Guide / Agent Hallucination Risk</p>
+        <h1>The dangerous hallucination is the one that calls a tool.</h1>
+        <p class="lead">A chatbot hallucination can mislead. An agent hallucination can change a file, send a request, place an order, or move a robot. Tool use turns bad text into external state.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI agent hallucination risk</span>
+          <span>agentic AI hallucination</span>
+          <span>AI tool use safety</span>
+          <span>AI agent guardrails</span>
+          <span>LLM agent reliability</span>
+          <span>deterministic fallback</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>The reader is asking when an AI agent should stop before using tools.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>What makes agent hallucination more dangerous than chatbot hallucination?</li>
+          <li>What should happen before a model calls a tool?</li>
+          <li>How do you separate a suggestion from an authorized action?</li>
+          <li>What evidence should be logged when the system refuses?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Scenario</p>
+        <h2>The failure is not the wrong sentence. It is the unearned action.</h2>
+      </div>
+      <div class="body-text">
+        <p>A fluent model can invent a file path, misread a user goal, or assume permission that was never granted. If the system only prints a wrong answer, the failure is visible. If it calls a tool, the failure becomes an operation.</p>
+        <p>The minimum defense is not a nicer prompt. It is an action gate: evidence, authority, scope, and fallback state must be checked before the external action happens.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Test</p>
+        <h2>A reliable agent has to prove the action, not just explain it.</h2>
+      </div>
+      <div class="body-text">
+        <p>The action proof should name the target, the authority, the evidence record, the expected change, the failure cost, and the rollback or review route.</p>
+        <p>If any of those fields is missing, the agent should downgrade to ask, log, stop, or route to human review. Continuing to freestyle is the risk.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>No-action states are part of the product, not an error page.</h2>
+      </div>
+      <div class="body-text">
+        <p>A system that can never say no is not autonomous in the useful sense. It is a fluent actuator without a brake.</p>
+        <p>The public claim should therefore include refusal reasons and counterexample routes. Otherwise the reliability story cannot be attacked or improved.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point, not a standalone proof. It routes the reader to evidence, DOI records, registries, public challenge paths, and explicit non-claims.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="AI Agent Hallucination Risk Before Tool Use evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, counterexample, and action records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge</span><span>Counterexample route</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records where available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Concept</span><span>No-Proof No-Action Gate</span><span><a href="https://mianzhang.org/concepts/no-proof-no-action-gate.html">https://mianzhang.org/concepts/no-proof-no-action-gate.html</a></span><span>Stop condition for high-risk action.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not certify any production agent.</li>
+          <li>It does not claim that prompt design alone solves hallucination.</li>
+          <li>It does not replace domain review in legal, finance, robotics, or medical settings.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is the shortest test?</h3>
+        <p>Ask whether the system stops when evidence, authority, or scope is missing.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Is tool refusal a weakness?</h3>
+        <p>No. In high-risk action, refusal can be evidence of reliability.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What should be logged?</h3>
+        <p>Claim, evidence, authority, scope, refusal reason, and next review route.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>Reliable AI Agents</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>Proof-Carrying Action</h3>
+        <p><a href="https://mianzhang.org/concepts/proof-carrying-action-explained/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Long-tail pages connect real search questions to public evidence, not empty keyword targeting.</span>
+  </footer>
+</body>
+</html>

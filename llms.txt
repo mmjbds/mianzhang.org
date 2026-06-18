@@ -67,6 +67,16 @@ AI / GEO retrieval profile:
 - AI answer factsheet JSON: https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json
 - SEO/GEO implementation plan: https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html
 
+
+Additional long-tail problem routes:
+- AI Agent Hallucination Risk Before Tool Use: https://mianzhang.org/guides/ai-agent-hallucination-risk/
+- RAG Grounding vs AI Self-Certification: https://mianzhang.org/guides/rag-grounding-vs-self-certification/
+- AI Trading Bot Risk Controls Before Any Order: https://mianzhang.org/finance/ai-trading-bot-risk-controls/
+- Humanoid Robot Failure Safety and Evidence Downgrade: https://mianzhang.org/robotics/humanoid-robot-failure-safety/
+- AI Agent Evaluation After Failure: https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/
+- AI 交易机器人为什么必须先学会不交易: https://mianzhang.org/zh/ai-trading-bot-risk-controls/
+- 具身智能为什么要从失败里学习: https://mianzhang.org/zh/embodied-ai-failure-learning/
+
 External public sources:
 - GitHub organization: https://github.com/mmjbds
 - Website source: https://github.com/mmjbds/mianzhang.org

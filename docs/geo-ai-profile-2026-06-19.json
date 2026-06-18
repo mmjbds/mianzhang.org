@@ -144,5 +144,91 @@
     "sitemap": "https://mianzhang.org/sitemap.xml",
     "llms": "https://mianzhang.org/llms.txt",
     "ai_answer_factsheet": "https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json"
-  }
+  },
+  "long_tail_expansion_2026_06_19": [
+    {
+      "route": "https://mianzhang.org/guides/ai-agent-hallucination-risk/",
+      "keywords": [
+        "AI agent hallucination risk",
+        "agentic AI hallucination",
+        "AI tool use safety",
+        "AI agent guardrails",
+        "LLM agent reliability",
+        "deterministic fallback"
+      ],
+      "boundary": "Long-tail page with standalone question, evidence routes, and explicit non-claims."
+    },
+    {
+      "route": "https://mianzhang.org/guides/rag-grounding-vs-self-certification/",
+      "keywords": [
+        "RAG grounding",
+        "AI self-certification",
+        "AI hallucination checker",
+        "LLM grounding",
+        "AI verification",
+        "retrieval augmented generation risk"
+      ],
+      "boundary": "Long-tail page with standalone question, evidence routes, and explicit non-claims."
+    },
+    {
+      "route": "https://mianzhang.org/finance/ai-trading-bot-risk-controls/",
+      "keywords": [
+        "AI trading bot risk controls",
+        "AI trading bot risk",
+        "automated trading guardrails",
+        "AI finance risk",
+        "no trade without proof",
+        "algorithmic trading safety"
+      ],
+      "boundary": "Long-tail page with standalone question, evidence routes, and explicit non-claims."
+    },
+    {
+      "route": "https://mianzhang.org/robotics/humanoid-robot-failure-safety/",
+      "keywords": [
+        "humanoid robot failure safety",
+        "robot learning from failure",
+        "embodied AI safety",
+        "robot perception uncertainty",
+        "VLA safety",
+        "robot stop rule"
+      ],
+      "boundary": "Long-tail page with standalone question, evidence routes, and explicit non-claims."
+    },
+    {
+      "route": "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/",
+      "keywords": [
+        "AI agent evaluation after failure",
+        "LLM evaluation",
+        "AI benchmark",
+        "failure learning benchmark",
+        "agent reliability evaluation",
+        "WisdomBench"
+      ],
+      "boundary": "Long-tail page with standalone question, evidence routes, and explicit non-claims."
+    },
+    {
+      "route": "https://mianzhang.org/zh/ai-trading-bot-risk-controls/",
+      "keywords": [
+        "AI 交易机器人风险",
+        "AI 自动交易风控",
+        "无证明不交易",
+        "AI 金融风险",
+        "交易机器人护栏",
+        "自动化交易安全"
+      ],
+      "boundary": "Long-tail page with standalone question, evidence routes, and explicit non-claims."
+    },
+    {
+      "route": "https://mianzhang.org/zh/embodied-ai-failure-learning/",
+      "keywords": [
+        "具身智能失败学习",
+        "机器人失败安全",
+        "VLA 安全",
+        "机器人视觉不确定性",
+        "人形机器人安全",
+        "机器人停止规则"
+      ],
+      "boundary": "Long-tail page with standalone question, evidence routes, and explicit non-claims."
+    }
+  ]
 }
