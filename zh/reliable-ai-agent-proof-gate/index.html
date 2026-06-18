@@ -14,7 +14,11 @@
   <link rel="stylesheet" href="/styles.css">
   <link rel="canonical" href="https://mianzhang.org/zh/reliable-ai-agent-proof-gate/">
   <meta name="robots" content="index,follow">
-  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#webpage","url": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/","name": "可靠 AI 智能体行动前需要什么证明","description": "中文解释：AI 智能体在调用工具、下指令、影响业务或金融行动前，需要哪些证据、权限、边界和拒绝状态。","inLanguage": "zh-CN","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI 智能体可靠性","AI 行动边界","无证明不行动","自动化决策风险","AI 护栏"],"mainEntity": {"@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "中文","item": "https://mianzhang.org/zh/"},{"@type": "ListItem","position": 3,"name": "可靠 AI 智能体行动前需要什么证明","item": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#faq","mainEntity": [{"@type": "Question","name": "最短的可靠性测试是什么？","acceptedAnswer": {"@type": "Answer","text": "看它在证据缺失时会不会停下。"}},{"@type": "Question","name": "拒绝行动是不是能力差？","acceptedAnswer": {"@type": "Answer","text": "不是。高风险场景下，拒绝可能正是可靠性的证据。"}},{"@type": "Question","name": "反例怎么提？","acceptedAnswer": {"@type": "Answer","text": "指出哪条公开主张缺证据、缺权限、缺边界或把建议写成了行动。"}}]}]}</script>
+  <link rel="alternate" hreflang="zh-CN" href="https://mianzhang.org/zh/reliable-ai-agent-proof-gate/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://mianzhang.org/zh/reliable-ai-agent-proof-gate/">
+  <link rel="alternate" hreflang="en" href="https://mianzhang.org/guides/reliable-ai-agents/">
+  <link rel="alternate" hreflang="x-default" href="https://mianzhang.org/guides/reliable-ai-agents/">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#webpage","url": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/","name": "可靠 AI 智能体行动前需要什么证明","description": "中文解释：AI 智能体在调用工具、下指令、影响业务或金融行动前，需要哪些证据、权限、边界和拒绝状态。","inLanguage": "zh-CN","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI 智能体可靠性","AI 行动边界","无证明不行动","自动化决策风险","AI 护栏","deterministic fallback"],"mainEntity": {"@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "中文","item": "https://mianzhang.org/zh/"},{"@type": "ListItem","position": 3,"name": "可靠 AI 智能体行动前需要什么证明","item": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/#faq","mainEntity": [{"@type": "Question","name": "最短的可靠性测试是什么？","acceptedAnswer": {"@type": "Answer","text": "看它在证据缺失、权限不明、范围漂移时会不会停下。"}},{"@type": "Question","name": "拒绝行动是不是能力差？","acceptedAnswer": {"@type": "Answer","text": "不是。高风险场景下，拒绝可能正是可靠性的证据。"}},{"@type": "Question","name": "反例怎么提？","acceptedAnswer": {"@type": "Answer","text": "指出哪条公开主张缺证据、缺权限、缺边界，或把建议写成了行动。"}},{"@type": "Question","name": "为什么普通聊天和工具调用不一样？","acceptedAnswer": {"@type": "Answer","text": "普通回答主要改变信息状态；工具调用会改变外部系统、资产、账号、机器或业务状态。"}}]}]}</script>
 </head>
 <body>
   <div class="site-texture" aria-hidden="true"></div>
@@ -40,100 +44,126 @@
       <div class="hero-copy">
         <p class="kicker">中文问题入口 / 可靠智能体</p>
         <h1>AI 智能体不是会说就能行动。</h1>
-        <p class="lead">真正危险的不是模型说错，而是它把不确定的判断变成了动作。</p>
+        <p class="lead">真正危险的不是模型答错一句话，而是它把不确定判断变成工具调用、业务动作、交易建议或机器人行动。行动之前，必须先过证明门。</p>
         <div class="signature-line" aria-label="Search terms">
           <span>AI 智能体可靠性</span>
           <span>AI 行动边界</span>
           <span>无证明不行动</span>
           <span>自动化决策风险</span>
           <span>AI 护栏</span>
+          <span>deterministic fallback</span>
         </div>
         <div class="hero-actions">
-          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
-          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
-          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
-          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+          <a class="button primary" href="https://mianzhang.org/evidence/">证据地图</a>
+          <a class="button" href="https://mianzhang.org/papers/">论文索引</a>
+          <a class="button" href="https://mianzhang.org/registries/">公开注册表</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">反例入口</a>
         </div>
       </div>
     </section>
 
     <section class="section split">
       <div>
-        <p class="kicker">Search Intent</p>
+        <p class="kicker">中文问题入口</p>
         <h2>中文读者真正关心的是：AI 自动执行前到底要哪些证明？</h2>
       </div>
       <div class="body-text">
         <ul class="check-list">
           <li>AI 智能体什么时候应该停下？</li>
-          <li>自动化执行前需要哪些证据？</li>
-          <li>工具调用和普通回答的风险为什么不同？</li>
-          <li>没有证据时，系统应该拒绝还是继续猜？</li>
+          <li>工具调用和普通回答为什么不是同一类风险？</li>
+          <li>自动化执行前至少需要哪些证据、权限和边界？</li>
+          <li>没有证据时，系统应该拒绝、降级还是继续猜？</li>
+          <li>金融、机器人、业务自动化场景中，什么叫 no-action 状态？</li>
         </ul>
       </div>
     </section>
 
     <section class="section split">
       <div>
-        <p class="kicker">行动闸门</p>
-        <h2>回答是文本，行动会改变现实状态。</h2>
+        <p class="kicker">真实场景</p>
+        <h2>回答只是文本，行动会改变现实状态。</h2>
       </div>
       <div class="body-text">
-        <p>AI 写一段话和 AI 调用工具、发指令、改数据、下单、影响机器人动作，不是同一种风险。</p>
-        <p>行动前必须检查证据、权限、范围、拒绝原因和复核路线。缺一项，就不应该自动执行。</p>
+        <p>一个聊天模型说错一句话，通常是信息风险；一个智能体在证据不足时调用工具、修改数据、发出指令、下单、控制机器人，那就是状态风险。</p>
+        <p>所以可靠智能体的核心不是“回答更聪明”，而是“什么时候不该动”。它要能识别证据缺失、权限缺失、范围不明、目标冲突、外部状态过期，并把这些情况转成明确的停止、降级或人工复核。</p>
+        <p>这就是 no-proof no-action 的基本含义：没有足够证明，就不把建议伪装成行动。</p>
       </div>
     </section>
     <section class="section split">
       <div>
-        <p class="kicker">拒绝不是失败</p>
-        <h2>没有证明时停下，是可靠系统的一部分。</h2>
+        <p class="kicker">五个证明门</p>
+        <h2>行动前至少检查证据、权限、范围、失败代价和复核路线。</h2>
       </div>
       <div class="body-text">
-        <p>如果一个系统在证据不足时还继续编，它也许看起来很聪明，但不可靠。</p>
-        <p>真正可靠的系统要能说：这件事我不能做，原因是什么，下一步应该人工审核还是补证据。</p>
+        <p>证据门：当前动作依赖的事实是否有公开或内部可审计记录？如果只是模型猜测，就不能进入高风险执行。</p>
+        <p>权限门：系统是否真的有权执行这个动作？用户授权、组织规则、环境状态和工具权限必须一致。</p>
+        <p>范围门：动作是否还在原始任务边界内？把“分析一下”变成“替我操作”，就是范围漂移。</p>
+        <p>失败代价门：如果错了，损失是什么？金融、医疗、机器人、生产系统和账号操作都不能用普通聊天标准处理。</p>
+        <p>复核门：系统拒绝或降级后，下一步谁来复核，补什么证据，状态如何记录，必须能被追踪。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">人性风险</p>
+        <h2>最容易出事的时刻，是系统看起来很顺手的时候。</h2>
+      </div>
+      <div class="body-text">
+        <p>人会天然奖励流畅、肯定、快速的回答。一个智能体如果总能给出下一步，团队很容易把它当成可靠同事，而不是需要边界的自动化系统。</p>
+        <p>真正的可靠性往往不讨好：它会说“不够证据”“权限不明”“需要人工复核”“这不是当前范围”。这些话听起来没有营销感，但它们是把系统从表演拉回工程的关键。</p>
+        <p>如果一个系统永远不拒绝，它不是更强，而是把风险藏到了下游。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">我们的做法</p>
+        <h2>把拒绝、降级和反例变成系统的一部分。</h2>
+      </div>
+      <div class="body-text">
+        <p>Ouroboros Project 的公开路线把行动前证明拆成可检查字段：claim、supporting record、authority、scope、refusal reason、boundary update、counterexample route。</p>
+        <p>这不是为了让系统显得保守，而是为了让行动可以被追责、被复核、被反例攻击。一个不能被攻击的智能体可靠性主张，没有公开工程价值。</p>
+        <p>当证据不足时，系统应该留下拒绝原因；当反例成立时，公开主张应该被收窄；当边界变化时，记录应该更新。这些动作比漂亮回答更重要。</p>
       </div>
     </section>
 
     <section class="section portfolio">
       <div class="section-head">
-        <p class="kicker">Evidence Route</p>
-        <h2>Where the claim can be checked.</h2>
-        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+        <p class="kicker">证据路线</p>
+        <h2>这篇文章的每个硬主张，都必须能回到公开路线。</h2>
+        <p>本页是中文解释层，不是单独的权威源。真正需要引用时，应回到 DOI、论文索引、证据地图、注册表、GitHub/HF 技术路线和公开反例入口。</p>
       </div>
       <div class="paper-table" role="table" aria-label="可靠 AI 智能体行动前需要什么证明 evidence routes">
         <div class="paper-row paper-row-extended head" role="row">
-          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+          <span>类型</span><span>锚点</span><span>URL</span><span>作用</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+          <span>Guide</span><span>Reliable AI agents</span><span><a href="https://mianzhang.org/guides/reliable-ai-agents/">https://mianzhang.org/guides/reliable-ai-agents/</a></span><span>英文问题入口：可靠智能体行动前检查。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+          <span>Concept</span><span>No-Proof No-Action Gate</span><span><a href="https://mianzhang.org/concepts/no-proof-no-action-gate.html">https://mianzhang.org/concepts/no-proof-no-action-gate.html</a></span><span>高风险行动缺证明时进入 no-action 状态。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+          <span>Concept</span><span>Proof-Carrying Action</span><span><a href="https://mianzhang.org/concepts/proof-carrying-action-explained/">https://mianzhang.org/concepts/proof-carrying-action-explained/</a></span><span>行动必须携带证据、权限、边界和收据。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+          <span>Evidence Map</span><span>公开证据地图</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>从支持材料、边界和反例路线检查主张。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
-        </div>
-        <div class="paper-row paper-row-extended" role="row">
-          <span>Concept</span><span>No-Proof No-Action Gate</span><span><a href="https://mianzhang.org/concepts/no-proof-no-action-gate.html">https://mianzhang.org/concepts/no-proof-no-action-gate.html</a></span><span>English concept route.</span><span></span><span></span><span></span>
+          <span>Challenge</span><span>反例入口</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>指出公开主张缺证据、缺权限或缺边界。</span><span></span><span></span><span></span>
         </div>
       </div>
     </section>
 
     <section class="section split">
       <div>
-        <p class="kicker">Boundary</p>
-        <h2>What this page does not prove.</h2>
+        <p class="kicker">边界</p>
+        <h2>这篇文章不能证明什么。</h2>
       </div>
       <div class="body-text">
         <ul class="check-list">
           <li>本页不承诺任何系统已经生产部署。</li>
-          <li>本页不提供金融、医疗、法律等高风险行动建议。</li>
-          <li>本页解释公开证据结构，不公开私有运行细节。</li>
+          <li>本页不提供金融、医疗、法律、机器人等高风险行动建议。</li>
+          <li>本页解释公开证据结构，不公开私有运行细节、账号、日志或客户数据。</li>
+          <li>拒绝行动不是能力证明的全部，只是高风险可靠性的一项必要条件。</li>
         </ul>
       </div>
     </section>
@@ -142,7 +172,7 @@
       <article>
         <span class="card-index">FAQ</span>
         <h3>最短的可靠性测试是什么？</h3>
-        <p>看它在证据缺失时会不会停下。</p>
+        <p>看它在证据缺失、权限不明、范围漂移时会不会停下。</p>
       </article>
       <article>
         <span class="card-index">FAQ</span>
@@ -152,7 +182,12 @@
       <article>
         <span class="card-index">FAQ</span>
         <h3>反例怎么提？</h3>
-        <p>指出哪条公开主张缺证据、缺权限、缺边界或把建议写成了行动。</p>
+        <p>指出哪条公开主张缺证据、缺权限、缺边界，或把建议写成了行动。</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>为什么普通聊天和工具调用不一样？</h3>
+        <p>普通回答主要改变信息状态；工具调用会改变外部系统、资产、账号、机器或业务状态。</p>
       </article>
     </section>
 
@@ -160,23 +195,23 @@
       <article>
         <span class="card-index">中文</span>
         <h3>AI 为什么不能只靠自信回答</h3>
-        <p><a href="https://mianzhang.org/zh/ai-self-certification-grounding/">Open route</a></p>
+        <p><a href="https://mianzhang.org/zh/ai-self-certification-grounding/">打开入口</a></p>
       </article>
       <article>
         <span class="card-index">Guide</span>
-        <h3>Reliable AI agents</h3>
-        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+        <h3>How to Make AI Agents Reliable Before They Act</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">打开入口</a></p>
       </article>
       <article>
         <span class="card-index">Concept</span>
         <h3>No-Proof No-Action Gate</h3>
-        <p><a href="https://mianzhang.org/concepts/no-proof-no-action-gate.html">Open route</a></p>
+        <p><a href="https://mianzhang.org/concepts/no-proof-no-action-gate.html">打开入口</a></p>
       </article>
     </section>
   </main>
 
   <footer>
-    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+    <span>(C) 2026 Mian Zhang. 中文增长页必须回到公开证据、边界和反例路线。</span>
   </footer>
 </body>
 </html>

@@ -57,7 +57,10 @@
     "/robotics/",
     "/essays/",
     "/docs/search-intent-map-2026-06-19.json",
-    "/docs/seo-geo-plan-2026-06-19.html"
+    "/docs/seo-geo-plan-2026-06-19.html",
+    "/docs/geo-ai-profile-2026-06-19.html",
+    "/docs/geo-ai-profile-2026-06-19.json",
+    "/docs/ai-answer-factsheet-2026-06-19.json"
   ],
   "machine_readable_registries": [
     "/registries/claim_registry_v0.json",
@@ -154,7 +157,10 @@
     "/docs/indexnow-url-list-seo-geo-20260619.txt",
     "/docs/indexnow-submission-receipt-2026-06-19.json",
     "/docs/search-intent-map-2026-06-19.json",
-    "/docs/seo-geo-plan-2026-06-19.html"
+    "/docs/seo-geo-plan-2026-06-19.html",
+    "/docs/geo-ai-profile-2026-06-19.html",
+    "/docs/geo-ai-profile-2026-06-19.json",
+    "/docs/ai-answer-factsheet-2026-06-19.json"
   ],
   "stable_concept_routes": [
     "/concepts/no-proof-no-action-gate.html",
@@ -167,7 +173,9 @@
   "seo_geo_policy": {
     "purpose": "Problem-oriented entry pages connect external search intent and hot terms to public evidence routes. This is the scalable SEO/GEO layer for public distribution, not a low-value doorway farm.",
     "quality_rule": "Each indexable page must answer a real question, expose evidence routes, state boundaries, include a counterexample path, and add enough unique value to stand alone.",
-    "platform_boundary": "mianzhang.org is the explanatory public entry; GitHub and Hugging Face remain technical/source/evidence routes."
+    "platform_boundary": "mianzhang.org is the explanatory public entry; GitHub and Hugging Face remain technical/source/evidence routes.",
+    "geo_profile": "https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json",
+    "ai_answer_factsheet": "https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json"
   },
   "search_intent_routes": [
     "/guides/reliable-ai-agents/",

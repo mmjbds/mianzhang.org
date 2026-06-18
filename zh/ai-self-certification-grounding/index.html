@@ -14,7 +14,11 @@
   <link rel="stylesheet" href="/styles.css">
   <link rel="canonical" href="https://mianzhang.org/zh/ai-self-certification-grounding/">
   <meta name="robots" content="index,follow">
-  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#webpage","url": "https://mianzhang.org/zh/ai-self-certification-grounding/","name": "AI 为什么不能只靠自信回答","description": "中文解释：为什么大模型自信回答不等于可靠证据，以及如何用公开记录、边界、反例和未解决状态验证 AI 主张。","inLanguage": "zh-CN","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI 幻觉检查","大模型输出验证","AI 自证不可靠","证据边界","可靠 AI"],"mainEntity": {"@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "中文","item": "https://mianzhang.org/zh/"},{"@type": "ListItem","position": 3,"name": "AI 为什么不能只靠自信回答","item": "https://mianzhang.org/zh/ai-self-certification-grounding/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#faq","mainEntity": [{"@type": "Question","name": "一句话怎么判断？","acceptedAnswer": {"@type": "Answer","text": "问它的关键主张能不能被外部记录检查，而不是只看它说得像不像真的。"}},{"@type": "Question","name": "AI 能不能自己证明自己？","acceptedAnswer": {"@type": "Answer","text": "它可以报告自己的判断，但公开可靠性需要外部证据。"}},{"@type": "Question","name": "证据不够怎么办？","acceptedAnswer": {"@type": "Answer","text": "降级、标记待验证、进入人工审核，或者开放反例入口。"}}]}]}</script>
+  <link rel="alternate" hreflang="zh-CN" href="https://mianzhang.org/zh/ai-self-certification-grounding/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://mianzhang.org/zh/ai-self-certification-grounding/">
+  <link rel="alternate" hreflang="en" href="https://mianzhang.org/guides/ai-self-certification-grounding/">
+  <link rel="alternate" hreflang="x-default" href="https://mianzhang.org/guides/ai-self-certification-grounding/">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#webpage","url": "https://mianzhang.org/zh/ai-self-certification-grounding/","name": "AI 为什么不能只靠自信回答","description": "中文解释：为什么大模型自信回答不等于可靠证据，以及如何用公开记录、边界、反例和未解决状态验证 AI 主张。","inLanguage": "zh-CN","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI 幻觉检查","ChatGPT 幻觉","RAG 扎根","大模型输出验证","AI 自证不可靠","证据边界"],"mainEntity": {"@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "中文","item": "https://mianzhang.org/zh/"},{"@type": "ListItem","position": 3,"name": "AI 为什么不能只靠自信回答","item": "https://mianzhang.org/zh/ai-self-certification-grounding/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/zh/ai-self-certification-grounding/#faq","mainEntity": [{"@type": "Question","name": "一句话怎么判断 AI 回答靠不靠谱？","acceptedAnswer": {"@type": "Answer","text": "看关键主张能不能被外部记录检查，而不是只看它说得像不像真的。"}},{"@type": "Question","name": "AI 能不能自己证明自己？","acceptedAnswer": {"@type": "Answer","text": "它可以报告自己的判断，但公开可靠性需要外部证据、边界和反例路线。"}},{"@type": "Question","name": "证据不够怎么办？","acceptedAnswer": {"@type": "Answer","text": "降级、标记待验证、进入人工审核，或者开放反例入口。"}},{"@type": "Question","name": "为什么要写边界？","acceptedAnswer": {"@type": "Answer","text": "边界能防止一个局部证据被包装成过宽结论。"}}]}]}</script>
 </head>
 <body>
   <div class="site-texture" aria-hidden="true"></div>
@@ -38,102 +42,128 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="kicker">中文问题入口 / AI 幻觉与扎根</p>
-        <h1>AI 自信回答，不等于它真的有证据。</h1>
-        <p class="lead">这页面向中文读者解释一个现实问题：大模型说得很顺，不代表它能证明自己是对的。</p>
+        <p class="kicker">中文问题入口 / AI 幻觉与证据扎根</p>
+        <h1>AI 说得越像真的，越需要证据。</h1>
+        <p class="lead">大模型最危险的地方，不一定是它胡说八道，而是它把一个没有证据的判断说得像已经被证明。可靠性不是语气问题，是证据结构问题。</p>
         <div class="signature-line" aria-label="Search terms">
           <span>AI 幻觉检查</span>
+          <span>ChatGPT 幻觉</span>
+          <span>RAG 扎根</span>
           <span>大模型输出验证</span>
           <span>AI 自证不可靠</span>
           <span>证据边界</span>
-          <span>可靠 AI</span>
         </div>
         <div class="hero-actions">
-          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
-          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
-          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
-          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+          <a class="button primary" href="https://mianzhang.org/evidence/">证据地图</a>
+          <a class="button" href="https://mianzhang.org/papers/">论文索引</a>
+          <a class="button" href="https://mianzhang.org/registries/">公开注册表</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">反例入口</a>
         </div>
       </div>
     </section>
 
     <section class="section split">
       <div>
-        <p class="kicker">Search Intent</p>
-        <h2>外部读者真正关心的是：我怎么知道 AI 不是在编？</h2>
+        <p class="kicker">中文问题入口</p>
+        <h2>中文读者真正想问的是：我怎么知道它不是在编？</h2>
       </div>
       <div class="body-text">
         <ul class="check-list">
-          <li>大模型回答很自信，为什么还可能不可靠？</li>
-          <li>AI 能不能自己证明自己是对的？</li>
-          <li>什么样的证据才算能被外部读者检查？</li>
-          <li>如果证据不够，公开主张应该怎么降级？</li>
+          <li>大模型回答很自信，为什么仍然可能不可靠？</li>
+          <li>一个 AI 系统能不能自己证明自己说得对？</li>
+          <li>公开证据、私有日志、模型自述，三者有什么区别？</li>
+          <li>证据不够时，系统应该降级、停下，还是继续给答案？</li>
+          <li>普通用户和技术团队可以怎样提出反例？</li>
         </ul>
       </div>
     </section>
 
     <section class="section split">
       <div>
-        <p class="kicker">人话定义</p>
-        <h2>可靠不是语气，可靠是能被外部检查。</h2>
+        <p class="kicker">真实场景</p>
+        <h2>问题不是“AI 会不会错”，而是“错了以后有没有证据路线”。</h2>
       </div>
       <div class="body-text">
-        <p>一个回答可以写得非常像专家，但如果它没有指向公开记录、版本、失败状态、过期条件或反例入口，它就仍然只是一个回答。</p>
-        <p>我们的公开页把这个问题翻译成证据结构：主张、支持材料、边界、状态、反例路线。</p>
+        <p>一个模型说：这篇论文已经证明某个系统具备长期可靠行动能力。听起来很专业，但外部读者要问的不是它语气够不够确定，而是这句话能不能落到公开记录上：是哪篇论文，哪个 DOI，哪个实验边界，哪个失败状态，哪个反例入口。</p>
+        <p>如果它只给出一段流畅解释，却没有版本、证据、边界、未解决项和挑战路线，那么这段解释就是不可审计的。它可以启发讨论，但不能作为可靠结论。</p>
+        <p>这也是我们把 AI 自证问题单独做成中文入口的原因。中文读者不需要先学一堆术语，先抓住一句话就够了：能被外部检查的，才有资格进入可靠性讨论。</p>
       </div>
     </section>
     <section class="section split">
       <div>
-        <p class="kicker">边界</p>
-        <h2>未解决，是比假装解决更可靠的状态。</h2>
+        <p class="kicker">判断公式</p>
+        <h2>一个回答要从“像真的”变成“可检查”，至少要过五道门。</h2>
       </div>
       <div class="body-text">
-        <p>如果证据不足，正确做法不是把话写得更满，而是标记为待验证、降级、失败或超出范围。</p>
-        <p>这不是低调，而是让外部读者知道这条主张今天能承载什么，不能承载什么。</p>
+        <p>第一，主张要具体。比如“这个系统更可靠”太宽；“在证据缺失时会进入 no-action 状态”才是可以检查的主张。</p>
+        <p>第二，证据要可引用。公开网页、DOI、GitHub issue、HF 技术镜像、注册表和可复核样例，比模型自己说“我有依据”更重要。</p>
+        <p>第三，边界要写清楚。证据只支持什么，不支持什么，什么时候过期，遇到什么反例要降级，都应该被写出来。</p>
+        <p>第四，失败要进入记录。一个系统如果只展示成功样例，不记录失败、反例和未解决状态，它的可靠性叙事是不完整的。</p>
+        <p>第五，要有攻击入口。外部读者应该知道从哪里质疑：是挑战主张、提交反例、指出证据缺口，还是要求更强 baseline。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">常见误区</p>
+        <h2>RAG、引用、长回答，都不自动等于可靠。</h2>
+      </div>
+      <div class="body-text">
+        <p>RAG 可以帮助模型接触外部材料，但它不能替代判断。检索到了材料，不代表材料支持当前主张；引用了网页，不代表网页证明了结论；列出很多链接，也不代表边界被检查过。</p>
+        <p>真正要看的，是主张和证据之间的关系。证据是否同一时间段、同一对象、同一条件？有没有把一个演示截图写成真实部署？有没有把待验证状态写成已经完成？有没有把技术路线写成商业结果？</p>
+        <p>这类问题如果不问清楚，AI 的流畅性会把证据缺口盖住。它越会说，越容易让读者忘记检查。</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">我们的做法</p>
+        <h2>把自信回答改造成可审计记录。</h2>
+      </div>
+      <div class="body-text">
+        <p>Ouroboros Project 的公开层不要求读者相信某个权威判断，而是要求每个判断回到证据地图、论文索引、注册表、反例入口和边界页面。</p>
+        <p>如果证据不足，正确做法不是把话写得更满，而是把状态改成待验证、边界不足、需要复核、或者明确不主张。</p>
+        <p>这不是降低主张，而是防止主张脱离证据。一个能被反例攻击、能被边界收窄、能被证据更新的系统，才有机会变得更强。</p>
       </div>
     </section>
 
     <section class="section portfolio">
       <div class="section-head">
-        <p class="kicker">Evidence Route</p>
-        <h2>Where the claim can be checked.</h2>
-        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+        <p class="kicker">证据路线</p>
+        <h2>这篇文章的每个硬主张，都必须能回到公开路线。</h2>
+        <p>本页是中文解释层，不是单独的权威源。真正需要引用时，应回到 DOI、论文索引、证据地图、注册表、GitHub/HF 技术路线和公开反例入口。</p>
       </div>
       <div class="paper-table" role="table" aria-label="AI 为什么不能只靠自信回答 evidence routes">
         <div class="paper-row paper-row-extended head" role="row">
-          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+          <span>类型</span><span>锚点</span><span>URL</span><span>作用</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+          <span>Evidence Map</span><span>公开证据地图</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>从支持材料、边界和未解决项开始检查。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+          <span>Concept</span><span>Self-Certification Grounding Check</span><span><a href="https://mianzhang.org/concepts/self-certification-grounding-check.html">https://mianzhang.org/concepts/self-certification-grounding-check.html</a></span><span>英文概念路线：自证必须落到外部记录。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+          <span>Registries</span><span>公开注册表</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>检查 claim、evidence、counterexample、action 记录。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+          <span>Challenge</span><span>反例入口</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>外部读者可以攻击过宽主张或证据缺口。</span><span></span><span></span><span></span>
         </div>
         <div class="paper-row paper-row-extended" role="row">
-          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
-        </div>
-        <div class="paper-row paper-row-extended" role="row">
-          <span>Concept</span><span>Self-Certification Grounding Check</span><span><a href="https://mianzhang.org/concepts/self-certification-grounding-check.html">https://mianzhang.org/concepts/self-certification-grounding-check.html</a></span><span>English concept route.</span><span></span><span></span><span></span>
+          <span>Archive</span><span>Zenodo 总档案</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>长期档案索引；具体论文应引用对应 DOI。</span><span></span><span></span><span></span>
         </div>
       </div>
     </section>
 
     <section class="section split">
       <div>
-        <p class="kicker">Boundary</p>
-        <h2>What this page does not prove.</h2>
+        <p class="kicker">边界</p>
+        <h2>这篇文章不能证明什么。</h2>
       </div>
       <div class="body-text">
         <ul class="check-list">
-          <li>本页不承诺消除 AI 幻觉。</li>
-          <li>本页不把私有日志、未公开运行痕迹当成公开证据。</li>
-          <li>本页不替代医疗、法律、金融等专业审核。</li>
+          <li>本页不承诺消除 AI 幻觉，只解释公开验证结构。</li>
+          <li>本页不把私有日志、未公开运行痕迹或模型自述当成公开证据。</li>
+          <li>本页不能替代法律、医疗、金融、机器人等高风险领域的专业审核。</li>
+          <li>本页是中文解释入口，权威引用应回到 DOI、论文索引和公开证据路线。</li>
         </ul>
       </div>
     </section>
@@ -141,18 +171,23 @@
     <section class="section cards compact-cards">
       <article>
         <span class="card-index">FAQ</span>
-        <h3>一句话怎么判断？</h3>
-        <p>问它的关键主张能不能被外部记录检查，而不是只看它说得像不像真的。</p>
+        <h3>一句话怎么判断 AI 回答靠不靠谱？</h3>
+        <p>看关键主张能不能被外部记录检查，而不是只看它说得像不像真的。</p>
       </article>
       <article>
         <span class="card-index">FAQ</span>
         <h3>AI 能不能自己证明自己？</h3>
-        <p>它可以报告自己的判断，但公开可靠性需要外部证据。</p>
+        <p>它可以报告自己的判断，但公开可靠性需要外部证据、边界和反例路线。</p>
       </article>
       <article>
         <span class="card-index">FAQ</span>
         <h3>证据不够怎么办？</h3>
         <p>降级、标记待验证、进入人工审核，或者开放反例入口。</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>为什么要写边界？</h3>
+        <p>边界能防止一个局部证据被包装成过宽结论。</p>
       </article>
     </section>
 
@@ -160,23 +195,23 @@
       <article>
         <span class="card-index">中文</span>
         <h3>可靠 AI 智能体行动前需要什么证明</h3>
-        <p><a href="https://mianzhang.org/zh/reliable-ai-agent-proof-gate/">Open route</a></p>
+        <p><a href="https://mianzhang.org/zh/reliable-ai-agent-proof-gate/">打开入口</a></p>
       </article>
       <article>
-        <span class="card-index">Evidence</span>
-        <h3>Evidence Map</h3>
-        <p><a href="https://mianzhang.org/evidence/">Open route</a></p>
+        <span class="card-index">Guide</span>
+        <h3>AI Hallucination Is Not the Only Problem</h3>
+        <p><a href="https://mianzhang.org/guides/ai-self-certification-grounding/">打开入口</a></p>
       </article>
       <article>
         <span class="card-index">Concept</span>
         <h3>Self-Certification Grounding Check</h3>
-        <p><a href="https://mianzhang.org/concepts/self-certification-grounding-check.html">Open route</a></p>
+        <p><a href="https://mianzhang.org/concepts/self-certification-grounding-check.html">打开入口</a></p>
       </article>
     </section>
   </main>
 
   <footer>
-    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+    <span>(C) 2026 Mian Zhang. 中文增长页必须回到公开证据、边界和反例路线。</span>
   </footer>
 </body>
 </html>

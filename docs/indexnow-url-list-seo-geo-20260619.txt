@@ -25,3 +25,11 @@ https://mianzhang.org/zh/ai-self-certification-grounding/
 https://mianzhang.org/zh/reliable-ai-agent-proof-gate/
 https://mianzhang.org/docs/search-intent-map-2026-06-19.json
 https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html
+https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json
+https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html
+https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json
+https://mianzhang.org/zh/
+https://mianzhang.org/boundaries/
+https://mianzhang.org/evidence/
+https://mianzhang.org/community/
+https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json

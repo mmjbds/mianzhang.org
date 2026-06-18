@@ -60,6 +60,13 @@ Problem-oriented public entry points:
 - How to read the AI evidence map: https://mianzhang.org/evidence/how-to-read-ai-evidence-map/
 - How to challenge an AI research claim: https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/
 - Search intent map JSON: https://mianzhang.org/docs/search-intent-map-2026-06-19.json
+
+AI / GEO retrieval profile:
+- GEO profile HTML: https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html
+- GEO profile JSON: https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json
+- AI answer factsheet JSON: https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json
+- SEO/GEO implementation plan: https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html
+
 External public sources:
 - GitHub organization: https://github.com/mmjbds
 - Website source: https://github.com/mmjbds/mianzhang.org

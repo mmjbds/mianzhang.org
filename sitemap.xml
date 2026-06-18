@@ -257,14 +257,6 @@
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/google9c7439a09f492752.html</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
-    <loc>https://mianzhang.org/googlee95cf06405c388af.html</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/guides/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
@@ -279,10 +271,6 @@
   <url>
     <loc>https://mianzhang.org/guides/reliable-ai-agents/</loc>
     <lastmod>2026-06-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mianzhang.org/indexnow-key.txt</loc>
-    <lastmod>2026-06-15</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/llms.txt</loc>
@@ -733,10 +721,6 @@
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/robots.txt</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
     <loc>https://mianzhang.org/sitemap.xml</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
@@ -776,4 +760,4 @@
     <loc>https://mianzhang.org/zh/reliable-ai-agent-proof-gate/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
-</urlset>
+<url><loc>https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json</loc><lastmod>2026-06-19</lastmod></url></urlset>
