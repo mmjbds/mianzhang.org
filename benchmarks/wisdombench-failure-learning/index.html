@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WisdomBench: Benchmarking Failure Learning | Mian Zhang</title>
+  <meta name="description" content="An external-facing explanation of WisdomBench as a benchmark line for failure learning, recovery, repeated failures, and claim-bounded evaluation.">
+  <meta property="og:title" content="WisdomBench: Benchmarking Failure Learning | Ouroboros Project">
+  <meta property="og:description" content="An external-facing explanation of WisdomBench as a benchmark line for failure learning, recovery, repeated failures, and claim-bounded evaluation.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/benchmarks/wisdombench-failure-learning/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/benchmarks/wisdombench-failure-learning/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/benchmarks/wisdombench-failure-learning/#webpage","url": "https://mianzhang.org/benchmarks/wisdombench-failure-learning/","name": "WisdomBench: Benchmarking Failure Learning","description": "An external-facing explanation of WisdomBench as a benchmark line for failure learning, recovery, repeated failures, and claim-bounded evaluation.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI benchmark","LLM evaluation","AI evaluation","failure learning benchmark","AI learning from mistakes","WisdomBench"],"mainEntity": {"@id": "https://mianzhang.org/benchmarks/wisdombench-failure-learning/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/benchmarks/wisdombench-failure-learning/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Benchmarks","item": "https://mianzhang.org/benchmarks/"},{"@type": "ListItem","position": 3,"name": "WisdomBench: Benchmarking Failure Learning","item": "https://mianzhang.org/benchmarks/wisdombench-failure-learning/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/benchmarks/wisdombench-failure-learning/#faq","mainEntity": [{"@type": "Question","name": "What does WisdomBench evaluate?","acceptedAnswer": {"@type": "Answer","text": "It targets failure learning, recovery, grader drift, and wisdom-oriented behavior under bounded evidence."}},{"@type": "Question","name": "Is it a leaderboard claim?","acceptedAnswer": {"@type": "Answer","text": "No. The public positioning is a benchmark line and evidence route, not a universal ranking claim."}},{"@type": "Question","name": "How should it be challenged?","acceptedAnswer": {"@type": "Answer","text": "Attack leakage, scoring bugs, stronger baselines, failure standards, and reproduction limits."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Benchmark / Failure Learning</p>
+        <h1>A benchmark should test what happens after the first failure.</h1>
+        <p class="lead">WisdomBench is framed here for readers searching for AI benchmarks, LLM evaluation, failure learning, and recovery under repeated feedback.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI benchmark</span>
+          <span>LLM evaluation</span>
+          <span>AI evaluation</span>
+          <span>failure learning benchmark</span>
+          <span>AI learning from mistakes</span>
+          <span>WisdomBench</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>The search intent is not &#x27;which model wins once&#x27; but &#x27;which system learns from failure without cheating the evidence&#x27;.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>How do you evaluate AI after repeated failures?</li>
+          <li>What is a benchmark for learning from mistakes?</li>
+          <li>How is wisdom different from single-shot capability?</li>
+          <li>What evidence prevents benchmark overclaiming?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Benchmark Target</p>
+        <h2>Failure learning is not the same as first-try success.</h2>
+      </div>
+      <div class="body-text">
+        <p>Many benchmarks measure whether a model can answer or act successfully on first exposure. A failure-learning benchmark asks what happens after contradiction, correction, drift, and repeated repair.</p>
+        <p>The relevant question is whether the system improves without hiding failure, changing the task, leaking credit, or broadening the claim beyond the evidence.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Evidence</p>
+        <h2>A benchmark needs a failure standard and a credit boundary.</h2>
+      </div>
+      <div class="body-text">
+        <p>The public boundary is explicit: a better score is not enough unless the evaluation states what counts as failure, repair, leakage, and unsupported transfer.</p>
+        <p>That is why each benchmark claim should route back to DOI, dataset, registry, or counterexample evidence.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="WisdomBench: Benchmarking Failure Learning evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Concept</span><span>WisdomBench</span><span><a href="https://mianzhang.org/concepts/wisdombench.html">https://mianzhang.org/concepts/wisdombench.html</a></span><span>Stable concept definition and evidence scope.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Dataset</span><span>WisdomBench Hugging Face dataset</span><span><a href="https://huggingface.co/datasets/MMJBDS/wisdombench">https://huggingface.co/datasets/MMJBDS/wisdombench</a></span><span>Technical dataset route.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim universal SOTA performance.</li>
+          <li>It does not claim that one benchmark proves general intelligence or general wisdom.</li>
+          <li>It does not turn a dataset card into a production guarantee.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What does WisdomBench evaluate?</h3>
+        <p>It targets failure learning, recovery, grader drift, and wisdom-oriented behavior under bounded evidence.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Is it a leaderboard claim?</h3>
+        <p>No. The public positioning is a benchmark line and evidence route, not a universal ranking claim.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>How should it be challenged?</h3>
+        <p>Attack leakage, scoring bugs, stronger baselines, failure standards, and reproduction limits.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>WisdomBench</h3>
+        <p><a href="https://mianzhang.org/concepts/wisdombench.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>How to read the evidence map</h3>
+        <p><a href="https://mianzhang.org/evidence/how-to-read-ai-evidence-map/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Counterexample</span>
+        <h3>Challenge an AI claim</h3>
+        <p><a href="https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

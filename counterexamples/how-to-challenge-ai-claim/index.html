@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Challenge an AI Research Claim | Mian Zhang</title>
+  <meta name="description" content="A practical guide to challenging an AI research claim through counterexamples, stronger baselines, reproduction failures, and claim-boundary mismatches.">
+  <meta property="og:title" content="How to Challenge an AI Research Claim | Ouroboros Project">
+  <meta property="og:description" content="A practical guide to challenging an AI research claim through counterexamples, stronger baselines, reproduction failures, and claim-boundary mismatches.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/#webpage","url": "https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/","name": "How to Challenge an AI Research Claim","description": "A practical guide to challenging an AI research claim through counterexamples, stronger baselines, reproduction failures, and claim-boundary mismatches.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["challenge AI research claim","AI counterexample","reproducible AI research","stronger baseline","claim boundary"],"mainEntity": {"@id": "https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Counterexamples","item": "https://mianzhang.org/counterexamples/"},{"@type": "ListItem","position": 3,"name": "How to Challenge an AI Research Claim","item": "https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/#faq","mainEntity": [{"@type": "Question","name": "What is the minimum useful challenge?","acceptedAnswer": {"@type": "Answer","text": "A claim URL, evidence gap, failure class, and requested correction."}},{"@type": "Question","name": "Can I challenge private runtime claims?","acceptedAnswer": {"@type": "Answer","text": "Only public claims should be challenged through public routes; private material is not required for public boundary review."}},{"@type": "Question","name": "What happens after a valid challenge?","acceptedAnswer": {"@type": "Answer","text": "The claim should be narrowed, marked pending, corrected, or routed to a next review."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Counterexample / Public Challenge</p>
+        <h1>The best challenge names the claim, the missing evidence, and the boundary error.</h1>
+        <p class="lead">This page turns criticism into a public repair route: not vague attack, but claim, evidence, counterexample, boundary, and requested correction.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>challenge AI research claim</span>
+          <span>AI counterexample</span>
+          <span>reproducible AI research</span>
+          <span>stronger baseline</span>
+          <span>claim boundary</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>Readers want to know how to challenge AI claims without guessing what evidence is missing.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>How do I submit a counterexample?</li>
+          <li>What makes a challenge useful instead of vague?</li>
+          <li>How do I report a stronger baseline?</li>
+          <li>How should a claim be narrowed after a challenge?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Format</p>
+        <h2>A useful challenge is specific.</h2>
+      </div>
+      <div class="body-text">
+        <p>Name the public claim, quote or link the relevant page, state the evidence gap, and identify the failure class: stronger baseline, reproduction failure, leakage, overbroad boundary, stale evidence, or authority leak.</p>
+        <p>The purpose is not to win an argument. The purpose is to make the public record narrower, stronger, or visibly unresolved.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Repair</p>
+        <h2>A valid challenge should change the record.</h2>
+      </div>
+      <div class="body-text">
+        <p>If the challenge is valid, the page should update status, boundary, evidence route, or next review. If it is invalid, the rejection reason should still be explainable.</p>
+        <p>That is the difference between community criticism and evidence production.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="How to Challenge an AI Research Claim evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>Do not request private credentials, customer data, private logs, or restricted submission material.</li>
+          <li>Do not treat harassment, private-system probing, or credential requests as public validation.</li>
+          <li>A counterexample should attack a public claim through public evidence routes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is the minimum useful challenge?</h3>
+        <p>A claim URL, evidence gap, failure class, and requested correction.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Can I challenge private runtime claims?</h3>
+        <p>Only public claims should be challenged through public routes; private material is not required for public boundary review.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What happens after a valid challenge?</h3>
+        <p>The claim should be narrowed, marked pending, corrected, or routed to a next review.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Evidence</span>
+        <h3>How to read the evidence map</h3>
+        <p><a href="https://mianzhang.org/evidence/how-to-read-ai-evidence-map/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Counterexamples</span>
+        <h3>Counterexample route</h3>
+        <p><a href="https://mianzhang.org/counterexamples/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>Reliable AI agents</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

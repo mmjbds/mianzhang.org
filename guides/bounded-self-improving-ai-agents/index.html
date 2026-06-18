@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bounded Self-Improving AI Agents | Mian Zhang</title>
+  <meta name="description" content="How to discuss self-improving AI agents without ignoring boundaries, drift, review state, and proof limits.">
+  <meta property="og:title" content="Bounded Self-Improving AI Agents | Ouroboros Project">
+  <meta property="og:description" content="How to discuss self-improving AI agents without ignoring boundaries, drift, review state, and proof limits.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/guides/bounded-self-improving-ai-agents/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/guides/bounded-self-improving-ai-agents/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/guides/bounded-self-improving-ai-agents/#webpage","url": "https://mianzhang.org/guides/bounded-self-improving-ai-agents/","name": "Bounded Self-Improving AI Agents","description": "How to discuss self-improving AI agents without ignoring boundaries, drift, review state, and proof limits.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["self-improving AI agents","recursive AI safety","autonomous AI agents","bounded self-modification","AI drift control","agent review state"],"mainEntity": {"@id": "https://mianzhang.org/guides/bounded-self-improving-ai-agents/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/guides/bounded-self-improving-ai-agents/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Guides","item": "https://mianzhang.org/guides/"},{"@type": "ListItem","position": 3,"name": "Bounded Self-Improving AI Agents","item": "https://mianzhang.org/guides/bounded-self-improving-ai-agents/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/guides/bounded-self-improving-ai-agents/#faq","mainEntity": [{"@type": "Question","name": "What makes self-improvement bounded?","acceptedAnswer": {"@type": "Answer","text": "A visible change surface, fixed constraints, review state, rollback route, and public evidence boundary."}},{"@type": "Question","name": "Can the system modify itself?","acceptedAnswer": {"@type": "Answer","text": "Public pages discuss review objects and boundaries, not unrestricted private runtime modification."}},{"@type": "Question","name": "What is the best counterexample?","acceptedAnswer": {"@type": "Answer","text": "Show a claimed improvement that changed the task, metric, authority, or evidence boundary without being recorded."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Guide / Self-Improving AI</p>
+        <h1>A self-improving agent is not credible unless its improvement boundary is visible.</h1>
+        <p class="lead">Self-improvement becomes unsafe language when the system cannot say what changed, why it changed, what stayed fixed, and who can challenge it.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>self-improving AI agents</span>
+          <span>recursive AI safety</span>
+          <span>autonomous AI agents</span>
+          <span>bounded self-modification</span>
+          <span>AI drift control</span>
+          <span>agent review state</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>The practical question is how recursive AI improvement can be bounded before it becomes a story.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>How can self-improving AI agents stay bounded?</li>
+          <li>What is the difference between learning and uncontrolled self-modification?</li>
+          <li>How should agent drift be reviewed?</li>
+          <li>What evidence would make a self-improvement claim narrower or false?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>Improvement must name the state space it is allowed to change.</h2>
+      </div>
+      <div class="body-text">
+        <p>A public self-improvement claim should identify the change surface, frozen constraints, review trigger, rollback route, and evidence that the change improved the intended target.</p>
+        <p>If every internal change is later described as intelligence growth, the claim has no boundary.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Review</p>
+        <h2>The review state is not paperwork. It is part of the safety mechanism.</h2>
+      </div>
+      <div class="body-text">
+        <p>The public record should show whether a change is proposed, shadow-tested, accepted, rejected, downgraded, or pending.</p>
+        <p>A bounded system can learn. It just cannot pretend that every change is automatically authorized improvement.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="Bounded Self-Improving AI Agents evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Press Note</span><span>Bounded State-Space Actuation Note</span><span><a href="https://mianzhang.org/press/public-launch-2026-06-16.html">https://mianzhang.org/press/public-launch-2026-06-16.html</a></span><span>Recent public note on bounded state-space action.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim safe recursive self-improvement has been solved.</li>
+          <li>It does not claim an autonomous production system is live.</li>
+          <li>It does not disclose private orchestration or unrestricted agent permissions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What makes self-improvement bounded?</h3>
+        <p>A visible change surface, fixed constraints, review state, rollback route, and public evidence boundary.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Can the system modify itself?</h3>
+        <p>Public pages discuss review objects and boundaries, not unrestricted private runtime modification.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is the best counterexample?</h3>
+        <p>Show a claimed improvement that changed the task, metric, authority, or evidence boundary without being recorded.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>Reliable AI agents</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Evidence</span>
+        <h3>Evidence Production Machine</h3>
+        <p><a href="https://mianzhang.org/press/public-launch-2026-06-19.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Counterexample</span>
+        <h3>Challenge an AI claim</h3>
+        <p><a href="https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

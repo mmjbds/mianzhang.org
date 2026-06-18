@@ -49,6 +49,17 @@ Stable concept entries:
 - Robot/Vision Downgrade Rule: https://mianzhang.org/concepts/robot-vision-downgrade-rule.html
 - The Grounding Canon: https://mianzhang.org/concepts/grounding-canon.html
 
+Problem-oriented public entry points:
+- Reliable AI agents: https://mianzhang.org/guides/reliable-ai-agents/
+- AI hallucination and grounding: https://mianzhang.org/guides/ai-self-certification-grounding/
+- Bounded self-improving AI agents: https://mianzhang.org/guides/bounded-self-improving-ai-agents/
+- WisdomBench failure learning benchmark: https://mianzhang.org/benchmarks/wisdombench-failure-learning/
+- No trade without proof: https://mianzhang.org/finance/no-trade-without-proof/
+- Robot learning from physical failure: https://mianzhang.org/robotics/robot-learning-from-failure/
+- VLA safety and evidence downgrade: https://mianzhang.org/robotics/vla-safety-evidence-downgrade/
+- How to read the AI evidence map: https://mianzhang.org/evidence/how-to-read-ai-evidence-map/
+- How to challenge an AI research claim: https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/
+- Search intent map JSON: https://mianzhang.org/docs/search-intent-map-2026-06-19.json
 External public sources:
 - GitHub organization: https://github.com/mmjbds
 - Website source: https://github.com/mmjbds/mianzhang.org

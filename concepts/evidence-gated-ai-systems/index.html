@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What Is Evidence-Gated AI? | Mian Zhang</title>
+  <meta name="description" content="A plain-language definition of evidence-gated AI systems: action only after claim, proof, authority, boundary, and counterexample checks.">
+  <meta property="og:title" content="What Is Evidence-Gated AI? | Ouroboros Project">
+  <meta property="og:description" content="A plain-language definition of evidence-gated AI systems: action only after claim, proof, authority, boundary, and counterexample checks.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/concepts/evidence-gated-ai-systems/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/concepts/evidence-gated-ai-systems/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/concepts/evidence-gated-ai-systems/#webpage","url": "https://mianzhang.org/concepts/evidence-gated-ai-systems/","name": "What Is Evidence-Gated AI?","description": "A plain-language definition of evidence-gated AI systems: action only after claim, proof, authority, boundary, and counterexample checks.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["evidence-gated AI","AI evidence gate","AI guardrails","proof before action","AI safety evidence"],"mainEntity": {"@id": "https://mianzhang.org/concepts/evidence-gated-ai-systems/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/concepts/evidence-gated-ai-systems/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Concepts","item": "https://mianzhang.org/concepts/"},{"@type": "ListItem","position": 3,"name": "What Is Evidence-Gated AI?","item": "https://mianzhang.org/concepts/evidence-gated-ai-systems/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/concepts/evidence-gated-ai-systems/#faq","mainEntity": [{"@type": "Question","name": "What is the simplest definition?","acceptedAnswer": {"@type": "Answer","text": "Evidence-gated AI requires proof, authority, and scope before high-risk action."}},{"@type": "Question","name": "What should happen when proof is missing?","acceptedAnswer": {"@type": "Answer","text": "The system should stop, downgrade, ask, log, or escalate."}},{"@type": "Question","name": "Where does this connect to existing pages?","acceptedAnswer": {"@type": "Answer","text": "Start with No-Proof No-Action, Proof-Carrying Action, Evidence Map, and Counterexamples."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Concept / Evidence-Gated AI</p>
+        <h1>Evidence-gated AI means proof comes before high-risk action.</h1>
+        <p class="lead">This page gives the plain-language entry point for the whole public evidence field.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>evidence-gated AI</span>
+          <span>AI evidence gate</span>
+          <span>AI guardrails</span>
+          <span>proof before action</span>
+          <span>AI safety evidence</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>Readers want a non-jargon definition before they enter papers, registries, and technical mirrors.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>What is evidence-gated AI?</li>
+          <li>What evidence should exist before AI acts?</li>
+          <li>How is an evidence gate different from a policy slogan?</li>
+          <li>Where can the claim be challenged?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Definition</p>
+        <h2>The gate is a record, not a slogan.</h2>
+      </div>
+      <div class="body-text">
+        <p>An evidence-gated AI system requires high-risk action to pass through public or internal proof fields: claim, support, authority, scope, boundary, receipt, and refusal route.</p>
+        <p>The public site exposes the research-level evidence and boundaries. It does not expose protected private execution details.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Use</p>
+        <h2>The concept is useful only if it can reject action.</h2>
+      </div>
+      <div class="body-text">
+        <p>If a gate never stops, narrows, or escalates anything, it is decoration.</p>
+        <p>A real evidence gate can produce no-action, downgraded language, pending status, or a counterexample task.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="What Is Evidence-Gated AI? evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim that evidence gates solve all AI safety problems.</li>
+          <li>It does not certify production systems.</li>
+          <li>It does not convert public research artifacts into commercial deployment proof.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is the simplest definition?</h3>
+        <p>Evidence-gated AI requires proof, authority, and scope before high-risk action.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What should happen when proof is missing?</h3>
+        <p>The system should stop, downgrade, ask, log, or escalate.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Where does this connect to existing pages?</h3>
+        <p>Start with No-Proof No-Action, Proof-Carrying Action, Evidence Map, and Counterexamples.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>No-Proof No-Action Gate</h3>
+        <p><a href="https://mianzhang.org/concepts/no-proof-no-action-gate.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>Proof-Carrying Action</h3>
+        <p><a href="https://mianzhang.org/concepts/proof-carrying-action.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>Reliable AI agents</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

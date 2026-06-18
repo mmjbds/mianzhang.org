@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proof-Carrying Action, Explained | Mian Zhang</title>
+  <meta name="description" content="A plain-language explanation of proof-carrying action for AI systems, including warrants, receipts, refusal states, authority, and evidence boundaries.">
+  <meta property="og:title" content="Proof-Carrying Action, Explained | Ouroboros Project">
+  <meta property="og:description" content="A plain-language explanation of proof-carrying action for AI systems, including warrants, receipts, refusal states, authority, and evidence boundaries.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/concepts/proof-carrying-action-explained/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/concepts/proof-carrying-action-explained/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/concepts/proof-carrying-action-explained/#webpage","url": "https://mianzhang.org/concepts/proof-carrying-action-explained/","name": "Proof-Carrying Action, Explained","description": "A plain-language explanation of proof-carrying action for AI systems, including warrants, receipts, refusal states, authority, and evidence boundaries.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["proof-carrying action","AI action proof","AI warrant","AI action receipt","AI tool safety"],"mainEntity": {"@id": "https://mianzhang.org/concepts/proof-carrying-action-explained/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/concepts/proof-carrying-action-explained/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Concepts","item": "https://mianzhang.org/concepts/"},{"@type": "ListItem","position": 3,"name": "Proof-Carrying Action, Explained","item": "https://mianzhang.org/concepts/proof-carrying-action-explained/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/concepts/proof-carrying-action-explained/#faq","mainEntity": [{"@type": "Question","name": "What does the action carry?","acceptedAnswer": {"@type": "Answer","text": "Claim, proof, authority, scope, refusal route, and receipt fields."}},{"@type": "Question","name": "Why is this different from logging?","acceptedAnswer": {"@type": "Answer","text": "Logging can be passive; proof-carrying action requires permission evidence before high-risk action is credited or allowed."}},{"@type": "Question","name": "What is the strongest challenge?","acceptedAnswer": {"@type": "Answer","text": "Find an action claim where authority, evidence, or receipt closure is missing."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Concept / Proof-Carrying Action</p>
+        <h1>Proof-carrying action means an action must carry its warrant.</h1>
+        <p class="lead">This page explains the concept without assuming the reader already knows the internal papers.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>proof-carrying action</span>
+          <span>AI action proof</span>
+          <span>AI warrant</span>
+          <span>AI action receipt</span>
+          <span>AI tool safety</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>Readers want to know what proof-carrying action means for real AI tool use.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>What is proof-carrying action?</li>
+          <li>What should an AI action carry before it is trusted?</li>
+          <li>What is an action receipt?</li>
+          <li>How does this prevent authority leaks?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Concept</p>
+        <h2>The action should explain why it was allowed.</h2>
+      </div>
+      <div class="body-text">
+        <p>A high-risk action is not just an output. It should carry a warrant: what claim supports it, what authority allows it, what evidence bounds it, and what receipt closes it.</p>
+        <p>If those fields are missing, the action should be refused, downgraded, or routed to review.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Receipt</p>
+        <h2>The receipt makes the action reviewable after the fact.</h2>
+      </div>
+      <div class="body-text">
+        <p>A receipt records what happened, under which authority, with which evidence and boundary.</p>
+        <p>Without a receipt, a team may not be able to distinguish suggestion, approval, execution, and later justification.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="Proof-Carrying Action, Explained evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Concept</span><span>Proof-Carrying Action</span><span><a href="https://mianzhang.org/concepts/proof-carrying-action.html">https://mianzhang.org/concepts/proof-carrying-action.html</a></span><span>Stable existing concept entry.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page explains a research concept; it is not a certification standard.</li>
+          <li>It does not claim a private runtime is production-ready.</li>
+          <li>It does not grant action authority by itself.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What does the action carry?</h3>
+        <p>Claim, proof, authority, scope, refusal route, and receipt fields.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Why is this different from logging?</h3>
+        <p>Logging can be passive; proof-carrying action requires permission evidence before high-risk action is credited or allowed.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is the strongest challenge?</h3>
+        <p>Find an action claim where authority, evidence, or receipt closure is missing.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>Proof-Carrying Action</h3>
+        <p><a href="https://mianzhang.org/concepts/proof-carrying-action.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>Reliable AI agents</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Finance</span>
+        <h3>No Trade Without Proof</h3>
+        <p><a href="https://mianzhang.org/finance/no-trade-without-proof/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

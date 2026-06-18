@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Read the Public AI Evidence Map | Mian Zhang</title>
+  <meta name="description" content="A reader guide for moving from an AI claim to DOI records, GitHub source, Hugging Face mirrors, registries, boundaries, and counterexample routes.">
+  <meta property="og:title" content="How to Read the Public AI Evidence Map | Ouroboros Project">
+  <meta property="og:description" content="A reader guide for moving from an AI claim to DOI records, GitHub source, Hugging Face mirrors, registries, boundaries, and counterexample routes.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/evidence/how-to-read-ai-evidence-map/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/evidence/how-to-read-ai-evidence-map/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/evidence/how-to-read-ai-evidence-map/#webpage","url": "https://mianzhang.org/evidence/how-to-read-ai-evidence-map/","name": "How to Read the Public AI Evidence Map","description": "A reader guide for moving from an AI claim to DOI records, GitHub source, Hugging Face mirrors, registries, boundaries, and counterexample routes.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI evidence map","reproducible AI research","AI claim verification","DOI GitHub Hugging Face evidence","counterexample route"],"mainEntity": {"@id": "https://mianzhang.org/evidence/how-to-read-ai-evidence-map/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/evidence/how-to-read-ai-evidence-map/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Evidence","item": "https://mianzhang.org/evidence/"},{"@type": "ListItem","position": 3,"name": "How to Read the Public AI Evidence Map","item": "https://mianzhang.org/evidence/how-to-read-ai-evidence-map/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/evidence/how-to-read-ai-evidence-map/#faq","mainEntity": [{"@type": "Question","name": "Where should I start?","acceptedAnswer": {"@type": "Answer","text": "Start with the Evidence Map, then open the paper index, concept entry, registry, and counterexample route."}},{"@type": "Question","name": "Which source is canonical?","acceptedAnswer": {"@type": "Answer","text": "Use the paper-specific DOI for paper claims; use the main site for public routing and boundaries."}},{"@type": "Question","name": "What if I find a mismatch?","acceptedAnswer": {"@type": "Answer","text": "Submit the mismatch through the counterexample or issue route and name the exact claim boundary."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Evidence / Reader Guide</p>
+        <h1>Do not start with the strongest claim. Start with the evidence route.</h1>
+        <p class="lead">This page helps external readers interpret the public evidence field without confusing daily notes, DOI records, GitHub, HF, and boundaries.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI evidence map</span>
+          <span>reproducible AI research</span>
+          <span>AI claim verification</span>
+          <span>DOI GitHub Hugging Face evidence</span>
+          <span>counterexample route</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>Readers want a practical way to inspect an AI research claim without reading every paper first.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>How do I check an AI research claim?</li>
+          <li>What is the difference between DOI, GitHub, HF, and the main site?</li>
+          <li>How do I find the boundary of a claim?</li>
+          <li>Where should I submit a counterexample?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Route</p>
+        <h2>A claim should lead to a record, not a vibe.</h2>
+      </div>
+      <div class="body-text">
+        <p>The public route is designed to move from claim to evidence, boundary, registry, and counterexample path.</p>
+        <p>Zenodo is the long-term archive. GitHub holds source, schemas, and issue routes. Hugging Face holds technical mirrors and datasets. The main site explains the public entry points.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Reading Order</p>
+        <h2>Check status before strength.</h2>
+      </div>
+      <div class="body-text">
+        <p>Before asking whether a claim is impressive, ask what status it has: supported, narrowed, pending, failed, shadow-only, or boundary-only.</p>
+        <p>A strong public claim should survive that status check and still point to a public attack route.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="How to Read the Public AI Evidence Map evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>The evidence map does not turn every linked paper into a complete deployment claim.</li>
+          <li>The Zenodo portfolio index is not a substitute for paper-specific DOI records.</li>
+          <li>GitHub/HF mirrors are technical routes, not proof that a system is production-ready.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Where should I start?</h3>
+        <p>Start with the Evidence Map, then open the paper index, concept entry, registry, and counterexample route.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Which source is canonical?</h3>
+        <p>Use the paper-specific DOI for paper claims; use the main site for public routing and boundaries.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What if I find a mismatch?</h3>
+        <p>Submit the mismatch through the counterexample or issue route and name the exact claim boundary.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Evidence</span>
+        <h3>Evidence Map</h3>
+        <p><a href="https://mianzhang.org/evidence/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Papers</span>
+        <h3>Paper index</h3>
+        <p><a href="https://mianzhang.org/papers/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Counterexample</span>
+        <h3>How to challenge a claim</h3>
+        <p><a href="https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

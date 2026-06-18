@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Hallucination Is Not the Only Problem | Mian Zhang</title>
+  <meta name="description" content="A grounded explanation of AI hallucination, self-certification failure, external evidence, unresolved states, and why confident answers are not enough.">
+  <meta property="og:title" content="AI Hallucination Is Not the Only Problem | Ouroboros Project">
+  <meta property="og:description" content="A grounded explanation of AI hallucination, self-certification failure, external evidence, unresolved states, and why confident answers are not enough.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/guides/ai-self-certification-grounding/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/guides/ai-self-certification-grounding/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/guides/ai-self-certification-grounding/#webpage","url": "https://mianzhang.org/guides/ai-self-certification-grounding/","name": "AI Hallucination Is Not the Only Problem","description": "A grounded explanation of AI hallucination, self-certification failure, external evidence, unresolved states, and why confident answers are not enough.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI hallucination checker","ChatGPT hallucination","RAG grounding","AI verification","grounded AI","self-certification","AI output verification","LLM reliability"],"mainEntity": {"@id": "https://mianzhang.org/guides/ai-self-certification-grounding/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/guides/ai-self-certification-grounding/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Guides","item": "https://mianzhang.org/guides/"},{"@type": "ListItem","position": 3,"name": "AI Hallucination Is Not the Only Problem","item": "https://mianzhang.org/guides/ai-self-certification-grounding/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/guides/ai-self-certification-grounding/#faq","mainEntity": [{"@type": "Question","name": "What is a grounded AI answer?","acceptedAnswer": {"@type": "Answer","text": "It is an answer whose key claim can be checked against a public record, artifact, version, or stated boundary."}},{"@type": "Question","name": "Can an AI verify itself?","acceptedAnswer": {"@type": "Answer","text": "It can report a belief or trace, but a public reliability claim needs evidence outside the self-report."}},{"@type": "Question","name": "What should be done when evidence is missing?","acceptedAnswer": {"@type": "Answer","text": "The claim should be downgraded, routed to review, or marked pending instead of being presented as settled."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Guide / Hallucination and Grounding</p>
+        <h1>The deeper problem is not hallucination. It is unsupported self-certification.</h1>
+        <p class="lead">A model saying it is correct is not evidence. A reliable public claim must point outside itself: record, version, failure state, expiry condition, or counterexample.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI hallucination checker</span>
+          <span>ChatGPT hallucination</span>
+          <span>RAG grounding</span>
+          <span>AI verification</span>
+          <span>grounded AI</span>
+          <span>self-certification</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>Readers want to know how to verify AI output without trusting the AI&#x27;s own confidence.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>How can I verify an AI answer?</li>
+          <li>Why is self-certification not enough for AI systems?</li>
+          <li>What evidence should an AI claim point to?</li>
+          <li>What changes when the evidence is old, private, or incomplete?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Grounding</p>
+        <h2>A grounded claim points to something outside the model.</h2>
+      </div>
+      <div class="body-text">
+        <p>Grounding is not a style of confident writing. It is a route from a claim to evidence that can be checked by someone other than the system that made the claim.</p>
+        <p>That route may be a DOI, public registry row, reproducible artifact, issue, counterexample, or explicit statement that the claim is still pending.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Status</p>
+        <h2>Unresolved is a valid status. Pretending closure is not.</h2>
+      </div>
+      <div class="body-text">
+        <p>A mature evidence system can say supported, narrowed, pending, failed, expired, or out of scope. The status is part of the evidence.</p>
+        <p>The failure mode is not only false content. It is also a true-looking answer with no public route to challenge or update it.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="AI Hallucination Is Not the Only Problem evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Concept</span><span>Self-Certification Grounding Check</span><span><a href="https://mianzhang.org/concepts/self-certification-grounding-check.html">https://mianzhang.org/concepts/self-certification-grounding-check.html</a></span><span>Defines external grounding fields.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim to eliminate hallucination.</li>
+          <li>It does not treat private logs or unpublished traces as public proof.</li>
+          <li>It does not replace domain review in legal, medical, finance, or safety-critical settings.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is a grounded AI answer?</h3>
+        <p>It is an answer whose key claim can be checked against a public record, artifact, version, or stated boundary.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Can an AI verify itself?</h3>
+        <p>It can report a belief or trace, but a public reliability claim needs evidence outside the self-report.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What should be done when evidence is missing?</h3>
+        <p>The claim should be downgraded, routed to review, or marked pending instead of being presented as settled.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>Self-Certification Grounding Check</h3>
+        <p><a href="https://mianzhang.org/concepts/self-certification-grounding-check.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>The Grounding Canon</h3>
+        <p><a href="https://mianzhang.org/concepts/grounding-canon.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>Reliable AI agents</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Agent OS vs Chatbot | Mian Zhang</title>
+  <meta name="description" content="A practical comparison between an AI agent operating system and a chatbot: state, tools, evidence, permissions, refusal, and review.">
+  <meta property="og:title" content="AI Agent OS vs Chatbot | Ouroboros Project">
+  <meta property="og:description" content="A practical comparison between an AI agent operating system and a chatbot: state, tools, evidence, permissions, refusal, and review.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/systems/ai-agent-os-vs-chatbot/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/systems/ai-agent-os-vs-chatbot/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/systems/ai-agent-os-vs-chatbot/#webpage","url": "https://mianzhang.org/systems/ai-agent-os-vs-chatbot/","name": "AI Agent OS vs Chatbot","description": "A practical comparison between an AI agent operating system and a chatbot: state, tools, evidence, permissions, refusal, and review.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["AI agent OS","agent operating system","chatbot vs AI agent","AI tool use","agent permissions"],"mainEntity": {"@id": "https://mianzhang.org/systems/ai-agent-os-vs-chatbot/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/systems/ai-agent-os-vs-chatbot/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Systems","item": "https://mianzhang.org/systems/"},{"@type": "ListItem","position": 3,"name": "AI Agent OS vs Chatbot","item": "https://mianzhang.org/systems/ai-agent-os-vs-chatbot/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/systems/ai-agent-os-vs-chatbot/#faq","mainEntity": [{"@type": "Question","name": "What makes an AI system agentic?","acceptedAnswer": {"@type": "Answer","text": "Persistent state, tools, task execution, permissions, memory, and reviewable action boundaries."}},{"@type": "Question","name": "Why does this matter for reliability?","acceptedAnswer": {"@type": "Answer","text": "Because errors can affect state or tools, not only text output."}},{"@type": "Question","name": "Where does proof-carrying action fit?","acceptedAnswer": {"@type": "Answer","text": "It defines evidence and permission fields before high-risk action is credited or allowed."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Systems / Agent OS</p>
+        <h1>A chatbot answers. An agent OS must control state, tools, and permission.</h1>
+        <p class="lead">This page uses familiar language to separate chat output from agentic systems that carry memory, tools, action boundaries, evidence, and review state.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>AI agent OS</span>
+          <span>agent operating system</span>
+          <span>chatbot vs AI agent</span>
+          <span>AI tool use</span>
+          <span>agent permissions</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>Readers want to know what makes an agent OS different from a chatbot with tools.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>What is the difference between an AI agent OS and a chatbot?</li>
+          <li>Why do tools and memory change the risk surface?</li>
+          <li>Where should evidence and permissions live?</li>
+          <li>When should an agent refuse to act?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Difference</p>
+        <h2>The difference is not style. It is operational responsibility.</h2>
+      </div>
+      <div class="body-text">
+        <p>A chatbot can be evaluated mostly as an answer surface. An agent OS has persistent state, tool calls, task queues, permissions, receipts, and failure recovery.</p>
+        <p>That means the system must separate suggestion, decision, and action. A fluent answer is not the same as authorized execution.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Risk</p>
+        <h2>Memory and tools make boundaries mandatory.</h2>
+      </div>
+      <div class="body-text">
+        <p>Once an AI system can remember, call tools, or update state, it needs visible evidence fields: what it knew, what it was allowed to do, what it refused, and how the result can be reviewed.</p>
+        <p>Without that structure, agentic behavior becomes difficult to audit after a mistake.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="AI Agent OS vs Chatbot evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Systems</span><span>Systems page</span><span><a href="https://mianzhang.org/systems/">https://mianzhang.org/systems/</a></span><span>Public system-level routing and boundaries.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not attack any specific product or competitor.</li>
+          <li>It does not claim that every chatbot should become an operating system.</li>
+          <li>It does not assert production readiness for SOVEREIGN or any private runtime.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What makes an AI system agentic?</h3>
+        <p>Persistent state, tools, task execution, permissions, memory, and reviewable action boundaries.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Why does this matter for reliability?</h3>
+        <p>Because errors can affect state or tools, not only text output.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Where does proof-carrying action fit?</h3>
+        <p>It defines evidence and permission fields before high-risk action is credited or allowed.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Systems</span>
+        <h3>SOVEREIGN local-first AI</h3>
+        <p><a href="https://mianzhang.org/systems/sovereign-local-first-ai/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Guide</span>
+        <h3>Reliable AI agents</h3>
+        <p><a href="https://mianzhang.org/guides/reliable-ai-agents/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>Proof-Carrying Action</h3>
+        <p><a href="https://mianzhang.org/concepts/proof-carrying-action.html">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>

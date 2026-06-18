@@ -34,7 +34,30 @@
     "/press/public-launch-2026-06-16.html",
     "/press/public-launch-2026-06-17.html",
     "/press/public-launch-2026-06-18.html",
-    "/press/public-launch-2026-06-19.html"
+    "/press/public-launch-2026-06-19.html",
+    "/guides/reliable-ai-agents/",
+    "/guides/ai-self-certification-grounding/",
+    "/guides/bounded-self-improving-ai-agents/",
+    "/benchmarks/wisdombench-failure-learning/",
+    "/finance/no-trade-without-proof/",
+    "/robotics/robot-learning-from-failure/",
+    "/robotics/vla-safety-evidence-downgrade/",
+    "/evidence/how-to-read-ai-evidence-map/",
+    "/counterexamples/how-to-challenge-ai-claim/",
+    "/systems/sovereign-local-first-ai/",
+    "/systems/ai-agent-os-vs-chatbot/",
+    "/essays/intelligence-vs-wisdom-ai/",
+    "/concepts/evidence-gated-ai-systems/",
+    "/concepts/proof-carrying-action-explained/",
+    "/zh/ai-self-certification-grounding/",
+    "/zh/reliable-ai-agent-proof-gate/",
+    "/guides/",
+    "/benchmarks/",
+    "/finance/",
+    "/robotics/",
+    "/essays/",
+    "/docs/search-intent-map-2026-06-19.json",
+    "/docs/seo-geo-plan-2026-06-19.html"
   ],
   "machine_readable_registries": [
     "/registries/claim_registry_v0.json",
@@ -127,7 +150,9 @@
     "/docs/indexnow-url-list-20260618.txt",
     "/docs/indexnow-url-list-hf-20260618.txt",
     "/docs/indexnow-url-list-20260619.txt",
-    "/docs/indexnow-url-list-hf-20260619.txt"
+    "/docs/indexnow-url-list-hf-20260619.txt",
+    "/docs/search-intent-map-2026-06-19.json",
+    "/docs/seo-geo-plan-2026-06-19.html"
   ],
   "stable_concept_routes": [
     "/concepts/no-proof-no-action-gate.html",
@@ -136,5 +161,35 @@
     "/concepts/wisdombench.html",
     "/concepts/robot-vision-downgrade-rule.html",
     "/concepts/grounding-canon.html"
+  ],
+  "seo_geo_policy": {
+    "purpose": "Problem-oriented entry pages connect external search intent and hot terms to public evidence routes. This is the scalable SEO/GEO layer for public distribution, not a low-value doorway farm.",
+    "quality_rule": "Each indexable page must answer a real question, expose evidence routes, state boundaries, include a counterexample path, and add enough unique value to stand alone.",
+    "platform_boundary": "mianzhang.org is the explanatory public entry; GitHub and Hugging Face remain technical/source/evidence routes."
+  },
+  "search_intent_routes": [
+    "/guides/reliable-ai-agents/",
+    "/guides/ai-self-certification-grounding/",
+    "/guides/bounded-self-improving-ai-agents/",
+    "/benchmarks/wisdombench-failure-learning/",
+    "/finance/no-trade-without-proof/",
+    "/robotics/robot-learning-from-failure/",
+    "/robotics/vla-safety-evidence-downgrade/",
+    "/evidence/how-to-read-ai-evidence-map/",
+    "/counterexamples/how-to-challenge-ai-claim/",
+    "/systems/sovereign-local-first-ai/",
+    "/systems/ai-agent-os-vs-chatbot/",
+    "/essays/intelligence-vs-wisdom-ai/",
+    "/concepts/evidence-gated-ai-systems/",
+    "/concepts/proof-carrying-action-explained/",
+    "/zh/ai-self-certification-grounding/",
+    "/zh/reliable-ai-agent-proof-gate/",
+    "/guides/",
+    "/benchmarks/",
+    "/finance/",
+    "/robotics/",
+    "/essays/",
+    "/docs/search-intent-map-2026-06-19.json",
+    "/docs/seo-geo-plan-2026-06-19.html"
   ]
 }

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robot Learning From Physical Failure | Mian Zhang</title>
+  <meta name="description" content="A grounded page on robot learning from physical failure, embodied AI evidence, local proxies, and the boundary between simulation, shadow evidence, and real robot deployment.">
+  <meta property="og:title" content="Robot Learning From Physical Failure | Ouroboros Project">
+  <meta property="og:description" content="A grounded page on robot learning from physical failure, embodied AI evidence, local proxies, and the boundary between simulation, shadow evidence, and real robot deployment.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/robotics/robot-learning-from-failure/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="canonical" href="https://mianzhang.org/robotics/robot-learning-from-failure/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@graph": [{"@type": "WebPage","@id": "https://mianzhang.org/robotics/robot-learning-from-failure/#webpage","url": "https://mianzhang.org/robotics/robot-learning-from-failure/","name": "Robot Learning From Physical Failure","description": "A grounded page on robot learning from physical failure, embodied AI evidence, local proxies, and the boundary between simulation, shadow evidence, and real robot deployment.","inLanguage": "en","isPartOf": {"@id": "https://mianzhang.org/#website"},"about": ["robot learning from failure","embodied AI","humanoid robot safety","robot recovery","physical failure learning","robot reliability evidence"],"mainEntity": {"@id": "https://mianzhang.org/robotics/robot-learning-from-failure/#faq"}},{"@type": "BreadcrumbList","@id": "https://mianzhang.org/robotics/robot-learning-from-failure/#breadcrumb","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://mianzhang.org/"},{"@type": "ListItem","position": 2,"name": "Robotics","item": "https://mianzhang.org/robotics/"},{"@type": "ListItem","position": 3,"name": "Robot Learning From Physical Failure","item": "https://mianzhang.org/robotics/robot-learning-from-failure/"}]},{"@type": "FAQPage","@id": "https://mianzhang.org/robotics/robot-learning-from-failure/#faq","mainEntity": [{"@type": "Question","name": "What is the first robotics evidence question?","acceptedAnswer": {"@type": "Answer","text": "Ask where the physical evidence came from: simulation, proxy, shadow, constructed witness, or real robot."}},{"@type": "Question","name": "Why is failure valuable?","acceptedAnswer": {"@type": "Answer","text": "Failure exposes the boundary between a smooth demo and a system that can recover under changed conditions."}},{"@type": "Question","name": "What should be challenged?","acceptedAnswer": {"@type": "Answer","text": "Challenge any robot claim that hides the physical test surface or upgrades proxy evidence into deployment language."}}]}]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/">Home</a>
+      <a href="https://mianzhang.org/guides/">Guides</a>
+      <a href="https://mianzhang.org/papers/">Papers</a>
+      <a href="https://mianzhang.org/evidence/">Evidence</a>
+      <a href="https://mianzhang.org/concepts/">Concepts</a>
+      <a href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+      <a href="https://mianzhang.org/community/">Community</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">Robotics / Embodied AI</p>
+        <h1>A robot failure is evidence only when the physical boundary is stated.</h1>
+        <p class="lead">This page connects robot learning from failure to public evidence boundaries: simulation, local proxy, shadow evidence, physical tests, and no real deployment claims.</p>
+        <div class="signature-line" aria-label="Search terms">
+          <span>robot learning from failure</span>
+          <span>embodied AI</span>
+          <span>humanoid robot safety</span>
+          <span>robot recovery</span>
+          <span>physical failure learning</span>
+          <span>robot reliability evidence</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/papers/">Papers</a>
+          <a class="button" href="https://mianzhang.org/registries/">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/">Counterexamples</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Search Intent</p>
+        <h2>Readers want to know whether a robot or embodied AI system can recover after failure in the real world.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>How can a robot learn from physical failure?</li>
+          <li>What evidence distinguishes simulation from real-world deployment?</li>
+          <li>What does local proxy evidence prove and not prove?</li>
+          <li>How should physical failure be reported without overclaiming?</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Physical Boundary</p>
+        <h2>Embodied evidence depends on where the body actually was.</h2>
+      </div>
+      <div class="body-text">
+        <p>A robot-related claim should state whether evidence came from simulation, local proxy, shadow observation, constructed witness, or real hardware deployment.</p>
+        <p>Without that boundary, readers cannot know whether the result proves perception, planning, recovery logic, interface behavior, or actual physical control.</p>
+      </div>
+    </section>
+    <section class="section split">
+      <div>
+        <p class="kicker">Failure</p>
+        <h2>Failure is useful only if it enters the record.</h2>
+      </div>
+      <div class="body-text">
+        <p>A credible embodied system keeps failure cases, recovery attempts, and boundary downgrades visible. It does not discard awkward cases after a polished demo.</p>
+        <p>The public challenge route asks external readers to name the missing physical boundary, missing baseline, or overstated deployment claim.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Evidence Route</p>
+        <h2>Where the claim can be checked.</h2>
+        <p>This page is an entry point. The claim should be evaluated through DOI records, evidence maps, registries, GitHub/HF technical routes, and public counterexamples.</p>
+      </div>
+      <div class="paper-table" role="table" aria-label="Robot Learning From Physical Failure evidence routes">
+        <div class="paper-row paper-row-extended head" role="row">
+          <span>Kind</span><span>Anchor</span><span>URL</span><span>Role</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Evidence Map</span><span>Public claim and evidence map</span><span><a href="https://mianzhang.org/evidence/">https://mianzhang.org/evidence/</a></span><span>Start from supported claims and known boundaries.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Paper Index</span><span>DOI and paper status map</span><span><a href="https://mianzhang.org/papers/">https://mianzhang.org/papers/</a></span><span>Use paper-specific DOI records for paper claims.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Registries</span><span>Machine-readable public registries</span><span><a href="https://mianzhang.org/registries/">https://mianzhang.org/registries/</a></span><span>Inspect claim, evidence, action, and counterexample records.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Challenge Route</span><span>Counterexample submission path</span><span><a href="https://mianzhang.org/counterexamples/">https://mianzhang.org/counterexamples/</a></span><span>Attack overbroad claims through public routes.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Archive</span><span>Zenodo portfolio index</span><span><a href="https://zenodo.org/records/20027295">https://zenodo.org/records/20027295</a></span><span>Long-term archive index; cite specific DOI records when available.</span><span></span><span></span><span></span>
+        </div>
+        <div class="paper-row paper-row-extended" role="row">
+          <span>Concept</span><span>Robot/Vision Downgrade Rule</span><span><a href="https://mianzhang.org/concepts/robot-vision-downgrade-rule.html">https://mianzhang.org/concepts/robot-vision-downgrade-rule.html</a></span><span>Perception uncertainty and deployment-language boundary.</span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>What this page does not prove.</h2>
+      </div>
+      <div class="body-text">
+        <ul class="check-list">
+          <li>This page does not claim real robot deployment unless a specific public record says so.</li>
+          <li>It does not treat local proxy or shadow evidence as full physical-world validation.</li>
+          <li>It does not claim universal robot recovery or production robotics readiness.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What is the first robotics evidence question?</h3>
+        <p>Ask where the physical evidence came from: simulation, proxy, shadow, constructed witness, or real robot.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>Why is failure valuable?</h3>
+        <p>Failure exposes the boundary between a smooth demo and a system that can recover under changed conditions.</p>
+      </article>
+      <article>
+        <span class="card-index">FAQ</span>
+        <h3>What should be challenged?</h3>
+        <p>Challenge any robot claim that hides the physical test surface or upgrades proxy evidence into deployment language.</p>
+      </article>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">Robotics</span>
+        <h3>VLA safety evidence downgrade</h3>
+        <p><a href="https://mianzhang.org/robotics/vla-safety-evidence-downgrade/">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Concept</span>
+        <h3>Robot/Vision Downgrade Rule</h3>
+        <p><a href="https://mianzhang.org/concepts/robot-vision-downgrade-rule.html">Open route</a></p>
+      </article>
+      <article>
+        <span class="card-index">Evidence</span>
+        <h3>Evidence map</h3>
+        <p><a href="https://mianzhang.org/evidence/">Open route</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Problem-oriented entry pages connect search intent to public evidence, boundaries, and counterexample routes.</span>
+  </footer>
+</body>
+</html>
