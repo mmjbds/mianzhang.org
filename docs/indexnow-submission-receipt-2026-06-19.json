@@ -1,0 +1,67 @@
+{
+  "receipt_id": "indexnow-submission-2026-06-19",
+  "submitted_at_utc": "2026-06-18T15:55:34Z",
+  "submitted_at_asia_shanghai": "2026-06-18T23:55:34+08:00",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "boundary": "HTTP 200 from IndexNow records accepted submission only. It does not prove crawl, indexing, ranking, AI retrieval, or search-console status.",
+  "submissions": [
+    {
+      "host": "mianzhang.org",
+      "key_location": "https://mianzhang.org/indexnow-key.txt",
+      "url_list_public_route": "https://mianzhang.org/docs/indexnow-url-list-seo-geo-20260619.txt",
+      "url_count": 27,
+      "status_code": 200,
+      "response_body": "",
+      "scope": "Main-site 2026-06-19 daily note plus SEO/GEO search-intent routes.",
+      "urls": [
+        "https://mianzhang.org/",
+        "https://mianzhang.org/sitemap.xml",
+        "https://mianzhang.org/llms.txt",
+        "https://mianzhang.org/press/public-launch-2026-06-19.html",
+        "https://mianzhang.org/guides/",
+        "https://mianzhang.org/guides/reliable-ai-agents/",
+        "https://mianzhang.org/guides/ai-self-certification-grounding/",
+        "https://mianzhang.org/guides/bounded-self-improving-ai-agents/",
+        "https://mianzhang.org/benchmarks/",
+        "https://mianzhang.org/benchmarks/wisdombench-failure-learning/",
+        "https://mianzhang.org/finance/",
+        "https://mianzhang.org/finance/no-trade-without-proof/",
+        "https://mianzhang.org/robotics/",
+        "https://mianzhang.org/robotics/robot-learning-from-failure/",
+        "https://mianzhang.org/robotics/vla-safety-evidence-downgrade/",
+        "https://mianzhang.org/evidence/how-to-read-ai-evidence-map/",
+        "https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/",
+        "https://mianzhang.org/systems/sovereign-local-first-ai/",
+        "https://mianzhang.org/systems/ai-agent-os-vs-chatbot/",
+        "https://mianzhang.org/essays/",
+        "https://mianzhang.org/essays/intelligence-vs-wisdom-ai/",
+        "https://mianzhang.org/concepts/evidence-gated-ai-systems/",
+        "https://mianzhang.org/concepts/proof-carrying-action-explained/",
+        "https://mianzhang.org/zh/ai-self-certification-grounding/",
+        "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/",
+        "https://mianzhang.org/docs/search-intent-map-2026-06-19.json",
+        "https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html"
+      ]
+    },
+    {
+      "host": "mmjbds-mianzhang-org.static.hf.space",
+      "key_location": "https://mmjbds-mianzhang-org.static.hf.space/indexnow-key.txt",
+      "url_list_public_route": "https://mmjbds-mianzhang-org.static.hf.space/docs/indexnow-url-list-hf-20260619.txt",
+      "url_count": 9,
+      "status_code": 200,
+      "response_body": "",
+      "scope": "Hugging Face technical mirror 2026-06-19 daily note.",
+      "urls": [
+        "https://mmjbds-mianzhang-org.static.hf.space/",
+        "https://mmjbds-mianzhang-org.static.hf.space/sitemap.xml",
+        "https://mmjbds-mianzhang-org.static.hf.space/llms.txt",
+        "https://mmjbds-mianzhang-org.static.hf.space/press/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/press/public-launch-2026-06-19.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/assets/evidence-production-machine-hero-20260619.png",
+        "https://mmjbds-mianzhang-org.static.hf.space/assets/evidence-production-machine-square-20260619.png",
+        "https://mmjbds-mianzhang-org.static.hf.space/assets/claim-objection-record-20260619.png",
+        "https://mmjbds-mianzhang-org.static.hf.space/assets/boundary-update-loop-20260619.png"
+      ]
+    }
+  ]
+}
