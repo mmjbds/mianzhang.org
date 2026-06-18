@@ -9,10 +9,10 @@
       "host": "mianzhang.org",
       "key_location": "https://mianzhang.org/indexnow-key.txt",
       "url_list_public_route": "https://mianzhang.org/docs/indexnow-url-list-seo-geo-20260619.txt",
-      "url_count": 35,
+      "url_count": 42,
       "status_code": 200,
       "response_body": "",
-      "scope": "Main-site 2026-06-19 daily note plus SEO/GEO search-intent, GEO profile, factsheet, schema, and Chinese growth routes.",
+      "scope": "Main-site 2026-06-19 daily note plus SEO/GEO search-intent, GEO profile, factsheet, schema, Chinese growth routes, and high-intent long-tail routes.",
       "urls": [
         "https://mianzhang.org/",
         "https://mianzhang.org/sitemap.xml",
@@ -48,9 +48,16 @@
         "https://mianzhang.org/boundaries/",
         "https://mianzhang.org/evidence/",
         "https://mianzhang.org/community/",
-        "https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json"
+        "https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json",
+        "https://mianzhang.org/guides/ai-agent-hallucination-risk/",
+        "https://mianzhang.org/guides/rag-grounding-vs-self-certification/",
+        "https://mianzhang.org/finance/ai-trading-bot-risk-controls/",
+        "https://mianzhang.org/robotics/humanoid-robot-failure-safety/",
+        "https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/",
+        "https://mianzhang.org/zh/ai-trading-bot-risk-controls/",
+        "https://mianzhang.org/zh/embodied-ai-failure-learning/"
       ],
-      "submitted_at_utc": "2026-06-18T16:23:50Z"
+      "submitted_at_utc": "2026-06-18T16:33:11Z"
     },
     {
       "host": "mmjbds-mianzhang-org.static.hf.space",
@@ -73,5 +80,5 @@
       ]
     }
   ],
-  "updated_at_utc": "2026-06-18T16:23:50Z"
+  "updated_at_utc": "2026-06-18T16:33:11Z"
 }
