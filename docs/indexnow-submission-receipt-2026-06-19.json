@@ -9,10 +9,10 @@
       "host": "mianzhang.org",
       "key_location": "https://mianzhang.org/indexnow-key.txt",
       "url_list_public_route": "https://mianzhang.org/docs/indexnow-url-list-seo-geo-20260619.txt",
-      "url_count": 27,
+      "url_count": 35,
       "status_code": 200,
       "response_body": "",
-      "scope": "Main-site 2026-06-19 daily note plus SEO/GEO search-intent routes.",
+      "scope": "Main-site 2026-06-19 daily note plus SEO/GEO search-intent, GEO profile, factsheet, schema, and Chinese growth routes.",
       "urls": [
         "https://mianzhang.org/",
         "https://mianzhang.org/sitemap.xml",
@@ -40,8 +40,17 @@
         "https://mianzhang.org/zh/ai-self-certification-grounding/",
         "https://mianzhang.org/zh/reliable-ai-agent-proof-gate/",
         "https://mianzhang.org/docs/search-intent-map-2026-06-19.json",
-        "https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html"
-      ]
+        "https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html",
+        "https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json",
+        "https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html",
+        "https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json",
+        "https://mianzhang.org/zh/",
+        "https://mianzhang.org/boundaries/",
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/community/",
+        "https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json"
+      ],
+      "submitted_at_utc": "2026-06-18T16:23:50Z"
     },
     {
       "host": "mmjbds-mianzhang-org.static.hf.space",
@@ -63,5 +72,6 @@
         "https://mmjbds-mianzhang-org.static.hf.space/assets/boundary-update-loop-20260619.png"
       ]
     }
-  ]
+  ],
+  "updated_at_utc": "2026-06-18T16:23:50Z"
 }
