@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Same-Claim Baseline Intake v1: https://mianzhang.org/press/public-launch-2026-06-17.html
+- Shadow Pilot Boundary Packet v1: https://mianzhang.org/press/public-launch-2026-06-18.html
 
 ## Cross-links
 
