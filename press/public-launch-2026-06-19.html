@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evidence Production Machine Note v1, 2026-06-19 | Mian Zhang</title>
+  <meta name="description" content="A public evidence workflow for claim review: claim, supporting record, objection, counterexample route, boundary update, status change, and next review.">
+  <meta property="og:title" content="Evidence Production Machine Note v1 | Ouroboros Project">
+  <meta property="og:description" content="A public evidence workflow for claim review: claim, supporting record, objection, counterexample route, boundary update, status change, and next review.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-19.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/evidence-production-machine-hero-20260619.png">
+  <meta property="og:image:alt" content="Evidence production machine visual mapping claims, objections, boundary updates, and review status.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="576">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Evidence Production Machine Note v1">
+  <meta name="twitter:description" content="A public object for turning claims, objections, and boundary changes into an inspectable record.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/evidence-production-machine-hero-20260619.png">
+  <meta name="twitter:image:alt" content="Evidence production machine visual for public claim review.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-19.html">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@type": "Article","headline": "Evidence Production Machine Note v1","description": "A public evidence workflow for claim review: claim, supporting record, objection, counterexample route, boundary update, status change, and next review.","datePublished": "2026-06-19","dateModified": "2026-06-19","author": {"@type": "Person","name": "Mian Zhang"},"publisher": {"@type": "Organization","name": "Ouroboros Project"},"mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-19.html","image": "https://mianzhang.org/assets/evidence-production-machine-hero-20260619.png","about": ["claim_review","evidence_production","counterexample_route","boundary_update","status_change","technical_due_diligence"],"isPartOf": {"@type": "WebSite","name": "Ouroboros Project Technical Evidence Mirror","url": "https://mianzhang.org"}}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/index.html" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/index.html">Home</a>
+      <a href="https://mianzhang.org/papers/index.html">Papers</a>
+      <a href="https://mianzhang.org/evidence/index.html">Evidence</a>
+      <a href="https://mianzhang.org/concepts/index.html">Concepts</a>
+      <a href="https://mianzhang.org/technology/index.html">Technology</a>
+      <a href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mianzhang.org/systems/index.html">Systems</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mianzhang.org/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-19</p>
+        <h1>The hard part is not telling a stronger story. It is producing stronger evidence.</h1>
+        <p class="lead">Artifact: evidence_production_machine_v1. This note defines a public review object for turning claims, objections, boundary changes, and next reviews into an inspectable record.</p>
+        <div class="signature-line" aria-label="Evidence Production Machine fields">
+          <span>claim</span>
+          <span>supporting_record</span>
+          <span>objection</span>
+          <span>counterexample_route</span>
+          <span>boundary_update</span>
+          <span>next_review</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/index.html">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+          <a class="button" href="https://mianzhang.org/boundaries/index.html">Boundaries</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/evidence-production-machine-hero-20260619.png" alt="Evidence production machine visual mapping claims, objections, boundary updates, and review status.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>A narrative can be copied. A review record is harder to fake.</h2>
+      </div>
+      <div class="body-text">
+        <p>This update defines <code>evidence_production_machine_v1</code>, a public review object for technical readers who want to inspect how a claim changes after evidence, objection, and boundary review.</p>
+        <p>The object is not a financing story, valuation claim, customer commitment, or commercial promise. It is a field structure for making claims inspectable.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>claim</h3>
+        <p>The exact public claim under review, stated narrowly enough to be challenged.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>supporting_record</h3>
+        <p>The artifact, route, registry, paper, or observation that currently supports the claim.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>objection</h3>
+        <p>The strongest known challenge, missing control, failure mode, or unresolved comparison.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>counterexample_route</h3>
+        <p>The public route through which an external reader can attack, falsify, or narrow the claim.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>boundary_update</h3>
+        <p>The change made when the evidence no longer supports the stronger version of the claim.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>next_review</h3>
+        <p>The next scheduled review point, evidence route, or unresolved item that prevents closure.</p>
+      </article>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/claim-objection-record-20260619.png" alt="Claim and objection record visual for evidence review.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Review</p>
+        <h2>The objection must enter the record.</h2>
+        <p>An objection is useful only if it changes the public review surface. A smooth answer is not enough. The record should show whether the objection strengthened the claim, narrowed it, left it pending, or moved it out of scope.</p>
+        <p>This is the difference between argument and evidence production.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>A claim that cannot narrow is still a pitch.</h2>
+      </div>
+      <div class="body-text">
+        <p>The key field is <code>boundary_update</code>. If the supporting record does not justify the strongest version of a claim, the public object must show what changed.</p>
+        <p>A boundary update is not a retreat from technical strength. It is the mechanism that prevents a claim from becoming detached from evidence.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/boundary-update-loop-20260619.png" alt="Boundary update loop visual for claim review.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Loop</p>
+        <h2>Claim, evidence, objection, boundary, review.</h2>
+        <p>The loop is intentionally simple. A public claim is useful only when its support can be inspected, its objections can be named, and its status can change.</p>
+        <p>If every review only produces stronger language, the mechanism is probably not learning.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Matrix</p>
+        <h2>Evidence Production Machine fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Evidence Production Machine v1 matrix">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Required value</span><span>Failure mode</span><span>Repair route</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>claim</span><span>Narrow public statement.</span><span>Claim stays slogan-level.</span><span>Restate as a testable sentence.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>supporting_record</span><span>Concrete route to current support.</span><span>Support is private or vague.</span><span>Link a public artifact or mark pending.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>objection</span><span>Named challenge or missing control.</span><span>Only favorable evidence remains.</span><span>Add the strongest objection.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>counterexample_route</span><span>Public attack path.</span><span>No external challenge can enter.</span><span>Route to counterexample registry.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>boundary_update</span><span>Recorded narrowing or scope change.</span><span>Old wording survives new evidence.</span><span>Version the boundary.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>next_review</span><span>Future review route.</span><span>The claim appears permanently closed.</span><span>Add the next review trigger.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/status-review-ledger-20260619.png" alt="Status review ledger visual for evidence production.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Ledger</p>
+        <h2>Status is part of the evidence.</h2>
+        <p>The status field says whether a claim is supported, narrowed, pending, failed, or under review. That status matters because readers need to know what the evidence can and cannot carry today.</p>
+        <p>The strongest public record is not the one that never changes. It is the one where changes are visible.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Find a claim that remains narrative-only.</h2>
+      </div>
+      <div class="body-text">
+        <p>The best attack is direct: point to any public claim that lacks a supporting record, objection, counterexample route, boundary update, or next review.</p>
+        <p>If the claim cannot be inspected, it should not be treated as evidence.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

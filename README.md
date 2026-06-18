@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Shadow Pilot Boundary Packet v1: https://mianzhang.org/press/public-launch-2026-06-18.html
+- Evidence Production Machine Note v1: https://mianzhang.org/press/public-launch-2026-06-19.html
 
 ## Cross-links
 
