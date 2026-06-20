@@ -6,34 +6,38 @@
   </url>
   <url>
     <loc>https://mianzhang.org/.github/CODE_OF_CONDUCT.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/.github/CONTRIBUTING.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/.github/PULL_REQUEST_TEMPLATE.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/.github/SECURITY.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/.github/SUPPORT.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/README.md</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/benchmarks/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
@@ -42,7 +46,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/boundaries/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/boundaries/CLAIM_BOUNDARY_CANONICAL.md</loc>
@@ -50,11 +54,11 @@
   </url>
   <url>
     <loc>https://mianzhang.org/community/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/evidence-gated-ai-systems/</loc>
@@ -62,15 +66,15 @@
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/grounding-canon.html</loc>
-    <lastmod>2026-06-15</lastmod>
-  </url>
-  <url>
-    <loc>https://mianzhang.org/concepts/index.html</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/concepts/index.html</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/concepts/no-proof-no-action-gate.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/proof-carrying-action-explained/</loc>
@@ -78,23 +82,23 @@
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/proof-carrying-action.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/robot-vision-downgrade-rule.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/self-certification-grounding-check.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/wisdombench.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/counterexamples/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/counterexamples/COUNTEREXAMPLE_ISSUE_TEMPLATE.md</loc>
@@ -102,7 +106,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/counterexamples/examples.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/</loc>
@@ -110,47 +114,63 @@
   </url>
   <url>
     <loc>https://mianzhang.org/demos/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/demos/proof-action-mini/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/ZENODO_METADATA_BACKLINKS_20260615.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/external-submission-status-2026-06-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/github_community/CONTRIBUTING_BOUNDARY_CN.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/github_community/HF_STATIC_MIRROR_BOUNDARY_CN.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/github_community/ISSUE_ROUTING_CN.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/github_community/README_CN.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/github_community/SECURITY_BOUNDARY_CN.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-submission-receipt-2026-06-19.json</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-20260615.txt</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-20260616.txt</loc>
@@ -166,11 +186,15 @@
   </url>
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-20260619.txt</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-20260620.txt</loc>
+    <lastmod>2026-06-20</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260615.txt</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260616.txt</loc>
@@ -186,35 +210,43 @@
   </url>
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260619.txt</loc>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260620.txt</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-seo-geo-20260619.txt</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/public-completion-audit-2026-06-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/public-completion-audit-2026-06-15.json</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/public-roadmap.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/search-discovery-2026-06-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.json</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/search-intent-map-2026-06-19.json</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-18</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html</loc>
@@ -222,11 +254,11 @@
   </url>
   <url>
     <loc>https://mianzhang.org/docs/weekly-digest-2026-06-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/zenodo-metadata-backlink-patch-pack-2026-06-15.json</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/essays/</loc>
@@ -238,7 +270,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/evidence/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/evidence/how-to-read-ai-evidence-map/</loc>
@@ -246,10 +278,14 @@
   </url>
   <url>
     <loc>https://mianzhang.org/field-manual/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/finance/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/finance/ai-trading-bot-risk-controls/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
@@ -257,7 +293,19 @@
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/google9c7439a09f492752.html</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/googlee95cf06405c388af.html</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/guides/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/guides/ai-agent-hallucination-risk/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
@@ -269,216 +317,224 @@
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/guides/rag-grounding-vs-self-certification/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/guides/reliable-ai-agents/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/llms.txt</loc>
+    <loc>https://mianzhang.org/indexnow-key.txt</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/llms.txt</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/open-source/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/F1-P8.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/F1-old.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/F2_P-AE_D3.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P00.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P01-current.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P01-legacy.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P02.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P03.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P04.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P05.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P06.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P07.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P08.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P09.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P10.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P11.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P12.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P13.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P14.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P15_P16.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P17.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P18.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P19.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P20.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P21-evidence.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P21.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P22.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P23.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P27_F1-trace.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P28.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P29.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P30.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P31.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P32.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P33.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P34.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P35.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P36.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P37.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P38.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P39.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P40.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P41.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P42.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P43.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P44.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P45.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P46.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/P47.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/PAPER_ARCHIVE_POLICY_CN.md</loc>
@@ -486,7 +542,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/Portfolio.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/README_CN.md</loc>
@@ -494,7 +550,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/W0.md</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/papers/public_index/paper_index_20260608.csv</loc>
@@ -502,167 +558,171 @@
   </url>
   <url>
     <loc>https://mianzhang.org/press/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/index.html</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-12.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-13.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-14.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-16.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-17.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-18.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-19.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-20.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-21.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-22.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-23.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-24.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-25.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-26.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-27.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-28.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-29.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-30.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-31.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-01.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-02.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-03.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-04.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-05.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-06.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-07.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-08.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-09.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-10.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-11.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-12.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-13.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-14.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-15.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-16.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-17.html</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-18.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-06-19.html</loc>
     <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/press/public-launch-2026-06-20.html</loc>
+    <lastmod>2026-06-20</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/public_registry/paper_index_20260608.jsonl</loc>
@@ -670,7 +730,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/registries/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/registries/action_registry_v0.json</loc>
@@ -678,7 +738,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/registries/artifact_repro_scope_v0.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/registries/claim_registry_v0.json</loc>
@@ -686,7 +746,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/registries/claim_to_evidence_table_v0.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/registries/claim_to_evidence_table_v0.json</loc>
@@ -702,14 +762,18 @@
   </url>
   <url>
     <loc>https://mianzhang.org/registries/schema_notes_v0.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/review-status/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/robotics/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/robotics/humanoid-robot-failure-safety/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
@@ -721,16 +785,20 @@
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
-    <loc>https://mianzhang.org/sitemap.xml</loc>
+    <loc>https://mianzhang.org/robots.txt</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/sitemap.xml</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/start-here/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/systems/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/systems/ai-agent-os-vs-chatbot/</loc>
@@ -742,22 +810,30 @@
   </url>
   <url>
     <loc>https://mianzhang.org/technology/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/ai-self-certification-grounding/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/zh/ai-trading-bot-risk-controls/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/zh/embodied-ai-failure-learning/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/zh/reliable-action.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/reliable-ai-agent-proof-gate/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
-<url><loc>https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/guides/ai-agent-hallucination-risk/</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/guides/rag-grounding-vs-self-certification/</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/finance/ai-trading-bot-risk-controls/</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/robotics/humanoid-robot-failure-safety/</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/zh/ai-trading-bot-risk-controls/</loc><lastmod>2026-06-19</lastmod></url><url><loc>https://mianzhang.org/zh/embodied-ai-failure-learning/</loc><lastmod>2026-06-19</lastmod></url></urlset>
+</urlset>

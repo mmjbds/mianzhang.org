@@ -4,9 +4,8 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-06-19.html
-Evidence Production Machine Note v1, 2026-06-19.
-
+https://mianzhang.org/press/public-launch-2026-06-20.html
+Diligence Digest State Taxonomy v1, 2026-06-20.
 Canonical archive:
 https://zenodo.org/records/20027295
 
@@ -34,13 +33,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-06-20: Diligence Digest State Taxonomy v1 - https://mianzhang.org/press/public-launch-2026-06-20.html
 - 2026-06-19: Evidence Production Machine Note v1 - https://mianzhang.org/press/public-launch-2026-06-19.html
 - 2026-06-18: Shadow Pilot Boundary Packet v1 - https://mianzhang.org/press/public-launch-2026-06-18.html
 - 2026-06-17: Same-Claim Baseline Intake v1 - https://mianzhang.org/press/public-launch-2026-06-17.html
 - 2026-06-16: Bounded State-Space Actuation Note v0 - https://mianzhang.org/press/public-launch-2026-06-16.html
 - 2026-06-15: Public Evidence Route Boundary v0 - https://mianzhang.org/press/public-launch-2026-06-15.html
 - 2026-06-14: Boundary-First Weekly Evidence Digest - https://mianzhang.org/press/public-launch-2026-06-14.html
-- 2026-06-13: Self-Certification Grounding Check v0 - https://mianzhang.org/press/public-launch-2026-06-13.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
@@ -48,34 +47,6 @@ Stable concept entries:
 - WisdomBench: https://mianzhang.org/concepts/wisdombench.html
 - Robot/Vision Downgrade Rule: https://mianzhang.org/concepts/robot-vision-downgrade-rule.html
 - The Grounding Canon: https://mianzhang.org/concepts/grounding-canon.html
-
-Problem-oriented public entry points:
-- Reliable AI agents: https://mianzhang.org/guides/reliable-ai-agents/
-- AI hallucination and grounding: https://mianzhang.org/guides/ai-self-certification-grounding/
-- Bounded self-improving AI agents: https://mianzhang.org/guides/bounded-self-improving-ai-agents/
-- WisdomBench failure learning benchmark: https://mianzhang.org/benchmarks/wisdombench-failure-learning/
-- No trade without proof: https://mianzhang.org/finance/no-trade-without-proof/
-- Robot learning from physical failure: https://mianzhang.org/robotics/robot-learning-from-failure/
-- VLA safety and evidence downgrade: https://mianzhang.org/robotics/vla-safety-evidence-downgrade/
-- How to read the AI evidence map: https://mianzhang.org/evidence/how-to-read-ai-evidence-map/
-- How to challenge an AI research claim: https://mianzhang.org/counterexamples/how-to-challenge-ai-claim/
-- Search intent map JSON: https://mianzhang.org/docs/search-intent-map-2026-06-19.json
-
-AI / GEO retrieval profile:
-- GEO profile HTML: https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html
-- GEO profile JSON: https://mianzhang.org/docs/geo-ai-profile-2026-06-19.json
-- AI answer factsheet JSON: https://mianzhang.org/docs/ai-answer-factsheet-2026-06-19.json
-- SEO/GEO implementation plan: https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html
-
-
-Additional long-tail problem routes:
-- AI Agent Hallucination Risk Before Tool Use: https://mianzhang.org/guides/ai-agent-hallucination-risk/
-- RAG Grounding vs AI Self-Certification: https://mianzhang.org/guides/rag-grounding-vs-self-certification/
-- AI Trading Bot Risk Controls Before Any Order: https://mianzhang.org/finance/ai-trading-bot-risk-controls/
-- Humanoid Robot Failure Safety and Evidence Downgrade: https://mianzhang.org/robotics/humanoid-robot-failure-safety/
-- AI Agent Evaluation After Failure: https://mianzhang.org/benchmarks/ai-agent-evaluation-after-failure/
-- AI 交易机器人为什么必须先学会不交易: https://mianzhang.org/zh/ai-trading-bot-risk-controls/
-- 具身智能为什么要从失败里学习: https://mianzhang.org/zh/embodied-ai-failure-learning/
 
 External public sources:
 - GitHub organization: https://github.com/mmjbds

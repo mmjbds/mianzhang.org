@@ -1,6 +1,6 @@
 {
   "schema_version": "public_evidence_field_manifest_v0",
-  "generated_utc": "2026-06-19T00:00:00Z",
+  "generated_utc": "2026-06-20T00:00:00Z",
   "site": {
     "name": "Mian Zhang | Ouroboros Project",
     "base_url": "https://mianzhang.org",
@@ -67,7 +67,8 @@
     "/robotics/humanoid-robot-failure-safety/",
     "/benchmarks/ai-agent-evaluation-after-failure/",
     "/zh/ai-trading-bot-risk-controls/",
-    "/zh/embodied-ai-failure-learning/"
+    "/zh/embodied-ai-failure-learning/",
+    "/press/public-launch-2026-06-20.html"
   ],
   "machine_readable_registries": [
     "/registries/claim_registry_v0.json",
@@ -98,7 +99,7 @@
     "venue_restricted_or_non_public_materials",
     "private_live_trading_logs"
   ],
-  "latest_daily_route": "/press/public-launch-2026-06-19.html",
+  "latest_daily_route": "/press/public-launch-2026-06-20.html",
   "artifact_reproduction_scope": "/registries/artifact_repro_scope_v0.html",
   "recommended_summary": "Challenge public claims through public artifacts. Do not request protected execution details as a condition for evaluating public boundaries.",
   "route_categories": {
@@ -153,21 +154,8 @@
     "/docs/public-completion-audit-2026-06-15.html",
     "/docs/public-completion-audit-2026-06-15.json",
     "/docs/zenodo-metadata-backlink-patch-pack-2026-06-15.json",
-    "/docs/indexnow-url-list-20260616.txt",
-    "/docs/indexnow-url-list-hf-20260616.txt",
-    "/docs/indexnow-url-list-20260617.txt",
-    "/docs/indexnow-url-list-hf-20260617.txt",
-    "/docs/indexnow-url-list-20260618.txt",
-    "/docs/indexnow-url-list-hf-20260618.txt",
-    "/docs/indexnow-url-list-20260619.txt",
-    "/docs/indexnow-url-list-hf-20260619.txt",
-    "/docs/indexnow-url-list-seo-geo-20260619.txt",
-    "/docs/indexnow-submission-receipt-2026-06-19.json",
-    "/docs/search-intent-map-2026-06-19.json",
-    "/docs/seo-geo-plan-2026-06-19.html",
-    "/docs/geo-ai-profile-2026-06-19.html",
-    "/docs/geo-ai-profile-2026-06-19.json",
-    "/docs/ai-answer-factsheet-2026-06-19.json"
+    "/docs/indexnow-url-list-20260620.txt",
+    "/docs/indexnow-url-list-hf-20260620.txt"
   ],
   "stable_concept_routes": [
     "/concepts/no-proof-no-action-gate.html",

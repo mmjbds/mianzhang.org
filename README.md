@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Evidence Production Machine Note v1: https://mianzhang.org/press/public-launch-2026-06-19.html
+- Diligence Digest State Taxonomy v1: https://mianzhang.org/press/public-launch-2026-06-20.html
 
 ## Cross-links
 
