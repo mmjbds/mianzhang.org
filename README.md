@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Diligence Digest State Taxonomy v1: https://mianzhang.org/press/public-launch-2026-06-20.html
+- Bounded Self-Modification Review Note v1: https://mianzhang.org/press/public-launch-2026-06-22.html
 
 ## Cross-links
 

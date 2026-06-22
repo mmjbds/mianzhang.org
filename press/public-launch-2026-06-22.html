@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bounded Self-Modification Review Note v1, 2026-06-22 | Mian Zhang</title>
+  <meta name="description" content="A public review note for bounded self-modification proposals: isolation boundary, replay route, validation gate, rollback record, human approval, and production authority.">
+  <meta property="og:title" content="Bounded Self-Modification Review Note v1 | Ouroboros Project">
+  <meta property="og:description" content="A public review note for bounded self-modification proposals: isolation boundary, replay route, validation gate, rollback record, human approval, and production authority.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-22.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/bounded-self-modification-square-20260622.png">
+  <meta property="og:image:alt" content="Bounded Self-Modification Review Note v1 public evidence visual.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bounded Self-Modification Review Note v1">
+  <meta name="twitter:description" content="A public review note for bounded self-modification proposals: isolation boundary, replay route, validation gate, rollback record, human approval, and production authority.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/bounded-self-modification-square-20260622.png">
+  <meta name="twitter:image:alt" content="Bounded Self-Modification Review Note v1 public evidence visual.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-22.html">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@type": "Article","headline": "Bounded Self-Modification Review Note v1","description": "A public review note for bounded self-modification proposals: isolation boundary, replay route, validation gate, rollback record, human approval, and production authority.","datePublished": "2026-06-22","dateModified": "2026-06-22","author": {"@type": "Person","name": "Mian Zhang"},"publisher": {"@type": "Organization","name": "Ouroboros Project"},"mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-22.html","image": "https://mianzhang.org/assets/bounded-self-modification-square-20260622.png","about": ["bounded_self_modification","proof_carrying_action","validation_gate","rollback_record","human_approval","production_authority"],"isPartOf": {"@type": "WebSite","name": "Ouroboros Project Technical Evidence Mirror","url": "https://mianzhang.org"}}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/index.html" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/index.html">Home</a>
+      <a href="https://mianzhang.org/papers/index.html">Papers</a>
+      <a href="https://mianzhang.org/evidence/index.html">Evidence</a>
+      <a href="https://mianzhang.org/concepts/index.html">Concepts</a>
+      <a href="https://mianzhang.org/technology/index.html">Technology</a>
+      <a href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mianzhang.org/systems/index.html">Systems</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mianzhang.org/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-22</p>
+        <h1>Self-modification is not a feature until its authority boundary is inspectable.</h1>
+        <p class="lead">Artifact: bounded_self_modification_review_v1. This note defines the public fields required before a modification proposal can be separated from production authority.</p>
+        <div class="signature-line" aria-label="bounded_self_modification_review_v1 fields">
+          <span>modification_proposal</span>
+          <span>isolation_boundary</span>
+          <span>replay_route</span>
+          <span>validation_gate</span>
+          <span>rollback_record</span>
+          <span>human_approval</span>
+          <span>production_authority</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/index.html">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/boundaries/index.html">Boundaries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/bounded-self-modification-square-20260622.png" alt="Bounded Self-Modification Review Note v1 public evidence visual.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>A system that can rewrite itself needs a smaller claim, not a larger slogan.</h2>
+      </div>
+      <div class="body-text">
+        <p>This note treats self-modification as a review object. A proposal can be generated, isolated, replayed, validated, rejected, rolled back, or approved. It does not become production authority by being fluent.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/isolation-boundary-replay-route-20260622.png" alt="The first boundary is between proposing and acting.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Isolation</p>
+        <h2>The first boundary is between proposing and acting.</h2>
+        <p>The isolation boundary is the difference between a model suggesting a change and a system allowing that change to affect users, money, robots, data, or policy. Without that boundary, self-improvement becomes unreviewed authority escalation.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/human-approval-production-authority-20260622.png" alt="Human approval is a field, not a vibe.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Authority</p>
+        <h2>Human approval is a field, not a vibe.</h2>
+        <p>The review note requires production authority to be explicit. If authority is absent, the proposal remains evidence for review only. If authority is pending, the missing gate must be named. If authority is approved, the receipt should exist.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>modification_proposal</h3>
+        <p>The proposed change, separated from any right to execute in production.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>isolation_boundary</h3>
+        <p>The boundary that prevents the proposal from touching live authority.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>replay_route</h3>
+        <p>The route used to replay and inspect the proposed modification.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>validation_gate</h3>
+        <p>The test or review gate required before status can change.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>rollback_record</h3>
+        <p>The record showing how the change would be reversed or rejected.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>production_authority</h3>
+        <p>Whether the proposal has no authority, pending authority, or approved authority.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>
