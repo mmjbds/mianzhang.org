@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Bounded Self-Modification Review Note v1: https://mianzhang.org/press/public-launch-2026-06-22.html
+- Proof-Honesty Pair v1: https://mianzhang.org/press/public-launch-2026-06-24.html
 
 ## Cross-links
 
