@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Proof-Honesty Pair v1: https://mianzhang.org/press/public-launch-2026-06-24.html
+- Action System Refusal Layer v1: https://mianzhang.org/press/public-launch-2026-06-26.html
 
 ## Cross-links
 
