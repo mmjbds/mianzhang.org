@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Action System Refusal Layer v1: https://mianzhang.org/press/public-launch-2026-06-26.html
+- Full Public Evidence QA v1: https://mianzhang.org/press/public-launch-2026-06-28.html
 
 ## Cross-links
 

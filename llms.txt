@@ -4,8 +4,8 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-06-26.html
-Action System Refusal Layer v1, 2026-06-26.
+https://mianzhang.org/press/public-launch-2026-06-28.html
+Full Public Evidence QA v1, 2026-06-28.
 Canonical archive:
 https://zenodo.org/records/20027295
 
@@ -33,13 +33,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-06-28: Full Public Evidence QA v1 - https://mianzhang.org/press/public-launch-2026-06-28.html
+- 2026-06-27: P41-P45 Challenge Board v1 - https://mianzhang.org/press/public-launch-2026-06-27.html
 - 2026-06-26: Action System Refusal Layer v1 - https://mianzhang.org/press/public-launch-2026-06-26.html
 - 2026-06-25: Protocol Paper Evidence Tier Map v1 - https://mianzhang.org/press/public-launch-2026-06-25.html
 - 2026-06-24: Proof-Honesty Pair v1 - https://mianzhang.org/press/public-launch-2026-06-24.html
 - 2026-06-23: Drift and Pluralism Recheck Note v1 - https://mianzhang.org/press/public-launch-2026-06-23.html
 - 2026-06-22: Bounded Self-Modification Review Note v1 - https://mianzhang.org/press/public-launch-2026-06-22.html
-- 2026-06-21: Public Review Packet Sample v1 - https://mianzhang.org/press/public-launch-2026-06-21.html
-- 2026-06-20: Diligence Digest State Taxonomy v1 - https://mianzhang.org/press/public-launch-2026-06-20.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
