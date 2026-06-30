@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- 30-Day Claim Status Review v1: https://mianzhang.org/press/public-launch-2026-06-29.html
+- Next-Cycle Single-Claim Public Review Plan v1: https://mianzhang.org/press/public-launch-2026-06-30.html
 
 ## Cross-links
 
