@@ -26,11 +26,11 @@
   </url>
   <url>
     <loc>https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/README.md</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/benchmarks/</loc>
@@ -165,6 +165,10 @@
     <lastmod>2026-06-19</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/docs/google-bing-url-list-20260701.txt</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/docs/indexnow-submission-receipt-2026-06-19.json</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
@@ -233,6 +237,10 @@
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-20260701.txt</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260615.txt</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
@@ -295,6 +303,10 @@
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260630.txt</loc>
     <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/docs/indexnow-url-list-hf-20260701.txt</loc>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/indexnow-url-list-seo-geo-20260619.txt</loc>
@@ -410,7 +422,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/llms.txt</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/open-source/</loc>
@@ -638,11 +650,11 @@
   </url>
   <url>
     <loc>https://mianzhang.org/press/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/index.html</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/press/public-launch-2026-05-12.html</loc>
@@ -845,6 +857,10 @@
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/press/public-launch-2026-07-01.html</loc>
+    <lastmod>2026-07-01</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/public_registry/paper_index_20260608.jsonl</loc>
     <lastmod>2026-06-15</lastmod>
   </url>
@@ -910,7 +926,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/sitemap.xml</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/start-here/</loc>
