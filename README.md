@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Organization Echo Chamber Check v2: https://mianzhang.org/press/public-launch-2026-07-03.html
+- Home Robot Delivery Gap Review Packet v1: https://mianzhang.org/press/public-launch-2026-07-04.html
 
 ## Cross-links
 

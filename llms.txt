@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-03.html
-Organization Echo Chamber Check v2, 2026-07-03.
+https://mianzhang.org/press/public-launch-2026-07-04.html
+Home Robot Delivery Gap Review Packet v1, 2026-07-04.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-03.html
-- Artifact: organization_echo_chamber_check_v2
-- Claim: An enterprise AI budget can buy more tools and still produce one shared blind spot.
-- Description: A public review packet for enterprise AI ROI and agent workflow governance: claim id, enterprise AI workflow, redundancy signal, independent information, synergy test, failure log, counterexample route, rollback condition, and review status.
-- Fields: claim_id, enterprise_ai_workflow, redundancy_signal, independent_information, synergy_test, failure_log, counterexample_route, rollback_condition, review_status
-- Topics: enterprise AI ROI, AI spending, agent workflow governance, AI governance, redundancy versus synergy, independent information, organizational decision systems, counterexample route, rollback condition
+- URL: https://mianzhang.org/press/public-launch-2026-07-04.html
+- Artifact: home_robot_delivery_gap_v1
+- Claim: A home robot demo is not a delivery boundary for a private room.
+- Description: A public review packet for home robotics and physical AI deployment: claim id, home robot context, private space boundary, remote assistance channel, teleoperation mode, household data scope, failure recovery, stop condition, counterexample route, and review status.
+- Fields: claim_id, home_robot_context, private_space_boundary, remote_assistance_channel, teleoperation_mode, household_data_scope, failure_recovery, stop_condition, counterexample_route, review_status
+- Topics: home robotics, home robot delivery gap, humanoid robot, physical AI, teleoperation, remote assistance, household data, privacy by design, robot safety, fall 2026 shipping, robot foundation model, counterexample route, stop condition
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,13 +41,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-04: Home Robot Delivery Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-04.html
 - 2026-07-03: Organization Echo Chamber Check v2 - https://mianzhang.org/press/public-launch-2026-07-03.html
 - 2026-07-02: Benchmark Reality Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-02.html
 - 2026-07-01: Independent Other Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-01.html
 - 2026-06-30: Next-Cycle Single-Claim Public Review Plan v1 - https://mianzhang.org/press/public-launch-2026-06-30.html
 - 2026-06-29: 30-Day Claim Status Review v1 - https://mianzhang.org/press/public-launch-2026-06-29.html
 - 2026-06-28: Full Public Evidence QA v1 - https://mianzhang.org/press/public-launch-2026-06-28.html
-- 2026-06-27: P41-P45 Challenge Board v1 - https://mianzhang.org/press/public-launch-2026-06-27.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
