@@ -4,8 +4,16 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-02.html
-Benchmark Reality Gap Review Packet v1, 2026-07-02.
+https://mianzhang.org/press/public-launch-2026-07-03.html
+Organization Echo Chamber Check v2, 2026-07-03.
+Latest public note machine summary:
+- URL: https://mianzhang.org/press/public-launch-2026-07-03.html
+- Artifact: organization_echo_chamber_check_v2
+- Claim: An enterprise AI budget can buy more tools and still produce one shared blind spot.
+- Description: A public review packet for enterprise AI ROI and agent workflow governance: claim id, enterprise AI workflow, redundancy signal, independent information, synergy test, failure log, counterexample route, rollback condition, and review status.
+- Fields: claim_id, enterprise_ai_workflow, redundancy_signal, independent_information, synergy_test, failure_log, counterexample_route, rollback_condition, review_status
+- Topics: enterprise AI ROI, AI spending, agent workflow governance, AI governance, redundancy versus synergy, independent information, organizational decision systems, counterexample route, rollback condition
+
 Canonical archive:
 https://zenodo.org/records/20027295
 
@@ -33,13 +41,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-03: Organization Echo Chamber Check v2 - https://mianzhang.org/press/public-launch-2026-07-03.html
 - 2026-07-02: Benchmark Reality Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-02.html
 - 2026-07-01: Independent Other Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-01.html
 - 2026-06-30: Next-Cycle Single-Claim Public Review Plan v1 - https://mianzhang.org/press/public-launch-2026-06-30.html
 - 2026-06-29: 30-Day Claim Status Review v1 - https://mianzhang.org/press/public-launch-2026-06-29.html
 - 2026-06-28: Full Public Evidence QA v1 - https://mianzhang.org/press/public-launch-2026-06-28.html
 - 2026-06-27: P41-P45 Challenge Board v1 - https://mianzhang.org/press/public-launch-2026-06-27.html
-- 2026-06-26: Action System Refusal Layer v1 - https://mianzhang.org/press/public-launch-2026-06-26.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
