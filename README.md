@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Independent Other Review Packet v1: https://mianzhang.org/press/public-launch-2026-07-01.html
+- Benchmark Reality Gap Review Packet v1: https://mianzhang.org/press/public-launch-2026-07-02.html
 
 ## Cross-links
 

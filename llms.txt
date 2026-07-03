@@ -4,8 +4,8 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-01.html
-Independent Other Review Packet v1, 2026-07-01.
+https://mianzhang.org/press/public-launch-2026-07-02.html
+Benchmark Reality Gap Review Packet v1, 2026-07-02.
 Canonical archive:
 https://zenodo.org/records/20027295
 
@@ -33,13 +33,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-02: Benchmark Reality Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-02.html
 - 2026-07-01: Independent Other Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-01.html
 - 2026-06-30: Next-Cycle Single-Claim Public Review Plan v1 - https://mianzhang.org/press/public-launch-2026-06-30.html
 - 2026-06-29: 30-Day Claim Status Review v1 - https://mianzhang.org/press/public-launch-2026-06-29.html
 - 2026-06-28: Full Public Evidence QA v1 - https://mianzhang.org/press/public-launch-2026-06-28.html
 - 2026-06-27: P41-P45 Challenge Board v1 - https://mianzhang.org/press/public-launch-2026-06-27.html
 - 2026-06-26: Action System Refusal Layer v1 - https://mianzhang.org/press/public-launch-2026-06-26.html
-- 2026-06-25: Protocol Paper Evidence Tier Map v1 - https://mianzhang.org/press/public-launch-2026-06-25.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
