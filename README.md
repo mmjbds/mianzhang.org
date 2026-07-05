@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Home Robot Delivery Gap Review Packet v1: https://mianzhang.org/press/public-launch-2026-07-04.html
+- Strategy Noise Recheck v1: https://mianzhang.org/press/public-launch-2026-07-05.html
 
 ## Cross-links
 
