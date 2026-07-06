@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-05.html
-Strategy Noise Recheck v1, 2026-07-05.
+https://mianzhang.org/press/public-launch-2026-07-06.html
+Dissent as Evidence Route v1, 2026-07-06.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-05.html
-- Artifact: strategy_noise_recheck_v1
-- Claim: An AI strategy without an exit condition is not a strategy object.
-- Description: A public review packet for enterprise AI strategy and board accountability: claim id, strategy thesis, AI spending line, proof-of-concept scope, pilot mode, exit condition, ROI evidence, observability route, production deployment gate, counterexample route, and review status.
-- Fields: claim_id, strategy_thesis, ai_spending_line, proof_of_concept_scope, pilot_mode, exit_condition, roi_evidence, observability_route, production_deployment_gate, counterexample_route, review_status
-- Topics: enterprise AI ROI, agentic AI, AI spending, proof of concept, pilot mode, AI governance, tokenomics, board accountability, observability, production deployment, strategy noise, exit condition, counterexample route, review status
+- URL: https://mianzhang.org/press/public-launch-2026-07-06.html
+- Artifact: dissent_as_evidence_route_v1
+- Claim: Consensus is not evidence unless dissent has a route into the decision.
+- Description: A public review packet for leadership, decision making, and organizational design: claim id, decision claim, consensus record, silent stakeholder, dissent signal, meeting record, OKR link, counterexample route, boundary update, and review status.
+- Fields: claim_id, decision_claim, consensus_record, silent_stakeholder, dissent_signal, meeting_record, okr_link, counterexample_route, boundary_update, review_status
+- Topics: leadership, decision making, organizational design, management, governance, AI meeting notes, remote collaboration, OKR, meeting culture, dissent signal, silent stakeholder, counterexample route, boundary update, review status
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,13 +41,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-06: Dissent as Evidence Route v1 - https://mianzhang.org/press/public-launch-2026-07-06.html
 - 2026-07-05: Strategy Noise Recheck v1 - https://mianzhang.org/press/public-launch-2026-07-05.html
 - 2026-07-04: Home Robot Delivery Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-04.html
 - 2026-07-03: Organization Echo Chamber Check v2 - https://mianzhang.org/press/public-launch-2026-07-03.html
 - 2026-07-02: Benchmark Reality Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-02.html
 - 2026-07-01: Independent Other Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-01.html
 - 2026-06-30: Next-Cycle Single-Claim Public Review Plan v1 - https://mianzhang.org/press/public-launch-2026-06-30.html
-- 2026-06-29: 30-Day Claim Status Review v1 - https://mianzhang.org/press/public-launch-2026-06-29.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
