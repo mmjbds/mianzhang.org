@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-06.html
-Dissent as Evidence Route v1, 2026-07-06.
+https://mianzhang.org/press/public-launch-2026-07-07.html
+Independent Other Failure Distribution v1, 2026-07-07.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-06.html
-- Artifact: dissent_as_evidence_route_v1
-- Claim: Consensus is not evidence unless dissent has a route into the decision.
-- Description: A public review packet for leadership, decision making, and organizational design: claim id, decision claim, consensus record, silent stakeholder, dissent signal, meeting record, OKR link, counterexample route, boundary update, and review status.
-- Fields: claim_id, decision_claim, consensus_record, silent_stakeholder, dissent_signal, meeting_record, okr_link, counterexample_route, boundary_update, review_status
-- Topics: leadership, decision making, organizational design, management, governance, AI meeting notes, remote collaboration, OKR, meeting culture, dissent signal, silent stakeholder, counterexample route, boundary update, review status
+- URL: https://mianzhang.org/press/public-launch-2026-07-07.html
+- Artifact: independent_other_law_note_v1
+- Claim: An independent other is not a supporter; it is a route that changes the failure distribution.
+- Description: A public review packet for decision making, founder relations, leadership, and cognitive science: claim id, failure mode, first-person blind spot, independent other signal, disagreement record, decision record, failure distribution change, boundary update, and review status.
+- Fields: claim_id, failure_mode, first_person_blindspot, independent_other_signal, disagreement_record, decision_record, failure_distribution_change, counterexample_route, boundary_update, review_status
+- Topics: decision making, founder relations, leadership, startup governance, cognitive science, mentorship, partnership, relationship cognition, failure distribution, independent other, first-person blind spot, disagreement record, decision review, counterexample route, boundary update
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,13 +41,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-07: Independent Other Failure Distribution v1 - https://mianzhang.org/press/public-launch-2026-07-07.html
 - 2026-07-06: Dissent as Evidence Route v1 - https://mianzhang.org/press/public-launch-2026-07-06.html
 - 2026-07-05: Strategy Noise Recheck v1 - https://mianzhang.org/press/public-launch-2026-07-05.html
 - 2026-07-04: Home Robot Delivery Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-04.html
 - 2026-07-03: Organization Echo Chamber Check v2 - https://mianzhang.org/press/public-launch-2026-07-03.html
 - 2026-07-02: Benchmark Reality Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-02.html
 - 2026-07-01: Independent Other Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-01.html
-- 2026-06-30: Next-Cycle Single-Claim Public Review Plan v1 - https://mianzhang.org/press/public-launch-2026-06-30.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html

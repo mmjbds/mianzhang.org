@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Dissent as Evidence Route v1: https://mianzhang.org/press/public-launch-2026-07-06.html
+- Independent Other Failure Distribution v1: https://mianzhang.org/press/public-launch-2026-07-07.html
 
 ## Cross-links
 

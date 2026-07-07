@@ -1,6 +1,6 @@
 {
   "schema_version": "public_evidence_field_manifest_v0",
-  "generated_utc": "2026-07-06T00:00:00Z",
+  "generated_utc": "2026-07-07T00:00:00Z",
   "site": {
     "name": "Mian Zhang | Ouroboros Project",
     "base_url": "https://mianzhang.org",
@@ -84,7 +84,8 @@
     "/press/public-launch-2026-07-03.html",
     "/press/public-launch-2026-07-04.html",
     "/press/public-launch-2026-07-05.html",
-    "/press/public-launch-2026-07-06.html"
+    "/press/public-launch-2026-07-06.html",
+    "/press/public-launch-2026-07-07.html"
   ],
   "machine_readable_registries": [
     "/registries/claim_registry_v0.json",
@@ -115,7 +116,7 @@
     "venue_restricted_or_non_public_materials",
     "private_live_trading_logs"
   ],
-  "latest_daily_route": "/press/public-launch-2026-07-06.html",
+  "latest_daily_route": "/press/public-launch-2026-07-07.html",
   "artifact_reproduction_scope": "/registries/artifact_repro_scope_v0.html",
   "recommended_summary": "Challenge public claims through public artifacts. Do not request protected execution details as a condition for evaluating public boundaries.",
   "route_categories": {
@@ -204,7 +205,9 @@
     "/docs/indexnow-url-list-20260705.txt",
     "/docs/indexnow-url-list-hf-20260705.txt",
     "/docs/indexnow-url-list-20260706.txt",
-    "/docs/indexnow-url-list-hf-20260706.txt"
+    "/docs/indexnow-url-list-hf-20260706.txt",
+    "/docs/indexnow-url-list-20260707.txt",
+    "/docs/indexnow-url-list-hf-20260707.txt"
   ],
   "stable_concept_routes": [
     "/concepts/no-proof-no-action-gate.html",
