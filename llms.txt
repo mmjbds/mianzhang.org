@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-07.html
-Independent Other Failure Distribution v1, 2026-07-07.
+https://mianzhang.org/press/public-launch-2026-07-08.html
+Action Refusal Gate v1, 2026-07-08.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-07.html
-- Artifact: independent_other_law_note_v1
-- Claim: An independent other is not a supporter; it is a route that changes the failure distribution.
-- Description: A public review packet for decision making, founder relations, leadership, and cognitive science: claim id, failure mode, first-person blind spot, independent other signal, disagreement record, decision record, failure distribution change, boundary update, and review status.
-- Fields: claim_id, failure_mode, first_person_blindspot, independent_other_signal, disagreement_record, decision_record, failure_distribution_change, counterexample_route, boundary_update, review_status
-- Topics: decision making, founder relations, leadership, startup governance, cognitive science, mentorship, partnership, relationship cognition, failure distribution, independent other, first-person blind spot, disagreement record, decision review, counterexample route, boundary update
+- URL: https://mianzhang.org/press/public-launch-2026-07-08.html
+- Artifact: action_refusal_gate_v1
+- Claim: An AI agent that can act still needs a gate that tells it when to refuse.
+- Description: A public review packet for AI agents, MCP tools, tool calling, guardrails, and agent governance: claim id, requested action, tool permission, authority source, evidence state, refusal trigger, fallback route, audit record, boundary update, and review status.
+- Fields: claim_id, requested_action, tool_permission, authority_source, evidence_state, refusal_trigger, fallback_route, audit_record, boundary_update, review_status
+- Topics: AI agents, MCP, tool calling, guardrails, AI safety, agent governance, permission management, automation, action refusal, refusal trigger, fallback route, audit record, authority source, boundary update
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,13 +41,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-08: Action Refusal Gate v1 - https://mianzhang.org/press/public-launch-2026-07-08.html
 - 2026-07-07: Independent Other Failure Distribution v1 - https://mianzhang.org/press/public-launch-2026-07-07.html
 - 2026-07-06: Dissent as Evidence Route v1 - https://mianzhang.org/press/public-launch-2026-07-06.html
 - 2026-07-05: Strategy Noise Recheck v1 - https://mianzhang.org/press/public-launch-2026-07-05.html
 - 2026-07-04: Home Robot Delivery Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-04.html
 - 2026-07-03: Organization Echo Chamber Check v2 - https://mianzhang.org/press/public-launch-2026-07-03.html
 - 2026-07-02: Benchmark Reality Gap Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-02.html
-- 2026-07-01: Independent Other Review Packet v1 - https://mianzhang.org/press/public-launch-2026-07-01.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html

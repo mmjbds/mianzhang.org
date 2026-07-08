@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Independent Other Failure Distribution v1: https://mianzhang.org/press/public-launch-2026-07-07.html
+- Action Refusal Gate v1: https://mianzhang.org/press/public-launch-2026-07-08.html
 
 ## Cross-links
 
