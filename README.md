@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Action Refusal Gate v1: https://mianzhang.org/press/public-launch-2026-07-08.html
+- Observation Action Split v1: https://mianzhang.org/press/public-launch-2026-07-09.html
 
 ## Cross-links
 
