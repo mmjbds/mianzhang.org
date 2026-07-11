@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Multi-Agent Authority Ledger v1: https://mianzhang.org/press/public-launch-2026-07-10.html
+- Fluent Hallucination Fallback v1: https://mianzhang.org/press/public-launch-2026-07-11.html
 
 ## Cross-links
 
