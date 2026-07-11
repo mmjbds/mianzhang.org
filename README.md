@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Fluent Hallucination Fallback v1: https://mianzhang.org/press/public-launch-2026-07-11.html
+- Bounded Self-Modification Gate v1: https://mianzhang.org/press/public-launch-2026-07-12.html
 
 ## Cross-links
 
