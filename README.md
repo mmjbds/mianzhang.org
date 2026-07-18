@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Learning Integrity Loop v1: https://mianzhang.org/press/public-launch-2026-07-14.html
+- Identity Compression Check v1: https://mianzhang.org/press/public-launch-2026-07-18.html
 
 ## Cross-links
 

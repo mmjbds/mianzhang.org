@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-14.html
-Learning Integrity Loop v1, 2026-07-14.
+https://mianzhang.org/press/public-launch-2026-07-18.html
+Identity Compression Check v1, 2026-07-18.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-14.html
-- Artifact: learning_integrity_loop_v1
-- Claim: An AI-assisted answer is not evidence of learning until transfer, error memory, and ownership are recorded.
-- Description: A public review packet for AI-assisted learning, education integrity, student assessment, homework automation, tutoring systems, transfer tests, and accountable feedback: learner attempt, AI assistance level, explanation without AI, error memory, transfer test, feedback owner, evidence timestamp, boundary update, and review status.
-- Fields: claim_id, learner_attempt, ai_assistance_level, explanation_without_ai, error_memory, transfer_test, feedback_owner, evidence_timestamp, boundary_update, review_status
-- Topics: AI-assisted learning, education integrity, student assessment, homework automation, AI tutoring, academic honesty, learning transfer, transfer test, learner attempt, AI assistance level, explanation without AI, error memory, feedback owner, boundary update, review status
+- URL: https://mianzhang.org/press/public-launch-2026-07-18.html
+- Artifact: identity_compression_check_v1
+- Claim: When AI writes too smoothly, the writer can disappear first.
+- Description: A public review packet for AI writing, source voice, borrowed pattern ratio, lived experience, dissenting view, reusable phrase, and audience memory: source voice, borrowed pattern ratio, lived experience anchor, dissenting view, reusable phrase, audience memory, evidence timestamp, boundary update, and review status.
+- Fields: claim_id, source_voice, borrowed_pattern_ratio, lived_experience_anchor, dissenting_view, reusable_phrase, audience_memory, evidence_timestamp, boundary_update, review_status
+- Topics: AI writing, authorship, content saturation, helpful content, borrowed patterns, audience memory, style compression, lived experience, review protocol, content quality
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,13 +41,13 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-18: Identity Compression Check v1 - https://mianzhang.org/press/public-launch-2026-07-18.html
+- 2026-07-17: Efficiency Rebound Ledger v1 - https://mianzhang.org/press/public-launch-2026-07-17.html
+- 2026-07-16: Voice Identity Action Gate v1 - https://mianzhang.org/press/public-launch-2026-07-16.html
+- 2026-07-15: Companion Correction Boundary v1 - https://mianzhang.org/press/public-launch-2026-07-15.html
 - 2026-07-14: Learning Integrity Loop v1 - https://mianzhang.org/press/public-launch-2026-07-14.html
 - 2026-07-13: Apprenticeship Failure Gap v1 - https://mianzhang.org/press/public-launch-2026-07-13.html
 - 2026-07-12: Bounded Self-Modification Gate v1 - https://mianzhang.org/press/public-launch-2026-07-12.html
-- 2026-07-11: Fluent Hallucination Fallback v1 - https://mianzhang.org/press/public-launch-2026-07-11.html
-- 2026-07-10: Multi-Agent Authority Ledger v1 - https://mianzhang.org/press/public-launch-2026-07-10.html
-- 2026-07-09: Observation Action Split v1 - https://mianzhang.org/press/public-launch-2026-07-09.html
-- 2026-07-08: Action Refusal Gate v1 - https://mianzhang.org/press/public-launch-2026-07-08.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
