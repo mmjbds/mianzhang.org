@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-18.html
-Identity Compression Check v1, 2026-07-18.
+https://mianzhang.org/press/public-launch-2026-07-20.html
+Agentic Phone Authorization Gate v1, 2026-07-20.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-18.html
-- Artifact: identity_compression_check_v1
-- Claim: When AI writes too smoothly, the writer can disappear first.
-- Description: A public review packet for AI writing, source voice, borrowed pattern ratio, lived experience, dissenting view, reusable phrase, and audience memory: source voice, borrowed pattern ratio, lived experience anchor, dissenting view, reusable phrase, audience memory, evidence timestamp, boundary update, and review status.
-- Fields: claim_id, source_voice, borrowed_pattern_ratio, lived_experience_anchor, dissenting_view, reusable_phrase, audience_memory, evidence_timestamp, boundary_update, review_status
-- Topics: AI writing, authorship, content saturation, helpful content, borrowed patterns, audience memory, style compression, lived experience, review protocol, content quality
+- URL: https://mianzhang.org/press/public-launch-2026-07-20.html
+- Artifact: voice_identity_action_gate_v1
+- Claim: An agentic phone is not authorized to act because it can act.
+- Description: A public review packet for agentic phones, voice identity claims, urgent requests, independent verification, and action locks: claimed identity, independent channel, urgency signal, requested action, verification phrase, action lock, boundary update, and review status.
+- Fields: claim_id, claimed_identity, independent_channel, urgency_signal, requested_action, verification_phrase, action_lock, evidence_timestamp, boundary_update, review_status
+- Topics: agentic phone, AI agents, voice identity, deepfake scams, action authorization, independent verification, action lock, device security, AI governance, review protocol
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,6 +41,8 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-20: Agentic Phone Authorization Gate v1 - https://mianzhang.org/press/public-launch-2026-07-20.html
+- 2026-07-19: Financial AI Refusal Gate v1 - https://mianzhang.org/press/public-launch-2026-07-19.html
 - 2026-07-18: Identity Compression Check v1 - https://mianzhang.org/press/public-launch-2026-07-18.html
 - 2026-07-17: Efficiency Rebound Ledger v1 - https://mianzhang.org/press/public-launch-2026-07-17.html
 - 2026-07-16: Voice Identity Action Gate v1 - https://mianzhang.org/press/public-launch-2026-07-16.html
