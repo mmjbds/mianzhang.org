@@ -1,0 +1,36 @@
+{
+  "receipt_id": "indexnow-daily-2026-07-21",
+  "provider": "IndexNow",
+  "submitted_at_utc": "2026-07-21T15:50:01Z",
+  "coverage": {
+    "daily_range": "2026-07-21",
+    "daily_url_list_count_per_host": 1,
+    "daily_page_count_per_host": 1,
+    "deduplicated_url_count_per_host": 9,
+    "source_lists": {
+      "main": "https://mianzhang.org/docs/indexnow-url-list-20260721.txt",
+      "hf": "https://mmjbds-mianzhang-org.static.hf.space/docs/indexnow-url-list-hf-20260721.txt"
+    }
+  },
+  "submissions": [
+    {
+      "host": "mianzhang.org",
+      "key_location": "https://mianzhang.org/indexnow-key.txt",
+      "url_count": 9,
+      "status_code": 200,
+      "response_body": "",
+      "submitted_at_utc": "2026-07-21T15:50:01Z",
+      "submitted_at_asia_shanghai": "2026-07-21T23:50:01+08:00"
+    },
+    {
+      "host": "mmjbds-mianzhang-org.static.hf.space",
+      "key_location": "https://mmjbds-mianzhang-org.static.hf.space/indexnow-key.txt",
+      "url_count": 9,
+      "status_code": 200,
+      "response_body": "",
+      "submitted_at_utc": "2026-07-21T15:50:03Z",
+      "submitted_at_asia_shanghai": "2026-07-21T23:50:03+08:00"
+    }
+  ],
+  "boundary": "HTTP 200 records IndexNow API acceptance only. It does not prove Bing Webmaster submission, crawl completion, Google indexing, Bing indexing, ranking, or AI retrieval."
+}
