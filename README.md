@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Agentic Phone Authorization Gate v1: https://mianzhang.org/press/public-launch-2026-07-20.html
+- Benchmark Transfer Value Profile v1: https://mianzhang.org/press/public-launch-2026-07-21.html
 
 ## Cross-links
 

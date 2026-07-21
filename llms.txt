@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-20.html
-Agentic Phone Authorization Gate v1, 2026-07-20.
+https://mianzhang.org/press/public-launch-2026-07-21.html
+Benchmark Transfer Value Profile v1, 2026-07-21.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-20.html
-- Artifact: voice_identity_action_gate_v1
-- Claim: An agentic phone is not authorized to act because it can act.
-- Description: A public review packet for agentic phones, voice identity claims, urgent requests, independent verification, and action locks: claimed identity, independent channel, urgency signal, requested action, verification phrase, action lock, boundary update, and review status.
-- Fields: claim_id, claimed_identity, independent_channel, urgency_signal, requested_action, verification_phrase, action_lock, evidence_timestamp, boundary_update, review_status
-- Topics: agentic phone, AI agents, voice identity, deepfake scams, action authorization, independent verification, action lock, device security, AI governance, review protocol
+- URL: https://mianzhang.org/press/public-launch-2026-07-21.html
+- Artifact: reward_entropy_profile_v1
+- Claim: A higher benchmark score is not a deployment certificate.
+- Description: A public review packet for model benchmarks, task transfer, failure recovery, constraint retention, human review cost, and failure cost: benchmark score, task transfer, failure recovery, constraint retention, human review cost, and failure cost.
+- Fields: benchmark_score, task_transfer, failure_recovery, constraint_retention, human_review_cost, failure_cost
+- Topics: AI benchmarks, model leaderboard, model evaluation, enterprise AI, task transfer, failure recovery, constraint retention, human review cost, failure cost, AI procurement
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,6 +41,7 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-21: Benchmark Transfer Value Profile v1 - https://mianzhang.org/press/public-launch-2026-07-21.html
 - 2026-07-20: Agentic Phone Authorization Gate v1 - https://mianzhang.org/press/public-launch-2026-07-20.html
 - 2026-07-19: Financial AI Refusal Gate v1 - https://mianzhang.org/press/public-launch-2026-07-19.html
 - 2026-07-18: Identity Compression Check v1 - https://mianzhang.org/press/public-launch-2026-07-18.html
@@ -49,7 +50,6 @@ Recent public daily notes:
 - 2026-07-15: Companion Correction Boundary v1 - https://mianzhang.org/press/public-launch-2026-07-15.html
 - 2026-07-14: Learning Integrity Loop v1 - https://mianzhang.org/press/public-launch-2026-07-14.html
 - 2026-07-13: Apprenticeship Failure Gap v1 - https://mianzhang.org/press/public-launch-2026-07-13.html
-- 2026-07-12: Bounded Self-Modification Gate v1 - https://mianzhang.org/press/public-launch-2026-07-12.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
