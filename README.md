@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- Benchmark Transfer Value Profile v1: https://mianzhang.org/press/public-launch-2026-07-21.html
+- AI Workforce Rebound Allocation Review v1: https://mianzhang.org/press/public-launch-2026-07-22.html
 
 ## Cross-links
 

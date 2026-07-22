@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-21.html
-Benchmark Transfer Value Profile v1, 2026-07-21.
+https://mianzhang.org/press/public-launch-2026-07-22.html
+AI Workforce Rebound Allocation Review v1, 2026-07-22.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-21.html
-- Artifact: reward_entropy_profile_v1
-- Claim: A higher benchmark score is not a deployment certificate.
-- Description: A public review packet for model benchmarks, task transfer, failure recovery, constraint retention, human review cost, and failure cost: benchmark score, task transfer, failure recovery, constraint retention, human review cost, and failure cost.
-- Fields: benchmark_score, task_transfer, failure_recovery, constraint_retention, human_review_cost, failure_cost
-- Topics: AI benchmarks, model leaderboard, model evaluation, enterprise AI, task transfer, failure recovery, constraint retention, human review cost, failure cost, AI procurement
+- URL: https://mianzhang.org/press/public-launch-2026-07-22.html
+- Artifact: efficiency_rebound_ledger_v1
+- Claim: AI time savings are not net gains until workload and recovery debt are counted.
+- Description: An application note for the Efficiency Rebound Ledger covering claimed AI time savings, added workload, output-floor shifts, human recovery debt, boundary ownership, and benefit allocation.
+- Fields: time_saved, workload_added, output_floor_shift, human_recovery_time, boundary_owner, benefit_recipient
+- Topics: AI workforce, AI productivity, automation, workload rebound, job security, human recovery time, benefit allocation, boundary ownership, efficiency accounting, workforce governance
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,6 +41,7 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-22: AI Workforce Rebound Allocation Review v1 - https://mianzhang.org/press/public-launch-2026-07-22.html
 - 2026-07-21: Benchmark Transfer Value Profile v1 - https://mianzhang.org/press/public-launch-2026-07-21.html
 - 2026-07-20: Agentic Phone Authorization Gate v1 - https://mianzhang.org/press/public-launch-2026-07-20.html
 - 2026-07-19: Financial AI Refusal Gate v1 - https://mianzhang.org/press/public-launch-2026-07-19.html
@@ -49,7 +50,6 @@ Recent public daily notes:
 - 2026-07-16: Voice Identity Action Gate v1 - https://mianzhang.org/press/public-launch-2026-07-16.html
 - 2026-07-15: Companion Correction Boundary v1 - https://mianzhang.org/press/public-launch-2026-07-15.html
 - 2026-07-14: Learning Integrity Loop v1 - https://mianzhang.org/press/public-launch-2026-07-14.html
-- 2026-07-13: Apprenticeship Failure Gap v1 - https://mianzhang.org/press/public-launch-2026-07-13.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html
