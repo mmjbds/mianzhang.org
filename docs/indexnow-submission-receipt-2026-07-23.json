@@ -28,9 +28,17 @@
       "url_count": 9,
       "status_code": 200,
       "response_body": "",
-      "submitted_at_utc": "2026-07-24T14:20:52Z",
-      "submitted_at_asia_shanghai": "2026-07-24T22:20:52+08:00"
+      "submitted_at_utc": "2026-07-24T15:34:33Z",
+      "submitted_at_asia_shanghai": "2026-07-24T23:34:33+08:00"
     }
   ],
+  "correction": {
+    "affected_host": "mmjbds-mianzhang-org.static.hf.space",
+    "reason": "The Hugging Face press archive route was normalized from /press/ to /press/index.html after the bare path resolved outside the static mirror.",
+    "superseded_hf_submission_at_utc": "2026-07-24T14:20:52Z",
+    "corrected_hf_submission_at_utc": "2026-07-24T15:34:33Z",
+    "corrected_url_count": 9,
+    "status_code": 200
+  },
   "boundary": "HTTP 200 records IndexNow API acceptance only. It does not prove Bing Webmaster submission, crawl completion, Google indexing, Bing indexing, ranking, or AI retrieval."
 }
