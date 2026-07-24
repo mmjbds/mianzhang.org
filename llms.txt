@@ -4,15 +4,15 @@ Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest public note:
-https://mianzhang.org/press/public-launch-2026-07-22.html
-AI Workforce Rebound Allocation Review v1, 2026-07-22.
+https://mianzhang.org/press/public-launch-2026-07-24.html
+Active Compute Cost Sheet v1, 2026-07-24.
 Latest public note machine summary:
-- URL: https://mianzhang.org/press/public-launch-2026-07-22.html
-- Artifact: efficiency_rebound_ledger_v1
-- Claim: AI time savings are not net gains until workload and recovery debt are counted.
-- Description: An application note for the Efficiency Rebound Ledger covering claimed AI time savings, added workload, output-floor shifts, human recovery debt, boundary ownership, and benefit allocation.
-- Fields: time_saved, workload_added, output_floor_shift, human_recovery_time, boundary_owner, benefit_recipient
-- Topics: AI workforce, AI productivity, automation, workload rebound, job security, human recovery time, benefit allocation, boundary ownership, efficiency accounting, workforce governance
+- URL: https://mianzhang.org/press/public-launch-2026-07-24.html
+- Artifact: active_compute_cost_sheet_v1
+- Claim: AI task cost is not a parameter count.
+- Description: A task-level AI infrastructure cost review covering total and active parameters, model storage, peak activation memory, communication wait, task throughput, energy per task, and idle capacity.
+- Fields: total_parameters, active_parameters, model_storage, peak_activation, communication_wait, task_throughput, energy_per_task
+- Topics: AI compute, mixture of experts, active parameters, AI infrastructure cost, activation memory, communication overhead, task throughput, energy per task, AI procurement, data center efficiency
 
 Canonical archive:
 https://zenodo.org/records/20027295
@@ -41,6 +41,8 @@ Core public entry points:
 - Robots: https://mianzhang.org/robots.txt
 
 Recent public daily notes:
+- 2026-07-24: Active Compute Cost Sheet v1 - https://mianzhang.org/press/public-launch-2026-07-24.html
+- 2026-07-23: Humanoid Robot Mission-Loss Profile v1 - https://mianzhang.org/press/public-launch-2026-07-23.html
 - 2026-07-22: AI Workforce Rebound Allocation Review v1 - https://mianzhang.org/press/public-launch-2026-07-22.html
 - 2026-07-21: Benchmark Transfer Value Profile v1 - https://mianzhang.org/press/public-launch-2026-07-21.html
 - 2026-07-20: Agentic Phone Authorization Gate v1 - https://mianzhang.org/press/public-launch-2026-07-20.html
@@ -48,8 +50,6 @@ Recent public daily notes:
 - 2026-07-18: Identity Compression Check v1 - https://mianzhang.org/press/public-launch-2026-07-18.html
 - 2026-07-17: Efficiency Rebound Ledger v1 - https://mianzhang.org/press/public-launch-2026-07-17.html
 - 2026-07-16: Voice Identity Action Gate v1 - https://mianzhang.org/press/public-launch-2026-07-16.html
-- 2026-07-15: Companion Correction Boundary v1 - https://mianzhang.org/press/public-launch-2026-07-15.html
-- 2026-07-14: Learning Integrity Loop v1 - https://mianzhang.org/press/public-launch-2026-07-14.html
 Stable concept entries:
 - No-Proof No-Action Gate: https://mianzhang.org/concepts/no-proof-no-action-gate.html
 - Self-Certification Grounding Check: https://mianzhang.org/concepts/self-certification-grounding-check.html

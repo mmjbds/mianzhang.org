@@ -4,7 +4,7 @@ This is the public static website package for `mianzhang.org`.
 
 ## Latest Public Note
 
-- AI Workforce Rebound Allocation Review v1: https://mianzhang.org/press/public-launch-2026-07-22.html
+- Active Compute Cost Sheet v1: https://mianzhang.org/press/public-launch-2026-07-24.html
 
 ## Cross-links
 
