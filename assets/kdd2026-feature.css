@@ -21,9 +21,9 @@
   display: flex;
   align-items: flex-end;
   padding: 68px 5vw;
-  background-image: url("kdd2026-hero.webp");
+  background-image: url("kdd2026-hero-v2.webp");
   background-size: cover;
-  background-position: center;
+  background-position: center 50%;
   isolation: isolate;
 }
 
@@ -196,7 +196,9 @@
 }
 
 .kdd-paper-visual img {
+  display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border: 1px solid rgba(17, 16, 13, 0.15);
@@ -350,7 +352,9 @@
 }
 
 .kdd-gallery img {
+  display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
@@ -411,7 +415,7 @@
   .kdd-hero {
     min-height: 620px;
     height: 74vh;
-    background-position: 46% center;
+    background-position: 46% 50%;
   }
 
   .kdd-hero h1 {
@@ -443,7 +447,7 @@
     min-height: 610px;
     height: 78vh;
     padding: 42px 5vw;
-    background-position: 39% center;
+    background-position: 24% 50%;
   }
 
   .kdd-hero h1 {

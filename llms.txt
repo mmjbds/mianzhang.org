@@ -5,7 +5,7 @@ Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
 Latest research feature:
 https://mianzhang.org/press/kdd-2026-two-workshop-papers.html
-Mian Zhang at KDD 2026: two non-archival workshop papers, one oral presentation and one poster presentation.
+Mian Zhang at KDD 2026: two accepted and presented non-archival workshop papers, one oral presentation and one poster presentation.
 Chinese feature:
 https://mianzhang.org/zh/kdd-2026-two-workshop-papers/
 Technical paper index and machine-readable facts:

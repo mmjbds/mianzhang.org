@@ -9,6 +9,7 @@
   <meta name="keywords" content="Mian Zhang KDD 2026, ReflexBench, Cognitive Immunity, AI智能体评测, 观察者参与者失效, 大模型失败记忆, AI安全">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://mianzhang.org/zh/kdd-2026-two-workshop-papers/">
+  <meta property="og:locale" content="zh_CN">
   <meta property="og:title" content="Mian Zhang 在 KDD 2026：两篇 Workshop 论文">
   <meta property="og:description" content="一篇测量 AI 改变世界后的推理退化，一篇把已观察失败变成有边界、可审计的运行时记忆。">
   <meta property="og:image" content="https://mianzhang.org/assets/kdd2026-square.jpg">
@@ -16,6 +17,9 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="1200">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mian Zhang 在 KDD 2026：两篇 Workshop 论文">
+  <meta name="twitter:description" content="ReflexBench 研究 AI 改变世界后的推理退化；Cognitive Immunity 研究可审计的失败记忆。">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/kdd2026-square.jpg">
   <link rel="icon" href="../../favicon.png" type="image/png">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="stylesheet" href="../../assets/kdd2026-feature.css">
@@ -35,8 +39,23 @@
     "inLanguage": "zh-CN",
     "author": {"@type": "Person", "name": "Mian Zhang", "jobTitle": "Independent Researcher", "url": "https://mianzhang.org/"},
     "mainEntityOfPage": "https://mianzhang.org/zh/kdd-2026-two-workshop-papers/",
-    "image": "https://mianzhang.org/assets/kdd2026-square.jpg",
-    "about": ["KDD 2026", "ReflexBench", "Cognitive Immunity", "agentic AI evaluation", "trustworthy LLM agents", "failure memory"]
+    "image": [
+      "https://mianzhang.org/assets/kdd2026-square.jpg",
+      "https://mianzhang.org/assets/kdd2026-reflexbench.webp",
+      "https://mianzhang.org/assets/kdd2026-cognitive-immunity.webp",
+      "https://mianzhang.org/assets/kdd2026-lobby.webp"
+    ],
+    "about": ["KDD 2026", "ReflexBench", "Cognitive Immunity", "agentic AI evaluation", "trustworthy LLM agents", "failure memory"],
+    "hasPart": [
+      {"@id": "https://mianzhang.org/papers/kdd-2026/#reflexbench"},
+      {"@id": "https://mianzhang.org/papers/kdd-2026/#cognitive-immunity"}
+    ],
+    "citation": [
+      "https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/",
+      "https://secure-and-trustworthy-llm.github.io/",
+      "https://mianzhang.org/papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf",
+      "https://mianzhang.org/papers/kdd-2026/mian-zhang-kdd-2026-cognitive-immunity.pdf"
+    ]
   }
   </script>
 </head>
@@ -70,7 +89,7 @@
         <div class="kdd-copy">
           <p>推荐会改变偏好，交易会改变价格，政策建议会改变执行者，公开 benchmark 还会改变被评测者。一个模型在静态题面上表现优秀，不代表它能理解自己已经进入因果链。</p>
           <p>第二个缺口发生在失败之后：当前对话里把答案改对，不等于系统形成了耐久、可追溯、可撤销的防线。下一次遇到相似情境，它仍可能从零开始重犯。</p>
-          <p>2026 年 8 月，我以独立研究者身份在 ICC Jeju 完成两场现场展示。准确口径是：两篇论文分别被 KDD 2026 的两个 workshop 接收，ReflexBench 为口头报告，Cognitive Immunity 为海报报告；两篇均为 non-archival workshop paper，不属于 KDD 主会论文集。</p>
+          <p>2026 年 8 月，我以独立研究者身份在 ICC Jeju 完成两场现场展示。两篇论文分别被 KDD 2026 的两个 workshop 接收：ReflexBench 为口头报告，Cognitive Immunity 为海报报告。两篇均为 non-archival workshop paper，不属于 KDD 主会论文集。</p>
         </div>
       </div>
     </section>
@@ -128,7 +147,7 @@
 
     <section class="kdd-band light">
       <div class="section-head"><p class="kicker">2026 年 8 月 · 济州</p><h2>现场记录</h2></div>
-      <div class="kdd-gallery"><figure><img src="../../assets/kdd2026-venue.webp" alt="KDD 2026 会场 ICC Jeju 外景。" width="1600" height="1200" loading="lazy"><figcaption>ICC Jeju。</figcaption></figure><figure><img src="../../assets/kdd2026-banner.webp" alt="ICC Jeju 内的 KDD 2026 横幅。" width="1600" height="1200" loading="lazy"><figcaption>KDD 2026 会场。</figcaption></figure><figure><img src="../../assets/kdd2026-stage.webp" alt="KDD 2026 主会场舞台。" width="1600" height="1200" loading="lazy"><figcaption>KDD 2026 主会场。</figcaption></figure></div>
+      <div class="kdd-gallery"><figure><img src="../../assets/kdd2026-venue.webp" alt="KDD 2026 会场 ICC Jeju 外景。" width="1600" height="1200" loading="lazy"><figcaption>ICC Jeju。</figcaption></figure><figure><img src="../../assets/kdd2026-lobby.webp" alt="KDD 2026 期间，研究者与参会者聚集在 ICC Jeju 大厅交流。" width="1600" height="1200" loading="lazy"><figcaption>KDD 2026 期间的 ICC Jeju 大厅。</figcaption></figure><figure><img src="../../assets/kdd2026-stage.webp" alt="KDD 2026 主会场舞台。" width="1600" height="1200" loading="lazy"><figcaption>KDD 2026 主会场。</figcaption></figure></div>
     </section>
 
     <section class="kdd-band white">
