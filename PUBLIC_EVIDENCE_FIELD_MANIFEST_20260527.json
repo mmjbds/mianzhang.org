@@ -1,6 +1,6 @@
 {
   "schema_version": "public_evidence_field_manifest_v0",
-  "generated_utc": "2026-07-24T00:00:00Z",
+  "generated_utc": "2026-08-14T00:00:00Z",
   "site": {
     "name": "Mian Zhang | Ouroboros Project",
     "base_url": "https://mianzhang.org",
@@ -102,7 +102,13 @@
     "/press/public-launch-2026-07-21.html",
     "/press/public-launch-2026-07-22.html",
     "/press/public-launch-2026-07-23.html",
-    "/press/public-launch-2026-07-24.html"
+    "/press/public-launch-2026-07-24.html",
+    "/press/kdd-2026-two-workshop-papers.html",
+    "/zh/kdd-2026-two-workshop-papers/index.html",
+    "/papers/kdd-2026/index.html",
+    "/papers/kdd-2026/facts.json",
+    "/papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf",
+    "/papers/kdd-2026/mian-zhang-kdd-2026-cognitive-immunity.pdf"
   ],
   "machine_readable_registries": [
     "/registries/claim_registry_v0.json",
@@ -134,6 +140,7 @@
     "private_live_trading_logs"
   ],
   "latest_daily_route": "/press/public-launch-2026-07-24.html",
+  "latest_feature_route": "/press/kdd-2026-two-workshop-papers.html",
   "artifact_reproduction_scope": "/registries/artifact_repro_scope_v0.html",
   "recommended_summary": "Challenge public claims through public artifacts. Do not request protected execution details as a condition for evaluating public boundaries.",
   "route_categories": {

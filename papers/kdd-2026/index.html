@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KDD 2026 Workshop Papers | Mian Zhang</title>
+  <meta name="description" content="Technical index for Mian Zhang's two KDD 2026 workshop papers: ReflexBench and Cognitive Immunity, with PDFs, citations, methods, results, hashes, and claim boundaries.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mianzhang.org/papers/kdd-2026/">
+  <meta property="og:title" content="KDD 2026 Workshop Papers | Mian Zhang">
+  <meta property="og:description" content="ReflexBench and Cognitive Immunity: papers, formulas, evidence records, and boundaries.">
+  <meta property="og:image" content="https://mianzhang.org/assets/kdd2026-og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../assets/kdd2026-feature.css">
+  <link rel="canonical" href="https://mianzhang.org/papers/kdd-2026/">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Mian Zhang KDD 2026 Workshop Papers","url":"https://mianzhang.org/papers/kdd-2026/","dateModified":"2026-08-14","author":{"@type":"Person","name":"Mian Zhang"},"hasPart":[{"@type":"ScholarlyArticle","name":"ReflexBench: Evaluating Observer-Participant Failures and Counterfactual Trustworthiness in Agentic AI","url":"https://mianzhang.org/papers/kdd-2026/#reflexbench"},{"@type":"ScholarlyArticle","name":"Cognitive Immunity for Trustworthy LLM Agents: Auditable Failure Memory Against Repeated Safety Errors","url":"https://mianzhang.org/papers/kdd-2026/#cognitive-immunity"}]}</script>
+</head>
+<body class="kdd-page">
+  <header class="site-header"><a class="brand" href="../../"><span class="brand-mark"></span><span>Mian Zhang</span></a><nav aria-label="Primary navigation"><a href="../../">Home</a><a href="../">Papers</a><a href="../../evidence/">Evidence</a><a href="../../press/kdd-2026-two-workshop-papers.html">Feature</a><a href="../../zh/kdd-2026-two-workshop-papers/">Chinese</a></nav></header>
+  <main>
+    <section class="kdd-band light">
+      <div class="kdd-paper-index">
+        <p class="kicker">Technical release · 2026-08-14</p>
+        <h1>KDD 2026 Workshop Papers</h1>
+        <p class="lead">Two non-archival workshop papers by Mian Zhang, presented at KDD 2026 in Jeju. This page is the stable technical and citation index; it does not upgrade workshop status to KDD main-conference proceedings publication.</p>
+        <div class="kdd-link-row"><a href="../../press/kdd-2026-two-workshop-papers.html">English feature</a><a href="../../zh/kdd-2026-two-workshop-papers/">中文专题</a><a href="facts.json">Machine-readable facts JSON</a></div>
+
+        <article class="kdd-tech-record" id="reflexbench">
+          <p class="kicker">Oral presentation · August 9, 2026</p>
+          <h2>ReflexBench: Evaluating Observer-Participant Failures and Counterfactual Trustworthiness in Agentic AI</h2>
+          <p class="kdd-citation">Zhang, M. (2026). ReflexBench: Evaluating Observer-Participant Failures and Counterfactual Trustworthiness in Agentic AI. KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI. Non-archival workshop paper.</p>
+          <div class="kdd-metrics"><div><strong>20</strong><span>scenarios across six domains</span></div><div><strong>720</strong><span>scored responses from nine models</span></div><div><strong>about -0.44</strong><span>rounded mean shallow-to-deep degradation</span></div></div>
+          <h3>Core object</h3><p>Observer-participant failure: an agent gives a plausible answer while ignoring that its own output changes the users, evidence, incentives, actors, or environment being evaluated.</p>
+          <div class="kdd-formula">Delta_OD = mean(s_deep) - mean(s_shallow)<br>G_m = [S_m(2) + S_m(n)] / 2 - [S_m(0) + S_m(1)] / 2</div>
+          <h3>Evidence boundary</h3><p>Fixed public-model audit snapshot. The paper does not claim certification, permanent ranking, universal deployment validity, complete row-level statistical reproduction, or replacement of domain simulation and human review.</p>
+          <p><strong>PDF:</strong> 7 pages · SHA256 <code>D3158A27BDA1A177A2F4D74A1EEE57C394C11A9FEA1C9FC4768C3C3F0CE81BBC</code></p>
+          <div class="kdd-link-row"><a href="mian-zhang-kdd-2026-reflexbench.pdf">Download ReflexBench PDF</a><a href="https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/">Official workshop page</a></div>
+        </article>
+
+        <article class="kdd-tech-record" id="cognitive-immunity">
+          <p class="kicker">Poster presentation · August 10, 2026</p>
+          <h2>Cognitive Immunity for Trustworthy LLM Agents: Auditable Failure Memory Against Repeated Safety Errors</h2>
+          <p class="kdd-citation">Zhang, M. (2026). Cognitive Immunity for Trustworthy LLM Agents: Auditable Failure Memory Against Repeated Safety Errors. 2nd SeT-LLM Workshop on Secure and Trustworthy Large Language Models at KDD 2026. Non-archival workshop paper.</p>
+          <div class="kdd-metrics"><div><strong>0.764</strong><span>No Memory pooled severe-threshold RFR</span></div><div><strong>0.650</strong><span>Cognitive Immunity pooled RFR</span></div><div><strong>[-0.211, -0.003]</strong><span>95% bootstrap interval for paired delta</span></div></div>
+          <h3>Core object</h3><p>A runtime failure-memory layer: verified failure event, scoped antigen descriptor, bounded antibody rule, provenance-aware write gate, thresholded retrieval, decay, review, deletion, rollback, and an auditable intervention record.</p>
+          <div class="kdd-formula">f_t = (o_t, a_t, y_t, c_t)<br>(alpha_t, b_t) = B(f_t)<br>B_q = {b_i : d(alpha_i, alpha(q)) &lt;= rho, s_i &gt;= tau, q in scope(b_i)}</div>
+          <h3>Evidence boundary</h3><p>The score-level record supports recurrence reduction for known observed failure classes. It does not establish raw-response replication, calibrated safety, universal threat coverage, memory-poisoning resistance, or a replacement for red teaming, access control, sandboxing, and human oversight.</p>
+          <p><strong>PDF:</strong> 4 pages · SHA256 <code>ED9B901B973B142ABBCC701669B0981B30A55E9073A864057A8326A14952C2BF</code></p>
+          <div class="kdd-link-row"><a href="mian-zhang-kdd-2026-cognitive-immunity.pdf">Download Cognitive Immunity PDF</a><a href="https://secure-and-trustworthy-llm.github.io/">Official workshop page</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer><span>(C) 2026 Mian Zhang. Stable technical index for two non-archival KDD 2026 workshop papers.</span></footer>
+</body>
+</html>

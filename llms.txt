@@ -3,6 +3,25 @@
 Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
+Latest research feature:
+https://mianzhang.org/press/kdd-2026-two-workshop-papers.html
+Mian Zhang at KDD 2026: two non-archival workshop papers, one oral presentation and one poster presentation.
+Chinese feature:
+https://mianzhang.org/zh/kdd-2026-two-workshop-papers/
+Technical paper index and machine-readable facts:
+https://mianzhang.org/papers/kdd-2026/
+https://mianzhang.org/papers/kdd-2026/facts.json
+
+KDD 2026 feature facts:
+- Person: Mian Zhang, independent researcher.
+- ReflexBench: oral presentation at the KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI, August 9, 2026, ICC Jeju.
+- ReflexBench protocol: 20 scenarios, six domains, four observer-depth levels, nine public models, 720 scored responses.
+- ReflexBench signal: all tested models degraded at deeper observer levels; rounded mean shallow-to-deep degradation about -0.44.
+- Cognitive Immunity: poster presentation at the 2nd SeT-LLM Workshop on Secure and Trustworthy Large Language Models, August 10, 2026, ICC Jeju.
+- Cognitive Immunity protocol: 20 task templates, five rounds, three seeds, four strategies, 1,200 score events.
+- Cognitive Immunity result: pooled severe-threshold repeat failure rate 0.764 for No Memory and 0.650 for Cognitive Immunity; paired seed-task delta -0.106, 95% bootstrap interval [-0.211, -0.003].
+- Boundary: both are non-archival KDD 2026 workshop papers, not KDD main-conference proceedings papers, awards, SOTA claims, safety certification, or production validation.
+
 Latest public note:
 https://mianzhang.org/press/public-launch-2026-07-24.html
 Active Compute Cost Sheet v1, 2026-07-24.

@@ -2,7 +2,13 @@
 
 This is the public static website package for `mianzhang.org`.
 
-## Latest Public Note
+## Latest Research Feature
+
+- KDD 2026 two workshop papers: https://mianzhang.org/press/kdd-2026-two-workshop-papers.html
+- Chinese feature: https://mianzhang.org/zh/kdd-2026-two-workshop-papers/
+- Papers and machine-readable facts: https://mianzhang.org/papers/kdd-2026/
+
+## Latest Daily Note
 
 - Active Compute Cost Sheet v1: https://mianzhang.org/press/public-launch-2026-07-24.html
 
