@@ -1,0 +1,205 @@
+{
+  "receipt_id": "indexnow-kdd-2026-feature-2026-08-14",
+  "provider": "IndexNow",
+  "generated_at_utc": "2026-08-14T09:57:46Z",
+  "generated_at_asia_shanghai": "2026-08-14T17:57:46+08:00",
+  "coverage": {
+    "release": "KDD 2026 two-workshop-paper feature",
+    "main_url_count": 13,
+    "hf_url_count": 12,
+    "source_lists": {
+      "main": "https://mianzhang.org/docs/indexnow-url-list-20260814.txt",
+      "hf": "https://mmjbds-mianzhang-org.static.hf.space/docs/indexnow-url-list-hf-20260814.txt"
+    }
+  },
+  "preflight": {
+    "all_listed_urls_http_200": true,
+    "live_checks": {
+      "mianzhang.org": [
+        {
+          "url": "https://mianzhang.org/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 17891
+        },
+        {
+          "url": "https://mianzhang.org/llms.txt",
+          "status_code": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "bytes": 7284
+        },
+        {
+          "url": "https://mianzhang.org/sitemap.xml",
+          "status_code": 200,
+          "content_type": "application/xml",
+          "bytes": 39530
+        },
+        {
+          "url": "https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json",
+          "status_code": 200,
+          "content_type": "application/json; charset=utf-8",
+          "bytes": 13577
+        },
+        {
+          "url": "https://mianzhang.org/press/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 37506
+        },
+        {
+          "url": "https://mianzhang.org/press/kdd-2026-two-workshop-papers.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 21142
+        },
+        {
+          "url": "https://mianzhang.org/zh/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 10554
+        },
+        {
+          "url": "https://mianzhang.org/zh/kdd-2026-two-workshop-papers/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 15494
+        },
+        {
+          "url": "https://mianzhang.org/papers/index.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 35777
+        },
+        {
+          "url": "https://mianzhang.org/papers/kdd-2026/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 6916
+        },
+        {
+          "url": "https://mianzhang.org/papers/kdd-2026/facts.json",
+          "status_code": 200,
+          "content_type": "application/json; charset=utf-8",
+          "bytes": 3750
+        },
+        {
+          "url": "https://mianzhang.org/papers/kdd-2026/mian-zhang-kdd-2026-cognitive-immunity.pdf",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "bytes": 471501
+        },
+        {
+          "url": "https://mianzhang.org/papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "bytes": 108229
+        }
+      ],
+      "mmjbds-mianzhang-org.static.hf.space": [
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/index.html",
+          "status_code": 200,
+          "content_type": "text/html",
+          "bytes": 22961
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/llms.txt",
+          "status_code": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "bytes": 8242
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/sitemap.xml",
+          "status_code": 200,
+          "content_type": "application/xml",
+          "bytes": 40800
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json",
+          "status_code": 200,
+          "content_type": "application/json; charset=utf-8",
+          "bytes": 10662
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/press/index.html",
+          "status_code": 200,
+          "content_type": "text/html",
+          "bytes": 38632
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/press/kdd-2026-two-workshop-papers.html",
+          "status_code": 200,
+          "content_type": "text/html",
+          "bytes": 22099
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/zh/index.html",
+          "status_code": 200,
+          "content_type": "text/html",
+          "bytes": 3494
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/papers/index.html",
+          "status_code": 200,
+          "content_type": "text/html",
+          "bytes": 36237
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/papers/kdd-2026/index.html",
+          "status_code": 200,
+          "content_type": "text/html",
+          "bytes": 7277
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/papers/kdd-2026/facts.json",
+          "status_code": 200,
+          "content_type": "application/json; charset=utf-8",
+          "bytes": 3875
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/papers/kdd-2026/mian-zhang-kdd-2026-cognitive-immunity.pdf",
+          "status_code": 200,
+          "content_type": "",
+          "bytes": 471501
+        },
+        {
+          "url": "https://mmjbds-mianzhang-org.static.hf.space/papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf",
+          "status_code": 200,
+          "content_type": "",
+          "bytes": 108229
+        }
+      ]
+    },
+    "live_pdf_sha256": {
+      "mianzhang.org": {
+        "mian-zhang-kdd-2026-cognitive-immunity.pdf": "ED9B901B973B142ABBCC701669B0981B30A55E9073A864057A8326A14952C2BF",
+        "mian-zhang-kdd-2026-reflexbench.pdf": "D3158A27BDA1A177A2F4D74A1EEE57C394C11A9FEA1C9FC4768C3C3F0CE81BBC"
+      },
+      "mmjbds-mianzhang-org.static.hf.space": {
+        "mian-zhang-kdd-2026-cognitive-immunity.pdf": "ED9B901B973B142ABBCC701669B0981B30A55E9073A864057A8326A14952C2BF",
+        "mian-zhang-kdd-2026-reflexbench.pdf": "D3158A27BDA1A177A2F4D74A1EEE57C394C11A9FEA1C9FC4768C3C3F0CE81BBC"
+      }
+    }
+  },
+  "submissions": [
+    {
+      "host": "mianzhang.org",
+      "key_location": "https://mianzhang.org/indexnow-key.txt",
+      "url_count": 13,
+      "status_code": 200,
+      "response_body": "",
+      "submitted_at_utc": "2026-08-14T09:57:35Z",
+      "submitted_at_asia_shanghai": "2026-08-14T17:57:35+08:00"
+    },
+    {
+      "host": "mmjbds-mianzhang-org.static.hf.space",
+      "key_location": "https://mmjbds-mianzhang-org.static.hf.space/indexnow-key.txt",
+      "url_count": 12,
+      "status_code": 200,
+      "response_body": "",
+      "submitted_at_utc": "2026-08-14T09:57:46Z",
+      "submitted_at_asia_shanghai": "2026-08-14T17:57:46+08:00"
+    }
+  ],
+  "boundary": "HTTP 200 or 202 records IndexNow API acceptance only. It does not prove Bing Webmaster submission, crawl completion, Google indexing, Bing indexing, ranking, or AI retrieval."
+}
