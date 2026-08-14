@@ -1,0 +1,22 @@
+{
+  "receipt_id": "indexnow-bing-meta-fix-2026-08-14",
+  "submitted_at_utc": "2026-08-14T13:29:01.7997015+00:00",
+  "submitted_at_asia_shanghai": "2026-08-14T21:29:01.8053237+08:00",
+  "submissions": [
+    {
+      "host": "mianzhang.org",
+      "url_count": 7,
+      "urls": [
+        "https://mianzhang.org/zh/",
+        "https://mianzhang.org/zh/embodied-ai-failure-learning/",
+        "https://mianzhang.org/essays/",
+        "https://mianzhang.org/zh/ai-trading-bot-risk-controls/",
+        "https://mianzhang.org/press/",
+        "https://mianzhang.org/docs/public-completion-audit-2026-06-15.html",
+        "https://mianzhang.org/zh/reliable-action.html"
+      ],
+      "status_code": 200
+    }
+  ],
+  "boundary": "HTTP 200 or 202 records IndexNow API acceptance only. It does not prove crawling, indexing, ranking, backlink attribution, or AI retrieval."
+}
