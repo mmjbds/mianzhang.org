@@ -43,13 +43,15 @@ No public repository event in this snapshot establishes a meaningful external pa
 - Enable one GitHub Discussions hub with Questions and Answers, Research and Extensions, Ideas and Use Cases, and Show and Tell.
 - Seed five discussions: welcome, KDD research, first contribution, real-world use cases, and show-and-tell.
 - Update Hugging Face cards to route artifact questions to the artifact and general discussion to GitHub.
-- Send 10 to 15 individual invitations to people with direct topical fit. Each invitation links one artifact and asks one bounded question; no bulk message and no request for a generic endorsement.
+- Send 15 to 25 individual invitations to people with direct topical fit. Each invitation links one artifact and asks one bounded question; no bulk message and no request for a generic endorsement.
 
 ## Week 2: First Public Research Session
 
 Run a 45-minute public research session around one question:
 
 > When an agent changes users, evidence, incentives, or institutions, what should an evaluation measure next?
+
+Run the public session only after at least three external participants confirm. If that threshold is not met, replace the event with three individual artifact walkthroughs and repair the value proposition or onboarding before scheduling a public room.
 
 Agenda:
 
@@ -91,7 +93,7 @@ Every invitation contains:
 
 ## Stop Condition
 
-After targeted invitations and both public sessions, fewer than three meaningful external participants triggers a review of the value proposition, target audience, onboarding friction, artifact usability, and invitation quality. It does not trigger another forum, another chat group, or higher posting volume by default.
+After at least 15 targeted invitations, artifact walkthroughs or qualified sessions, fewer than three meaningful external participants triggers a review of the value proposition, target audience, onboarding friction, artifact usability, and invitation quality. It does not trigger another forum, another chat group, or higher posting volume by default.
 
 ## Privacy and Commercial Boundary
 
