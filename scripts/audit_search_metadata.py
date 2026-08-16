@@ -4,6 +4,7 @@ import json
 from collections import defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,6 +24,7 @@ PRIORITY_PAGES = {
 }
 PRIORITY_MIN_DESCRIPTION_LENGTH = 150
 PRIORITY_MAX_DESCRIPTION_LENGTH = 160
+PRIORITY_MIN_INBOUND_LINKS = 1
 PRIORITY_SOCIAL_SUMMARY_VARIANTS = {
     "community/index.html",
     "zh/community/index.html",
@@ -34,6 +36,7 @@ class HeadMetadataParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.meta: dict[str, str] = {}
         self.canonical = ""
+        self.links: list[str] = []
         self._in_json_ld = False
         self._json_parts: list[str] = []
         self.json_ld_blocks: list[str] = []
@@ -46,6 +49,8 @@ class HeadMetadataParser(HTMLParser):
                 self.meta[key.lower()] = values.get("content", "")
         elif tag == "link" and "canonical" in values.get("rel", "").lower():
             self.canonical = values.get("href", "")
+        elif tag == "a" and values.get("href"):
+            self.links.append(values["href"])
         elif tag == "script" and values.get("type") == "application/ld+json":
             self._in_json_ld = True
             self._json_parts = []
@@ -63,6 +68,8 @@ class HeadMetadataParser(HTMLParser):
 def main() -> int:
     errors: list[str] = []
     descriptions: dict[str, list[str]] = defaultdict(list)
+    canonical_by_page: dict[str, str] = {}
+    inbound_sources: dict[str, set[str]] = defaultdict(set)
     html_files = sorted(ROOT.rglob("*.html"))
 
     for path in html_files:
@@ -81,6 +88,17 @@ def main() -> int:
             descriptions[description].append(rel)
         if not parser.canonical:
             errors.append(f"{rel}: 缺少 canonical")
+        else:
+            canonical_by_page[rel] = parser.canonical
+            for href in parser.links:
+                resolved = urlsplit(urljoin(parser.canonical, href))
+                if resolved.scheme != "https" or resolved.netloc != "mianzhang.org":
+                    continue
+                target = urlunsplit(
+                    (resolved.scheme, resolved.netloc, resolved.path, "", "")
+                )
+                if target != parser.canonical:
+                    inbound_sources[target].add(parser.canonical)
 
         for block in parser.json_ld_blocks:
             try:
@@ -118,6 +136,17 @@ def main() -> int:
     for description, paths in descriptions.items():
         if len(paths) > 1:
             errors.append(f"重复 description: {', '.join(paths)}")
+
+    for rel in sorted(PRIORITY_PAGES):
+        canonical = canonical_by_page.get(rel)
+        if not canonical:
+            continue
+        inbound_count = len(inbound_sources.get(canonical, set()))
+        if inbound_count < PRIORITY_MIN_INBOUND_LINKS:
+            errors.append(
+                f"{rel}: 只有 {inbound_count} 个其他页面的可抓取内链，"
+                f"低于 {PRIORITY_MIN_INBOUND_LINKS}"
+            )
 
     if errors:
         print("搜索元数据审计失败：")
