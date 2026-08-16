@@ -63,10 +63,12 @@ Core public entry points:
 - GitHub community route: https://mianzhang.org/community/
 - Counterexamples: https://mianzhang.org/counterexamples/
 - Public roadmap: https://mianzhang.org/docs/public-roadmap.html
+- Current search submission status: https://mianzhang.org/docs/search-submission-status-current.html
+- Current search status JSON: https://mianzhang.org/docs/search-submission-status-current.json
 - Weekly digest: https://mianzhang.org/docs/weekly-digest-2026-06-15.html
-- Search discovery entry: https://mianzhang.org/docs/search-discovery-2026-06-15.html
-- Search index weekly report: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
-- Search index weekly report JSON: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.json
+- Historical search discovery snapshot: https://mianzhang.org/docs/search-discovery-2026-06-15.html
+- Historical search index report: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html
+- Historical search index report JSON: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.json
 - External submission status: https://mianzhang.org/docs/external-submission-status-2026-06-15.html
 - External submission action pack: https://mianzhang.org/docs/external-submission-action-pack-2026-06-15.html
 - Public completion audit: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html

@@ -74,10 +74,17 @@ INTERNAL_LANGUAGE = {
     "先回答外部读者",
     "for internal use only",
     "must first answer external readers",
+    "internal research vocabulary",
+    "welcomes attacks",
+    "how to attack it",
+    "route to attack it",
 }
 PUBLIC_LANGUAGE_FILES = {
+    Path("index.html"),
     Path("community/index.html"),
     Path("zh/community/index.html"),
+    Path("registries/schema_notes_v0.html"),
+    Path("registries/claim_to_evidence_table_v0.html"),
     Path("COMMUNITY.md"),
     Path("GOVERNANCE.md"),
     Path("ROADMAP.md"),

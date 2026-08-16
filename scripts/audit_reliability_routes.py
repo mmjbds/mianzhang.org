@@ -16,9 +16,7 @@ PUBLIC_PAGES = (
 )
 EXPECTED_ROUTES = (
     "/ai-agent-reliability/",
-    "/ai-agent-reliability/facts.json",
     "/demos/reflexbench-observer-depth/",
-    "/demos/reflexbench-observer-depth/reflexbench.jsonl",
     "/zh/ai-agent-reliability/",
 )
 
@@ -101,7 +99,7 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    print("Reliability route audit passed: 3 pages, 5 sitemap routes, 20 scenarios.")
+    print("Reliability route audit passed: 3 HTML sitemap routes, 20 scenarios.")
     return 0
 
 

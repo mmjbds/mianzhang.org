@@ -1,0 +1,39 @@
+{
+  "schema": "search_submission_status_v1",
+  "as_of": "2026-08-17",
+  "site": "https://mianzhang.org",
+  "canonical_status_page": "https://mianzhang.org/docs/search-submission-status-current.html",
+  "discovery": {
+    "sitemap": "https://mianzhang.org/sitemap.xml",
+    "robots": "https://mianzhang.org/robots.txt",
+    "llms": "https://mianzhang.org/llms.txt",
+    "sitemap_scope": "independently canonical HTML pages only"
+  },
+  "platforms": [
+    {
+      "platform": "Google Search Console",
+      "status": "OWNER_REPORTED_VERIFIED_AND_SUBMITTED",
+      "evidence": "The site owner reported domain-property verification, sitemap submission, and priority URL inspection requests on 2026-06-15.",
+      "indexing_state": "NOT_REVERIFIED_IN_THIS_PUBLIC_LEDGER"
+    },
+    {
+      "platform": "Bing Webmaster Tools",
+      "status": "OWNER_REPORTED_PROPERTY_READY_WITH_PUBLIC_INDEXNOW_RECEIPTS",
+      "evidence": "The site owner reported importing the property from Google Search Console and submitting the sitemap. Public IndexNow receipts record HTTP 200 acceptance through 2026-08-16.",
+      "latest_public_receipt": "https://mianzhang.org/docs/indexnow-submission-receipt-2026-08-16-reliability-retry.json",
+      "indexing_state": "NOT_REVERIFIED_IN_THIS_PUBLIC_LEDGER"
+    },
+    {
+      "platform": "Baidu Search Resource Platform",
+      "status": "SITE_VERIFIED_AND_TEN_PRIORITY_URLS_ACCEPTED",
+      "evidence": "Baidu accepted 10 priority URLs on 2026-08-17 and returned success=10, remain=0.",
+      "latest_public_receipt": "https://mianzhang.org/docs/baidu-submission-receipt-2026-08-17.json",
+      "indexing_state": "NOT_YET_VERIFIED",
+      "external_dependencies": [
+        "Baidu account entity verification is not complete.",
+        "Mainland China ICP filing is not complete."
+      ]
+    }
+  ],
+  "boundary": "Submission or API acceptance does not prove crawling, indexing, ranking, traffic, backlink attribution, or AI-answer retrieval."
+}

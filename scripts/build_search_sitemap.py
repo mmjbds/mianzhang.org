@@ -13,25 +13,17 @@ ROOT = Path(__file__).resolve().parents[1]
 SITEMAP = ROOT / "sitemap.xml"
 BASE_URL = "https://mianzhang.org"
 NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
-RELEASE_DATE = "2026-08-16"
-
-EXCLUDED_PREFIXES = (
-    f"{BASE_URL}/.github/",
-    f"{BASE_URL}/docs/google-bing-url-list-",
-    f"{BASE_URL}/docs/indexnow-submission-receipt-",
-    f"{BASE_URL}/docs/indexnow-url-list-",
-)
-
-ADDITIONAL_PUBLIC_FILES = (
-    "8846bb881fe14ab9b4292478788407c9.txt",
-    "COMMUNITY.md",
-    "CONTENT_AND_MEDIA_LICENSE.md",
-    "GOVERNANCE.md",
-    "OPEN_SOURCE_BOUNDARY.md",
-    "ROADMAP.md",
-    "ai-agent-reliability/facts.json",
-    "demos/reflexbench-observer-depth/reflexbench.jsonl",
-)
+RELEASE_DATE = "2026-08-17"
+LASTMOD_OVERRIDES = {
+    f"{BASE_URL}/": RELEASE_DATE,
+    f"{BASE_URL}/docs/external-submission-status-2026-06-15.html": RELEASE_DATE,
+    f"{BASE_URL}/docs/public-completion-audit-2026-06-15.html": RELEASE_DATE,
+    f"{BASE_URL}/docs/search-discovery-2026-06-15.html": RELEASE_DATE,
+    f"{BASE_URL}/docs/search-index-weekly-report-2026-06-15.html": RELEASE_DATE,
+    f"{BASE_URL}/docs/search-submission-status-current.html": RELEASE_DATE,
+    f"{BASE_URL}/registries/claim_to_evidence_table_v0.html": RELEASE_DATE,
+    f"{BASE_URL}/registries/schema_notes_v0.html": RELEASE_DATE,
+}
 
 VERIFICATION_FILES = {
     "google9c7439a09f492752.html",
@@ -50,11 +42,6 @@ class CanonicalParser(HTMLParser):
         values = {key: value or "" for key, value in attrs}
         if tag == "link" and "canonical" in values.get("rel", "").lower():
             self.canonical = values.get("href", "").strip()
-
-
-def is_html_page_url(loc: str) -> bool:
-    path = urlsplit(loc).path
-    return path.endswith("/") or path.endswith(".html")
 
 
 def collect_canonical_pages(existing: dict[str, str]) -> dict[str, str]:
@@ -87,7 +74,9 @@ def collect_canonical_pages(existing: dict[str, str]) -> dict[str, str]:
         raise ValueError(f"duplicate canonical pages: {detail}")
 
     return {
-        canonical: existing.get(canonical, RELEASE_DATE)
+        canonical: LASTMOD_OVERRIDES.get(
+            canonical, existing.get(canonical, RELEASE_DATE)
+        )
         for canonical in canonical_files
     }
 
@@ -98,22 +87,10 @@ def load_entries() -> dict[str, str]:
     for node in root.findall(f"{{{NAMESPACE}}}url"):
         loc = node.findtext(f"{{{NAMESPACE}}}loc", default="").strip()
         lastmod = node.findtext(f"{{{NAMESPACE}}}lastmod", default="").strip()
-        if not loc or any(loc.startswith(prefix) for prefix in EXCLUDED_PREFIXES):
+        if not loc:
             continue
         existing[loc] = lastmod
-
-    entries = {
-        loc: lastmod
-        for loc, lastmod in existing.items()
-        if not is_html_page_url(loc)
-    }
-    entries.update(collect_canonical_pages(existing))
-
-    for relative in ADDITIONAL_PUBLIC_FILES:
-        if not (ROOT / relative).is_file():
-            raise FileNotFoundError(f"missing public sitemap target: {relative}")
-        entries.setdefault(f"{BASE_URL}/{relative}", RELEASE_DATE)
-    return entries
+    return collect_canonical_pages(existing)
 
 
 def render(entries: dict[str, str]) -> str:
@@ -137,8 +114,7 @@ def render(entries: dict[str, str]) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Build the public sitemap from HTML canonicals and retained public files, "
-            "excluding CI files and submission receipts."
+            "Build the public sitemap from independently canonical HTML pages."
         )
     )
     parser.add_argument("--check", action="store_true")
