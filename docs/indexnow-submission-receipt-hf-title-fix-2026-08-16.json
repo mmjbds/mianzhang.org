@@ -1,0 +1,20 @@
+{
+  "receipt_id": "indexnow-20260816T134642Z",
+  "provider": "IndexNow",
+  "submitted_at_utc": "2026-08-16T13:46:42.898764+00:00",
+  "submitted_at_asia_shanghai": "2026-08-16T21:46:42.898764+08:00",
+  "request": {
+    "host": "mmjbds-mianzhang-org.static.hf.space",
+    "keyLocation": "https://mmjbds-mianzhang-org.static.hf.space/8846bb881fe14ab9b4292478788407c9.txt",
+    "urlList": [
+      "https://mmjbds-mianzhang-org.static.hf.space/ai-agent-reliability/index.html"
+    ],
+    "url_count": 1,
+    "url_list_source": "docs/indexnow-url-list-hf-title-fix-20260816.txt"
+  },
+  "response": {
+    "status_code": 200,
+    "accepted": true
+  },
+  "boundary": "HTTP 200 or 202 records IndexNow request acceptance only. It does not prove crawling, indexing, ranking, backlink attribution, or AI retrieval."
+}
