@@ -52,6 +52,8 @@ This is the public static website package for `mianzhang.org`.
 
 Search notification helpers are kept under `scripts/` and never contain account credentials. `submit_indexnow.py` uses the public root key file; `submit_baidu.py` reads the Baidu credential from the `BAIDU_PUSH_TOKEN` environment variable.
 
+The `Search notification` workflow builds a changed-URL list after each public-content push and sends it to IndexNow. Manual workflow dispatch submits the current canonical HTML set. Workflow receipts are retained as GitHub artifacts for 30 days. Baidu remains quota-bound and manual; Google does not provide a general ordinary-page indexing API, so Google coverage stays under Search Console and sitemap monitoring.
+
 ```powershell
 $env:BAIDU_PUSH_TOKEN="<set-locally>"
 python scripts/submit_baidu.py `

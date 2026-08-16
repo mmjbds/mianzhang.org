@@ -1,0 +1,63 @@
+name: Search notification
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.html"
+      - "**/*.json"
+      - "**/*.jsonl"
+      - "**/*.md"
+      - "**/*.pdf"
+      - "llms.txt"
+      - "robots.txt"
+      - "sitemap.xml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Build changed public URL list
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          EXTRA=""
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then EXTRA="--all"; fi
+          python scripts/build_changed_url_list.py \
+            --before "$BEFORE" \
+            --after "$AFTER" \
+            --output indexnow-changed-urls.txt \
+            $EXTRA
+      - name: Notify IndexNow
+        if: ${{ hashFiles('indexnow-changed-urls.txt') != '' }}
+        run: |
+          if [ ! -s indexnow-changed-urls.txt ]; then
+            echo "No public URL changes to submit."
+            exit 0
+          fi
+          python scripts/submit_indexnow.py \
+            --url-list indexnow-changed-urls.txt \
+            --key-file 8846bb881fe14ab9b4292478788407c9.txt \
+            --receipt indexnow-workflow-receipt.json
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() }}
+        with:
+          name: indexnow-receipt-${{ github.run_id }}
+          path: |
+            indexnow-changed-urls.txt
+            indexnow-workflow-receipt.json
+          if-no-files-found: ignore
+          retention-days: 30
