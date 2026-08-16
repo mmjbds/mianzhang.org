@@ -21,10 +21,8 @@ PRIORITY_PAGES = {
     "press/index.html",
     "docs/public-completion-audit-2026-06-15.html",
 }
-PRIORITY_MIN_DESCRIPTION_LENGTH = 120
-PRIORITY_DESCRIPTION_LENGTH_OVERRIDES = {
-    "zh/community/index.html": 55,
-}
+PRIORITY_MIN_DESCRIPTION_LENGTH = 150
+PRIORITY_MAX_DESCRIPTION_LENGTH = 160
 PRIORITY_SOCIAL_SUMMARY_VARIANTS = {
     "community/index.html",
     "zh/community/index.html",
@@ -91,13 +89,15 @@ def main() -> int:
                 errors.append(f"{rel}: JSON-LD 无法解析: {exc}")
 
         if rel in PRIORITY_PAGES:
-            minimum_length = PRIORITY_DESCRIPTION_LENGTH_OVERRIDES.get(
-                rel, PRIORITY_MIN_DESCRIPTION_LENGTH
-            )
-            if len(description) < minimum_length:
+            if len(description) < PRIORITY_MIN_DESCRIPTION_LENGTH:
                 errors.append(
                     f"{rel}: description 只有 {len(description)} 字符，"
-                    f"低于 {minimum_length}"
+                    f"低于 {PRIORITY_MIN_DESCRIPTION_LENGTH}"
+                )
+            if len(description) > PRIORITY_MAX_DESCRIPTION_LENGTH:
+                errors.append(
+                    f"{rel}: description 有 {len(description)} 字符，"
+                    f"高于 {PRIORITY_MAX_DESCRIPTION_LENGTH}"
                 )
             metadata_descriptions = {
                 description,
