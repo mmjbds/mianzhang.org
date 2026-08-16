@@ -1,25 +1,27 @@
 # Code of Conduct
 
-This project welcomes careful public discussion around papers, evidence, reproducibility, counterexamples, and documentation boundaries. The shared goal is to make claims more testable, evidence clearer, and boundaries more accurate.
+This community welcomes researchers, engineers, students, operators, and readers who want to understand how AI systems learn from action, feedback, and failure.
 
 ## Expected Behavior
 
-- Address a specific public claim, public artifact, public code path, public DOI, public registry row, or public documentation route.
-- Provide the smallest public counterexample, reproduction step, baseline comparison, citation, or boundary repair that makes the issue actionable.
-- Keep discussion respectful and focused on evidence, wording, reproducibility, or repair.
-- When a security, privacy, or exposure concern appears, protect people and data first. Do not post sensitive details in public issues.
+- Critique ideas, claims, methods, artifacts, and consequences rather than people.
+- Be specific enough that another person can understand or test the point.
+- State uncertainty, relevant conflicts of interest, and the limits of a result.
+- Respect data rights, privacy, attribution, licenses, and publication boundaries.
+- Help new contributors find an appropriate route without requiring status, affiliation, or private access.
 
-## Unacceptable Behavior
+Strong disagreement is allowed. Harassment, personal attacks, threats, discrimination, spam, impersonation, de-anonymization, or deliberate misrepresentation are not.
 
-- Posting or requesting API keys, tokens, passwords, customer data, private logs, real account records, real transaction records, private execution traces, or restricted non-public material.
-- Harassment, personal attacks, de-anonymization, identity tracing, or attempts to expose private correspondence.
-- Publishing steps that can directly attack real systems, bypass permissions, steal data, or increase practical harm.
-- Turning technical issues into marketing, investment promotion, or broad claims that are not tied to public evidence.
+## Safety and Privacy
+
+Do not post credentials, customer data, private logs, real account records, private correspondence, unreleased material, or operational attack instructions. When a security or privacy concern appears, reduce exposure and follow [SECURITY.md](SECURITY.md).
+
+## Scope
+
+This code applies to Issues, Discussions, pull requests, repository events, and other spaces represented as part of this community.
 
 ## Enforcement
 
-Maintainers may edit, hide, close, or delete material that violates these boundaries. For safety, privacy, harassment, or de-anonymization risks, maintainers prioritize reducing exposure over preserving a public thread.
+Maintainers may edit, hide, lock, close, or remove material that violates these rules. Proportionate actions include a private warning, temporary participation limits, or permanent removal for repeated or severe violations.
 
-## Reporting
-
-For conduct issues, use the maintainer contact route already published by the project. For security-sensitive material, do not open a public issue; follow [SECURITY.md](./SECURITY.md).
+For conduct reports, use the private contact in [SUPPORT.md](SUPPORT.md). Include the minimum information needed for review and do not forward unrelated private data.

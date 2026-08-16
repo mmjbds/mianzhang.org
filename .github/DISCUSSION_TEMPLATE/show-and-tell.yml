@@ -1,0 +1,35 @@
+title: "[Show and Tell] "
+labels: ["show and tell"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share a public experiment, tool, dataset use, visualization, teaching resource, or extension. Work may confirm, narrow, or contradict an existing claim.
+  - type: input
+    id: public_url
+    attributes:
+      label: Public work
+      description: Link the repository, notebook, paper, dataset, demo, or report.
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What you built or learned
+      description: State the problem, method, result, and limitation in terms another reader can inspect.
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: Feedback or collaboration sought
+      description: What question, comparison, or contribution would be most useful next?
+    validations:
+      required: false
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights and privacy
+      options:
+        - label: I have the right to share the linked material and it contains no confidential or identifying data.
+          required: true

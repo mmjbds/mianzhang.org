@@ -1,55 +1,65 @@
 # Contributing Guide
 
-This project accepts public, evidence-focused contributions only.
+Contributions should make a public artifact easier to understand, use, inspect, compare, or extend. A contribution does not need to begin as a challenge.
+
+## Start Here
+
+- Use [GitHub Discussions](https://github.com/mmjbds/mianzhang.org/discussions) for questions, research extensions, use cases, and work you have built.
+- Use the [public artifact improvement form](https://github.com/mmjbds/mianzhang.org/issues/new?template=public_artifact_improvement.yml) for scoped documentation, examples, fixtures, metadata, or interoperability repairs.
+- Use advanced Issue routes when a claim, result, baseline, or reproduction path needs formal review.
+- Read [COMMUNITY.md](../COMMUNITY.md) and [OPEN_SOURCE_BOUNDARY.md](../OPEN_SOURCE_BOUNDARY.md) before sharing implementation details or data.
 
 ## Useful Contributions
 
+- Ask a concrete question about a public paper, method, benchmark, or interface.
+- Describe a real use case without confidential or identifying data.
+- Improve documentation, navigation, citations, metadata, safe examples, or small synthetic fixtures.
+- Add a public baseline, experiment, adapter, validator, or interoperability test.
 - Challenge a public claim that is too broad, ambiguous, unsupported, or contradicted by public evidence.
-- Report a minimal public counterexample that falsifies or narrows a specific claim.
-- Report a reproduction failure for a public artifact, demo, schema, paper card, registry row, or README path.
-- Identify an evidence gap where a public claim needs a stronger receipt, provenance link, or boundary statement.
-- Propose a stronger baseline or fairer comparison protocol.
-- Improve public documentation, links, claim boundaries, issue templates, or safe public examples.
+- Report a minimal public counterexample, reproduction failure, evidence gap, or comparison that changes interpretation.
+
+## First Contribution Paths
+
+**No code:** correct a link or citation, clarify a concept, describe a use case, or identify an onboarding gap.
+
+**Light code:** add a safe fixture, parser example, schema check, documentation test, or minimal adapter.
+
+**Full experiment:** publish the question, protocol, versions, data rights, result, limitations, and a route others can inspect.
 
 ## Do Not Submit
 
-- API keys, tokens, passwords, private configuration, or credentials.
-- Customer data, private logs, private agent orchestration, private execution traces, real account records, or real transaction records.
-- Restricted non-public material, private correspondence, non-public versions, or de-anonymizing information.
-- Exploit chains, attack steps against real systems, or material that expands practical harm.
-- Marketing copy that is not tied to public evidence, a DOI record, a GitHub route, a Hugging Face route, or a claim boundary.
+- API keys, tokens, passwords, credentials, private configuration, or local absolute paths.
+- Customer data, private logs, private prompts, private orchestration, production traces, real account records, or commercial terms.
+- Exact production weights, thresholds, routing logic, tuning history, private evaluation rubrics, or unpublished training data.
+- Restricted non-public material, private correspondence, unreleased papers, or de-anonymizing information.
+- Exploit chains or attack instructions against real systems.
 
-## Issue Routes
+If a useful contribution depends on excluded material, reduce it to a public interface, synthetic fixture, or non-confidential problem statement. Do not upload the excluded material.
 
-- [Claim challenge](https://github.com/mmjbds/mianzhang.org/issues/new?template=challenge_claim.yml): use when the wording, scope, contradiction, or interpretation of a public claim is the main issue.
-- [Counterexample](https://github.com/mmjbds/mianzhang.org/issues/new?template=counterexample.yml): use when you have a minimal public case that falsifies or narrows a specific claim.
-- [Reproduction failure](https://github.com/mmjbds/mianzhang.org/issues/new?template=reproduction_failure.yml): use when a public artifact, command, demo, schema, or paper card cannot be reproduced.
-- [Evidence gap](https://github.com/mmjbds/mianzhang.org/issues/new?template=evidence_gap.yml): use when the claim may be reasonable but the public receipt, provenance, registry link, or evidence grade is missing or unclear.
-- [Baseline challenge](https://github.com/mmjbds/mianzhang.org/issues/new?template=baseline_challenge.yml): use when a stronger, simpler, fairer, or better documented baseline changes the interpretation.
-- [Documentation boundary](https://github.com/mmjbds/mianzhang.org/issues/new?template=documentation_boundary.yml): use for public documentation wording, route, or link fixes.
-- [Security boundary](https://github.com/mmjbds/mianzhang.org/issues/new?template=security_boundary.yml): use only for public security-boundary wording. Sensitive reports must follow [SECURITY.md](https://github.com/mmjbds/mianzhang.org/blob/main/.github/SECURITY.md).
+## Advanced Issue Routes
 
-## Decision Rule
+- [Claim challenge](https://github.com/mmjbds/mianzhang.org/issues/new?template=challenge_claim.yml)
+- [Counterexample](https://github.com/mmjbds/mianzhang.org/issues/new?template=counterexample.yml)
+- [Reproduction failure](https://github.com/mmjbds/mianzhang.org/issues/new?template=reproduction_failure.yml)
+- [Evidence gap](https://github.com/mmjbds/mianzhang.org/issues/new?template=evidence_gap.yml)
+- [Baseline challenge](https://github.com/mmjbds/mianzhang.org/issues/new?template=baseline_challenge.yml)
+- [Documentation boundary](https://github.com/mmjbds/mianzhang.org/issues/new?template=documentation_boundary.yml)
+- [Security boundary](https://github.com/mmjbds/mianzhang.org/issues/new?template=security_boundary.yml)
 
-If the public sentence itself is too broad, file a claim challenge. If a concrete public case breaks it, file a counterexample. If a public artifact fails to run, file a reproduction failure. If the claim needs a missing receipt or provenance link, file an evidence gap. If another public method changes the comparison, file a baseline challenge.
+## Pull Request Requirements
 
-## Pull Request Checklist
+- Keep the change narrow and explain the public problem it solves.
+- Identify the artifact, version, and public source for factual or scientific claims.
+- State the claim boundary and limitations when adding a result or evaluation.
+- Use public, synthetic, or properly licensed data only.
+- Confirm that no secret, private path, customer material, account record, or restricted implementation is present.
+- Run the checks listed in the pull request template.
 
-Before opening a PR, confirm that:
+Accepted contributions are credited through commit history and release notes. Paper authorship follows substantial scholarly contribution and publication requirements; it is not promised for ordinary community participation.
 
-- Every changed claim points to a public DOI, public page, public registry row, public code path, or explicit boundary statement.
-- The change does not introduce secrets, private logs, customer data, local absolute paths, temporary artifacts, real account records, or restricted non-public material.
-- Reproduction steps use public data, synthetic data, or sanitized examples only.
-- If a claim is weakened, narrowed, downgraded, or marked unresolved, the status change is visible in the relevant page or registry.
-- Links are checkable from the public site, GitHub, Hugging Face mirror, or Zenodo record.
+## Public Routes
 
-## Public Cross-links
-
-- Main site: https://mianzhang.org/
-- GitHub source: https://github.com/mmjbds/mianzhang.org
-- Hugging Face technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
-- Hugging Face Space: https://huggingface.co/spaces/MMJBDS/mianzhang-org
+- Community: https://mianzhang.org/community/
+- GitHub: https://github.com/mmjbds/mianzhang.org
+- Hugging Face: https://huggingface.co/MMJBDS
 - Zenodo portfolio: https://zenodo.org/records/20027295
-- Public completion audit: https://mianzhang.org/docs/public-completion-audit-2026-06-15.html
-- Search discovery report: https://mianzhang.org/docs/search-discovery-2026-06-15.html
-- Search weekly report JSON: https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.json

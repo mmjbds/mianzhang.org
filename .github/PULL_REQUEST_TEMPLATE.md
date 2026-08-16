@@ -1,27 +1,40 @@
 # Pull Request Checklist
 
+## Public Problem
+
+What public artifact or community problem does this change improve?
+
+```text
+
+```
+
 ## Change Type
 
-- [ ] Documentation / README
-- [ ] Issue template / community file
-- [ ] Claim boundary / public challenge protocol
-- [ ] Public evidence registry or receipt
-- [ ] Reproduction fixture, script, or baseline
-- [ ] Search discovery, sitemap, llms, or public route map
+- [ ] Documentation, navigation, citation, or metadata
+- [ ] Safe example, synthetic fixture, parser, or validator
+- [ ] Public baseline, experiment, or interoperability improvement
+- [ ] Community template or governance
+- [ ] Claim boundary, evidence route, or reproduction repair
+- [ ] Search discovery, sitemap, structured data, or `llms.txt`
 - [ ] Other:
 
-## Evidence Boundary
+## Release Boundary
 
-- [ ] The change points to a public DOI, public route, public registry row, public code path, or explicit boundary statement.
-- [ ] The change does not introduce secrets, customer data, private logs, real account records, local-only paths, or restricted non-public material.
-- [ ] Reproduction steps use public data, synthetic data, or sanitized examples only.
-- [ ] Any narrowed, downgraded, unresolved, or negative result is visible in the relevant public page or registry.
-- [ ] Links are checkable from the public site, GitHub, Hugging Face mirror, or Zenodo record.
-- [ ] If this PR changes a public status, it distinguishes prepared files, submitted actions, accepted API responses, external account receipts, and public indexing evidence.
+- [ ] I read `OPEN_SOURCE_BOUNDARY.md`.
+- [ ] The change contains no secrets, private paths, customer data, private logs, real account records, private prompts, production parameters, or restricted non-public material.
+- [ ] Data is public, synthetic, sanitized, or included with clear publication rights.
+- [ ] The change does not expose production orchestration, exact weights or thresholds, private evaluation rubrics, tuning history, or deployment automation.
+- [ ] Papers, datasets, images, and third-party material retain their item-specific licenses.
+
+## Evidence and Limitations
+
+- [ ] Factual or scientific claims identify a public source, artifact version, or DOI.
+- [ ] New results include the method, versions, data scope, and limitations needed for interpretation.
+- [ ] A public benchmark or paper is not presented as production certification.
 
 ## Validation
 
-List the checks you ran or the manual review you performed:
+List commands, manual checks, and public URLs reviewed:
 
 ```text
 

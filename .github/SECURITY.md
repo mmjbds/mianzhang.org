@@ -32,3 +32,5 @@ If a public reproduction is needed, use synthetic data, public datasets, sanitiz
 ## Coordinated Disclosure
 
 Please give maintainers a reasonable opportunity to investigate before publishing vulnerability details. Public documentation fixes, claim-boundary clarifications, and evidence-gap reports can proceed through the normal issue templates when they do not contain sensitive material.
+
+This policy covers public artifacts in this repository. It does not authorize testing third-party systems, production services, private infrastructure, customer environments, or accounts.
