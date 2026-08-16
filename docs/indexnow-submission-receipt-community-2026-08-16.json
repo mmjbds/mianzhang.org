@@ -1,0 +1,60 @@
+{
+  "receipt_id": "indexnow-open-community-2026-08-16",
+  "provider": "IndexNow",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "purpose": "Open research community launch and Hugging Face Static Space route correction",
+  "submissions": [
+    {
+      "host": "mianzhang.org",
+      "submitted_at_utc": "2026-08-16T05:28:25.8398721Z",
+      "status_code": 200,
+      "url_count": 3,
+      "urls": [
+        "https://mianzhang.org/community/",
+        "https://mianzhang.org/zh/community/",
+        "https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html"
+      ],
+      "key_location": "https://mianzhang.org/indexnow-key.txt"
+    },
+    {
+      "host": "mmjbds-mianzhang-org.static.hf.space",
+      "submitted_at_utc": "2026-08-16T05:28:27.4318042Z",
+      "status_code": 200,
+      "url_count": 30,
+      "urls": [
+        "https://mmjbds-mianzhang-org.static.hf.space/boundaries/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/community/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/concepts/grounding-canon.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/concepts/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/concepts/no-proof-no-action-gate.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/concepts/proof-carrying-action.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/concepts/robot-vision-downgrade-rule.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/concepts/self-certification-grounding-check.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/concepts/wisdombench.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/counterexamples/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/demos/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/demos/proof-action-mini/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/docs/external-submission-action-pack-2026-06-15.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/docs/external-submission-status-2026-06-15.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/docs/public-completion-audit-2026-06-15.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/docs/public-roadmap.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/docs/search-discovery-2026-06-15.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/docs/search-index-weekly-report-2026-06-15.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/docs/weekly-digest-2026-06-15.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/evidence/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/field-manual/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/open-source/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/papers/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/press/kdd-2026-two-workshop-papers.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/registries/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/review-status/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/start-here/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/systems/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/technology/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/zh/community/index.html"
+      ],
+      "key_location": "https://mmjbds-mianzhang-org.static.hf.space/indexnow-key.txt"
+    }
+  ],
+  "boundary": "HTTP 200 records IndexNow API acceptance only. It does not prove crawling, indexing, ranking, backlink attribution, search-console status, or AI retrieval."
+}
