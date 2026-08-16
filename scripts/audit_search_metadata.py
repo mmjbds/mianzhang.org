@@ -33,6 +33,7 @@ PRIORITY_SOCIAL_SUMMARY_VARIANTS = {
     "zh/community/index.html",
 }
 PRIORITY_MIN_DESCRIPTION_LENGTH_ZH = 70
+MAX_TITLE_LENGTH = 70
 
 
 class HeadMetadataParser(HTMLParser):
@@ -41,13 +42,17 @@ class HeadMetadataParser(HTMLParser):
         self.meta: dict[str, str] = {}
         self.canonical = ""
         self.links: list[str] = []
+        self._in_title = False
+        self._title_parts: list[str] = []
         self._in_json_ld = False
         self._json_parts: list[str] = []
         self.json_ld_blocks: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {key: value or "" for key, value in attrs}
-        if tag == "meta":
+        if tag == "title":
+            self._in_title = True
+        elif tag == "meta":
             key = values.get("name") or values.get("property")
             if key:
                 self.meta[key.lower()] = values.get("content", "")
@@ -60,13 +65,21 @@ class HeadMetadataParser(HTMLParser):
             self._json_parts = []
 
     def handle_data(self, data: str) -> None:
+        if self._in_title:
+            self._title_parts.append(data)
         if self._in_json_ld:
             self._json_parts.append(data)
 
     def handle_endtag(self, tag: str) -> None:
-        if tag == "script" and self._in_json_ld:
+        if tag == "title":
+            self._in_title = False
+        elif tag == "script" and self._in_json_ld:
             self.json_ld_blocks.append("".join(self._json_parts))
             self._in_json_ld = False
+
+    @property
+    def title(self) -> str:
+        return " ".join("".join(self._title_parts).split())
 
 
 def main() -> int:
@@ -84,8 +97,15 @@ def main() -> int:
         source = path.read_text(encoding="utf-8")
         parser = HeadMetadataParser()
         parser.feed(source)
+        title = parser.title
         description = parser.meta.get("description", "").strip()
 
+        if not title:
+            errors.append(f"{rel}: 缺少 title")
+        elif len(title) > MAX_TITLE_LENGTH:
+            errors.append(
+                f"{rel}: title 有 {len(title)} 字符，高于 {MAX_TITLE_LENGTH}"
+            )
         if not description:
             errors.append(f"{rel}: 缺少 meta description")
         else:
