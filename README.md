@@ -48,6 +48,21 @@ This is the public static website package for `mianzhang.org`.
 - Hugging Face is the technical static mirror for demos, registries, boundaries, and artifact pages.
 - `mianzhang.org/zh/` is the canonical Chinese-language entry.
 
+## Search Notification Utilities
+
+Search notification helpers are kept under `scripts/` and never contain account credentials. `submit_indexnow.py` uses the public root key file; `submit_baidu.py` reads the Baidu credential from the `BAIDU_PUSH_TOKEN` environment variable.
+
+```powershell
+$env:BAIDU_PUSH_TOKEN="<set-locally>"
+python scripts/submit_baidu.py `
+  --url-list docs/baidu-url-list-initial-20260817.txt `
+  --site https://mianzhang.org `
+  --receipt docs/baidu-submission-receipt-local.json `
+  --dry-run
+```
+
+Remove `--dry-run` only after the URL list has been reviewed. API acceptance is a submission receipt, not evidence of crawling, indexing, ranking, traffic, or AI retrieval. Never commit the token or a command containing its value.
+
 ## Boundary
 
 This public site is a research and evidence index. Use Zenodo DOI records for citation authority and GitHub issues for public challenges. Do not place restricted non-public material, customer data, credentials, private logs, real account records, or non-public execution traces in the public layer.

@@ -1,0 +1,27 @@
+{
+  "receipt_id": "baidu-initial-20260817",
+  "provider": "Baidu Search Resource Platform",
+  "recorded_at_asia_shanghai": "2026-08-17T00:55:23+08:00",
+  "request": {
+    "site": "https://mianzhang.org",
+    "url_count": 10,
+    "url_list_source": "docs/baidu-url-list-initial-20260817.txt",
+    "token_source": "Baidu console credential (value not recorded)"
+  },
+  "response": {
+    "accepted": true,
+    "body": {
+      "remain": 0,
+      "success": 10
+    }
+  },
+  "prior_attempt": {
+    "url_count": 238,
+    "accepted": false,
+    "body": {
+      "error": 400,
+      "message": "over quota"
+    }
+  },
+  "boundary": "API acceptance only records that Baidu received the submitted URLs. It does not prove crawling, indexing, ranking, traffic, or AI retrieval."
+}
