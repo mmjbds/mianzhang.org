@@ -17,6 +17,7 @@ This is the public static website package for `mianzhang.org`.
 - Main site: https://mianzhang.org/
 - GitHub source: https://github.com/mmjbds/mianzhang.org
 - GitHub issues: https://github.com/mmjbds/mianzhang.org/issues
+- GitHub discussions: https://github.com/mmjbds/mianzhang.org/discussions
 - Hugging Face technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 - Hugging Face Space repository: https://huggingface.co/spaces/MMJBDS/mianzhang-org
 - Zenodo portfolio index: https://zenodo.org/records/20027295
@@ -33,6 +34,8 @@ This is the public static website package for `mianzhang.org`.
 - Concepts: `concepts/index.html`
 - Counterexamples: `counterexamples/index.html`
 - Community route: `community/index.html`
+- Community guide: `COMMUNITY.md`
+- Open-source boundary: `OPEN_SOURCE_BOUNDARY.md`
 - Public roadmap: `docs/public-roadmap.html`
 - Weekly digest: `docs/weekly-digest-2026-06-15.html`
 - Public completion audit: `docs/public-completion-audit-2026-06-15.html`
@@ -47,3 +50,12 @@ This is the public static website package for `mianzhang.org`.
 ## Boundary
 
 This public site is a research and evidence index. Use Zenodo DOI records for citation authority and GitHub issues for public challenges. Do not place restricted non-public material, customer data, credentials, private logs, real account records, or non-public execution traces in the public layer.
+
+## Open-Source Scope
+
+Source code intentionally released by this repository is available under Apache-2.0 unless a file or directory states otherwise. Papers, datasets, photographs, logos, and third-party material retain their item-specific rights. An accessible URL does not automatically relicense non-code content.
+
+- License: [LICENSE](LICENSE)
+- Content and media terms: [CONTENT_AND_MEDIA_LICENSE.md](CONTENT_AND_MEDIA_LICENSE.md)
+- Public/private release boundary: [OPEN_SOURCE_BOUNDARY.md](OPEN_SOURCE_BOUNDARY.md)
+- Contribution routes: [COMMUNITY.md](COMMUNITY.md) and [.github/CONTRIBUTING.md](.github/CONTRIBUTING.md)
