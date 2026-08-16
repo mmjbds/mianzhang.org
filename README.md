@@ -34,6 +34,7 @@ This is the public static website package for `mianzhang.org`.
 - Concepts: `concepts/index.html`
 - Counterexamples: `counterexamples/index.html`
 - Community route: `community/index.html`
+- Chinese community route: `zh/community/index.html`
 - Community guide: `COMMUNITY.md`
 - Open-source boundary: `OPEN_SOURCE_BOUNDARY.md`
 - Public roadmap: `docs/public-roadmap.html`

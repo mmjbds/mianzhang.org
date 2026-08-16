@@ -12,7 +12,9 @@ VERIFICATION_FILES = {
     "googlee95cf06405c388af.html",
 }
 PRIORITY_PAGES = {
+    "community/index.html",
     "zh/index.html",
+    "zh/community/index.html",
     "zh/embodied-ai-failure-learning/index.html",
     "essays/index.html",
     "zh/ai-trading-bot-risk-controls/index.html",
@@ -20,6 +22,13 @@ PRIORITY_PAGES = {
     "docs/public-completion-audit-2026-06-15.html",
 }
 PRIORITY_MIN_DESCRIPTION_LENGTH = 120
+PRIORITY_DESCRIPTION_LENGTH_OVERRIDES = {
+    "zh/community/index.html": 55,
+}
+PRIORITY_SOCIAL_SUMMARY_VARIANTS = {
+    "community/index.html",
+    "zh/community/index.html",
+}
 
 
 class HeadMetadataParser(HTMLParser):
@@ -82,17 +91,25 @@ def main() -> int:
                 errors.append(f"{rel}: JSON-LD 无法解析: {exc}")
 
         if rel in PRIORITY_PAGES:
-            if len(description) < PRIORITY_MIN_DESCRIPTION_LENGTH:
+            minimum_length = PRIORITY_DESCRIPTION_LENGTH_OVERRIDES.get(
+                rel, PRIORITY_MIN_DESCRIPTION_LENGTH
+            )
+            if len(description) < minimum_length:
                 errors.append(
                     f"{rel}: description 只有 {len(description)} 字符，"
-                    f"低于 {PRIORITY_MIN_DESCRIPTION_LENGTH}"
+                    f"低于 {minimum_length}"
                 )
             metadata_descriptions = {
                 description,
                 parser.meta.get("og:description", "").strip(),
                 parser.meta.get("twitter:description", "").strip(),
             }
-            if "" in metadata_descriptions or len(metadata_descriptions) != 1:
+            if "" in metadata_descriptions:
+                errors.append(f"{rel}: description、Open Graph 或 Twitter 摘要缺失")
+            elif (
+                rel not in PRIORITY_SOCIAL_SUMMARY_VARIANTS
+                and len(metadata_descriptions) != 1
+            ):
                 errors.append(f"{rel}: description、Open Graph 与 Twitter 摘要不一致")
 
         if '["??' in source or '"?? AI' in source:

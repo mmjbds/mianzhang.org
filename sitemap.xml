@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/community/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/concepts/</loc>
@@ -1251,6 +1251,10 @@
   <url>
     <loc>https://mianzhang.org/zh/</loc>
     <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/zh/community/</loc>
+    <lastmod>2026-08-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/ai-self-certification-grounding/</loc>

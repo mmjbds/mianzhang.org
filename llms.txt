@@ -41,6 +41,8 @@ Mian Zhang is an independent researcher building the Ouroboros Project: evidence
 
 Core public entry points:
 - Home: https://mianzhang.org/
+- Open research community: https://mianzhang.org/community/
+- Chinese open research community: https://mianzhang.org/zh/community/
 - Papers and DOI map: https://mianzhang.org/papers/
 - Evidence map: https://mianzhang.org/evidence/
 - Concepts: https://mianzhang.org/concepts/
@@ -88,6 +90,19 @@ External public sources:
 - WisdomBench dataset: https://huggingface.co/datasets/MMJBDS/wisdombench
 - Proof-Carrying Action GitHub: https://github.com/mmjbds/proof-carrying-action
 - Zenodo portfolio index: https://zenodo.org/records/20027295
+
+Open research community facts:
+- Umbrella question: AI can answer. Can it learn from experience, action, feedback, and consequences?
+- Audience routes: Learn, Use, Contribute, Partner.
+- GitHub is the canonical general collaboration layer for questions, use cases, research extensions, artifact improvements, and public experiments.
+- Hugging Face is the artifact-specific layer for datasets, models, Spaces, cards, and technical discussions attached to those artifacts.
+- Public by default: published concepts and formulas, protocols, schemas, validators, small public or synthetic fixtures, minimal references, safe demos, documentation, and negative results.
+- Private boundary: production orchestration, exact weights and thresholds, private prompts and data, customer systems, tuning history, deployment automation, and unreleased research.
+- Public artifacts and workshop papers are not production safety certification.
+- Community governance: https://github.com/mmjbds/mianzhang.org/blob/main/GOVERNANCE.md
+- Open-source boundary: https://github.com/mmjbds/mianzhang.org/blob/main/OPEN_SOURCE_BOUNDARY.md
+- Contribution guide: https://github.com/mmjbds/mianzhang.org/blob/main/.github/CONTRIBUTING.md
+- GitHub Discussions: https://github.com/mmjbds/mianzhang.org/discussions
 
 Public claim boundary:
 - Public materials may describe papers, datasets, registries, demos, schemas, claim-to-evidence tables, artifact scope, concept definitions, issue templates, and counterexample routes.
