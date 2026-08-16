@@ -4,3 +4,4 @@ Allow: /
 Sitemap: https://mianzhang.org/sitemap.xml
 
 # IndexNow key: https://mianzhang.org/indexnow-key.txt
+# Current IndexNow key: https://mianzhang.org/8846bb881fe14ab9b4292478788407c9.txt

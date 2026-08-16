@@ -3,6 +3,16 @@
 Public entry: https://mianzhang.org/
 Technical mirror: https://mmjbds-mianzhang-org.static.hf.space/
 
+AI Agent Reliability Lab:
+https://mianzhang.org/ai-agent-reliability/
+Machine-readable reliability facts:
+https://mianzhang.org/ai-agent-reliability/facts.json
+Interactive ReflexBench observer-depth check:
+https://mianzhang.org/demos/reflexbench-observer-depth/
+Chinese reliability entry:
+https://mianzhang.org/zh/ai-agent-reliability/
+These routes keep observer-depth orientation, repeated-failure evaluation, proof closure and failure-memory lifecycle as separate objects. No aggregate safety score is reported.
+
 Latest research feature:
 https://mianzhang.org/press/kdd-2026-two-workshop-papers.html
 Mian Zhang at KDD 2026: two accepted and presented non-archival workshop papers, one oral presentation and one poster presentation.
@@ -43,6 +53,9 @@ Core public entry points:
 - Home: https://mianzhang.org/
 - Open research community: https://mianzhang.org/community/
 - Chinese open research community: https://mianzhang.org/zh/community/
+- AI Agent Reliability Lab: https://mianzhang.org/ai-agent-reliability/
+- ReflexBench interactive orientation: https://mianzhang.org/demos/reflexbench-observer-depth/
+- Chinese AI Agent reliability entry: https://mianzhang.org/zh/ai-agent-reliability/
 - Papers and DOI map: https://mianzhang.org/papers/
 - Evidence map: https://mianzhang.org/evidence/
 - Concepts: https://mianzhang.org/concepts/

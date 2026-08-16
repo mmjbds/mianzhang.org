@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mianzhang.org/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/8846bb881fe14ab9b4292478788407c9.txt</loc>
+    <lastmod>2026-08-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/COMMUNITY.md</loc>
@@ -30,6 +34,14 @@
   </url>
   <url>
     <loc>https://mianzhang.org/ROADMAP.md</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/ai-agent-reliability/</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/ai-agent-reliability/facts.json</loc>
     <lastmod>2026-08-16</lastmod>
   </url>
   <url>
@@ -110,11 +122,19 @@
   </url>
   <url>
     <loc>https://mianzhang.org/demos/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-08-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/demos/proof-action-mini/</loc>
     <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/demos/reflexbench-observer-depth/</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/demos/reflexbench-observer-depth/reflexbench.jsonl</loc>
+    <lastmod>2026-08-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/ZENODO_METADATA_BACKLINKS_20260615.md</loc>
@@ -899,6 +919,10 @@
   <url>
     <loc>https://mianzhang.org/zh/</loc>
     <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://mianzhang.org/zh/ai-agent-reliability/</loc>
+    <lastmod>2026-08-16</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/ai-self-certification-grounding/</loc>

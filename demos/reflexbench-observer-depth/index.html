@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReflexBench Observer-Depth Check | Interactive AI Agent Scenario</title>
+  <meta name="description" content="Explore 20 ReflexBench scenarios, inspect four observer-depth prompts and create a local orientation receipt for bounded reflexive AI reasoning coverage.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://mianzhang.org/demos/reflexbench-observer-depth/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mianzhang.org/demos/reflexbench-observer-depth/">
+  <meta property="og:title" content="ReflexBench Observer-Depth Check">
+  <meta property="og:description" content="Explore 20 ReflexBench scenarios, inspect four observer-depth prompts and create a local orientation receipt for bounded reflexive AI reasoning coverage.">
+  <meta property="og:image" content="https://mianzhang.org/assets/observer-depth-lenses.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ReflexBench Observer-Depth Check">
+  <meta name="twitter:description" content="Explore 20 ReflexBench scenarios, inspect four observer-depth prompts and create a local orientation receipt for bounded reflexive AI reasoning coverage.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/observer-depth-lenses.webp">
+  <link rel="icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://mianzhang.org/demos/reflexbench-observer-depth/#app",
+        "name": "ReflexBench Observer-Depth Check",
+        "url": "https://mianzhang.org/demos/reflexbench-observer-depth/",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any web browser",
+        "isAccessibleForFree": true,
+        "description": "A client-side orientation tool over 20 public ReflexBench scenarios and four observer-depth prompt levels.",
+        "softwareVersion": "1.0",
+        "author": {"@id": "https://mianzhang.org/#person"},
+        "citation": "https://mianzhang.org/papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf",
+        "codeRepository": "https://github.com/mmjbds/reflexbench",
+        "license": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://mianzhang.org/demos/reflexbench-observer-depth/#webpage",
+        "url": "https://mianzhang.org/demos/reflexbench-observer-depth/",
+        "name": "ReflexBench Observer-Depth Check",
+        "mainEntity": {"@id": "https://mianzhang.org/demos/reflexbench-observer-depth/#app"},
+        "isPartOf": {"@id": "https://mianzhang.org/#website"},
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../../" aria-label="Mian Zhang home"><span class="brand-mark"></span><span>Mian Zhang</span></a>
+    <nav aria-label="Primary navigation"><a href="../../ai-agent-reliability/">Reliability Lab</a><a href="../../papers/kdd-2026/">Paper</a><a href="https://github.com/mmjbds/reflexbench">GitHub</a><a href="../../community/">Community</a></nav>
+  </header>
+
+  <main>
+    <section class="hero reflex-hero">
+      <div class="hero-copy">
+        <p class="kicker">ReflexBench / Interactive Orientation</p>
+        <h1>What changes after the model speaks?</h1>
+        <p class="lead">A recommendation, forecast or policy answer can change users, evidence, incentives and other agents. Select a released scenario and inspect the depth your analysis covers.</p>
+        <div class="signature-line"><span>OD-0 decision</span><span>OD-1 impact</span><span>OD-2 interaction</span><span>OD-n equilibrium</span></div>
+      </div>
+      <figure class="hero-visual"><img src="../../assets/observer-depth-lenses.webp" alt="Four observer-depth lenses from surface decision to equilibrium reasoning."></figure>
+    </section>
+
+    <section class="lab-shell" aria-labelledby="scenario-heading">
+      <div class="lab-toolbar">
+        <label for="scenarioSelect">Scenario</label>
+        <select id="scenarioSelect" disabled><option>Loading public scenarios...</option></select>
+        <button class="button" type="button" id="randomScenario">Random scenario</button>
+      </div>
+
+      <div class="scenario-header">
+        <p class="kicker" id="scenarioMeta">Public benchmark scenario</p>
+        <h2 id="scenario-heading">Loading...</h2>
+        <p id="scenarioDescription"></p>
+      </div>
+
+      <div class="depth-strip" role="tablist" aria-label="Observer depth">
+        <button type="button" class="depth-button active" data-level="part_a" role="tab" aria-selected="true"><strong>OD-0</strong><span>Decision</span></button>
+        <button type="button" class="depth-button" data-level="part_b" role="tab" aria-selected="false"><strong>OD-1</strong><span>Own impact</span></button>
+        <button type="button" class="depth-button" data-level="part_c" role="tab" aria-selected="false"><strong>OD-2</strong><span>Other agents</span></button>
+        <button type="button" class="depth-button" data-level="part_d" role="tab" aria-selected="false"><strong>OD-n</strong><span>Equilibrium</span></button>
+      </div>
+
+      <section class="prompt-band" aria-live="polite">
+        <div><p class="kicker" id="promptLevel">OD-0 / Surface decision</p><h3 id="promptText"></h3></div>
+        <details><summary>Released scoring rubric</summary><p id="promptRubric"></p></details>
+      </section>
+
+      <section class="coverage-band" aria-labelledby="coverage-title">
+        <div class="coverage-copy">
+          <p class="kicker">Observer Coverage</p>
+          <h2 id="coverage-title">Mark the effects present in your analysis.</h2>
+          <fieldset id="lensChecklist">
+            <label><input type="checkbox" value="target_change"> The output changes the target outcome or user experience.</label>
+            <label><input type="checkbox" value="actor_adaptation"> Affected users or agents adapt after seeing the output.</label>
+            <label><input type="checkbox" value="system_feedback"> Other systems change future data, incentives or available actions.</label>
+            <label><input type="checkbox" value="equilibrium"> The analysis tests whether a policy remains stable under mutual adaptation.</label>
+          </fieldset>
+        </div>
+        <output class="coverage-output" id="coverageOutput">
+          <span>Current coverage</span><strong>OD-0</strong><p>Surface decision only. No causal effect of the output has been marked.</p>
+        </output>
+      </section>
+
+      <section class="receipt-band" aria-labelledby="receipt-title">
+        <div><p class="kicker">Local Receipt</p><h2 id="receipt-title">Orientation record</h2><p>The receipt is generated in this browser. It is not uploaded and is not a ReflexBench model score.</p></div>
+        <pre id="receiptJson" aria-label="Orientation receipt JSON"></pre>
+        <div class="receipt-actions"><button class="button primary" type="button" id="copyReceipt">Copy receipt</button><button class="button" type="button" id="downloadReceipt">Download JSON</button><button class="button" type="button" id="shareScenario">Share scenario</button></div>
+        <p class="status-line" id="actionStatus" aria-live="polite"></p>
+      </section>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head"><p class="kicker">Released Scope</p><h2>What this page reads and what it does not infer.</h2></div>
+      <div class="paper-table" role="table" aria-label="ReflexBench public scope">
+        <div class="paper-row head" role="row"><span>Object</span><span>Released scope</span><span>This page</span><span>Boundary</span></div>
+        <div class="paper-row" role="row"><span>Scenarios</span><span>20 scenarios, 6 domains</span><span>All scenario prompts loaded</span><span>Fixed public set</span></div>
+        <div class="paper-row" role="row"><span>Observer depth</span><span>OD-0, OD-1, OD-2, OD-n</span><span>Prompts and rubrics exposed</span><span>No automated answer scoring</span></div>
+        <div class="paper-row" role="row"><span>Workshop study</span><span>9 models, 720 scored responses</span><span>Paper route linked</span><span>Not production validation</span></div>
+        <div class="paper-row" role="row"><span>Orientation receipt</span><span>User-selected lenses</span><span>Generated client-side</span><span>Not a benchmark result</span></div>
+      </div>
+      <div class="link-row"><a class="button primary" href="../../papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf">Read workshop paper</a><a class="button" href="https://github.com/mmjbds/reflexbench">Inspect artifact</a><a class="button" href="https://github.com/mmjbds/reflexbench/issues/new/choose">Report a scenario or artifact issue</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><strong>ReflexBench</strong><span>Observer-participant reasoning under released scenarios and scoring procedures.</span></div><div class="footer-links"><a href="../../ai-agent-reliability/">Reliability Lab</a><a href="../../papers/kdd-2026/">KDD 2026 materials</a><a href="https://github.com/mmjbds/reflexbench">GitHub</a></div></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

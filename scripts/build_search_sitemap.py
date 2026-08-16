@@ -23,11 +23,14 @@ EXCLUDED_PREFIXES = (
 )
 
 ADDITIONAL_PUBLIC_FILES = (
+    "8846bb881fe14ab9b4292478788407c9.txt",
     "COMMUNITY.md",
     "CONTENT_AND_MEDIA_LICENSE.md",
     "GOVERNANCE.md",
     "OPEN_SOURCE_BOUNDARY.md",
     "ROADMAP.md",
+    "ai-agent-reliability/facts.json",
+    "demos/reflexbench-observer-depth/reflexbench.jsonl",
 )
 
 VERIFICATION_FILES = {

@@ -14,8 +14,11 @@ VERIFICATION_FILES = {
 }
 PRIORITY_PAGES = {
     "community/index.html",
-    "zh/index.html",
     "zh/community/index.html",
+    "ai-agent-reliability/index.html",
+    "demos/reflexbench-observer-depth/index.html",
+    "zh/index.html",
+    "zh/ai-agent-reliability/index.html",
     "zh/embodied-ai-failure-learning/index.html",
     "essays/index.html",
     "zh/ai-trading-bot-risk-controls/index.html",
@@ -29,6 +32,7 @@ PRIORITY_SOCIAL_SUMMARY_VARIANTS = {
     "community/index.html",
     "zh/community/index.html",
 }
+PRIORITY_MIN_DESCRIPTION_LENGTH_ZH = 70
 
 
 class HeadMetadataParser(HTMLParser):
@@ -107,10 +111,15 @@ def main() -> int:
                 errors.append(f"{rel}: JSON-LD 无法解析: {exc}")
 
         if rel in PRIORITY_PAGES:
-            if len(description) < PRIORITY_MIN_DESCRIPTION_LENGTH:
+            minimum_length = (
+                PRIORITY_MIN_DESCRIPTION_LENGTH_ZH
+                if rel.startswith("zh/")
+                else PRIORITY_MIN_DESCRIPTION_LENGTH
+            )
+            if len(description) < minimum_length:
                 errors.append(
                     f"{rel}: description 只有 {len(description)} 字符，"
-                    f"低于 {PRIORITY_MIN_DESCRIPTION_LENGTH}"
+                    f"低于 {minimum_length}"
                 )
             if len(description) > PRIORITY_MAX_DESCRIPTION_LENGTH:
                 errors.append(

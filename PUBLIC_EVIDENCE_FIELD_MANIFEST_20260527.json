@@ -1,6 +1,6 @@
 {
   "schema_version": "public_evidence_field_manifest_v0",
-  "generated_utc": "2026-08-14T00:00:00Z",
+  "generated_utc": "2026-08-16T00:00:00Z",
   "site": {
     "name": "Mian Zhang | Ouroboros Project",
     "base_url": "https://mianzhang.org",
@@ -16,7 +16,8 @@
   "primary_routes": [
     "/start-here/index.html",
     "/evidence/index.html",
-    "/counterexamples/index.html"
+    "/counterexamples/index.html",
+    "/ai-agent-reliability/"
   ],
   "supporting_routes": [
     "/field-manual/index.html",
@@ -108,7 +109,11 @@
     "/papers/kdd-2026/index.html",
     "/papers/kdd-2026/facts.json",
     "/papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf",
-    "/papers/kdd-2026/mian-zhang-kdd-2026-cognitive-immunity.pdf"
+    "/papers/kdd-2026/mian-zhang-kdd-2026-cognitive-immunity.pdf",
+    "/ai-agent-reliability/facts.json",
+    "/demos/reflexbench-observer-depth/",
+    "/demos/reflexbench-observer-depth/reflexbench.jsonl",
+    "/zh/ai-agent-reliability/"
   ],
   "machine_readable_registries": [
     "/registries/claim_registry_v0.json",
@@ -169,6 +174,7 @@
       "/llms.txt",
       "/sitemap.xml",
       "/robots.txt",
+      "/ai-agent-reliability/facts.json",
       "/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json"
     ],
     "external_language_routes": [
