@@ -16,6 +16,7 @@ NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 RELEASE_DATE = "2026-08-17"
 LASTMOD_OVERRIDES = {
     f"{BASE_URL}/": RELEASE_DATE,
+    f"{BASE_URL}/community/": RELEASE_DATE,
     f"{BASE_URL}/docs/external-submission-status-2026-06-15.html": RELEASE_DATE,
     f"{BASE_URL}/docs/public-completion-audit-2026-06-15.html": RELEASE_DATE,
     f"{BASE_URL}/docs/search-discovery-2026-06-15.html": RELEASE_DATE,
@@ -23,6 +24,7 @@ LASTMOD_OVERRIDES = {
     f"{BASE_URL}/docs/search-submission-status-current.html": RELEASE_DATE,
     f"{BASE_URL}/registries/claim_to_evidence_table_v0.html": RELEASE_DATE,
     f"{BASE_URL}/registries/schema_notes_v0.html": RELEASE_DATE,
+    f"{BASE_URL}/zh/community/": RELEASE_DATE,
 }
 
 VERIFICATION_FILES = {

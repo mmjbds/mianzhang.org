@@ -119,6 +119,13 @@ Open research community facts:
 - Contribution guide: https://github.com/mmjbds/mianzhang.org/blob/main/.github/CONTRIBUTING.md
 - GitHub Discussions: https://github.com/mmjbds/mianzhang.org/discussions
 
+Current versioned public releases:
+- Proof-Carrying Action v0.1.0: https://github.com/mmjbds/proof-carrying-action/releases/tag/v0.1.0
+- ReflexBench v2.0.0-public.1: https://github.com/mmjbds/reflexbench/releases/tag/v2.0.0-public.1
+- WisdomBench v0.1.0-public.1: https://github.com/mmjbds/wisdombench/releases/tag/v0.1.0-public.1
+- SOVEREIGN Public Interfaces v0.1.0: https://github.com/mmjbds/sovereign-os/releases/tag/v0.1.0
+- Release tags identify exact public artifacts and verification instructions; they are not production safety certification.
+
 Public claim boundary:
 - Public materials may describe papers, datasets, registries, demos, schemas, claim-to-evidence tables, artifact scope, concept definitions, issue templates, and counterexample routes.
 - Public materials do not prove general intelligence, general safety, production readiness, customer readiness, real-time trading returns, real robot deployment, medical validity, or private execution quality.

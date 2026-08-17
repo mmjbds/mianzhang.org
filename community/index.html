@@ -34,7 +34,7 @@
         "name": "Open Research Community",
         "description": "Join Mian Zhang's open research community for reliable agents, failure learning, ReflexBench, Cognitive Immunity, WisdomBench, tools, and reproducible evidence.",
         "inLanguage": "en",
-        "dateModified": "2026-08-16",
+        "dateModified": "2026-08-17",
         "isPartOf": {"@id": "https://mianzhang.org/#website"},
         "author": {"@type": "Person", "name": "Mian Zhang", "url": "https://mianzhang.org/"},
         "about": [
@@ -59,6 +59,16 @@
           {"@type": "Question", "name": "Who can contribute?", "acceptedAnswer": {"@type": "Answer", "text": "Researchers, engineers, students, operators, and readers can contribute through questions, use cases, documentation, safe examples, baselines, experiments, or code."}},
           {"@type": "Question", "name": "What is open source?", "acceptedAnswer": {"@type": "Answer", "text": "Published concepts, public protocols, schemas, validators, small fixtures, minimal reference implementations, and selected software are public. Production orchestration, exact operational parameters, private data, customer systems, and unpublished research remain private."}},
           {"@type": "Question", "name": "Does a public benchmark certify production safety?", "acceptedAnswer": {"@type": "Answer", "text": "No. Public papers and benchmarks support only the claims and conditions stated in their artifacts; they are not production safety certification."}}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Current public research releases",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Proof-Carrying Action v0.1.0", "url": "https://github.com/mmjbds/proof-carrying-action/releases/tag/v0.1.0"},
+          {"@type": "ListItem", "position": 2, "name": "ReflexBench v2.0.0-public.1", "url": "https://github.com/mmjbds/reflexbench/releases/tag/v2.0.0-public.1"},
+          {"@type": "ListItem", "position": 3, "name": "WisdomBench v0.1.0-public.1", "url": "https://github.com/mmjbds/wisdombench/releases/tag/v0.1.0-public.1"},
+          {"@type": "ListItem", "position": 4, "name": "SOVEREIGN Public Interfaces v0.1.0", "url": "https://github.com/mmjbds/sovereign-os/releases/tag/v0.1.0"}
         ]
       }
     ]
@@ -133,6 +143,21 @@
         <a class="paper-row" href="https://github.com/mmjbds/wisdombench" role="row"><span>WisdomBench</span><span>Can an evaluator distinguish answer quality from judgment under uncertainty?</span><span>Schema, scorer, examples</span><span>Benchmark conditions bound the result</span></a>
         <a class="paper-row" href="https://github.com/mmjbds/proof-carrying-action" role="row"><span>Proof-Carrying Action</span><span>What proof should accompany a consequential action request?</span><span>Protocol and toy reference</span><span>No private execution integrations</span></a>
         <a class="paper-row" href="https://github.com/mmjbds/ouroboros-papers" role="row"><span>Ouroboros Papers</span><span>How do the concepts and evidence records connect across the research program?</span><span>Paper and DOI index</span><span>Archive and navigation, not product support</span></a>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="releases">
+      <div class="section-head">
+        <p class="kicker">Current Releases</p>
+        <h2>Versioned artifacts with commands, manifests, and explicit limits.</h2>
+        <p>These links identify the current citable public units. Each release freezes exact files and verification commands; none is a production safety certificate or a disclosure of the private product core.</p>
+      </div>
+      <div class="paper-table community-project-table" role="table" aria-label="Current public releases">
+        <div class="paper-row head" role="row"><span>Release</span><span>Public unit</span><span>Verification</span><span>Boundary</span></div>
+        <a class="paper-row" href="https://github.com/mmjbds/proof-carrying-action/releases/tag/v0.1.0" role="row"><span>Proof-Carrying Action v0.1.0</span><span>Proof-envelope schema and deterministic repair demo</span><span>Demo check and pytest</span><span>Toy protocol, not production authorization</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/reflexbench/releases/tag/v2.0.0-public.1" role="row"><span>ReflexBench v2.0.0-public.1</span><span>20-scenario observer-depth artifact</span><span>Public artifact audit</span><span>Development benchmark, not deployment validation</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/wisdombench/releases/tag/v0.1.0-public.1" role="row"><span>WisdomBench v0.1.0-public.1</span><span>Tasks, metrics, score records, and run-card contract</span><span>Analysis, schema validation, and unit tests</span><span>Does not establish general wisdom or safety</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/sovereign-os/releases/tag/v0.1.0" role="row"><span>SOVEREIGN Public Interfaces v0.1.0</span><span>Cognitive Immunity and structured-memory interfaces</span><span>Lifecycle demo and unit tests</span><span>Minimal interfaces, not the complete product</span></a>
       </div>
     </section>
 
