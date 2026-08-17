@@ -19,11 +19,13 @@ def build_field_record() -> None:
         ASSETS / "kdd2026-cognitive-immunity.webp"
     ).convert("RGB")
 
-    # Preserve the close poster view while leaving the cap and head fully visible.
-    reflexbench_crop = reflexbench.crop((0, 70, 1500, 1071))
-    reflexbench_panel = reflexbench_crop.resize(
-        (WIDTH, PANEL_HEIGHT), Image.Resampling.LANCZOS
-    )
+    if reflexbench.width < WIDTH or reflexbench.height < PANEL_HEIGHT + 70:
+        raise ValueError(
+            f"ReflexBench source is too small: {reflexbench.width}x{reflexbench.height}"
+        )
+
+    # Keep the full source width and shift the crop upward so the head remains intact.
+    reflexbench_panel = reflexbench.crop((0, 70, WIDTH, PANEL_HEIGHT + 70))
     cognitive_panel = ImageOps.fit(
         cognitive_immunity,
         (WIDTH, PANEL_HEIGHT),
