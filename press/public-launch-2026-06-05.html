@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>16-paper Public Index JSONL v0, 2026-06-05 | Mian Zhang</title>
-  <meta name="description" content="A public note introducing a machine-auditable index shape for the 16-paper upload matrix: paper_id, public_file, claim, boundary, hash, DOI/status, and attack_route.">
+  <meta name="description" content="A public note introducing a machine-auditable index shape for the 16-paper upload matrix: paper_id, public_file, claim, boundary, hash, DOI/status, and challenge_route.">
   <meta property="og:title" content="16-paper Public Index JSONL v0 | Ouroboros Project">
   <meta property="og:description" content="The paper matrix should be auditable by machines, not only browsed by humans. The index exports public fields, public URLs, claim boundaries, freshness status, and challenge routes.">
   <meta property="og:type" content="article">
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-05.html">
   <meta name="robots" content="index,follow">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "16-paper Public Index JSONL v0, 2026-06-05", "description": "A public note introducing a machine-auditable index shape for the 16-paper upload matrix: paper_id, public_file, claim, boundary, hash, DOI/status, and attack_route.", "datePublished": "2026-06-05", "dateModified": "2026-06-05", "author": {"@type": "Person", "name": "Mian Zhang"}, "publisher": {"@type": "Organization", "name": "Ouroboros Project"}, "mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-05.html", "isPartOf": {"@type": "WebSite", "name": "Ouroboros Project", "url": "https://mianzhang.org"}, "image": "https://mianzhang.org/assets/machine-auditable-schema-20260605.png"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "16-paper Public Index JSONL v0, 2026-06-05", "description": "A public note introducing a machine-auditable index shape for the 16-paper upload matrix: paper_id, public_file, claim, boundary, hash, DOI/status, and challenge_route.", "datePublished": "2026-06-05", "dateModified": "2026-06-05", "author": {"@type": "Person", "name": "Mian Zhang"}, "publisher": {"@type": "Organization", "name": "Ouroboros Project"}, "mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-05.html", "isPartOf": {"@type": "WebSite", "name": "Ouroboros Project", "url": "https://mianzhang.org"}, "image": "https://mianzhang.org/assets/machine-auditable-schema-20260605.png"}</script>
 </head>
 <body>
   <div class="site-texture" aria-hidden="true"></div>
@@ -57,7 +57,7 @@
           <span>public_file</span>
           <span>claim</span>
           <span>boundary</span>
-          <span>attack_route</span>
+          <span>challenge_route</span>
         </div>
         <div class="hero-actions">
           <a class="button primary" href="https://mianzhang.org/registries/">Registries</a>
@@ -150,7 +150,7 @@
           <span>doi_status</span><span>Publication or archive status.</span><span>published, pending, not_applicable, superseded.</span><span>No non-public status.</span>
         </div>
         <div class="paper-row" role="row">
-          <span>attack_route</span><span>Where a reader can challenge the claim.</span><span>Public counterexample or issue route.</span><span>No private endpoint or credentialed workflow.</span>
+          <span>challenge_route</span><span>Where a reader can challenge the claim.</span><span>Public counterexample or issue route.</span><span>No private endpoint or credentialed workflow.</span>
         </div>
       </div>
     </section>
@@ -168,7 +168,7 @@
           prompts, or execution logs.
         </p>
         <p>
-          If a field cannot be explained as public evidence, public boundary, public freshness, or public attack
+          If a field cannot be explained as public evidence, public boundary, public freshness, or public challenge
           route, it should not enter the export.
         </p>
       </div>
@@ -181,7 +181,7 @@
       </div>
       <div class="paper-table" role="table" aria-label="16-paper public index traceability">
         <div class="paper-row head" role="row">
-          <span>Paper group</span><span>Index focus</span><span>Public route</span><span>Attack check</span>
+          <span>Paper group</span><span>Index focus</span><span>Public route</span><span>Challenge check</span>
         </div>
         <div class="paper-row" role="row">
           <span>W0</span><span>Foundational definitions, metrology, and interoperability claims.</span><span>Papers, evidence map, manifest.</span><span>Claim-to-definition traceability.</span>

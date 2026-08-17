@@ -78,6 +78,26 @@ INTERNAL_LANGUAGE = {
     "welcomes attacks",
     "how to attack it",
     "route to attack it",
+    "external-facing",
+    "external reader",
+    "public surface",
+    "canonical route",
+    "current boundary",
+    "Attack overbroad claims through public routes",
+    "统一入口",
+    "公开材料从这里分发",
+    "外部读者",
+    "外部的人",
+    "当前边界",
+    "内部可审计",
+    "主张与死亡条件",
+    "可直接引用的答案",
+    "next attack targets",
+    "attack a claim",
+    "attack the claim",
+    "attack route",
+    "attack queue",
+    "攻击某项主张",
 }
 PUBLIC_LANGUAGE_FILES = {
     Path("index.html"),
@@ -89,6 +109,17 @@ PUBLIC_LANGUAGE_FILES = {
     Path("GOVERNANCE.md"),
     Path("ROADMAP.md"),
 }
+
+
+def detect_internal_language(rel: Path, source: str) -> list[str]:
+    if rel.suffix.lower() != ".html" and rel not in PUBLIC_LANGUAGE_FILES:
+        return []
+    folded = source.casefold()
+    return [
+        f"{rel.as_posix()}: 检测到内部口吻: {phrase}"
+        for phrase in INTERNAL_LANGUAGE
+        if phrase.casefold() in folded
+    ]
 
 
 class CommunityHTMLParser(HTMLParser):
@@ -169,16 +200,44 @@ def validate_license(root: Path) -> list[str]:
     return errors
 
 
-def resolve_local_link(page: Path, raw: str) -> Path | None:
-    if raw.startswith(("http://", "https://", "mailto:", "data:", "#")):
+def resolve_local_link(page: Path, raw: str, root: Path | None = None) -> Path | None:
+    if raw.startswith(("http://", "https://", "mailto:", "tel:", "data:", "javascript:", "#", "//")):
         return None
     clean = unquote(raw.split("#", 1)[0].split("?", 1)[0])
     if not clean:
         return None
-    target = (page.parent / clean).resolve()
+    if clean.startswith("/") and root is not None:
+        target = (root / clean.lstrip("/")).resolve()
+    else:
+        target = (page.parent / clean).resolve()
     if target.is_dir():
         target /= "index.html"
     return target
+
+
+def validate_all_html_documents(root: Path) -> list[str]:
+    errors: list[str] = []
+    for path in sorted(root.rglob("*.html")):
+        if ".git" in path.parts:
+            continue
+        rel = path.relative_to(root)
+        source = path.read_text(encoding="utf-8")
+        parser = CommunityHTMLParser()
+        parser.feed(source)
+        for block in parser.json_ld_blocks:
+            try:
+                json.loads(block)
+            except json.JSONDecodeError as exc:
+                errors.append(f"{rel.as_posix()}: JSON-LD 无法解析: {exc}")
+        for raw in parser.links:
+            target = resolve_local_link(path, raw, root)
+            if target is None:
+                continue
+            if not target.is_relative_to(root):
+                errors.append(f"{rel.as_posix()}: 本地链接越出站点根目录: {raw}")
+            elif not target.exists():
+                errors.append(f"{rel.as_posix()}: 本地链接不存在: {raw}")
+    return errors
 
 
 def validate_community_pages(root: Path) -> tuple[list[str], list[str]]:
@@ -228,7 +287,7 @@ def validate_community_pages(root: Path) -> tuple[list[str], list[str]]:
             errors.append(f"{rel.as_posix()}: 缺少 KDD workshop 非存档边界")
 
         for raw in parser.links:
-            target = resolve_local_link(path, raw)
+            target = resolve_local_link(path, raw, root)
             if target is not None:
                 if not target.exists():
                     errors.append(f"{rel.as_posix()}: 本地链接不存在: {raw}")
@@ -314,6 +373,7 @@ def run_audit(root: Path, check_external: bool = False) -> list[str]:
     errors.extend(validate_license(root))
     page_errors, external_urls = validate_community_pages(root)
     errors.extend(page_errors)
+    errors.extend(validate_all_html_documents(root))
     errors.extend(validate_yaml(root))
     errors.extend(validate_indexes(root))
 
@@ -324,11 +384,7 @@ def run_audit(root: Path, check_external: bool = False) -> list[str]:
         except UnicodeDecodeError:
             continue
         errors.extend(detect_sensitive_text(rel, source))
-        if rel in PUBLIC_LANGUAGE_FILES:
-            folded = source.casefold()
-            for phrase in INTERNAL_LANGUAGE:
-                if phrase.casefold() in folded:
-                    errors.append(f"{rel.as_posix()}: 检测到内部口吻: {phrase}")
+        errors.extend(detect_internal_language(rel, source))
 
     if check_external:
         errors.extend(check_external_urls(external_urls))
@@ -343,6 +399,8 @@ def run_self_test() -> list[str]:
     private_path = "C:" + "\\Users\\Administrator\\private.txt"
     if not detect_sensitive_text(Path("fixture.md"), private_path):
         failures.append("自测失败: 未识别本机路径夹具")
+    if not detect_internal_language(Path("nested/public.html"), "Written for external readers"):
+        failures.append("自测失败: 未对全部公开 HTML 执行内部口吻检查")
 
     with tempfile.TemporaryDirectory() as temp_dir:
         root = Path(temp_dir)
@@ -358,6 +416,8 @@ def run_self_test() -> list[str]:
         target = resolve_local_link(page, parser.links[0])
         if target is None or target.exists():
             failures.append("自测失败: 未构造断裂本地链接")
+        if not validate_all_html_documents(root):
+            failures.append("自测失败: 全站 HTML 审计未识别断裂本地链接")
 
         if yaml is not None:
             bad_yaml = root / ".github" / "DISCUSSION_TEMPLATE" / "q-and-a.yml"

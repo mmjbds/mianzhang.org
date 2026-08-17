@@ -69,17 +69,17 @@
 
     <section id="overview" class="section split">
       <div>
-        <p class="kicker">核心定位</p>
-        <h2>中文说明与英文证据入口共享同一条公开链路。</h2>
+        <p class="kicker">如何阅读</p>
+        <h2>从中文解释出发，继续查论文、代码和实验记录。</h2>
       </div>
       <div class="body-text">
         <p>
-          <code>mianzhang.org/zh</code> 是中文解释、周报和现实问题入口。它和英文站共享同一套 DOI、sitemap
-          与 claim boundary，方便读者从中文说明回到可复核的公开记录。
+          <code>mianzhang.org/zh</code> 汇集中文解释、周报和现实问题。涉及研究结论时，页面会继续链接到
+          DOI、论文、代码或对应的实验记录。
         </p>
         <p>
-          外部分发平台用于触达读者；权威引用仍回到 Zenodo，主张挑战回到 GitHub issue，技术材料回到
-          Hugging Face 镜像，中文路线和长期说明回到本页。
+          引用论文时可打开 Zenodo 固定版本；检查代码和提交问题可进入 GitHub；技术演示与镜像可在
+          Hugging Face 查看。
         </p>
       </div>
     </section>
@@ -98,25 +98,25 @@
 
     <section class="section portfolio">
       <div class="section-head">
-        <p class="kicker">四个入口</p>
-        <h2>每个平台承担一个清楚的公共角色。</h2>
-        <p>入口分工越清楚，读者越容易区分论文归档、开源协作、技术镜像、中文说明和私有系统边界。</p>
+        <p class="kicker">四类资料</p>
+        <h2>从论文原文、代码到中文解释，可以按需要逐层深入。</h2>
+        <p>查论文版本、运行代码、查看技术演示或阅读中文解释，都能回到对应的研究问题与证据。</p>
       </div>
       <div class="paper-table" role="table" aria-label="Public entry map">
         <div class="paper-row head" role="row">
-          <span>入口</span><span>职责</span><span>主要内容</span><span>边界</span>
+          <span>资源</span><span>适合查找</span><span>包括</span><span>使用时注意</span>
         </div>
         <a class="paper-row" href="../papers/" role="row">
-          <span>Zenodo</span><span>权威归档</span><span>DOI、版本、文件、manifest</span><span>引用以 DOI 记录为准</span>
+          <span>Zenodo</span><span>论文与固定版本</span><span>DOI、版本、文件、manifest</span><span>正式引用以 DOI 记录为准</span>
         </a>
         <a class="paper-row" href="community/" role="row">
-          <span>GitHub</span><span>社区协作</span><span>issue、schema、索引、反例挑战</span><span>只处理公开可复核材料</span>
+          <span>GitHub</span><span>代码与研究讨论</span><span>issue、schema、索引、反例与实验</span><span>不要提交敏感数据或私有系统信息</span>
         </a>
         <a class="paper-row" href="../technology/" role="row">
-          <span>HF</span><span>技术镜像</span><span>demo、registry、边界、artifact delta</span><span>保持技术索引定位</span>
+          <span>Hugging Face</span><span>技术演示与镜像</span><span>demo、registry、artifact 页面</span><span>结果仍受页面列出的实验条件约束</span>
         </a>
         <a class="paper-row" href="./" role="row">
-          <span>中文区</span><span>解释与沉淀</span><span>中文首页、长文、周报、现实问题入口</span><span>所有主张回链到公开证据</span>
+          <span>中文页面</span><span>中文解释与延伸阅读</span><span>首页、长文、周报与现实问题</span><span>结论可继续追溯到论文或实验记录</span>
         </a>
       </div>
     </section>
@@ -126,26 +126,26 @@
         <img src="../assets/open-source-boundary-20260515.webp" alt="开源边界视觉图。">
       </figure>
       <div>
-        <p class="kicker">开放边界</p>
-        <h2>开放可验证接口，同时明确公开边界。</h2>
+        <p class="kicker">开源范围</p>
+        <h2>你可以看到、运行和验证什么。</h2>
         <p>
-          公开层包括概念、论文、公开 schema、演示样例、反例提交模板、证据阶梯和公开 DOI。
-          未公开系统、敏感数据、运行细节和非公共材料不进入公开发布范围。
+          这里提供概念、论文、schema、演示样例、反例模板、证据记录和 DOI。
+          未发表研究、敏感数据、客户系统和生产运行细节不在开源范围内。
         </p>
         <ul class="check-list">
-          <li>公开层用于验证研究主张、复现路径和证据边界，不用于发布完整运行系统。</li>
+          <li>每项研究主张都应能追溯到论文、代码、数据或明确的实验记录。</li>
           <li>反例通道把有效质疑转化为可追踪的修正任务。</li>
-          <li>GitHub 负责社区协作，HF 负责技术镜像，中文区负责解释。</li>
-          <li>公开层只承载可复核材料、证据边界和读者入口。</li>
+          <li>GitHub、Hugging Face 与中文页面指向同一组研究对象，深度和用途各有不同。</li>
+          <li>涉及生产部署时，仍需独立完成安全、权限、数据与领域验证。</li>
         </ul>
       </div>
     </section>
 
     <section id="links" class="section contact">
       <div>
-        <p class="kicker">统一入口</p>
-        <h2>公开材料从这里分发。</h2>
-        <p>论文归档、证据地图、技术页面和社区入口分别承担引用、复核、实现和反馈职责。</p>
+        <p class="kicker">继续阅读</p>
+        <h2>按问题选择论文、方法、证据或讨论。</h2>
+        <p>可以直接阅读论文与 DOI 记录，查看技术实现与证据地图，或进入社区讨论具体问题。</p>
       </div>
       <div class="contact-links">
         <a href="community/">开放研究社区入口</a>

@@ -44,7 +44,7 @@
     <section class="section portfolio">
       <div class="section-head"><p class="kicker">四类问题</p><h2>不能压成一个“安全分数”。</h2><p>观察者深度、失败复发、证据闭合和记忆治理测量的是不同对象。把它们加权成一个总分，会掩盖真正的故障位置。</p></div>
       <div class="paper-table" role="table" aria-label="AI Agent 可靠性检查路线">
-        <div class="paper-row head" role="row"><span>问题</span><span>公开对象</span><span>输出</span><span>入口</span></div>
+        <div class="paper-row head" role="row"><span>问题</span><span>研究方法</span><span>得到什么</span><span>继续查看</span></div>
         <a class="paper-row" href="../../demos/reflexbench-observer-depth/" role="row"><span>模型说完之后，世界发生了什么变化？</span><span>ReflexBench</span><span>观察者覆盖回执</span><span>运行检查</span></a>
         <a class="paper-row" href="../../benchmarks/wisdombench-failure-learning/" role="row"><span>系统是否重复一个已经出现过的错误？</span><span>WisdomBench</span><span>逐轮失败记录</span><span>查看基准</span></a>
         <a class="paper-row" href="../../demos/proof-action-mini/" role="row"><span>这个输出是否有权变成真实动作？</span><span>Proof-Carrying Action</span><span>允许、修复或停止</span><span>运行动作门</span></a>
@@ -53,12 +53,12 @@
     </section>
 
     <section class="section split">
-      <div><p class="kicker">公开边界</p><h2>公开的是可检查接口，不是生产控制核心。</h2></div>
-      <div class="body-text"><p>公开层包括场景、schema、固定样例、验证器、汇总结果、主张边界和贡献入口；不包括客户数据、私有编排、生产阈值、策略权重、部署凭据或未公开研究。</p><p>公开检查通过，只能说明某个工件在已发布条件下符合其规范。它不等于安全认证、部署授权或通用可靠性证明。</p></div>
+      <div><p class="kicker">可检查范围</p><h2>可以运行研究材料，但不能把结果当成生产认证。</h2></div>
+      <div class="body-text"><p>这里列出场景、schema、固定样例、验证器、汇总结果、结论限制和问题链接；不包含客户数据、部署凭据、生产阈值或未发表研究。</p><p>检查通过，只能说明某个工件在已发布条件下符合其规范。它不等于安全认证、部署授权或通用可靠性证明。</p></div>
     </section>
 
     <section class="section portfolio">
-      <div class="section-head"><p class="kicker">论文与代码</p><h2>每个判断都能落回公开对象。</h2></div>
+      <div class="section-head"><p class="kicker">论文与代码</p><h2>每项结论都能追溯到论文、代码或实验记录。</h2></div>
       <div class="paper-table" role="table" aria-label="论文与代码入口">
         <div class="paper-row head" role="row"><span>对象</span><span>论文/页面</span><span>代码</span><span>问题入口</span></div>
         <div class="paper-row" role="row"><span>ReflexBench</span><span><a href="../../papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf">Workshop 论文</a></span><span><a href="https://github.com/mmjbds/reflexbench">GitHub</a></span><span><a href="https://github.com/mmjbds/reflexbench/issues/new/choose">提交场景或工件问题</a></span></div>

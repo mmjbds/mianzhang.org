@@ -507,6 +507,8 @@ h3 {
 
 .paper-table {
   border-top: 1px solid rgba(22, 19, 14, 0.18);
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .paper-row {
@@ -737,7 +739,7 @@ html[lang="zh-Hans"] .community-hero h1 {
 
 .community-campaign-image {
   margin: 0;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   border: 1px solid rgba(22, 19, 14, 0.18);
   background: rgba(22, 19, 14, 0.035);
