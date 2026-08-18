@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Evidence-to-Action Permission Gate | Mian Zhang</title>
-  <meta name="description" content="A dependency-free local prototype that makes an agent's next step explicit: ACT, WAIT, QUERY, or REFUSE. Validate evidence and boundaries before a workflow continues.">
+  <meta name="description" content="A local, inspectable checkpoint for agent decisions: an optional local model proposes an evidence packet, while a deterministic gate keeps ACT, WAIT, QUERY, and REFUSE explicit.">
   <link rel="canonical" href="https://mianzhang.org/competition/verified-agent-operations/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Evidence-to-Action Permission Gate">
@@ -17,7 +17,7 @@
     "name":"Evidence-to-Action Permission Gate",
     "applicationCategory":"DeveloperApplication",
     "operatingSystem":"Cross-platform",
-    "description":"A dependency-free local prototype that validates evidence and boundaries before an agent workflow continues.",
+    "description":"A local, inspectable checkpoint where an optional local model proposes an evidence packet and a deterministic gate validates evidence and boundaries before an agent workflow continues.",
     "url":"https://mianzhang.org/competition/verified-agent-operations/",
     "author":{"@type":"Person","name":"Mian Zhang","url":"https://mianzhang.org/"},
     "license":"https://opensource.org/license/mit/"
@@ -98,6 +98,12 @@ validator:required-fields</textarea>
       <div id="result" class="result" aria-live="polite">Ready for a local synthetic case.</div>
     </section>
   </div>
+
+  <section aria-labelledby="local-model" style="margin-top:32px">
+    <h2 id="local-model">Optional local evidence candidate</h2>
+    <p>An optional command-line adapter can ask a model bound to <code>localhost</code> to propose a claim, evidence list, boundary, and uncertainties from local text. It defaults to <strong>QUERY</strong> and marks the result for human review. The model is not treated as a source of truth, and the public adapter rejects remote endpoints.</p>
+    <p class="note">This adapter is a local integration example for developers. It does not change the browser demo and does not authorize a real action.</p>
+  </section>
 
   <div class="boundary">
     <h2>Public boundary</h2>
