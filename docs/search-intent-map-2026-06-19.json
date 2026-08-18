@@ -1,0 +1,501 @@
+{
+  "generated_utc": "2026-06-19T00:00:00Z",
+  "policy": "Scalable search-intent pages are allowed when each page has standalone value. Do not create low-value doorway abuse, scaled-content abuse, hidden crawler text, fake FAQ, fake schema, or LLM prompt-injection.",
+  "platform_boundary": {
+    "main_site": "Plain-language explanation, search intent, evidence routing, boundaries.",
+    "github": "Source, issues, schemas, reproducible indices.",
+    "hugging_face": "Technical mirror, datasets, demos, cards.",
+    "zenodo": "Canonical archive and DOI records."
+  },
+  "routes": [
+    {
+      "route": "/guides/reliable-ai-agents/",
+      "title": "How to Make AI Agents Reliable Before They Act",
+      "keywords": [
+        "reliable AI agents",
+        "agentic AI",
+        "multi-agent systems",
+        "AI agent safety",
+        "AI guardrails",
+        "deterministic fallback",
+        "AI refusal boundary",
+        "proof before action"
+      ],
+      "questions": [
+        "How do you make AI agents reliable before they execute tools?",
+        "What should happen when confidence drops below an action threshold?",
+        "How can a team keep fluent hallucinations from becoming operational liability?",
+        "What is the difference between a chatbot answer and an authorized action?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/no-proof-no-action-gate.html"
+      ],
+      "boundary_summary": [
+        "This page does not claim that every AI agent can be made production-ready by a single checklist.",
+        "It does not certify customer deployment, live execution, financial execution, medical validity, or private runtime quality.",
+        "It describes a public evidence and review structure, not a commercial guarantee."
+      ]
+    },
+    {
+      "route": "/guides/ai-self-certification-grounding/",
+      "title": "AI Hallucination Is Not the Only Problem",
+      "keywords": [
+        "AI hallucination checker",
+        "ChatGPT hallucination",
+        "RAG grounding",
+        "AI verification",
+        "grounded AI",
+        "self-certification",
+        "AI output verification",
+        "LLM reliability"
+      ],
+      "questions": [
+        "How can I verify an AI answer?",
+        "Why is self-certification not enough for AI systems?",
+        "What evidence should an AI claim point to?",
+        "What changes when the evidence is old, private, or incomplete?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/self-certification-grounding-check.html"
+      ],
+      "boundary_summary": [
+        "This page does not claim to eliminate hallucination.",
+        "It does not treat private logs or unpublished traces as public proof.",
+        "It does not replace domain review in legal, medical, finance, or safety-critical settings."
+      ]
+    },
+    {
+      "route": "/guides/bounded-self-improving-ai-agents/",
+      "title": "Bounded Self-Improving AI Agents",
+      "keywords": [
+        "self-improving AI agents",
+        "recursive AI safety",
+        "autonomous AI agents",
+        "bounded self-modification",
+        "AI drift control",
+        "agent review state"
+      ],
+      "questions": [
+        "How can self-improving AI agents stay bounded?",
+        "What is the difference between learning and uncontrolled self-modification?",
+        "How should agent drift be reviewed?",
+        "What evidence would make a self-improvement claim narrower or false?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/press/public-launch-2026-06-16.html"
+      ],
+      "boundary_summary": [
+        "This page does not claim safe recursive self-improvement has been solved.",
+        "It does not claim an autonomous production system is live.",
+        "It does not disclose private orchestration or unrestricted agent permissions."
+      ]
+    },
+    {
+      "route": "/benchmarks/wisdombench-failure-learning/",
+      "title": "WisdomBench: Benchmarking Failure Learning",
+      "keywords": [
+        "AI benchmark",
+        "LLM evaluation",
+        "AI evaluation",
+        "failure learning benchmark",
+        "AI learning from mistakes",
+        "WisdomBench"
+      ],
+      "questions": [
+        "How do you evaluate AI after repeated failures?",
+        "What is a benchmark for learning from mistakes?",
+        "How is wisdom different from single-shot capability?",
+        "What evidence prevents benchmark overclaiming?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/wisdombench.html",
+        "https://huggingface.co/datasets/MMJBDS/wisdombench"
+      ],
+      "boundary_summary": [
+        "This page does not claim universal SOTA performance.",
+        "It does not claim that one benchmark proves general intelligence or general wisdom.",
+        "It does not turn a dataset card into a production guarantee."
+      ]
+    },
+    {
+      "route": "/finance/no-trade-without-proof/",
+      "title": "No Trade Without Proof",
+      "keywords": [
+        "AI trading risk",
+        "AI trading bot risk",
+        "automated trading guardrails",
+        "no trade without proof",
+        "AI trading system risk controls",
+        "financial AI safety"
+      ],
+      "questions": [
+        "Why should an AI trading system refuse to place an order?",
+        "What proof should exist before automated trading action?",
+        "How can a trace distinguish suggestion from execution authority?",
+        "What evidence does not count as a trading claim?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/no-proof-no-action-gate.html"
+      ],
+      "boundary_summary": [
+        "This page is not financial advice, investment advice, trading advice, or a performance claim.",
+        "It does not claim live trading, trading alpha, customer deployment, or production execution.",
+        "It does not disclose private trading logs, proprietary strategies, or broker/exchange integration details."
+      ]
+    },
+    {
+      "route": "/robotics/robot-learning-from-failure/",
+      "title": "Robot Learning From Physical Failure",
+      "keywords": [
+        "robot learning from failure",
+        "embodied AI",
+        "humanoid robot safety",
+        "robot recovery",
+        "physical failure learning",
+        "robot reliability evidence"
+      ],
+      "questions": [
+        "How can a robot learn from physical failure?",
+        "What evidence distinguishes simulation from real-world deployment?",
+        "What does local proxy evidence prove and not prove?",
+        "How should physical failure be reported without overclaiming?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/robot-vision-downgrade-rule.html"
+      ],
+      "boundary_summary": [
+        "This page does not claim real robot deployment unless a specific public record says so.",
+        "It does not treat local proxy or shadow evidence as full physical-world validation.",
+        "It does not claim universal robot recovery or production robotics readiness."
+      ]
+    },
+    {
+      "route": "/robotics/vla-safety-evidence-downgrade/",
+      "title": "VLA Safety When Vision Evidence Degrades",
+      "keywords": [
+        "VLA model safety",
+        "vision-language-action safety",
+        "embodied intelligence",
+        "robot vision uncertainty",
+        "robot stop rule",
+        "evidence downgrade"
+      ],
+      "questions": [
+        "What should a robot do when visual evidence is uncertain?",
+        "How should a VLA claim be downgraded?",
+        "When does a demo stop being evidence for deployment?",
+        "What is the difference between perception confidence and action permission?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/robot-vision-downgrade-rule.html"
+      ],
+      "boundary_summary": [
+        "This page does not claim a VLA leaderboard result.",
+        "It does not claim production robot deployment.",
+        "It does not treat visual evidence alone as authorization for physical action."
+      ]
+    },
+    {
+      "route": "/evidence/how-to-read-ai-evidence-map/",
+      "title": "How to Read the Public AI Evidence Map",
+      "keywords": [
+        "AI evidence map",
+        "reproducible AI research",
+        "AI claim verification",
+        "DOI GitHub Hugging Face evidence",
+        "counterexample route"
+      ],
+      "questions": [
+        "How do I check an AI research claim?",
+        "What is the difference between DOI, GitHub, HF, and the main site?",
+        "How do I find the boundary of a claim?",
+        "Where should I submit a counterexample?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295"
+      ],
+      "boundary_summary": [
+        "The evidence map does not turn every linked paper into a complete deployment claim.",
+        "The Zenodo portfolio index is not a substitute for paper-specific DOI records.",
+        "GitHub/HF mirrors are technical routes, not proof that a system is production-ready."
+      ]
+    },
+    {
+      "route": "/counterexamples/how-to-challenge-ai-claim/",
+      "title": "How to Challenge an AI Research Claim",
+      "keywords": [
+        "challenge AI research claim",
+        "AI counterexample",
+        "reproducible AI research",
+        "stronger baseline",
+        "claim boundary"
+      ],
+      "questions": [
+        "How do I submit a counterexample?",
+        "What makes a challenge useful instead of vague?",
+        "How do I report a stronger baseline?",
+        "How should a claim be narrowed after a challenge?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295"
+      ],
+      "boundary_summary": [
+        "Do not request private credentials, customer data, private logs, or restricted submission material.",
+        "Do not treat harassment, private-system probing, or credential requests as public validation.",
+        "A counterexample should attack a public claim through public evidence routes."
+      ]
+    },
+    {
+      "route": "/systems/sovereign-local-first-ai/",
+      "title": "SOVEREIGN as a Local-First AI Decision System",
+      "keywords": [
+        "local-first AI",
+        "AI decision system",
+        "private AI assistant architecture",
+        "cognitive operating system",
+        "SOVEREIGN"
+      ],
+      "questions": [
+        "What is SOVEREIGN in practical terms?",
+        "How is a local-first AI decision system different from a cloud chatbot?",
+        "What public evidence exists and what remains private?",
+        "What does the system not claim today?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/systems/"
+      ],
+      "boundary_summary": [
+        "This page does not claim a commercial product is deployed.",
+        "It does not disclose private local runtime state.",
+        "It does not claim general intelligence or universal autonomy."
+      ]
+    },
+    {
+      "route": "/systems/ai-agent-os-vs-chatbot/",
+      "title": "AI Agent OS vs Chatbot",
+      "keywords": [
+        "AI agent OS",
+        "agent operating system",
+        "chatbot vs AI agent",
+        "AI tool use",
+        "agent permissions"
+      ],
+      "questions": [
+        "What is the difference between an AI agent OS and a chatbot?",
+        "Why do tools and memory change the risk surface?",
+        "Where should evidence and permissions live?",
+        "When should an agent refuse to act?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/systems/"
+      ],
+      "boundary_summary": [
+        "This page does not attack any specific product or competitor.",
+        "It does not claim that every chatbot should become an operating system.",
+        "It does not assert production readiness for SOVEREIGN or any private runtime."
+      ]
+    },
+    {
+      "route": "/essays/intelligence-vs-wisdom-ai/",
+      "title": "Intelligence vs Wisdom in AI",
+      "keywords": [
+        "intelligence vs wisdom AI",
+        "AI capability vs reliability",
+        "AI wisdom",
+        "AI failure learning",
+        "model capability"
+      ],
+      "questions": [
+        "Does a stronger AI model become wiser?",
+        "What is the difference between capability and reliable action?",
+        "Why can benchmarks miss real-world failure?",
+        "How should wisdom-oriented claims be evidenced?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/benchmarks/wisdombench-failure-learning/"
+      ],
+      "boundary_summary": [
+        "This page does not claim that AI has human wisdom.",
+        "It does not claim general intelligence or complete safety.",
+        "It does not replace empirical evidence with philosophy."
+      ]
+    },
+    {
+      "route": "/concepts/evidence-gated-ai-systems/",
+      "title": "What Is Evidence-Gated AI?",
+      "keywords": [
+        "evidence-gated AI",
+        "AI evidence gate",
+        "AI guardrails",
+        "proof before action",
+        "AI safety evidence"
+      ],
+      "questions": [
+        "What is evidence-gated AI?",
+        "What evidence should exist before AI acts?",
+        "How is an evidence gate different from a policy slogan?",
+        "Where can the claim be challenged?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295"
+      ],
+      "boundary_summary": [
+        "This page does not claim that evidence gates solve all AI safety problems.",
+        "It does not certify production systems.",
+        "It does not convert public research artifacts into commercial deployment proof."
+      ]
+    },
+    {
+      "route": "/concepts/proof-carrying-action-explained/",
+      "title": "Proof-Carrying Action, Explained",
+      "keywords": [
+        "proof-carrying action",
+        "AI action proof",
+        "AI warrant",
+        "AI action receipt",
+        "AI tool safety"
+      ],
+      "questions": [
+        "What is proof-carrying action?",
+        "What should an AI action carry before it is trusted?",
+        "What is an action receipt?",
+        "How does this prevent authority leaks?"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/proof-carrying-action.html"
+      ],
+      "boundary_summary": [
+        "This page explains a research concept; it is not a certification standard.",
+        "It does not claim a private runtime is production-ready.",
+        "It does not grant action authority by itself."
+      ]
+    },
+    {
+      "route": "/zh/ai-self-certification-grounding/",
+      "title": "AI 为什么不能只靠自信回答",
+      "keywords": [
+        "AI 幻觉检查",
+        "大模型输出验证",
+        "AI 自证不可靠",
+        "证据边界",
+        "可靠 AI"
+      ],
+      "questions": [
+        "大模型回答很自信，为什么还可能不可靠？",
+        "AI 能不能自己证明自己是对的？",
+        "什么样的证据才算能被外部读者检查？",
+        "如果证据不够，公开主张应该怎么降级？"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/self-certification-grounding-check.html"
+      ],
+      "boundary_summary": [
+        "本页不承诺消除 AI 幻觉。",
+        "本页不把私有日志、未公开运行痕迹当成公开证据。",
+        "本页不替代医疗、法律、金融等专业审核。"
+      ]
+    },
+    {
+      "route": "/zh/reliable-ai-agent-proof-gate/",
+      "title": "可靠 AI 智能体行动前需要什么证明",
+      "keywords": [
+        "AI 智能体可靠性",
+        "AI 行动边界",
+        "无证明不行动",
+        "自动化决策风险",
+        "AI 护栏"
+      ],
+      "questions": [
+        "AI 智能体什么时候应该停下？",
+        "自动化执行前需要哪些证据？",
+        "工具调用和普通回答的风险为什么不同？",
+        "没有证据时，系统应该拒绝还是继续猜？"
+      ],
+      "evidence_routes": [
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/registries/",
+        "https://mianzhang.org/counterexamples/",
+        "https://zenodo.org/records/20027295",
+        "https://mianzhang.org/concepts/no-proof-no-action-gate.html"
+      ],
+      "boundary_summary": [
+        "本页不承诺任何系统已经生产部署。",
+        "本页不提供金融、医疗、法律等高风险行动建议。",
+        "本页解释公开证据结构，不公开私有运行细节。"
+      ]
+    }
+  ]
+}

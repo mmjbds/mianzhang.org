@@ -1,0 +1,27 @@
+{
+  "receipt_id": "indexnow-search-metadata-repair-2026-08-16",
+  "provider": "IndexNow",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "purpose": "Bing priority-page metadata repair and community summary refresh",
+  "submissions": [
+    {
+      "host": "mianzhang.org",
+      "submitted_at_utc": "2026-08-16T08:09:15.6123832Z",
+      "status_code": 200,
+      "url_count": 5,
+      "url_list": "https://mianzhang.org/docs/indexnow-url-list-search-metadata-20260816.txt",
+      "url_list_sha256": "64fb48a7b541478814fb3b4b80da5cf4774628464afc3ed9e59a6865258f14dd",
+      "key_location": "https://mianzhang.org/indexnow-key.txt"
+    },
+    {
+      "host": "mmjbds-mianzhang-org.static.hf.space",
+      "submitted_at_utc": "2026-08-16T08:09:19.1317165Z",
+      "status_code": 200,
+      "url_count": 2,
+      "url_list": "https://mmjbds-mianzhang-org.static.hf.space/docs/indexnow-url-list-hf-search-metadata-20260816.txt",
+      "url_list_sha256": "c5f3ef3609d11ae5abe16f34613ab9770644cf0830c3f2c3009a119b889c42e1",
+      "key_location": "https://mmjbds-mianzhang-org.static.hf.space/indexnow-key.txt"
+    }
+  ],
+  "boundary": "HTTP 200 records IndexNow API acceptance only. It does not prove crawling, indexing, ranking, backlink attribution, Bing Site Scan closure, search-console status, or AI retrieval."
+}

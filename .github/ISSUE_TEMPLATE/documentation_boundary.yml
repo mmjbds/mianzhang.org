@@ -1,0 +1,39 @@
+name: Documentation boundary
+description: Report public documentation, link, route, wording, or boundary text that needs repair.
+title: "[Documentation Boundary] "
+labels: ["documentation", "boundary"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for public wording, link, route, sitemap, README, page, or boundary repairs that do not require a claim challenge.
+  - type: input
+    id: target
+    attributes:
+      label: Public document or route
+      description: Link the public page, README, registry row, sitemap URL, GitHub file, or HF mirror route.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain the broken link, unclear wording, stale status, duplicate route, or boundary issue.
+    validations:
+      required: true
+  - type: textarea
+    id: repair
+    attributes:
+      label: Suggested repair
+      description: Provide the smallest wording, link, route, status, or boundary fix.
+    validations:
+      required: false
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public boundary confirmation
+      options:
+        - label: This issue contains only public or safely shareable information.
+          required: true
+        - label: This issue does not include secrets, customer data, private logs, real accounts, or restricted non-public material.
+          required: true

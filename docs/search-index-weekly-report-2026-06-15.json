@@ -1,0 +1,98 @@
+{
+  "generated_date": "2026-06-15",
+  "public_base_url": "https://mianzhang.org",
+  "main_public_base_url": "https://mianzhang.org",
+  "technical_mirror_base_url": "https://mmjbds-mianzhang-org.static.hf.space",
+  "status": "COMPLETED_WITH_PARTIAL_PUBLIC_RESULTS",
+  "boundary": "Direct public result URLs are visibility evidence; they are not treated as Google Search Console, Bing Webmaster, AI retrieval, or ranking proof.",
+  "queries": [
+    {
+      "date": "2026-06-15",
+      "query": "site:mianzhang.org",
+      "status": "DIRECT_PUBLIC_RESULTS_CONFIRMED",
+      "evidence": "Public web search returned direct results for home, Evidence Map, Papers, and Chinese entry.",
+      "confirmed_urls": [
+        "https://mianzhang.org/",
+        "https://mianzhang.org/evidence/",
+        "https://mianzhang.org/papers/",
+        "https://mianzhang.org/zh/"
+      ],
+      "evidence_needed_for_stronger_claim": "Console export or dated URL-inspection receipt required before claiming console-side indexing."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "site:mmjbds-mianzhang-org.static.hf.space",
+      "status": "DIRECT_PUBLIC_RESULTS_CONFIRMED",
+      "evidence": "Public web search returned direct results for the HF mirror home, Press Kit, Systems, Technology, Evidence Map, and Papers.",
+      "confirmed_urls": [
+        "https://mmjbds-mianzhang-org.static.hf.space/",
+        "https://mmjbds-mianzhang-org.static.hf.space/press/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/systems/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/technology/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/evidence/index.html",
+        "https://mmjbds-mianzhang-org.static.hf.space/papers/index.html"
+      ],
+      "evidence_needed_for_stronger_claim": "Dated direct result URLs or console evidence required for each new HF route."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "site:mianzhang.org WisdomBench",
+      "status": "DIRECT_PUBLIC_RESULT_CONFIRMED_FOR_PAPERS_INDEX",
+      "evidence": "Public web search returned Papers with WisdomBench entries. The dedicated WisdomBench concept page was not separately confirmed in this check.",
+      "confirmed_urls": [
+        "https://mianzhang.org/papers/"
+      ],
+      "evidence_needed_for_stronger_claim": "Direct result URL for the WisdomBench concept page required before claiming exact concept-page discoverability."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "site:mianzhang.org \"No-Proof No-Action Gate\"",
+      "status": "EXACT_CONCEPT_RESULT_NOT_YET_CONFIRMED",
+      "evidence": "The exact public concept page is live and in sitemap/llms, but a direct exact-term search result for that route was not confirmed in this check.",
+      "confirmed_urls": [],
+      "evidence_needed_for_stronger_claim": "Direct exact-term result URL or console inspection receipt required."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "site:mianzhang.org \"Self-Certification Grounding Check\"",
+      "status": "EXACT_CONCEPT_RESULT_NOT_YET_CONFIRMED",
+      "evidence": "The exact public concept page is live and in sitemap/llms, but a direct exact-term search result for that route was not confirmed in this check.",
+      "confirmed_urls": [],
+      "evidence_needed_for_stronger_claim": "Direct exact-term result URL or console inspection receipt required."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "site:mianzhang.org \"Proof-Carrying Action\"",
+      "status": "RELATED_PUBLIC_RESULTS_CONFIRMED_CONCEPT_ROUTE_NOT_YET",
+      "evidence": "Public web search returned related project pages that mention Proof-Carrying Action; the dedicated concept route was not separately confirmed as a direct result.",
+      "confirmed_urls": [],
+      "evidence_needed_for_stronger_claim": "Direct result URL for the Proof-Carrying Action concept page required."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "site:mianzhang.org \"The Grounding Canon\"",
+      "status": "EXACT_CONCEPT_RESULT_NOT_YET_CONFIRMED",
+      "evidence": "The exact public concept page and P46 card are live and in sitemap/llms, but a direct exact-term search result for that route was not confirmed in this check.",
+      "confirmed_urls": [],
+      "evidence_needed_for_stronger_claim": "Direct result URL for the canon concept page or P46 card required."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "site:mianzhang.org \"Interventional Recovery Cells\"",
+      "status": "EXACT_PAPER_CARD_RESULT_NOT_YET_CONFIRMED",
+      "evidence": "The P47 public card is live and in sitemap/llms, but a direct exact-term result for the card was not confirmed in this check.",
+      "confirmed_urls": [],
+      "evidence_needed_for_stronger_claim": "Direct result URL for the P47 card required."
+    },
+    {
+      "date": "2026-06-15",
+      "query": "\"Mian Zhang\" \"Ouroboros Project\"",
+      "status": "DIRECT_PUBLIC_RESULTS_CONFIRMED_WITH_NAME_COLLISIONS",
+      "evidence": "Public web search returned project routes and social posts referencing mianzhang.org. It also returned unrelated people named Mian Zhang, so branded queries should include Ouroboros Project, Wisdom Science, or MMJBDS.",
+      "confirmed_urls": [
+        "https://mianzhang.org/"
+      ],
+      "evidence_needed_for_stronger_claim": "Console export or direct result URLs for target branded pages required before claiming broad branded-query coverage."
+    }
+  ]
+}

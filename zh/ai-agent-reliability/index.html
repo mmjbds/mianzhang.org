@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Agent 可靠性实验入口 | ReflexBench、WisdomBench 与行动证据门</title>
+  <meta name="description" content="面向 AI Agent 可靠性的公开技术入口：用 ReflexBench 检查观察者效应，用 WisdomBench 检查重复失败，并连接行动证据门、失败记忆、论文、代码、可运行工具与明确的适用边界。">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://mianzhang.org/zh/ai-agent-reliability/">
+  <link rel="alternate" hreflang="zh-CN" href="https://mianzhang.org/zh/ai-agent-reliability/">
+  <link rel="alternate" hreflang="en" href="https://mianzhang.org/ai-agent-reliability/">
+  <link rel="alternate" hreflang="x-default" href="https://mianzhang.org/ai-agent-reliability/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mianzhang.org/zh/ai-agent-reliability/">
+  <meta property="og:title" content="AI Agent 可靠性实验入口">
+  <meta property="og:description" content="面向 AI Agent 可靠性的公开技术入口：用 ReflexBench 检查观察者效应，用 WisdomBench 检查重复失败，并连接行动证据门、失败记忆、论文、代码、可运行工具与明确的适用边界。">
+  <meta property="og:image" content="https://mianzhang.org/assets/observer-depth-lenses.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Agent 可靠性实验入口">
+  <meta name="twitter:description" content="面向 AI Agent 可靠性的公开技术入口：用 ReflexBench 检查观察者效应，用 WisdomBench 检查重复失败，并连接行动证据门、失败记忆、论文、代码、可运行工具与明确的适用边界。">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/observer-depth-lenses.webp">
+  <link rel="icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","url":"https://mianzhang.org/zh/ai-agent-reliability/","name":"AI Agent 可靠性实验入口","description":"用 ReflexBench、WisdomBench、行动证据门和失败记忆接口检查 AI Agent 可靠性。","inLanguage":"zh-CN","isPartOf":{"@id":"https://mianzhang.org/#website"},"about":["AI Agent 可靠性","ReflexBench","WisdomBench","Proof-Carrying Action","Cognitive Immunity"]}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../../"><span class="brand-mark"></span><span>Mian Zhang</span></a>
+    <nav aria-label="主导航"><a href="../">中文首页</a><a href="../../papers/">论文</a><a href="../../evidence/">证据</a><a href="../../community/">社区</a><a href="../../ai-agent-reliability/">English</a></nav>
+  </header>
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">AI Agent 可靠性实验入口</p>
+        <h1>先看清系统怎么失败，再讨论能不能信。</h1>
+        <p class="lead">一个模型可以回答正确，却忽略自己改变了什么；可以承认错误，却在下一轮重复；也可以在证据没有闭合时获得真实行动权限。这里把四类问题分开检查。</p>
+        <div class="signature-line"><span>观察者效应</span><span>重复失败</span><span>行动权限</span><span>失败记忆</span></div>
+        <div class="hero-actions"><a class="button primary" href="../../demos/reflexbench-observer-depth/">运行观察者深度检查</a><a class="button" href="../../demos/proof-action-mini/">运行动作证据门</a><a class="button" href="https://github.com/mmjbds">查看公开仓库</a></div>
+      </div>
+      <figure class="hero-visual"><img src="../../assets/observer-depth-lenses.webp" alt="从表层决策到均衡推理的四层观察者深度图。"></figure>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head"><p class="kicker">四类问题</p><h2>不能压成一个“安全分数”。</h2><p>观察者深度、失败复发、证据闭合和记忆治理测量的是不同对象。把它们加权成一个总分，会掩盖真正的故障位置。</p></div>
+      <div class="paper-table" role="table" aria-label="AI Agent 可靠性检查路线">
+        <div class="paper-row head" role="row"><span>问题</span><span>研究方法</span><span>得到什么</span><span>继续查看</span></div>
+        <a class="paper-row" href="../../demos/reflexbench-observer-depth/" role="row"><span>模型说完之后，世界发生了什么变化？</span><span>ReflexBench</span><span>观察者覆盖回执</span><span>运行检查</span></a>
+        <a class="paper-row" href="../../benchmarks/wisdombench-failure-learning/" role="row"><span>系统是否重复一个已经出现过的错误？</span><span>WisdomBench</span><span>逐轮失败记录</span><span>查看基准</span></a>
+        <a class="paper-row" href="../../demos/proof-action-mini/" role="row"><span>这个输出是否有权变成真实动作？</span><span>Proof-Carrying Action</span><span>允许、修复或停止</span><span>运行动作门</span></a>
+        <a class="paper-row" href="../../press/kdd-2026-two-workshop-papers.html#cognitive-immunity" role="row"><span>怎样记住失败，又不把一次失败扩散成全面拒绝？</span><span>Cognitive Immunity</span><span>生命周期与复发分析</span><span>查看结果</span></a>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div><p class="kicker">可检查范围</p><h2>可以运行研究材料，但不能把结果当成生产认证。</h2></div>
+      <div class="body-text"><p>这里列出场景、schema、固定样例、验证器、汇总结果、结论限制和问题链接；不包含客户数据、部署凭据、生产阈值或未发表研究。</p><p>检查通过，只能说明某个工件在已发布条件下符合其规范。它不等于安全认证、部署授权或通用可靠性证明。</p></div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head"><p class="kicker">论文与代码</p><h2>每项结论都能追溯到论文、代码或实验记录。</h2></div>
+      <div class="paper-table" role="table" aria-label="论文与代码入口">
+        <div class="paper-row head" role="row"><span>对象</span><span>论文/页面</span><span>代码</span><span>问题入口</span></div>
+        <div class="paper-row" role="row"><span>ReflexBench</span><span><a href="../../papers/kdd-2026/mian-zhang-kdd-2026-reflexbench.pdf">Workshop 论文</a></span><span><a href="https://github.com/mmjbds/reflexbench">GitHub</a></span><span><a href="https://github.com/mmjbds/reflexbench/issues/new/choose">提交场景或工件问题</a></span></div>
+        <div class="paper-row" role="row"><span>WisdomBench</span><span><a href="../../benchmarks/wisdombench-failure-learning/">基准说明</a></span><span><a href="https://github.com/mmjbds/wisdombench">GitHub</a></span><span><a href="https://github.com/mmjbds/wisdombench/issues/new/choose">提交运行或边界问题</a></span></div>
+        <div class="paper-row" role="row"><span>Proof-Carrying Action</span><span><a href="../../concepts/proof-carrying-action.html">协议说明</a></span><span><a href="https://github.com/mmjbds/proof-carrying-action">GitHub</a></span><span><a href="https://github.com/mmjbds/proof-carrying-action/issues/new/choose">提交案例或复现问题</a></span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div><strong>Mian Zhang | Ouroboros Project</strong><span>面向证据约束 AI 系统的公开研究接口。</span></div><div class="footer-links"><a href="../">中文首页</a><a href="../../evidence/">证据</a><a href="../../community/">社区</a><a href="https://github.com/mmjbds">GitHub</a></div></footer>
+</body>
+</html>

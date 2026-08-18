@@ -1,0 +1,35 @@
+title: "[Idea / Use Case] "
+labels: ["use case"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe a concrete setting where learning from feedback, repeated failure, observer effects, or proof before action matters.
+  - type: textarea
+    id: setting
+    attributes:
+      label: Setting and decision
+      description: What system acts, what decision is made, and who bears the consequence?
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: Failure or opportunity
+      description: What currently repeats, remains unobserved, or cannot be trusted?
+    validations:
+      required: true
+  - type: textarea
+    id: useful_artifact
+    attributes:
+      label: Useful public artifact
+      description: What protocol, benchmark, schema, example, or explanation would help without exposing confidential data?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Sharing boundary
+      options:
+        - label: This description is non-confidential and contains no customer, account, or private system data.
+          required: true

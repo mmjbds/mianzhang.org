@@ -1,0 +1,32 @@
+{
+  "receipt_id": "indexnow-20260816T122844Z",
+  "provider": "IndexNow",
+  "submitted_at_utc": "2026-08-16T12:28:44.219066+00:00",
+  "submitted_at_asia_shanghai": "2026-08-16T20:28:44.219066+08:00",
+  "request": {
+    "host": "mianzhang.org",
+    "keyLocation": "https://mianzhang.org/8846bb881fe14ab9b4292478788407c9.txt",
+    "urlList": [
+      "https://mianzhang.org/",
+      "https://mianzhang.org/ai-agent-reliability/",
+      "https://mianzhang.org/ai-agent-reliability/facts.json",
+      "https://mianzhang.org/demos/",
+      "https://mianzhang.org/demos/reflexbench-observer-depth/",
+      "https://mianzhang.org/demos/reflexbench-observer-depth/reflexbench.jsonl",
+      "https://mianzhang.org/demos/proof-action-mini/",
+      "https://mianzhang.org/benchmarks/wisdombench-failure-learning/",
+      "https://mianzhang.org/community/",
+      "https://mianzhang.org/zh/ai-agent-reliability/",
+      "https://mianzhang.org/llms.txt",
+      "https://mianzhang.org/sitemap.xml",
+      "https://mianzhang.org/PUBLIC_EVIDENCE_FIELD_MANIFEST_20260527.json"
+    ],
+    "url_count": 13,
+    "url_list_source": "docs/indexnow-url-list-20260816.txt"
+  },
+  "response": {
+    "status_code": 200,
+    "accepted": true
+  },
+  "boundary": "HTTP 200 or 202 records IndexNow request acceptance only. It does not prove crawling, indexing, ranking, backlink attribution, or AI retrieval."
+}

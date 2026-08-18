@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>开放研究社区 | 张冕</title>
+  <meta name="description" content="加入 Ouroboros Project 开放研究社区，讨论智能体失败学习、可靠行动、ReflexBench、认知免疫、WisdomBench 与行动携证。提供论文、数据集、基准、参考实现、复现实验和中英文解释；研究者、工程师与问题负责人提出用例、报告负结果、改进文档或发起合作，并保护私有数据、生产系统和商业核心。">
+  <meta name="keywords" content="开放研究社区,智能体从失败中学习,可靠人工智能,ReflexBench,认知免疫,WisdomBench,行动携证">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mianzhang.org/zh/community/">
+  <meta property="og:title" content="开放研究社区 | 张冕">
+  <meta property="og:description" content="围绕会行动、会收到反馈、也必须承担后果的人工智能，共同阅读、使用、验证和建设公开研究成果。">
+  <meta property="og:image" content="https://mianzhang.org/assets/open-source-boundary-20260515.webp">
+  <meta property="og:image:alt" content="张冕开放研究社区的公开材料与私有实现边界图。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="开放研究社区 | 张冕">
+  <meta name="twitter:description" content="公开论文、基准、协议、讨论与贡献入口：人工智能能不能真正从行动和失败中学习？">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/open-source-boundary-20260515.webp">
+  <link rel="icon" href="../../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/zh/community/">
+  <link rel="alternate" hreflang="en" href="https://mianzhang.org/community/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://mianzhang.org/zh/community/">
+  <link rel="alternate" hreflang="x-default" href="https://mianzhang.org/community/">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://mianzhang.org/zh/community/#webpage",
+        "url": "https://mianzhang.org/zh/community/",
+        "name": "张冕开放研究社区",
+        "description": "加入 Ouroboros Project 开放研究社区，讨论智能体失败学习、可靠行动、ReflexBench、认知免疫、WisdomBench 与行动携证。提供论文、数据集、基准、参考实现、复现实验和中英文解释；研究者、工程师与问题负责人提出用例、报告负结果、改进文档或发起合作，并保护私有数据、生产系统和商业核心。",
+        "inLanguage": "zh-Hans",
+        "dateModified": "2026-08-17",
+        "isPartOf": {"@id": "https://mianzhang.org/#website"},
+        "author": {"@type": "Person", "name": "Mian Zhang", "alternateName": "张冕", "url": "https://mianzhang.org/"},
+        "about": [
+          {"@type": "Thing", "name": "智能体人工智能评估"},
+          {"@type": "Thing", "name": "从失败中学习"},
+          {"@type": "Thing", "name": "可靠人工智能行动"}
+        ],
+        "primaryImageOfPage": {"@type": "ImageObject", "url": "https://mianzhang.org/assets/open-source-boundary-20260515.webp"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "中文首页", "item": "https://mianzhang.org/zh/"},
+          {"@type": "ListItem", "position": 2, "name": "开放研究社区", "item": "https://mianzhang.org/zh/community/"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "谁可以参与？", "acceptedAnswer": {"@type": "Answer", "text": "研究者、工程师、学生、行业实践者和普通读者都可以通过问题、用例、文档、安全示例、基线、实验或代码参与。"}},
+          {"@type": "Question", "name": "哪些内容是开源的？", "acceptedAnswer": {"@type": "Answer", "text": "已经发表的概念、公开协议、模式、验证器、小型样例、最小参考实现和明确发布的软件可以公开；生产编排、精确运行参数、私有数据、客户系统和未发表研究保持私有。"}},
+          {"@type": "Question", "name": "公开基准能否证明生产安全？", "acceptedAnswer": {"@type": "Answer", "text": "不能。论文和基准只支持其材料中明确写出的条件与主张，不构成生产安全认证。"}}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "当前公开研究版本",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "行动携证 v0.1.0", "url": "https://github.com/mmjbds/proof-carrying-action/releases/tag/v0.1.0"},
+          {"@type": "ListItem", "position": 2, "name": "ReflexBench v2.0.0-public.1", "url": "https://github.com/mmjbds/reflexbench/releases/tag/v2.0.0-public.1"},
+          {"@type": "ListItem", "position": 3, "name": "WisdomBench v0.1.0-public.1", "url": "https://github.com/mmjbds/wisdombench/releases/tag/v0.1.0-public.1"},
+          {"@type": "ListItem", "position": 4, "name": "SOVEREIGN 公开接口 v0.1.0", "url": "https://github.com/mmjbds/sovereign-os/releases/tag/v0.1.0"}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="../"><span class="brand-mark"></span><span>张冕</span></a>
+    <nav aria-label="主导航">
+      <a href="../">中文首页</a>
+      <a href="../../papers/">论文</a>
+      <a href="../../evidence/">证据</a>
+      <a href="../../concepts/">概念</a>
+      <a href="../../technology/">技术</a>
+      <a href="../../systems/">系统</a>
+      <a href="../../community/" lang="en">English</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero community-hero">
+      <div class="hero-copy">
+        <p class="kicker">开放研究社区</p>
+        <h1>人工智能会回答。然后呢，它真会吸取教训吗？</h1>
+        <p class="lead">这里研究的不是一次答对，而是系统行动之后会不会看见后果、记住失败、修正下一次决策，并让每一步依据都可以被查验。</p>
+        <div class="signature-line" aria-label="社区入口"><span>理解</span><span>使用</span><span>共建</span><span>合作</span></div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/mmjbds/mianzhang.org/discussions">进入公开讨论</a>
+          <a class="button" href="https://github.com/mmjbds/mianzhang.org">查看 GitHub</a>
+          <a class="button" href="https://huggingface.co/MMJBDS">使用 HF 资源</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../../assets/open-source-boundary-20260515.webp" alt="开放研究材料与私有生产实现之间的边界示意图。" width="1024" height="1024">
+      </figure>
+    </section>
+
+    <section class="metrics" aria-label="社区研究范围">
+      <div><strong>行动</strong><span>人工智能采取重要行动之前，应当带着什么依据？</span></div>
+      <div><strong>观察</strong><span>当智能体改变了环境，它原来的判断还能成立吗？</span></div>
+      <div><strong>学习</strong><span>一次纠正，能不能变成持久且有边界的改变？</span></div>
+      <div><strong>审计</strong><span>别人能不能看清规则、结果和适用范围？</span></div>
+    </section>
+
+    <section class="section portfolio" id="routes">
+      <div class="section-head">
+        <p class="kicker">四条入口</p>
+        <h2>不必先成为专家，也不必先来挑战谁。</h2>
+        <p>你可以先看懂一个问题，跑一次公开材料，修正一处细节，或者带来一个真实但不泄露隐私的可靠性难题。</p>
+      </div>
+      <div class="community-route-grid">
+        <article><span class="card-index">01</span><h3>理解</h3><p>从通俗解释进入论文、公式、结果与明确边界。</p><a class="text-link" href="../../start-here/">打开研究地图</a></article>
+        <article><span class="card-index">02</span><h3>使用</h3><p>查看基准、数据集、模式、验证器、演示和最小参考实现。</p><a class="text-link" href="https://huggingface.co/MMJBDS">打开 Hugging Face 资源</a></article>
+        <article><span class="card-index">03</span><h3>共建</h3><p>提出具体问题，增加安全样例，改善文档，或者公开一个实验。</p><a class="text-link" href="https://github.com/mmjbds/mianzhang.org/discussions">选择讨论入口</a></article>
+        <article><span class="card-index">04</span><h3>合作</h3><p>把故障复发或行动依据会产生真实成本的问题，变成边界清楚的联合评估。</p><a class="text-link" href="mailto:373743743@qq.com?subject=%E8%AE%BE%E8%AE%A1%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E5%92%A8%E8%AF%A2">发起私下沟通</a></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <p class="kicker">研究项目</p>
+        <h2>四个研究项目，分别回答四个具体问题。</h2>
+        <p>可以按问题进入论文、协议、模式、样例或参考实现，查看方法如何定义、怎样运行，以及结论在哪些条件下成立。</p>
+      </div>
+      <div class="paper-table community-project-table" role="table" aria-label="公开研究项目">
+        <div class="paper-row head" role="row"><span>项目</span><span>研究问题</span><span>可查看材料</span><span>不能据此断言</span></div>
+        <a class="paper-row" href="https://github.com/mmjbds/reflexbench" role="row"><span>ReflexBench</span><span>智能体改变了它观察的世界之后，能力还成立吗？</span><span>协议与论文材料</span><span>研究评估，不是部署认证</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/sovereign-os" role="row"><span>认知免疫</span><span>一次已经确认的失败，能否形成有范围、可审计的防复发机制？</span><span>最小公开接口</span><span>生产记忆与策略保持私有</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/wisdombench" role="row"><span>WisdomBench</span><span>评估能否区分“回答得像”与“不确定条件下判断得对”？</span><span>模式、评分器、样例</span><span>结果受基准条件约束</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/proof-carrying-action" role="row"><span>行动携证</span><span>一项有后果的行动请求，至少应当附带哪些证明？</span><span>协议与玩具参考实现</span><span>不公开私有执行集成</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/ouroboros-papers" role="row"><span>Ouroboros 论文档案</span><span>研究计划中的概念、论文与证据怎样连接？</span><span>论文与 DOI 索引</span><span>用于存档导航，不承诺产品支持</span></a>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="releases">
+      <div class="section-head">
+        <p class="kicker">可用版本</p>
+        <h2>可以定位、运行和引用的公开版本，不是模糊的仓库快照。</h2>
+        <p>每个版本都冻结了明确文件、验证命令和主张边界。它们不构成生产安全认证，也不公开私有产品核心。</p>
+      </div>
+      <div class="paper-table community-project-table" role="table" aria-label="当前公开版本">
+        <div class="paper-row head" role="row"><span>版本</span><span>包含内容</span><span>检查方式</span><span>不能据此断言</span></div>
+        <a class="paper-row" href="https://github.com/mmjbds/proof-carrying-action/releases/tag/v0.1.0" role="row"><span>行动携证 v0.1.0</span><span>证明封装模式与确定性修复演示</span><span>演示检查与 pytest</span><span>玩具协议，不是生产授权</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/reflexbench/releases/tag/v2.0.0-public.1" role="row"><span>ReflexBench v2.0.0-public.1</span><span>20 情景观察者深度公开材料</span><span>公开材料审计</span><span>开发版基准，不是部署验证</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/wisdombench/releases/tag/v0.1.0-public.1" role="row"><span>WisdomBench v0.1.0-public.1</span><span>任务、指标、分数记录与 run-card 契约</span><span>分析、模式验证与单元测试</span><span>不证明通用智慧或通用安全</span></a>
+        <a class="paper-row" href="https://github.com/mmjbds/sovereign-os/releases/tag/v0.1.0" role="row"><span>SOVEREIGN 公开接口 v0.1.0</span><span>认知免疫与结构化记忆接口</span><span>生命周期演示与单元测试</span><span>最小公开接口，不是完整产品</span></a>
+      </div>
+    </section>
+
+    <section class="section portfolio community-campaign">
+      <div class="community-campaign-copy">
+        <p class="kicker">当前研究议题</p>
+        <h2>两篇 KDD 2026 workshop 论文，追问智能体产生真实影响之后的两种失败。</h2>
+        <p><strong>ReflexBench</strong> 检查智能体进入因果回路之后，原有推理能力能否保持。实验覆盖 20 个情景、6 个领域、4 层观察者深度和 9 个公开模型；所有测试模型在更深层级上都出现退化。</p>
+        <p><strong>认知免疫</strong> 检查一次纠错之后，严重失败会不会再次发生。在公开的分数级协议下，无记忆策略的合并重复失败率为 0.764，认知免疫为 0.650；配对 seed-task 差值为 -0.106，95% bootstrap 区间为 [-0.211, -0.003]。</p>
+        <p class="boundary-note"><strong>边界：</strong>两篇均为已经接收并完成展示的 KDD 2026 非存档 workshop 论文，不是 KDD 主会论文，也不是生产安全认证或通用可靠性证明。</p>
+        <div class="link-row"><a class="button primary" href="../../papers/kdd-2026/">阅读论文与方法</a><a class="button community-dark-button" href="https://github.com/mmjbds/mianzhang.org/discussions">参与研究讨论</a></div>
+      </div>
+      <figure class="community-campaign-image"><img src="../../assets/kdd2026-two-paper-field-record.webp" alt="Mian Zhang 在韩国济州 KDD 2026 的 ReflexBench 与 Cognitive Immunity 海报前。" width="1200" height="1612" loading="lazy"></figure>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><p class="kicker">第一次贡献</p><h2>可以从一处小修正开始，也可以走到完整实验。</h2></div>
+      <div class="step-lane" aria-label="贡献阶梯">
+        <div><strong>1</strong><span>读完或运行一份公开材料。</span></div>
+        <div><strong>2</strong><span>提出一个具体问题，或描述一个真实用例。</span></div>
+        <div><strong>3</strong><span>修正一份文档、链接、样例或夹具。</span></div>
+        <div><strong>4</strong><span>公开一个基线、实验或扩展。</span></div>
+        <div><strong>5</strong><span>维护一个边界清楚的组件或研究议题。</span></div>
+      </div>
+      <div class="link-row"><a class="button primary" href="https://github.com/mmjbds/mianzhang.org/issues/new?template=public_artifact_improvement.yml">提出公开材料改进</a><a class="button" href="https://github.com/mmjbds/mianzhang.org/blob/main/.github/CONTRIBUTING.md">阅读贡献指南</a></div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head"><p class="kicker">开放边界</p><h2>诚意开放可检查、可连接的部分，严格保护数据、人员与产品优势。</h2></div>
+      <div class="boundary-grid">
+        <article><h3>公开</h3><p>已经发表的概念与公式、公开协议、模式、验证器、小型样例、最小参考实现、安全演示、文档和负面结果。</p></article>
+        <article><h3>发布前审查</h3><p>大型数据集、详细运行轨迹、接近生产的实现、安全敏感案例，以及组合后可能暴露实现优势的组件。</p></article>
+        <article><h3>保持私有</h3><p>生产编排、精确权重与阈值、私有提示词与数据、客户系统、调优历史、部署自动化和未发表研究。</p></article>
+      </div>
+      <a class="text-link" href="https://github.com/mmjbds/mianzhang.org/blob/main/OPEN_SOURCE_BOUNDARY.md">查看完整发布边界</a>
+    </section>
+
+    <section class="section split" id="faq">
+      <div><p class="kicker">常见问题</p><h2>这里欢迎什么，又明确拒绝什么。</h2></div>
+      <div class="community-faq">
+        <details open><summary>谁可以参与？</summary><p>研究者、工程师、学生、行业实践者和普通读者都可以。问题、用例、文档、安全夹具、基线、实验和代码都有价值。</p></details>
+        <details><summary>贡献一定要复现实验或反驳结论吗？</summary><p>不需要。你可以写清一个概念、连接相关材料、改善使用体验、增加样例，或者描述一个真实问题。反例与结论检验只是其中两种方式。</p></details>
+        <details><summary>开放研究是不是意味着完整产品都开源？</summary><p>不是。公开协议、接口、验证器和最小参考实现，与生产实现、运行参数、客户材料和私有学习闭环明确分离。</p></details>
+        <details><summary>论文或公开基准能证明生产安全吗？</summary><p>不能。每项结果只在它明确写出的协议、数据、版本和限制内成立。</p></details>
+      </div>
+    </section>
+
+    <section class="section manifesto">
+      <p class="kicker">社区标准</p>
+      <blockquote>带来一个真实问题，留下一个别人可以继续使用的公开成果。</blockquote>
+      <p class="manifesto-note">成果可以是一段更清楚的解释、一份安全样例、一次比较、一个负面结果、一条修正后的边界，或者一个真正能运行的扩展。</p>
+    </section>
+  </main>
+
+  <footer><span>(C) 2026 张冕。代码、论文、数据集与媒体分别遵循其明确标注的许可证。</span></footer>
+</body>
+</html>

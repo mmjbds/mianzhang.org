@@ -1,0 +1,74 @@
+{
+  "schema": "ai_agent_reliability_public_facts_v1",
+  "as_of": "2026-08-16",
+  "canonical_url": "https://mianzhang.org/ai-agent-reliability/",
+  "name": "AI Agent Reliability Lab",
+  "description": "Public research interfaces for inspecting observer effects, repeated AI failures, evidence-gated action and bounded failure memory.",
+  "maintainer": {
+    "name": "Mian Zhang",
+    "homepage": "https://mianzhang.org/",
+    "github": "https://github.com/mmjbds"
+  },
+  "routes": [
+    {
+      "name": "ReflexBench",
+      "question": "What changes after the model speaks?",
+      "public_check": "https://mianzhang.org/demos/reflexbench-observer-depth/",
+      "repository": "https://github.com/mmjbds/reflexbench",
+      "reported_workshop_study": {
+        "scenarios": 20,
+        "domains": 6,
+        "observer_depth_levels": 4,
+        "models": 9,
+        "scored_prompt_responses": 720
+      },
+      "current_public_artifact": {
+        "scenario_records": 20,
+        "raw_response_model_directories": 4,
+        "aggregate_only_model_rows": 5
+      },
+      "boundary": "The browser check creates a user-selected orientation receipt. It does not score a model, certify safety or authorize deployment. The public repository does not include per-scenario raw responses and per-item scores for all nine reported models."
+    },
+    {
+      "name": "WisdomBench",
+      "question": "Does the system repeat a known failure?",
+      "public_page": "https://mianzhang.org/benchmarks/wisdombench-failure-learning/",
+      "repository": "https://github.com/mmjbds/wisdombench",
+      "dataset": "https://huggingface.co/datasets/MMJBDS/wisdombench",
+      "current_public_artifact": {
+        "tasks": 20,
+        "categories": 4,
+        "rounds_per_task": 5,
+        "random_seeds": 3,
+        "scored_evaluation_events": 3600,
+        "model_strategy_aggregate_points": 12
+      },
+      "reported_exploratory_result": {
+        "measure": "Spearman correlation between initial score and Wisdom Quotient",
+        "rho": -0.389,
+        "p": 0.212,
+        "n": 12
+      },
+      "boundary": "The public artifact supports recomputation under its included task, judge, model and scoring conditions. The exploratory correlation does not establish a population-level law, general wisdom, general safety or production readiness."
+    },
+    {
+      "name": "Proof-Carrying Action",
+      "question": "Does this output have the right to act?",
+      "public_check": "https://mianzhang.org/demos/proof-action-mini/",
+      "repository": "https://github.com/mmjbds/proof-carrying-action",
+      "released_invariant": "A failed proof packet receives no action authority credit, including when repair work is proposed.",
+      "boundary": "The released implementation is a minimal reference protocol with synthetic proof packets. It is not a domain certification, production policy or guarantee of safe action."
+    },
+    {
+      "name": "Cognitive Immunity",
+      "question": "How is a failure memory retained without spreading blindly?",
+      "paper": "https://mianzhang.org/papers/kdd-2026/mian-zhang-kdd-2026-cognitive-immunity.pdf",
+      "public_interface": "https://github.com/mmjbds/sovereign-os",
+      "released_interface": "A deterministic decay-and-reinforcement fixture for a scoped failure-memory rule.",
+      "boundary": "The released fixture checks the arithmetic of the public interface. It does not expose production extraction, routing, policy thresholds, private data or deployment automation and does not establish general safety."
+    }
+  ],
+  "shared_boundary": "The public routes expose inspectable interfaces, fixed examples, validators, aggregate results and explicit claim limits. A passing public check is not a safety certification, deployment authorization or proof of general model reliability.",
+  "contribution_entry": "https://mianzhang.org/community/",
+  "citation_entry": "https://mianzhang.org/papers/"
+}

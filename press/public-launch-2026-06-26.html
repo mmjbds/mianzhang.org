@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Action System Refusal Layer v1, 2026-06-26 | Mian Zhang</title>
+  <meta name="description" content="A public refusal-layer object for action systems: action request, refusal trigger, evidence gap, authority gap, boundary gap, review route, and reopen condition.">
+  <meta property="og:title" content="Action System Refusal Layer v1 | Ouroboros Project">
+  <meta property="og:description" content="A public refusal-layer object for action systems: action request, refusal trigger, evidence gap, authority gap, boundary gap, review route, and reopen condition.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-26.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/action-system-refusal-layer-square-20260626.png">
+  <meta property="og:image:alt" content="Action System Refusal Layer v1 public evidence visual.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Action System Refusal Layer v1">
+  <meta name="twitter:description" content="A public refusal-layer object for action systems: action request, refusal trigger, evidence gap, authority gap, boundary gap, review route, and reopen condition.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/action-system-refusal-layer-square-20260626.png">
+  <meta name="twitter:image:alt" content="Action System Refusal Layer v1 public evidence visual.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-26.html">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@type": "Article","headline": "Action System Refusal Layer v1","description": "A public refusal-layer object for action systems: action request, refusal trigger, evidence gap, authority gap, boundary gap, review route, and reopen condition.","datePublished": "2026-06-26","dateModified": "2026-06-26","author": {"@type": "Person","name": "Mian Zhang"},"publisher": {"@type": "Organization","name": "Ouroboros Project"},"mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-26.html","image": "https://mianzhang.org/assets/action-system-refusal-layer-square-20260626.png","about": ["action_system","refusal_layer","evidence_gap","authority_gap","boundary_gap","review_route"],"isPartOf": {"@type": "WebSite","name": "Ouroboros Project Technical Evidence Mirror","url": "https://mianzhang.org"}}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/index.html" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/index.html">Home</a>
+      <a href="https://mianzhang.org/papers/index.html">Papers</a>
+      <a href="https://mianzhang.org/evidence/index.html">Evidence</a>
+      <a href="https://mianzhang.org/concepts/index.html">Concepts</a>
+      <a href="https://mianzhang.org/technology/index.html">Technology</a>
+      <a href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mianzhang.org/systems/index.html">Systems</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mianzhang.org/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-26</p>
+        <h1>An action system earns trust when it can stop without pretending the task is solved.</h1>
+        <p class="lead">Artifact: action_system_refusal_layer_v1. This note defines the refusal and review fields required before an action request can move from blocked state back into inspection.</p>
+        <div class="signature-line" aria-label="action_system_refusal_layer_v1 fields">
+          <span>action_request</span>
+          <span>refusal_trigger</span>
+          <span>evidence_gap</span>
+          <span>authority_gap</span>
+          <span>boundary_gap</span>
+          <span>review_route</span>
+          <span>reopen_condition</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/index.html">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/boundaries/index.html">Boundaries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/action-system-refusal-layer-square-20260626.png" alt="Action System Refusal Layer v1 public evidence visual.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>Refusal is a control surface, not a personality trait.</h2>
+      </div>
+      <div class="body-text">
+        <p>The refusal layer treats stopping as an inspectable state. A system should record why it refused, which gap blocked action, where review should happen, and what would be required before the request can be reopened.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/refusal-trigger-evidence-gap-20260626.png" alt="Evidence gaps and authority gaps must not be merged.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Gap Types</p>
+        <h2>Evidence gaps and authority gaps must not be merged.</h2>
+        <p>A system can have enough evidence but no authority, or authority but insufficient evidence. It can also face a boundary gap where the request has moved outside the validated scope. Each failure mode requires a different repair route.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/review-route-reopen-condition-20260626.png" alt="The reopen condition keeps refusal from becoming either theater or deadlock.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Review</p>
+        <h2>The reopen condition keeps refusal from becoming either theater or deadlock.</h2>
+        <p>A refusal state is useful only if it names the review route and the condition that would make re-entry legitimate. Without that field, refusal becomes either vague caution or an unreviewable block.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>action_request</h3>
+        <p>The requested action before the system decides whether it can proceed.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>refusal_trigger</h3>
+        <p>The condition that forces the system to stop instead of improvise.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>evidence_gap</h3>
+        <p>The missing fact, receipt, proof, or observation required for action.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>authority_gap</h3>
+        <p>The missing permission, policy, human approval, or role boundary.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>boundary_gap</h3>
+        <p>The unresolved scope condition that makes action unsafe or unsupported.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>reopen_condition</h3>
+        <p>The concrete condition under which the request can return to review.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

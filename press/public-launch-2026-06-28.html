@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full Public Evidence QA v1, 2026-06-28 | Mian Zhang</title>
+  <meta name="description" content="A public evidence QA object classifying artifact link status, claim status, boundary status, missing evidence, correction needs, owner, and next action.">
+  <meta property="og:title" content="Full Public Evidence QA v1 | Ouroboros Project">
+  <meta property="og:description" content="A public evidence QA object classifying artifact link status, claim status, boundary status, missing evidence, correction needs, owner, and next action.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-28.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/full-public-evidence-qa-square-20260628.png">
+  <meta property="og:image:alt" content="Full Public Evidence QA v1 public evidence visual.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Full Public Evidence QA v1">
+  <meta name="twitter:description" content="A public evidence QA object classifying artifact link status, claim status, boundary status, missing evidence, correction needs, owner, and next action.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/full-public-evidence-qa-square-20260628.png">
+  <meta name="twitter:image:alt" content="Full Public Evidence QA v1 public evidence visual.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-28.html">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@type": "Article","headline": "Full Public Evidence QA v1","description": "A public evidence QA object classifying artifact link status, claim status, boundary status, missing evidence, correction needs, owner, and next action.","datePublished": "2026-06-28","dateModified": "2026-06-28","author": {"@type": "Person","name": "Mian Zhang"},"publisher": {"@type": "Organization","name": "Ouroboros Project"},"mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-28.html","image": "https://mianzhang.org/assets/full-public-evidence-qa-square-20260628.png","about": ["public_evidence_qa","artifact_status","claim_status","boundary_status","missing_evidence","next_action"],"isPartOf": {"@type": "WebSite","name": "Ouroboros Project Technical Evidence Mirror","url": "https://mianzhang.org"}}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/index.html" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/index.html">Home</a>
+      <a href="https://mianzhang.org/papers/index.html">Papers</a>
+      <a href="https://mianzhang.org/evidence/index.html">Evidence</a>
+      <a href="https://mianzhang.org/concepts/index.html">Concepts</a>
+      <a href="https://mianzhang.org/technology/index.html">Technology</a>
+      <a href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mianzhang.org/systems/index.html">Systems</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mianzhang.org/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-28</p>
+        <h1>A public evidence system is only credible when every artifact has a visible QA state.</h1>
+        <p class="lead">Artifact: full_public_evidence_qa_v1. This note defines a compact QA state for public artifacts, links, claims, boundaries, missing evidence, corrections, ownership, and next action.</p>
+        <div class="signature-line" aria-label="full_public_evidence_qa_v1 fields">
+          <span>artifact</span>
+          <span>link_status</span>
+          <span>claim_status</span>
+          <span>boundary_status</span>
+          <span>missing_evidence</span>
+          <span>needs_correction</span>
+          <span>owner</span>
+          <span>next_action</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/index.html">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/boundaries/index.html">Boundaries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/full-public-evidence-qa-square-20260628.png" alt="Full Public Evidence QA v1 public evidence visual.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>QA is the public ledger of what is solid, what is narrow, and what still needs work.</h2>
+      </div>
+      <div class="body-text">
+        <p>This object does not certify complete replication or deployment readiness. It classifies the visible state of each public artifact so a reader can distinguish live links, supported claims, boundary statements, missing evidence, and correction needs.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/link-claim-boundary-status-20260628.png" alt="A link can work while the claim still needs review.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Status</p>
+        <h2>A link can work while the claim still needs review.</h2>
+        <p>Link status, claim status, and boundary status are separate fields. A page can resolve correctly while its claim is pending, too broad, missing evidence, or waiting for correction. The QA object prevents those states from collapsing into a single green check.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/owner-next-action-20260628.png" alt="The owner and next action make public QA operational.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Correction</p>
+        <h2>The owner and next action make public QA operational.</h2>
+        <p>A QA state is not useful if it only names a defect. The owner and next_action fields make the route inspectable: who is responsible for the artifact state, and what concrete change would move it forward.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>artifact</h3>
+        <p>The public object under QA: page, registry, paper, route, or note.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>link_status</h3>
+        <p>Whether the public link exists, resolves, and points to the intended object.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>claim_status</h3>
+        <p>Whether the claim is supported, narrowed, pending, or unsupported.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>boundary_status</h3>
+        <p>Whether the limits of the claim are explicit and current.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>missing_evidence</h3>
+        <p>The absent receipt, reproduction, comparison, dataset, or external check.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>next_action</h3>
+        <p>The next concrete action required to improve or correct the public artifact.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

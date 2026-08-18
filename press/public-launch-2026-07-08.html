@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Action Refusal Gate v1, 2026-07-08 | Mian Zhang</title>
+  <meta name="description" content="A public review packet for AI agents, MCP tools, tool calling, guardrails, and agent governance: claim id, requested action, tool permission, authority source, evidence state, refusal trigger, fallback route, audit record, boundary update, and review status.">
+  <meta property="og:title" content="Action Refusal Gate v1 | Ouroboros Project">
+  <meta property="og:description" content="A public review packet for AI agents, MCP tools, tool calling, guardrails, and agent governance: claim id, requested action, tool permission, authority source, evidence state, refusal trigger, fallback route, audit record, boundary update, and review status.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-07-08.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/action-refusal-gate-square-20260708.png">
+  <meta property="og:image:alt" content="Action Refusal Gate v1 public evidence visual.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Action Refusal Gate v1">
+  <meta name="twitter:description" content="A public review packet for AI agents, MCP tools, tool calling, guardrails, and agent governance: claim id, requested action, tool permission, authority source, evidence state, refusal trigger, fallback route, audit record, boundary update, and review status.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/action-refusal-gate-square-20260708.png">
+  <meta name="twitter:image:alt" content="Action Refusal Gate v1 public evidence visual.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-07-08.html">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@type": "TechArticle","headline": "Action Refusal Gate v1","description": "A public review packet for AI agents, MCP tools, tool calling, guardrails, and agent governance: claim id, requested action, tool permission, authority source, evidence state, refusal trigger, fallback route, audit record, boundary update, and review status.","datePublished": "2026-07-08","dateModified": "2026-07-08","author": {"@type": "Person","name": "Mian Zhang"},"publisher": {"@type": "Organization","name": "Ouroboros Project"},"mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-07-08.html","image": "https://mianzhang.org/assets/action-refusal-gate-square-20260708.png","about": ["AI agents","MCP","tool calling","guardrails","AI safety","agent governance","permission management","automation","action refusal","refusal trigger","fallback route","audit record","authority source","boundary update"],"isPartOf": {"@type": "WebSite","name": "Ouroboros Project Technical Evidence Mirror","url": "https://mianzhang.org"}}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/index.html" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/index.html">Home</a>
+      <a href="https://mianzhang.org/papers/index.html">Papers</a>
+      <a href="https://mianzhang.org/evidence/index.html">Evidence</a>
+      <a href="https://mianzhang.org/concepts/index.html">Concepts</a>
+      <a href="https://mianzhang.org/technology/index.html">Technology</a>
+      <a href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mianzhang.org/systems/index.html">Systems</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mianzhang.org/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-07-08</p>
+        <h1>An AI agent that can act still needs a gate that tells it when to refuse.</h1>
+        <p class="lead">Artifact: action_refusal_gate_v1. This note treats refusal as an action-system control surface: tool access, authority, evidence state, and fallback behavior must be reviewable before an agent is allowed to execute in the world.</p>
+        <div class="signature-line" aria-label="action_refusal_gate_v1 fields">
+          <span>claim_id</span>
+          <span>requested_action</span>
+          <span>tool_permission</span>
+          <span>authority_source</span>
+          <span>evidence_state</span>
+          <span>refusal_trigger</span>
+          <span>fallback_route</span>
+          <span>audit_record</span>
+          <span>boundary_update</span>
+          <span>review_status</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/index.html">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/boundaries/index.html">Boundaries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/action-refusal-gate-square-20260708.png" alt="Action Refusal Gate v1 public evidence visual.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>Execution ability is not execution authority.</h2>
+      </div>
+      <div class="body-text">
+        <p>Tool calling, MCP servers, browser control, shell access, and agent workflows make AI systems operationally useful. The same capabilities also require a refusal gate: a visible rule that decides when the system lacks authority, evidence, or a safe fallback.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/mcp-tool-permission-boundary-20260708.png" alt="The gate must bind tool access to authority and evidence state.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Permission Route</p>
+        <h2>The gate must bind tool access to authority and evidence state.</h2>
+        <p>A permission list is incomplete if it only records which tools exist. The review packet links each requested action to the tool boundary, authority source, evidence state, and refusal trigger before execution is treated as valid.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/agent-audit-boundary-update-20260708.png" alt="A stopped agent should leave a deterministic fallback, not a vague apology.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Review</p>
+        <h2>A stopped agent should leave a deterministic fallback, not a vague apology.</h2>
+        <p>When evidence is missing, authority is unclear, or the requested tool path exceeds the boundary, the agent should stop with a reviewable fallback route. The useful object is not the refusal sentence; it is the audit record and boundary update that prevent the same failure class.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>claim_id</h3>
+        <p>The public claim under review.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>requested_action</h3>
+        <p>The action the agent, workflow, or tool chain is being asked to perform.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>tool_permission</h3>
+        <p>The MCP tool, API, file, account, browser, shell, or external system access being used.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>authority_source</h3>
+        <p>The user, policy, role, system instruction, approval step, or delegated authority.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>evidence_state</h3>
+        <p>The current evidence state: sufficient, partial, stale, conflicting, or absent.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>refusal_trigger</h3>
+        <p>The condition that requires the agent to stop instead of continuing execution.</p>
+      </article>
+      <article>
+        <span class="card-index">7</span>
+        <h3>fallback_route</h3>
+        <p>The deterministic next step after refusal: ask, downgrade, dry run, log, or abort.</p>
+      </article>
+      <article>
+        <span class="card-index">8</span>
+        <h3>audit_record</h3>
+        <p>The trace that preserves who asked, what tool was available, and why action stopped.</p>
+      </article>
+      <article>
+        <span class="card-index">9</span>
+        <h3>boundary_update</h3>
+        <p>The scope change required after the refusal condition is inspected.</p>
+      </article>
+      <article>
+        <span class="card-index">10</span>
+        <h3>review_status</h3>
+        <p>The recorded state: supported, narrowed, pending, or retired.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

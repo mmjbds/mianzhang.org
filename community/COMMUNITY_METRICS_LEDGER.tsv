@@ -1,0 +1,18 @@
+date	channel	object	event_type	quantity	public_url	participant_ref	returning	response_minutes	notes
+2026-08-16	github	mmjbds/mianzhang.org	baseline_stars	0	https://github.com/mmjbds/mianzhang.org				Public GitHub API snapshot.
+2026-08-16	github	mmjbds/wisdombench	baseline_stars	1	https://github.com/mmjbds/wisdombench				Public GitHub API snapshot.
+2026-08-16	github	mmjbds/reflexbench	baseline_stars	1	https://github.com/mmjbds/reflexbench				Public GitHub API snapshot.
+2026-08-16	github	mmjbds/ouroboros-papers	baseline_stars	2	https://github.com/mmjbds/ouroboros-papers				Public GitHub API snapshot.
+2026-08-16	github	mmjbds/proof-carrying-action	baseline_stars	0	https://github.com/mmjbds/proof-carrying-action				Public GitHub API snapshot.
+2026-08-16	github	mmjbds/sovereign-os	baseline_stars	1	https://github.com/mmjbds/sovereign-os				Public GitHub API snapshot.
+2026-08-16	github	mmjbds/reflexive-intelligence-paper	baseline_stars	2	https://github.com/mmjbds/reflexive-intelligence-paper				Public GitHub API snapshot.
+2026-08-16	github	all-seven-public-research-repositories	baseline_forks	0	https://github.com/mmjbds				Aggregate public GitHub API snapshot.
+2026-08-16	github	all-seven-public-research-repositories	baseline_open_issues	0	https://github.com/mmjbds				Aggregate public GitHub API snapshot; pull requests are included in GitHub open_issues_count if present.
+2026-08-16	hugging_face	MMJBDS/mianzhang-org	baseline_likes	0	https://huggingface.co/spaces/MMJBDS/mianzhang-org				Public Hugging Face API snapshot.
+2026-08-16	hugging_face	MMJBDS/wisdombench	baseline_likes	0	https://huggingface.co/datasets/MMJBDS/wisdombench				Public Hugging Face API snapshot.
+2026-08-16	hugging_face	MMJBDS/wisdombench	baseline_downloads	106	https://huggingface.co/datasets/MMJBDS/wisdombench				Downloads do not establish meaningful participation or artifact use.
+2026-08-16	private_aggregate	design-partner-conversations	qualified_design_partner_count			private-aggregate			Not measured at baseline; blank is not zero and contains no private identity.
+2026-08-17	github	mmjbds/mianzhang.org	discussions_enabled	1	https://github.com/mmjbds/mianzhang.org/discussions				One general public discussion hub; artifact-specific HF discussions remain separate.
+2026-08-17	github	mmjbds/mianzhang.org	seed_discussions_published	5	https://github.com/mmjbds/mianzhang.org/discussions				Welcome, KDD research, first contribution, real-world use cases, and show-and-tell.
+2026-08-17	github	four-runnable-public-projects	versioned_releases_published	4	https://mianzhang.org/community/#releases				Each release is backed by a manifest, verification commands, and a claim boundary.
+2026-08-17	hugging_face	MMJBDS/wisdombench	dataset_viewer_rows	3600	https://huggingface.co/datasets/MMJBDS/wisdombench				Public viewer exposes 3,600 rows and eight documented fields; row visibility does not establish downstream use.

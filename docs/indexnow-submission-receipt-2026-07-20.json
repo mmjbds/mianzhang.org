@@ -1,0 +1,38 @@
+{
+  "receipt_id": "indexnow-daily-2026-07-20",
+  "provider": "IndexNow",
+  "submitted_at_utc": "2026-07-20T08:45:33Z",
+  "coverage": {
+    "daily_range": "2026-07-19 through 2026-07-20",
+    "daily_url_list_count_per_host": 2,
+    "daily_page_count_per_host": 2,
+    "deduplicated_url_count_per_host": 10,
+    "source_lists": {
+      "main_first": "https://mianzhang.org/docs/indexnow-url-list-20260719.txt",
+      "main_last": "https://mianzhang.org/docs/indexnow-url-list-20260720.txt",
+      "hf_first": "https://mmjbds-mianzhang-org.static.hf.space/docs/indexnow-url-list-hf-20260719.txt",
+      "hf_last": "https://mmjbds-mianzhang-org.static.hf.space/docs/indexnow-url-list-hf-20260720.txt"
+    }
+  },
+  "submissions": [
+    {
+      "host": "mianzhang.org",
+      "key_location": "https://mianzhang.org/indexnow-key.txt",
+      "url_count": 10,
+      "status_code": 200,
+      "response_body": "",
+      "submitted_at_utc": "2026-07-20T08:45:33Z",
+      "submitted_at_asia_shanghai": "2026-07-20T16:45:33+08:00"
+    },
+    {
+      "host": "mmjbds-mianzhang-org.static.hf.space",
+      "key_location": "https://mmjbds-mianzhang-org.static.hf.space/indexnow-key.txt",
+      "url_count": 10,
+      "status_code": 200,
+      "response_body": "",
+      "submitted_at_utc": "2026-07-20T08:45:34Z",
+      "submitted_at_asia_shanghai": "2026-07-20T16:45:34+08:00"
+    }
+  ],
+  "boundary": "HTTP 200 records IndexNow API acceptance only. It does not prove Bing Webmaster submission, crawl completion, Google indexing, Bing indexing, ranking, or AI retrieval."
+}

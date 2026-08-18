@@ -1,0 +1,47 @@
+[
+  {
+    "counterexample_id": "CE-TEMPLATE-001",
+    "target_claim": "Any public claim in claim_registry_v0.json",
+    "type": "template",
+    "report": "Provide target claim id, failure type, reproduction steps, evidence, expected repair, and disclosure boundary.",
+    "triage_status": "open_template",
+    "resolution": "Not applicable",
+    "public_note": "Use this route for formula counterexamples, leakage reports, stronger baselines, reproduction failures, or over-broad claims."
+  },
+  {
+    "counterexample_id": "CE-BOUNDARY-001",
+    "target_claim": "PCA-C1",
+    "type": "claim_boundary",
+    "report": "Show where the public language implies deployment authority, live-money performance, or private execution disclosure.",
+    "triage_status": "open",
+    "resolution": "Public language will be narrowed if the attack is valid.",
+    "public_note": "Boundary attacks are useful: they prevent strong ideas from becoming sloppy claims."
+  },
+  {
+    "counterexample_id": "CE-REPRO-001",
+    "target_claim": "P02-C1",
+    "type": "reproduction_failure",
+    "report": "Run the public artifact commands and report missing files, non-deterministic outputs, or scoring mismatches.",
+    "triage_status": "open",
+    "resolution": "Fix README, commands, manifests, or scoring code if confirmed.",
+    "public_note": "Reproduction failures are treated as repair work, not as personal criticism."
+  },
+  {
+    "counterexample_id": "CE-SYNTH-ACCEPTED-001",
+    "target_claim": "PCA-C1",
+    "type": "credit_leak",
+    "report": "A public demo or explanation appears to award action credit even when one of the required receipts is missing.",
+    "triage_status": "synthetic_accepted_example",
+    "resolution": "If confirmed, add a regression case, narrow the wording, and mark the route REPAIR_ONLY_NO_CREDIT until receipt closure is restored.",
+    "public_note": "Accepted counterexamples become repair work, not reputation damage."
+  },
+  {
+    "counterexample_id": "CE-SYNTH-REJECTED-001",
+    "target_claim": "F1-C1",
+    "type": "private_data_request",
+    "report": "Request private live trading logs, customer data, or proprietary execution traces as a condition for accepting the public claim.",
+    "triage_status": "synthetic_rejected_example",
+    "resolution": "Rejected as outside the public challenge boundary; the public claim can be attacked through schema, no-go summaries, redacted manifests, and demo behavior instead.",
+    "public_note": "The public challenge tests public claims; it does not require disclosure of protected systems."
+  }
+]

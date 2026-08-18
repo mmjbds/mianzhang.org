@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shadow Pilot Boundary Packet v1, 2026-06-18 | Mian Zhang</title>
+  <meta name="description" content="A public boundary packet for shadow pilots: pilot scope, observation track, action track, human decision, difference log, no-production-effect guard, and promotion gate.">
+  <meta property="og:title" content="Shadow Pilot Boundary Packet v1 | Ouroboros Project">
+  <meta property="og:description" content="A public boundary packet for shadow pilots: pilot scope, observation track, action track, human decision, difference log, no-production-effect guard, and promotion gate.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mianzhang.org/press/public-launch-2026-06-18.html">
+  <meta property="og:image" content="https://mianzhang.org/assets/shadow-pilot-boundary-hero-20260618.png">
+  <meta property="og:image:alt" content="Shadow pilot boundary visual separating observation from production action.">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="576">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shadow Pilot Boundary Packet v1">
+  <meta name="twitter:description" content="A shadow pilot is observation-only unless a promotion gate authorizes production effect.">
+  <meta name="twitter:image" content="https://mianzhang.org/assets/shadow-pilot-boundary-hero-20260618.png">
+  <meta name="twitter:image:alt" content="Shadow pilot boundary visual separating observation from production action.">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://mianzhang.org/press/public-launch-2026-06-18.html">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">{"@context": "https://schema.org","@type": "Article","headline": "Shadow Pilot Boundary Packet v1","description": "A public boundary packet for shadow pilots: pilot scope, observation track, action track, human decision, difference log, no-production-effect guard, and promotion gate.","datePublished": "2026-06-18","dateModified": "2026-06-18","author": {"@type": "Person","name": "Mian Zhang"},"publisher": {"@type": "Organization","name": "Ouroboros Project"},"mainEntityOfPage": "https://mianzhang.org/press/public-launch-2026-06-18.html","image": "https://mianzhang.org/assets/shadow-pilot-boundary-hero-20260618.png","about": ["shadow_pilot","observation_track","action_track","human_decision","no_production_effect","promotion_gate"],"isPartOf": {"@type": "WebSite","name": "Ouroboros Project Technical Evidence Mirror","url": "https://mianzhang.org"}}</script>
+</head>
+<body>
+  <div class="site-texture" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://mianzhang.org/index.html" aria-label="Mian Zhang home">
+      <span class="brand-mark"></span>
+      <span>Mian Zhang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="https://mianzhang.org/index.html">Home</a>
+      <a href="https://mianzhang.org/papers/index.html">Papers</a>
+      <a href="https://mianzhang.org/evidence/index.html">Evidence</a>
+      <a href="https://mianzhang.org/concepts/index.html">Concepts</a>
+      <a href="https://mianzhang.org/technology/index.html">Technology</a>
+      <a href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+      <a href="https://mianzhang.org/systems/index.html">Systems</a>
+      <a href="https://mianzhang.org/zh/">Chinese</a>
+      <a href="https://mianzhang.org/open-source/index.html">Open Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero article-hero">
+      <div class="hero-copy">
+        <p class="kicker">Public Release - 2026-06-18</p>
+        <h1>A shadow pilot can observe the workflow. It cannot become the workflow.</h1>
+        <p class="lead">Artifact: shadow_pilot_boundary_packet_v1. This page defines the fields required to keep a shadow pilot separate from production deployment, customer automation, and live decision authority.</p>
+        <div class="signature-line" aria-label="Shadow Pilot Boundary Packet fields">
+          <span>pilot_scope</span>
+          <span>observation_track</span>
+          <span>action_track</span>
+          <span>no_production_effect</span>
+          <span>promotion_gate</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="https://mianzhang.org/evidence/index.html">Evidence Map</a>
+          <a class="button" href="https://mianzhang.org/registries/index.html">Registries</a>
+          <a class="button" href="https://mianzhang.org/boundaries/index.html">Boundaries</a>
+          <a class="button" href="https://mianzhang.org/counterexamples/index.html">Counterexamples</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/shadow-pilot-boundary-hero-20260618.png" alt="Shadow pilot boundary visual separating observation from production action.">
+      </figure>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Artifact</p>
+        <h2>A pilot that changes the live outcome is no longer shadow-only.</h2>
+      </div>
+      <div class="body-text">
+        <p>This update defines a public boundary packet for shadow pilots. The purpose is to separate observation from action before a trial, demo, or evaluation is described as evidence.</p>
+        <p>A shadow pilot may inspect a workflow, compare recommendations, log differences, and support later review. It does not claim production deployment, customer automation, or live decision authority unless a separate promotion gate is passed.</p>
+      </div>
+    </section>
+
+    <section class="section cards compact-cards">
+      <article>
+        <span class="card-index">1</span>
+        <h3>pilot_scope</h3>
+        <p>The task surface, environment, data boundary, and time window observed by the pilot.</p>
+      </article>
+      <article>
+        <span class="card-index">2</span>
+        <h3>observation_track</h3>
+        <p>The read-only route used for logs, recommendations, comparisons, or review artifacts.</p>
+      </article>
+      <article>
+        <span class="card-index">3</span>
+        <h3>action_track</h3>
+        <p>The real production route that remains controlled by authorized human or system actors.</p>
+      </article>
+      <article>
+        <span class="card-index">4</span>
+        <h3>human_decision</h3>
+        <p>The accountable decision point that prevents suggestions from silently becoming actions.</p>
+      </article>
+      <article>
+        <span class="card-index">5</span>
+        <h3>difference_log</h3>
+        <p>The record of where the pilot recommendation differed from the actual production decision.</p>
+      </article>
+      <article>
+        <span class="card-index">6</span>
+        <h3>promotion_gate</h3>
+        <p>The explicit rule required before observation-only behavior can be evaluated for production use.</p>
+      </article>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Boundary</p>
+        <h2>Observation is evidence only when it has no production effect.</h2>
+      </div>
+      <div class="body-text">
+        <p>The central field is <code>no_production_effect</code>. It states that the pilot cannot change a customer response, financial action, operational decision, clinical path, moderation result, robot movement, or other live outcome.</p>
+        <p>If the pilot recommendation is copied into the real workflow by default, the boundary has already moved. The artifact must be reclassified from shadow observation to assisted or production-affecting operation.</p>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/shadow-observation-production-split-20260618.png" alt="Two-track visual separating shadow observation from production action.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Two Tracks</p>
+        <h2>The shadow track and action track must remain separate.</h2>
+        <p>A useful shadow pilot compares what the system would have recommended against what the authorized workflow actually did. That comparison is the evidence surface.</p>
+        <p>The comparison becomes invalid if the shadow track quietly modifies the action track before the evaluation is complete.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Failure Mode</p>
+        <h2>The common failure is gradual promotion without a gate.</h2>
+      </div>
+      <div class="body-text">
+        <p>Many systems do not jump from demo to production in one step. They begin as side-by-side recommendations, then become default drafts, then become copied actions, then become operational assumptions.</p>
+        <p>The boundary packet forces this drift to be recorded. A pilot may be promising, but promise is not permission.</p>
+      </div>
+    </section>
+
+    <section class="section portfolio">
+      <div class="section-head">
+        <p class="kicker">Matrix</p>
+        <h2>Shadow pilot boundary packet fields.</h2>
+      </div>
+      <div class="paper-table" role="table" aria-label="Shadow Pilot Boundary Packet v1 matrix">
+        <div class="paper-row head" role="row">
+          <span>Field</span><span>Required value</span><span>Failure mode</span><span>Repair route</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>pilot_scope</span><span>Observed task, environment, input, and time window.</span><span>Scope is later expanded without notice.</span><span>Version the scope.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>observation_track</span><span>Read-only recommendation, log, or review route.</span><span>Recommendation becomes a default action.</span><span>Separate UI and permissions.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>action_track</span><span>Actual production route and accountable actor.</span><span>Action source becomes ambiguous.</span><span>Record the source of action.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>human_decision</span><span>Named decision point or policy owner.</span><span>Human review becomes ceremonial.</span><span>Restore explicit signoff.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>difference_log</span><span>Differences between recommendation and real outcome.</span><span>Only wins are retained.</span><span>Keep negative and null cases.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>no_production_effect</span><span>Statement that the pilot cannot affect live outcomes.</span><span>Hidden operational effect appears.</span><span>Reclassify the artifact.</span>
+        </div>
+        <div class="paper-row" role="row">
+          <span>promotion_gate</span><span>Explicit rule for moving beyond shadow-only use.</span><span>Gradual rollout occurs without approval.</span><span>Require gate evidence.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split reverse">
+      <figure class="feature-visual">
+        <img src="../assets/no-production-effect-gate-20260618.png" alt="No-production-effect gate visual for shadow pilot evaluation.">
+      </figure>
+      <div class="body-text">
+        <p class="kicker">Gate</p>
+        <h2>The no-production-effect field is not decorative.</h2>
+        <p>If a pilot affects the real workflow, then the evidence standard changes. The page count, demo score, or user anecdote cannot substitute for a permission and accountability boundary.</p>
+        <p>That is why the packet treats promotion as a separate event, not a mood.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="kicker">Challenge</p>
+        <h2>Challenge one claimed shadow pilot.</h2>
+      </div>
+      <div class="body-text">
+        <p>Point to any claim where a system is described as shadow-only while its recommendations affected a live response, workflow, account, customer, robot, market action, or operational decision.</p>
+        <p>The strongest challenge names the pilot scope, the action track, the missing no-production-effect guard, and the promotion gate that should have been required.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>(C) 2026 Mian Zhang. Public evidence notes for Wisdom Science and the Ouroboros Project.</span>
+  </footer>
+</body>
+</html>

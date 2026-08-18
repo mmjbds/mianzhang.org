@@ -1,0 +1,35 @@
+title: "[Research / Extension] "
+labels: ["research"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose or report a public experiment, baseline, extension, comparison, or research question. Negative results are welcome.
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question or extension
+      description: What is being tested, changed, or connected?
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Proposed or completed method
+      description: Include public artifacts, versions, data rights, measurements, and enough detail to interpret the work.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result or expected decision
+      description: Report the result and limitations, or state what evidence would change the decision.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public release boundary
+      options:
+        - label: The material is public, synthetic, or licensed for this use and contains no private production implementation.
+          required: true

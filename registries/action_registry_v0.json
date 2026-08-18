@@ -1,0 +1,32 @@
+[
+  {
+    "action_id": "A-NOGO-001",
+    "thesis": "A high-risk agent should refuse action when required receipts and null comparisons are not closed.",
+    "falsifier": "Find a case where refusal was worse than bounded action under the same available evidence and governance constraints.",
+    "warrant": "Blocked until evidence threshold, receipt closure, and authority boundary are satisfied.",
+    "receipt": "NO_GO state plus missing closure contracts.",
+    "regret": "Regret is not computable until counterfactual and terminal receipts exist.",
+    "learning_status": "no_credit_repair_only",
+    "authority_boundary": "No production action authority is granted by public demo or paper evidence."
+  },
+  {
+    "action_id": "A-REPAIR-001",
+    "thesis": "Missing evidence should become a repair work order, not reward credit.",
+    "falsifier": "Show that no-credit repair prevents valid learning more than it prevents contamination.",
+    "warrant": "Repair can proceed in public or sandbox mode, but cannot update action credit without closed evidence.",
+    "receipt": "Repair queue item with missing evidence, allowed work, forbidden credit, and expiry window.",
+    "regret": "Computed only after repaired evidence reaches a closed denominator.",
+    "learning_status": "repair_pending",
+    "authority_boundary": "Repair authority is not execution authority."
+  },
+  {
+    "action_id": "A-NEGSPACE-001",
+    "thesis": "Non-action is an action and should be recorded when opportunity cost or safety risk exists.",
+    "falsifier": "Show that a non-action record cannot later support regret computation or failure analysis.",
+    "warrant": "Record the reason for abstention, missing evidence, possible null actions, and future observation window.",
+    "receipt": "Negative-space memory packet.",
+    "regret": "Delayed until later outcome and counterfactual estimates are available.",
+    "learning_status": "pending_future_outcome",
+    "authority_boundary": "Recording abstention does not imply the agent had authority to act."
+  }
+]
