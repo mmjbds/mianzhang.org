@@ -18,6 +18,8 @@ jobs:
           python-version: "3.12"
       - name: Audit search metadata
         run: python scripts/audit_search_metadata.py
+      - name: Audit Cloudflare Web Analytics coverage
+        run: python scripts/manage_cloudflare_analytics.py --check
       - name: Audit reliability routes and internal links
         run: python scripts/audit_reliability_routes.py
       - name: Test search submission helpers

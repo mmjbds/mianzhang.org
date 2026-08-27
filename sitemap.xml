@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mianzhang.org/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/ai-agent-reliability/</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/community/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/competition/verified-agent-operations/</loc>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/docs/external-submission-status-2026-06-15.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/geo-ai-profile-2026-06-19.html</loc>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/docs/public-completion-audit-2026-06-15.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/public-roadmap.html</loc>
@@ -114,15 +114,15 @@
   </url>
   <url>
     <loc>https://mianzhang.org/docs/search-discovery-2026-06-15.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/search-index-weekly-report-2026-06-15.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/search-submission-status-current.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/docs/seo-geo-plan-2026-06-19.html</loc>
@@ -505,6 +505,10 @@
     <lastmod>2026-07-24</lastmod>
   </url>
   <url>
+    <loc>https://mianzhang.org/privacy/</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
     <loc>https://mianzhang.org/registries/</loc>
     <lastmod>2026-06-19</lastmod>
   </url>
@@ -514,11 +518,11 @@
   </url>
   <url>
     <loc>https://mianzhang.org/registries/claim_to_evidence_table_v0.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/registries/schema_notes_v0.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/review-status/</loc>
@@ -578,7 +582,7 @@
   </url>
   <url>
     <loc>https://mianzhang.org/zh/community/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://mianzhang.org/zh/embodied-ai-failure-learning/</loc>

@@ -13,10 +13,11 @@ ROOT = Path(__file__).resolve().parents[1]
 SITEMAP = ROOT / "sitemap.xml"
 BASE_URL = "https://mianzhang.org"
 NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
-RELEASE_DATE = "2026-08-17"
+RELEASE_DATE = "2026-08-27"
 LASTMOD_OVERRIDES = {
     f"{BASE_URL}/": RELEASE_DATE,
     f"{BASE_URL}/community/": RELEASE_DATE,
+    f"{BASE_URL}/privacy/": RELEASE_DATE,
     f"{BASE_URL}/docs/external-submission-status-2026-06-15.html": RELEASE_DATE,
     f"{BASE_URL}/docs/public-completion-audit-2026-06-15.html": RELEASE_DATE,
     f"{BASE_URL}/docs/search-discovery-2026-06-15.html": RELEASE_DATE,
