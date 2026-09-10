@@ -15,7 +15,8 @@ BASE_URL = "https://mianzhang.org"
 NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 RELEASE_DATE = "2026-08-27"
 LASTMOD_OVERRIDES = {
-    f"{BASE_URL}/": RELEASE_DATE,
+    **{f"{BASE_URL}/{route}": "2026-09-10" for route in ("", "zh/", "guides/", "evidence/", "demos/", "technology/")},
+
     f"{BASE_URL}/community/": RELEASE_DATE,
     f"{BASE_URL}/privacy/": RELEASE_DATE,
     f"{BASE_URL}/docs/external-submission-status-2026-06-15.html": RELEASE_DATE,

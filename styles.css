@@ -942,3 +942,8 @@ html[lang="zh-Hans"] .community-hero h1 {
     grid-template-columns: 1fr;
   }
 }
+
+/* Reader-facing research paths; retain the established palette. */
+.research-paths article{padding:24px 0;border-top:1px solid rgba(190,163,98,.25)}.research-paths article p{max-width:850px}.research-paths .hero-actions{gap:24px;flex-wrap:wrap}.research-paths h3{font-size:25px}
+
+@media(max-width:600px){.hero h1{font-size:38px;line-height:1.12}.hero .lead{font-size:17px;line-height:1.6}.hero{padding-top:28px}.signature-line{display:none}.hero-actions{gap:10px}}
