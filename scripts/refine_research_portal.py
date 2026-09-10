@@ -43,6 +43,6 @@ def main():
             marker='<!-- entity-relationship-20260910 -->'
             s=re.sub(re.escape(marker)+'.*?<!-- /entity-relationship-20260910 -->','',s,flags=re.S)
             s=s.replace('</main>',marker+relation+'<!-- /entity-relationship-20260910 -->\n</main>')
-        p.write_text(s,encoding='utf-8')
+        p.write_text('\n'.join(line.rstrip() for line in s.splitlines())+'\n',encoding='utf-8')
 
 if __name__=='__main__':main()
